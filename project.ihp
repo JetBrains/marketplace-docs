@@ -6,5 +6,5 @@
     <topics dir="topics"/>
     <images dir="images" version="1.0"/>
     <vars src="v.list"/>
-    <product src="sp.tree" version="1.0"/>
+    <product src="marketplace-docs.tree" version="1.0"/>
 </ihp>
