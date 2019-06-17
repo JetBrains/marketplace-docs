@@ -37,5 +37,5 @@
         <views toc="true" search="true" index="true" fav="true"/>
         <xsl>topic.web.new.xsl</xsl>
     </layout>
-    <build-profile product="sp"/>
+    <build-profile product="marketplace-docs"/>
 </buildprofiles>
