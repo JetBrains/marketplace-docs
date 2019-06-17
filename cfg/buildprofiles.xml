@@ -17,6 +17,7 @@
         <toc-image-root>IDEA.gif</toc-image-root>
         <images-home>images</images-home>
         <printable-marker>printable.png</printable-marker>
+        <help-app-version>2</help-app-version>
         <stylesheets-home>css</stylesheets-home>
         <pdf-bullet>blt_pdf.png</pdf-bullet>
         <web-root>http://www.jetbrains.com/idea/</web-root>
