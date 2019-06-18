@@ -10,7 +10,7 @@ There are no private keys in the platform (otherwise, they can easily be extract
 
 **(!)** For the release version of the IDE, the plugin license will be checked on start. If there is no license provided in the dialog and there is no evaluation available, the plugin will be disabled and won't be loaded at all. If the license would be removed/expired when the plugin is already loaded, it's technically impossible to unload the plugin, so it will be working until the IDE is restarted. In order to prevent the user from using the plugin in such a case, the plugin developer has to check com.intellij.ui.LicensingFacade#getConfirmationStamp / isLicensed (see the code below) and limit the functionality of the plugin if the license is not obtained.
 
-!(no_license.png)
+![No License Dialog](no_license.png)
 
 Please find an example plugin with a license code check code [here]() --- UPDATE LINK. It shows product parameters declaration, as well as license check.
 
@@ -271,7 +271,8 @@ public class CheckLicense {
   }
 
 
-}```
+}
+```
 
 `actions/DemoAction.java`
 
@@ -306,4 +307,5 @@ public class DemoAction extends AnAction {
   public void update(@NotNull AnActionEvent e) {
     super.update(e);
   }
-}```
+}
+```
