@@ -6,5 +6,5 @@ This documentation describes all the business and technical information about th
 
 You can find more information about the plugin development and plugin repository in general in [IntelliJ Platform SDK Documentation](https://www.jetbrains.org/intellij/sdk/docs/).
 
-Should you have any questions about the project, feel free to reach out to [marketplace@jetbrains.com](emailto:marketplace@jetbrains.com).
+Should you have any questions about the project, feel free to reach out to marketplace@jetbrains.com.
 

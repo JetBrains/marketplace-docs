@@ -1,6 +1,6 @@
 [//]: # (title: 4. Add marketplace license verification calls to the plugin code)
 
-The technical solution requires plugins to define attributes of paid plugins in the plugin descriptor (`plugin.xml`), which has been done on the [previous step](3.%20Prepare%20a%20plugin%20to%20be%20sold%20via%20the%20marketplace%20%5Bplugin.xml%20parameters%5D.md), and then all the licensing-related communication is done on the IntelliJ Platform side (so that you don't need to bundle it with your plugin or copy-paste licensing-specific functionality).
+The technical solution requires plugins to define attributes of paid plugins in the plugin descriptor (`plugin.xml`), which has been done on the [previous step](prepare-a-plugin-to-be-sold-via-the-marketplace.md), and then all the licensing-related communication is done on the IntelliJ Platform side (so that you don't need to bundle it with your plugin or copy-paste licensing-specific functionality).
 
 This approach lets us keep the licensing mechanism as a "black box" which ensures higher protection against piracy, as well as decreases amount of work to be done on the plugin vendor side.
 
