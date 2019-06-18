@@ -1,2 +1,2 @@
-[//]: # (title: Title = 5. Obfuscate the plugin)
+[//]: # (title: 5. Obfuscate the plugin)
 
