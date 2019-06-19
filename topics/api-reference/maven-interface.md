@@ -1,4 +1,4 @@
-[//]: # (title: Marketplace Maven Interface)
+[//]: # (title: Maven Interface)
 
 
 You can download a plugin update from the [plugin repository](https://plugins.jetbrains.com) using a Maven interface available at `https://plugins.jetbrains.com/maven`.

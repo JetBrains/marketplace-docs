@@ -1,4 +1,4 @@
-[//]: # (title: Marketplace Paid Plugins)
+[//]: # (title: JetBrains Marketplace)
 
 Plugins extend the core functionality of JetBrains products. They provide various integrations (e.g. with a VCS or application servers), add support for various development technologies, frameworks and programming languages, and so on.
 
