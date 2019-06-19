@@ -8,6 +8,7 @@ There are two ways to download the plugin version programmatically:
 https://plugins.jetbrains.com/pluginManager?action=download&id=<pluginXmlId>&build=<productCode>-<buildNumber>
 ```
 
+
 **Where**
 
 * **pluginXmlId** is specified as a *Plugin XML ID* parameter on the right of the plugin's individual update page and in the plugin.xml;
@@ -25,6 +26,7 @@ e.g. for [Scala plugin](https://plugins.jetbrains.com/plugin/1347-scala) (`plugi
 ```
 https://plugins.jetbrains.com/plugin/download?pluginId=<pluginXmlId>&version=<version>
 ```
+
 
 **Where**
 
