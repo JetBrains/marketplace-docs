@@ -25,6 +25,7 @@ End-users will see a Product Code on the invoices, on the check-out page, and in
 JetBrains will be using extended Product Code attributing it with a type of subscription and subscription modifications, e.g. for *PhpStorm* the product code is *PS*, and a full table of extended Product Codes (or as we call them SKUs = Stock Keeping Unit) associated with this product would be:
 
 <table>
+<tr><td>SKU</td><td>Description</td></tr>
 <tr><td>P-S.PS-Y</td><td>PhpStorm - Personal annual subscription</td></tr>
 <tr><td>P-S.PS-Y-20C</td><td>PhpStorm - Personal annual subscription with 20% continuity discount</td></tr>
 <tr><td>P-S.PS-Y-40C</td><td>PhpStorm - Personal annual subscription with 40% continuity discount</td></tr>
