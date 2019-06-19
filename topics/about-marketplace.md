@@ -1,10 +1,21 @@
-[//]: # (title: About JetBrains Marketplace)
+[//]: # (title: Marketplace Paid Plugins)
 
-JetBrains Marketplace is the next generation of the [Plugins Repository](https://plugins.jetbrains.com), turning it into a marketplace for third-party plugin developers to sell their plugins while taking advantage of licensing and billing solutions provided by JetBrains.
+Plugins extend the core functionality of JetBrains products. They provide various integrations (e.g. with a VCS or application servers), add support for various development technologies, frameworks and programming languages, and so on.
 
-This documentation describes all the business and technical information about the marketplace focusing on the paid plugins.
+The Marketplace (AKA Plugins Repository) is a service responsible for:
 
-You can find more information about the plugin development and plugin repository in general in [IntelliJ Platform SDK Documentation](https://www.jetbrains.org/intellij/sdk/docs/).
+* Providing a product (e.g. IntelliJ IDEA) with a list of compatible plugins and their updates.
+ 
+* Facilitating the download of compatible plugin updates.
+ 
+* Storage, uploading, and management of the plugins and their updates developed and published by third-party vendors or JetBrains.
 
-Should you have any questions about the project, feel free to reach out to marketplace@jetbrains.com.
+JetBrains provides an official plugins repository [plugins.jetbrains.com](https://plugins.jetbrains.com) for all IntelliJ Platform-based IDEs, as well as TeamCity, .NET, Hub (with widgets for YouTrack and Upsource.)
+ 
+You can set up your own enterprise plugin repositories for IntelliJ Platform based IDEs (also known as custom plugin repositories).
+For example, to store plugins that you want to reserve for your company's internal use only. 
+[Read more](https://www.jetbrains.com/help/idea/managing-enterprise-plugin-repositories.html) about IntelliJ Platform-based IDEs enterprise repositories support.
+ 
+This documentation section includes articles, FAQs, and tutorials on [JetBrains Marketplace / Plugins Repository](https://plugins.jetbrains.com) operations.
 
+You can always reach out to the plugin repository team via email [plugins-admin@jetbrains.com](plugins-admin@jetbrains.com).

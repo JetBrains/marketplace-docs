@@ -6,7 +6,8 @@
                  name="Marketplace Documentation"
                  start-page="about-marketplace.md">
 
-    <toc-element id="about-marketplace.md">
+    <toc-element id="about-marketplace.md"/>
+    <toc-element id="paid-plugins-marketplace.md">
         <toc-element id="general-information-and-faq.md">
             <toc-element id="what-is-jetbrains-marketplace.md"/>
             <toc-element id="current-status-of-the-marketplace-project.md"/>
