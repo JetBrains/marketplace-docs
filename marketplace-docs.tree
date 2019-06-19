@@ -3,7 +3,7 @@
         SYSTEM "http://helpserver.labs.intellij.net/help/product-profile.dtd">
 
 <product-profile id="marketplace-docs"
-                 name="Marketplace Documentation"
+                 name="JetBrains Marketplace"
                  start-page="about-marketplace.md">
 
     <toc-element id="about-marketplace.md">
