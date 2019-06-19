@@ -10,7 +10,7 @@ Other parameters:
 
 * **pluginId** is a numeric ID of the plugin, can be retrieved from the plugin repository URL. e.g. [Scala](https://plugins.jetbrains.com/plugin/1347-scala) plugin ID is *1347*. (*pluginXmlId* can be used instead)
 
-* **pluginXmlId** is an unique identifier of the plugin specified as <id> in plugin.xml. Can be found as a *Plugin XML ID* parameter on the right of the plugin's individual update page and in the plugin.xml. (*pluginId* can be used instead)
+* **pluginXmlId** is an unique identifier of the plugin specified as `<id>` in plugin.xml. Can be found as a *Plugin XML ID* parameter on the right of the plugin's individual update page and in the plugin.xml. (*pluginId* can be used instead)
 
 * **channel** is a release channel the update is published to (empty channel means default *Stable* channel) (optional)
 
