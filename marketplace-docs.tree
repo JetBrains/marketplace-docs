@@ -4,6 +4,7 @@
 
 <product-profile id="marketplace-docs"
                  name="JetBrains Marketplace"
+                 status="release"
                  start-page="about-marketplace.md">
 
     <toc-element id="about-marketplace.md">
