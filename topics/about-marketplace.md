@@ -11,11 +11,7 @@ The Marketplace (AKA Plugins Repository) is a service responsible for:
 * Storage, uploading, and management of the plugins and their updates developed and published by third-party vendors or JetBrains.
 
 JetBrains provides an official plugins repository [plugins.jetbrains.com](https://plugins.jetbrains.com) for all IntelliJ Platform-based IDEs, as well as TeamCity, .NET, Hub (with widgets for YouTrack and Upsource.)
- 
-You can set up your own enterprise plugin repositories for IntelliJ Platform based IDEs (also known as custom plugin repositories).
-For example, to store plugins that you want to reserve for your company's internal use only. 
-[Read more](https://www.jetbrains.com/help/idea/managing-enterprise-plugin-repositories.html) about IntelliJ Platform-based IDEs enterprise repositories support.
- 
+
 This documentation section includes articles, FAQs, and tutorials on [JetBrains Marketplace / Plugins Repository](https://plugins.jetbrains.com) operations.
 
 You can always reach out to the plugin repository team via email [plugins-admin@jetbrains.com](plugins-admin@jetbrains.com).

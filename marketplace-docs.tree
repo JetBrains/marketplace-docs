@@ -6,7 +6,11 @@
                  name="Marketplace Documentation"
                  start-page="about-marketplace.md">
 
-    <toc-element id="about-marketplace.md"/>
+    <toc-element id="about-marketplace.md">
+        <toc-element id="custom-release-channels.md"/>
+        <toc-element id="intellij-enterprise-plugin-repositories.md"/>
+        <toc-element id="intellij-plugin-recommendations.md"/>
+    </toc-element>
     <toc-element id="paid-plugins-marketplace.md">
         <toc-element id="general-information-and-faq.md">
             <toc-element id="what-is-jetbrains-marketplace.md"/>
@@ -23,6 +27,14 @@
             <toc-element id="marketplace-demo-plugin.md"/>
             <toc-element id="marketplace-video-demo.md"/>
         </toc-element>
+    </toc-element>
+    <toc-element id="api-reference.md">
+        <toc-element id="plugin-upload.md"/>
+        <toc-element id="plugin-update-download.md"/>
+        <toc-element id="plugins-list.md"/>
+        <toc-element id="plugin-details.md"/>
+        <toc-element id="maven-interface.md"/>
+        <toc-element id="plugin-developers-list.md"/>
     </toc-element>
 
 </product-profile>
