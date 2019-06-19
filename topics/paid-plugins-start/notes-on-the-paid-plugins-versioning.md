@@ -4,7 +4,7 @@ There have been no constraints imposed on the plugin version format for plugins 
 
 Let us give you a bit more context about how our products (and many of our plugins) releases are versioned. A few years back we have [introduced changes to its release and versioning](https://blog.jetbrains.com/blog/2016/03/09/jetbrains-toolbox-release-and-versioning-changes/), and we are pleased with this decision, so we'd recommend you to align your plugin release version numbers with JetBrains release version numbers for further sync (as users already know how the model works for our products).
 
-##Release Version Constraints
+## Release Version Constraints
 
 It's important to note that we would like to be as flexible as possible, so we don't have intentions to "lock" you to our versioning model, and the only rules we introduce are:
 
@@ -18,7 +18,7 @@ You can easily use multi-component version numbers, and these constraints let yo
 
 **(!) These are the rules for paid plugins via JetBrains Marketplace only, and they are not applied to other plugins.**
 
-##release-version vs. version
+## release-version vs. version
 
 [Paid plugins related changes](prepare-a-plugin-to-be-sold-via-the-marketplace.md) to the plugin descriptor (*plugin.xml*) introduced a `release-version` in addition to the existing `version` parameter, and this part requires an additional explanation.
 

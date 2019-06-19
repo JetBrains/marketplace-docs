@@ -1,6 +1,6 @@
 [//]: # (title: 6. Test the plugin licensing on the demo instance)
 
-##Intro
+## Intro
 
 JetBrains' Marketplace and Business Application Development teams prepared a fully-functioning Marketplace Demo instance for you which can be used for full testing of the paid plugins marketplace in a safe and protected environment. It is always kept functioning, so that you can test the whole solution before releasing it to the public.
 
@@ -10,7 +10,7 @@ You need your credentials to access both the plugins repository part and the sho
 
 Endpoints necessary for IDE functioning are open and don't require credentials to be accessed.
 
-##Marketplace Demo Instance Limitations (!Important)
+## Marketplace Demo Instance Limitations (!Important)
 
 * It is an internal demo of the marketplace, please do not share the access, license keys generated or any other information you are getting at this internal demo.
 
@@ -32,7 +32,7 @@ Password: FJKDr478fdjhsj__
 
 * The stand is cleared every Monday at 3 am in the morning (Central European Time), so all the plugins / purchases will be removed. Marketplace team will be re-uploading all plugins currently in a testing mode (incl. at least one demo plugin) at around 10 am Central European Time.
 
-##Test Setup at the Marketplace Demo Instance
+## Test Setup at the Marketplace Demo Instance
 
 1. Access the Marketplace Demo instance at https://marketplace.demo.plugins.aws.intellij.net/, use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails, use the username/password option:
 
@@ -85,11 +85,11 @@ Now you can start testing the plugin!
 1. (can be done while you are waiting for the confirmation from JetBrains)
 Configure your IDE to work with the Marketplace Demo Instance (read below.)
 
-##Preparing an IDE for Tests with a Demo Environment
+## Preparing an IDE for Tests with a Demo Environment
 
 **(!!!)** In order to route the IDE requests to the Marketplace Demo instance, you are modifying internal parameters of the IDE. Don't forget to remove custom VM Options and Properties after the testing, otherwise, your IDE experience might be disrupted at any time.
 
-###Configuring the IDE to work with a test Sales System
+### Configuring the IDE to work with a test Sales System
 
 Marketplace Demo works with a Sales Systems Marketplace Demo https://mp.jpf-demo.aws.intellij.net
 
@@ -101,7 +101,7 @@ Use `Help | Edit Custom Properties...` to open the `idea.properties` file in the
 jb.service.configuration.url=https://mp.jpf-demo.aws.intellij.net/testservices/JetBrainsAccount.xml
 ```
  
-###Configuring the IDE to work with a test Plugins Repository
+### Configuring the IDE to work with a test Plugins Repository
 
 Marketplace Demo runs on the test server https://marketplace.demo.plugins.aws.intellij.net/.
 
@@ -115,7 +115,7 @@ The IDE has to be additionally configured to work with it instead of the product
 
 Alternatively, you can add plugins to the IDE from disk.
 
-##Where to get started with your Paid Plugin?
+## Where to get started with your Paid Plugin?
 
 As soon as your plugin is marked as Paid Plugin available for sale by JetBrains, you will see *Buy* button at the plugin page:
 
@@ -127,11 +127,11 @@ All the Marketplace-related information about the plugin is available on a servi
 
 ![Plugin Information](plugin_info.png)
 
-##How to buy a plugin license
+## How to buy a plugin license
 
 *{ID} = PRODUCT CODE*
 
-###Personal license
+### Personal license
 
 Use the direct link to the shop: https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:{ID}:Y / https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:{ID}:M
 
@@ -139,7 +139,7 @@ For quote: https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:{ID}:Y / htt
 
 Or go to buy page from plugin overview: https://marketplace.demo.plugins.aws.intellij.net/plugin/{PLUGINID}
 
-###Commercial license
+### Commercial license
 
 Use the direct link on the shop: https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:{ID}:Y / https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:{ID}:M
 
@@ -147,13 +147,13 @@ For quote: https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:{ID}:Y / htt
 
 Or go to buy page from plugin overview: https://marketplace.demo.plugins.aws.intellij.net/plugin/{PLUGINID}
 
-###Payment information on the checkout
+### Payment information on the checkout
 
 At the checkout form, you need to use special test cards / payment information provided to us by Adyen (our payment provider): https://docs.adyen.com/development-resources/test-cards/test-card-numbers/
 
 **(!!!)* Please make sure NOT TO USE real data, always use Adyen-provided data.
 
-##How to view emails sent by the Sales System?
+## How to view emails sent by the Sales System?
 
 Due to the sensitivity of the data produced during the testing (such as license keys, order information, etc), we are not sending out any emails from the Marketplace Demo Sales Systems.
 
@@ -167,7 +167,7 @@ All of the outgoing emails can be viewed at a special URL: https://mp.jpf-demo.a
 
 Please use responsibly and don't use any confidential names / information there. Please note that information about the plugin you are testing might be exposed to other Beta program users, so please reach out to us if you can't allow that to happen - we'll arrange the private testing.
 
-##Useful Links Related to the Marketplace Demo Instance
+## Useful Links Related to the Marketplace Demo Instance
 
 * https://marketplace.demo.plugins.aws.intellij.net - Marketplace Demo
 
@@ -177,13 +177,13 @@ Please use responsibly and don't use any confidential names / information there.
 
 * https://mp.jpf-demo.aws.intellij.net/emails - Emails Viewer
 
-##Known Issues
+## Known Issues
 
 1. Buy plugin in the IDE will not land you at the Marketplace Demo instance, it will always land you at https://plugins.jetbrains.com. Should be removed in one of the upcoming updates of IntelliJ IDEA-based IDEs.
 
 1. Some texts in the sales system are not updated and don't cover plugins (e.g. refers to them as "JetBrains product".) In progress.
 
-##What to test?
+## What to test?
 
 You can see a general workflow in [this video](marketplace-video-demo.md).
 
