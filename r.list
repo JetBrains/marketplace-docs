@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xsi:noNamespaceSchemaLocation="http://helpserver.labs.intellij.net/help/resources.dtd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <resource id="plugin-license-sample" file="plugin-license-sample-v3-DevKit.zip"/>
+    <resource id="help-engine" file="help-engine-mini.zip"/>
+</resources>
