@@ -2,6 +2,7 @@
 <resources xsi:noNamespaceSchemaLocation="http://helpserver.labs.intellij.net/help/resources.dtd"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <resource id="plugin-license-sample" file="plugin-license-sample-v3-DevKit.zip"/>
+    <resource id="plugin-sample-devkit" file="plugin-license-sample-v3-DevKit.zip"/>
+    <resource id="plugin-sample-gradle" file="plugin-license-sample-v3-Gradle.zip"/>
     <resource id="help-engine" file="help-engine-mini.zip"/>
 </resources>

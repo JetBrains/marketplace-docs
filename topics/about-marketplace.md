@@ -15,5 +15,3 @@ JetBrains provides an official plugins repository [plugins.jetbrains.com](https:
 This documentation section includes articles, FAQs, and tutorials on [JetBrains Marketplace / Plugins Repository](https://plugins.jetbrains.com) operations.
 
 You can always reach out to the plugin repository team via email plugins-admin@jetbrains.com.
-
-It's compiled with <res resource-id="help-engine"/>.
