@@ -16,6 +16,9 @@
         <toc-element id="general-information-and-faq.md">
             <toc-element id="what-is-jetbrains-marketplace.md"/>
             <toc-element id="current-status-of-the-marketplace-project.md"/>
+            <toc-element id="legal-agreements.md"/>
+            <toc-element id="revenue-sharing-and-fees.md"/>
+            <toc-element id="product-versions-support.md"/>
         </toc-element>
         <toc-element id="trying-out-the-marketplace.md">
             <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.md"/>
