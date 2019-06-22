@@ -28,7 +28,7 @@
         <config-disqus-show>false</config-disqus-show>
         <config-feedback-enabled>true</config-feedback-enabled>
         <config-feedback-widget>true</config-feedback-widget>
-        <config-feedback-support>null</config-feedback-support>
+        <config-feedback-support>mailto:marketplace@jetbrains.com</config-feedback-support>
         <config-feedback-url>https://support.jetbrains.com</config-feedback-url>
         <config-webmaster>marketplace@jetbrains.com</config-webmaster>
         <config-sideblocks>true</config-sideblocks>
