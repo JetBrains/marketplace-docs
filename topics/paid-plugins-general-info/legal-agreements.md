@@ -1,5 +1,7 @@
 [//]: # (title: Legal Agreements)
 
+[//]: # (TODO ADD CORRECT DOCUMENTS AND LINKS)
+
 To support the Marketplace operations from the legal side, JetBrains is going to introduce the following agreements:
 
 ## 1. Developer Agreement - JetBrains Marketplace
