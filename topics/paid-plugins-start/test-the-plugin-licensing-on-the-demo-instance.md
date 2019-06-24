@@ -4,7 +4,7 @@
 
 JetBrains' Marketplace and Business Application Development teams prepared a fully-functioning Marketplace Demo instance for you which can be used for full testing of the paid plugins marketplace in a safe and protected environment. It is always kept functioning, so that you can test the whole solution before releasing it to the public.
 
-You should have gotten your personal credentials to access the Marketplace Demo instance together with the Product Code assigned by JetBrains (credentials have been sent in a separate email for those who got the Product Code earlier.) If you don't have your credentials yet, please reach out to JetBrains via [marketplace@jetbrains.com](marketplace@jetbrains.com) email or other channels.
+You should have gotten your personal credentials to access the Marketplace Demo instance together with the Product Code assigned by JetBrains (credentials have been sent in a separate email for those who got the Product Code earlier.) If you don't have your credentials yet, please reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email or other channels.
 
 You need your credentials to access both the plugins repository part and the shop part, and you will need to provide your credentials separately for both of these separate applications (so it is normal that you might be required to re-provide your credentials when going from the plugins repository to the shop.)
 
