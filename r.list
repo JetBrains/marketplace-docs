@@ -4,4 +4,10 @@
 
     <resource id="plugin-sample-devkit" file="plugin-license-sample-v3-DevKit.zip"/>
     <resource id="plugin-sample-gradle" file="plugin-license-sample-v3-Gradle.zip"/>
+    <resource id="jetbrains-plugin-marketplace-agreement-docx" file="jetbrains-plugin-marketplace-agreement.docx"/>
+    <resource id="jetbrains-plugin-marketplace-agreement-pdf" file="jetbrains-plugin-marketplace-agreement.pdf"/>
+    <resource id="jetbrains-plugin-marketplace-approval-guidelines-docx" file="jetbrains-plugin-marketplace-approval-guidelines.docx"/>
+    <resource id="jetbrains-plugin-marketplace-approval-guidelines-pdf" file="jetbrains-plugin-marketplace-approval-guidelines.pdf"/>
+    <resource id="jetbrains-plugin-marketplace-developer-agreement-docx" file="jetbrains-plugin-marketplace-developer-agreement.docx"/>
+    <resource id="jetbrains-plugin-marketplace-developer-agreement-pdf" file="jetbrains-plugin-marketplace-developer-agreement.pdf"/>
 </resources>
