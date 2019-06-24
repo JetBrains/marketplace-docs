@@ -48,7 +48,7 @@ All the plugins from Production instance of the Plugins Repository uploaded befo
 
 ![Marketplace Update Plugin](marketplace_update_plugin.png)
 
-1. Reach out to JetBrains via [marketplace@jetbrains.com](marketplace@jetbrains.com) email asking us to approve the plugin / update at the demo instance (if necessary) and add it to the Marketplace available for sales.
+1. Reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email asking us to approve the plugin / update at the demo instance (if necessary) and add it to the Marketplace available for sales.
 
 In order to make your plugin available for sales, we need the following information:
 
