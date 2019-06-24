@@ -10,4 +10,5 @@
     <resource id="jetbrains-plugin-marketplace-approval-guidelines-pdf" file="jetbrains-plugin-marketplace-approval-guidelines.pdf"/>
     <resource id="jetbrains-plugin-marketplace-developer-agreement-docx" file="jetbrains-plugin-marketplace-developer-agreement.docx"/>
     <resource id="jetbrains-plugin-marketplace-developer-agreement-pdf" file="jetbrains-plugin-marketplace-developer-agreement.pdf"/>
+
 </resources>
