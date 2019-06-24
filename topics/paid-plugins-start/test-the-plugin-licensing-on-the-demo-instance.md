@@ -4,7 +4,7 @@
 
 JetBrains' Marketplace and Business Application Development teams prepared a fully-functioning Marketplace Demo instance for you which can be used for full testing of the paid plugins marketplace in a safe and protected environment. It is always kept functioning, so that you can test the whole solution before releasing it to the public.
 
-You should have gotten your personal credentials to access the Marketplace Demo instance together with the Product Code assigned by JetBrains (credentials have been sent in a separate email for those who got the Product Code earlier.) If you don't have your credentials yet, please reach out to JetBrains via marketplace@jetbrains.com email or other channels.
+You should have gotten your personal credentials to access the Marketplace Demo instance together with the Product Code assigned by JetBrains (credentials have been sent in a separate email for those who got the Product Code earlier.) If you don't have your credentials yet, please reach out to JetBrains via [marketplace@jetbrains.com](marketplace@jetbrains.com) email or other channels.
 
 You need your credentials to access both the plugins repository part and the shop part, and you will need to provide your credentials separately for both of these separate applications (so it is normal that you might be required to re-provide your credentials when going from the plugins repository to the shop.)
 
@@ -48,7 +48,7 @@ All the plugins from Production instance of the Plugins Repository uploaded befo
 
 ![Marketplace Update Plugin](marketplace_update_plugin.png)
 
-1. Reach out to JetBrains via marketplace@jetbrains.com email CC Lidiya Chernigovskaya <Lidiya.Chernigovskaya@jetbrains.com>, Mikhail Vink <Mikhail.Vink@jetbrains.com>, Dawn Granit <Dawn.Granit@jetbrains.com> (we are normally available Monday till Friday from 9 am till 9 pm Central European Time) asking us to approve the plugin / update at the demo instance (if necessary) and add it to the Marketplace available for sales.
+1. Reach out to JetBrains via [marketplace@jetbrains.com](marketplace@jetbrains.com) email asking us to approve the plugin / update at the demo instance (if necessary) and add it to the Marketplace available for sales.
 
 In order to make your plugin available for sales, we need the following information:
 
@@ -233,6 +233,6 @@ You might consider testing the following parts of the system:
 
 * etc
 
-We also can arrange the expedited testing for you when JetBrains employee would go through the testing process together with you. Please reach out to us via marketplace@jetbrains.com if you would prefer this option or have any issues.
+We also can arrange the expedited testing for you when JetBrains employee would go through the testing process together with you. Please reach out to us via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) if you would prefer this option or have any issues.
 
 Happy Testing!
