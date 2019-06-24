@@ -1,5 +1,7 @@
 [//]: # (title: Benefits of the JetBrains Marketplace)
 
+[//]: # (TODO REVIEW THE BENEFITS)
+
 ## For Plugin Developers
 
 * Developers and plugin vendors can focus on the plugin development. Delegating license management and billing to JetBrains means that plugin vendors don't need to develop their custom license management solution (or purchase an external solution), and build a distribution channel.
