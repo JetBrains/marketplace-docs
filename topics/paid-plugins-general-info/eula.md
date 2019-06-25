@@ -1,4 +1,4 @@
-[//]: # (title: End User License Agreement \(EULA\))
+[//]: # (title: End User License Agreement - EULA)
 
 The use of the plugin **will be covered by the EULA between plugin author/vendor and an end-user, there is no EULA between JetBrains and end-user on third-party plugins.**
 
