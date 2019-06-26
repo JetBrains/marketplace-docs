@@ -20,13 +20,13 @@ Other parameters:
 
 Provide file as file contents. Curl command template:
 
-```
+```Shell
 curl -i --header "Authorization: Bearer <hubPermanentToken>" -F pluginId=<pluginId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
 Curl command example:
 
-```
+```Shell
 curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F pluginId=5047 -F file=@Go-0.11.1197.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
@@ -34,13 +34,13 @@ curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F pluginId=5047
 
 Provide file as file contents. Curl command template:
 
-```
+```Shell
 curl -i --header "Authorization: Bearer <hubPermanentToken>" -F xmlId=<pluginXmlId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
 Curl command example:
 
-```
+```Shell
 curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F xmlId=ro.redeul.google.go -F file=@Go-0.11.1197.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
