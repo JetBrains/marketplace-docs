@@ -6,7 +6,7 @@
 
 * Developers and plugin vendors can focus on the plugin development. Delegating license management and billing to JetBrains means that plugin vendors don't need to develop their custom license management solution (or purchase an external solution), and build a distribution channel.
 
-* Developers can market their plugins to a huge and relevant customer base of JetBrains (which is more than 6,000,000 users.)
+* Developers can market their plugins to a huge and relevant user base of JetBrains (which is more than 6,000,000 users.)
 
 * * JetBrains will be assisting paid plugin developers with marketing and positioning of their plugins.
 

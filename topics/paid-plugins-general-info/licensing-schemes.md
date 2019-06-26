@@ -6,8 +6,7 @@ The following licensing schemes are supported:
 
 * Yearly/monthly subscription without a fallback license (can use the product only when there is an active subscription.)
 
-[//]: # (TODO ADD BLOG POST LINK)
-JetBrains has switched to subscription model a few years back, please refer to [this blog post]() for more information why we have switched to the subscription model.
+JetBrains has switched to subscription model a few years back, please refer to [this blog post](https://blog.jetbrains.com/blog/2015/09/18/final-update-on-the-jetbrains-toolbox-announcement/) for more information why we have switched to the subscription model.
 
 The following scheme is not yet implemented: 
 

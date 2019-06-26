@@ -1,7 +1,5 @@
 [//]: # (title: Legal Agreements)
 
-[//]: # (TODO CHECK LINKS)
-
 To support the Marketplace operations from the legal side, JetBrains has the following agreements in place:
 
 ## 1. JetBrains Marketplace Developer Agreement
@@ -18,13 +16,13 @@ The document is attached to the article. Alternatively, you can leave comments i
 
 This is a guideline for approval of the plugins, updates and related assets. It's referenced from the JetBrains Marketplace Developer Agreement and is applied towards all plugins (both paid and free.)
 
-You can find a document here: [https://plugins.jetbrains.com/legal/plugins-approval](https://plugins.jetbrains.com/legal/plugins-approval) 
+You can find a document here: [https://plugins.jetbrains.com/legal/approval-guidelines](https://plugins.jetbrains.com/legal/approval-guidelines) 
 
 The document is attached to the article. Alternatively, you can leave comments in the [Google Document version of the document](https://docs.google.com/document/d/11ls1qpMbUTLVjwLq5RHu6RVHrQ9vvLwSOeE-g88eJJs/edit). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
 
 ##  3. JetBrains Plugin Marketplace Agreement
 
-This is a general document covering everything that happens on the JetBrains Marketplace resources (the main resource is a plugins repository: https://plugins.jetbrains.com/). It's provided in addition to JetBrains general [Terms of Use](https://www.jetbrains.com/company/useterms.html) and expands it with marketplace-related terms. It's applicable to everyone using the marketplace (both to end-users and developers uploading/selling plugins).
+This is a general document covering everything that happens on the JetBrains Marketplace resources (the main resource is a plugins repository: [https://plugins.jetbrains.com/](https://plugins.jetbrains.com/)). It's provided in addition to JetBrains general [Terms of Use](https://www.jetbrains.com/company/useterms.html) and expands it with marketplace-related terms. It's applicable to everyone using the marketplace (both to end-users and developers uploading/selling plugins).
 
 You can find a document here: [https://plugins.jetbrains.com/legal/terms-of-use](https://plugins.jetbrains.com/legal/terms-of-use)
 
