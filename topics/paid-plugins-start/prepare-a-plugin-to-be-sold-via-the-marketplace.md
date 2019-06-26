@@ -16,7 +16,7 @@ Every plugin sold via JetBrains Marketplace must define [additional parameters i
 
     It is different from the version of the plugin, as this one is a version number of the major release (== release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
 
-(please read a [separate article on the versioning of paid plugins](notes-on-the-paid-plugins-versioning.md))
+    (please read a [separate article on the versioning of paid plugins](notes-on-the-paid-plugins-versioning.md))
 
 Example:
 
