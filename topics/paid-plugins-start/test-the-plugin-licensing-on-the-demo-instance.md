@@ -16,7 +16,7 @@ Endpoints necessary for IDE functioning are open and don't require credentials t
 
 * In order to route the IDE requests to the Marketplace Demo instance, you are modifying internal parameters of the IDE. Don't forget to remove custom *VM Options* and *Properties* after the testing, otherwise, your IDE experience might be disrupted at any time.
 
-* It is NOT possible to generate offline license keys (aka Offline Activation Codes) at the demo stand due to security purposes. It will be possible to generate the offline license keys on production (read more about the offline keys at https://sales.jetbrains.com/hc/en-gb/articles/207240825-How-do-I-manage-and-distribute-licenses-within-my-organization-.)
+* It is NOT possible to generate offline license keys (aka Offline Activation Codes) at the demo stand due to security purposes. It will be possible to generate the offline license keys on production (read more about the offline keys at [https://sales.jetbrains.com/hc/en-gb/articles/207240825-How-do-I-manage-and-distribute-licenses-within-my-organization-](https://sales.jetbrains.com/hc/en-gb/articles/207240825-How-do-I-manage-and-distribute-licenses-within-my-organization-).)
 
 * It is NOT possible to download plugins / updates which have been copied from Production instance of the plugins repository. Only plugins / updates uploaded to this Marketplace Demo instance will be accessible.
 
@@ -34,56 +34,57 @@ Password: FJKDr478fdjhsj__
 
 ## Test Setup at the Marketplace Demo Instance
 
-1. Access the Marketplace Demo instance at https://marketplace.demo.plugins.aws.intellij.net/, use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails, use the username/password option:
+1. Access the Marketplace Demo instance at [https://marketplace.demo.plugins.aws.intellij.net/](https://marketplace.demo.plugins.aws.intellij.net/), use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails, use the username/password option:
 
-![Marketplace Sign In](marketplace_sign_in.png)
+    ![Marketplace Sign In](marketplace_sign_in.png)
 
-**(!!!) Make sure to change the password on the first sign in.**
+    **(!!!) Make sure to change the password on the first sign in.**
 
-2. Upload update of your plugin (if existing) or a new plugin (if new) to the Marketplace Demo instance, use a standard procedure using the update plugin page (for existing plugin) and upload plugin page (for a new plugin.)
+1. Upload update of your plugin (if existing) or a new plugin (if new) to the Marketplace Demo instance, use a standard procedure using the update plugin page (for existing plugin) and upload plugin page (for a new plugin.)
 
-Please note that in order to upload the plugin, you need to sign in to the application with your normal Hub (https://hub.jetbrains.com) account, the same as you use on the production instance.
+    Please note that in order to upload the plugin, you need to sign in to the application with your normal Hub ([https://hub.jetbrains.com](https://hub.jetbrains.com)) account, the same as you use on the production instance.
 
-All the plugins from Production instance of the Plugins Repository uploaded before Monday should be available at this instance.
+    All the plugins from Production instance of the Plugins Repository uploaded before Monday should be available at this instance.
 
-![Marketplace Update Plugin](marketplace_update_plugin.png)
+    ![Marketplace Update Plugin](marketplace_update_plugin.png)
 
 1. Reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email asking us to approve the plugin / update at the demo instance (if necessary) and add it to the Marketplace available for sales.
 
-In order to make your plugin available for sales, we need the following information:
+    In order to make your plugin available for sales, we need the following information:
 
-- Customer billing period (Annual, Monthly, Both.)
+    - Customer billing period (Annual, Monthly, Both.)
 
-- Licensing type (Subscription, Subscription with Fallback.)
+    - Licensing type (Subscription, Subscription with Fallback.)
 
-- Individual customers price (Monthly), in USD, yearly price is calculated as monthly price multiplied by 10.
+    - Individual customers price (Monthly), in USD, yearly price is calculated as monthly price multiplied by 10.
 
-- Businesses and organizations price (Monthly), in USD, yearly price is calculated as monthly price multiplied by 10.
+    - Businesses and organizations price (Monthly), in USD, yearly price is calculated as monthly price multiplied by 10.
 
-And the following information will be needed for the accountancy to set the things up:
+    And the following information will be needed for the accountancy to set the things up:
 
-- Full Legal Name (e.g. full legal name of the company or your own full legal name if you are operating as an individual.)
+    - Full Legal Name (e.g. full legal name of the company or your own full legal name if you are operating as an individual.)
 
-- Full Address incl. Street, House Number, Post Code, City, Country.
+    - Full Address incl. Street, House Number, Post Code, City, Country.
 
-- VAT ID (if applicable.)
+    - VAT ID (if applicable.)
 
-- Additional information e.g. company registration ID, etc.
+    - Additional information e.g. company registration ID, etc.
 
-- Main contact name.
+    - Main contact name.
 
-- Main contact email.
+    - Main contact email.
 
-- Main contact phone (we will call you only in case of urgent questions if not reachable via email.)
+    - Main contact phone (we will call you only in case of urgent questions if not reachable via email.)
 
-**(!!!)** Please attach the plugin update to the email so that we can re-upload it for you after the Marketplace Demo instance is cleaned. You can send us additional builds of the plugin at the same thread.
+    **(!!!)** Please attach the plugin update to the email so that we can re-upload it for you after the Marketplace Demo instance is cleaned. You can send us additional builds of the plugin at the same thread.
 
 1. JetBrains will process your request (normally should happen within 1-2 business days most), and will send you the confirmation.
 
-Now you can start testing the plugin!
+    Now you can start testing the plugin!
 
 1. (can be done while you are waiting for the confirmation from JetBrains)
-Configure your IDE to work with the Marketplace Demo Instance (read below.)
+
+    Configure your IDE to work with the Marketplace Demo Instance (read below.)
 
 ## Preparing an IDE for Tests with a Demo Environment
 
@@ -91,7 +92,7 @@ Configure your IDE to work with the Marketplace Demo Instance (read below.)
 
 ### Configuring the IDE to work with a test Sales System
 
-Marketplace Demo works with a Sales Systems Marketplace Demo https://mp.jpf-demo.aws.intellij.net
+Marketplace Demo works with a Sales Systems Marketplace Demo [https://mp.jpf-demo.aws.intellij.net](https://mp.jpf-demo.aws.intellij.net)
 
 The IDE has to be additionally configured to work with it instead of the production JetBrains Account / Sales System.
 
@@ -103,7 +104,7 @@ jb.service.configuration.url=https://mp.jpf-demo.aws.intellij.net/testservices/J
  
 ### Configuring the IDE to work with a test Plugins Repository
 
-Marketplace Demo runs on the test server https://marketplace.demo.plugins.aws.intellij.net/.
+Marketplace Demo runs on the test server [https://marketplace.demo.plugins.aws.intellij.net/](https://marketplace.demo.plugins.aws.intellij.net/).
 
 The IDE has to be additionally configured to work with it instead of the production Plugins Repository.
 
@@ -123,7 +124,7 @@ As soon as your plugin is marked as Paid Plugin available for sale by JetBrains,
 
 ![Plugin Buy Page](plugin_buy_page.png)
 
-All the Marketplace-related information about the plugin is available on a service page `https://marketplace.demo.plugins.aws.intellij.net/marketplace/info?pluginId={ID}` (the link is available at the Plugin Page - Marketplace.)
+All the Marketplace-related information about the plugin is available on a service page **https://marketplace.demo.plugins.aws.intellij.net/marketplace/info?pluginId=`{ID}`** (the link is available at the Plugin Page - Marketplace.)
 
 ![Plugin Information](plugin_info.png)
 
@@ -149,7 +150,7 @@ Or go to buy page from plugin overview: https://marketplace.demo.plugins.aws.int
 
 ### Payment information on the checkout
 
-At the checkout form, you need to use special test cards / payment information provided to us by Adyen (our payment provider): https://docs.adyen.com/development-resources/test-cards/test-card-numbers/
+At the checkout form, you need to use special test cards / payment information provided to us by Adyen (our payment provider): [https://docs.adyen.com/development-resources/test-cards/test-card-numbers/](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/)
 
 **(!!!)* Please make sure NOT TO USE real data, always use Adyen-provided data.
 
@@ -157,7 +158,7 @@ At the checkout form, you need to use special test cards / payment information p
 
 Due to the sensitivity of the data produced during the testing (such as license keys, order information, etc), we are not sending out any emails from the Marketplace Demo Sales Systems.
 
-All of the outgoing emails can be viewed at a special URL: https://mp.jpf-demo.aws.intellij.net/emails
+All of the outgoing emails can be viewed at a special URL: [https://mp.jpf-demo.aws.intellij.net/emails](https://mp.jpf-demo.aws.intellij.net/emails)
 
 ![System Emails](system_emails.png)
 
@@ -169,19 +170,17 @@ Please use responsibly and don't use any confidential names / information there.
 
 ## Useful Links Related to the Marketplace Demo Instance
 
-* https://marketplace.demo.plugins.aws.intellij.net - Marketplace Demo
+* [https://marketplace.demo.plugins.aws.intellij.net](https://marketplace.demo.plugins.aws.intellij.net) - Marketplace Demo
 
-* https://mp.jpf-demo.aws.intellij.net/login - JetBrains Account
+* [https://mp.jpf-demo.aws.intellij.net/login](https://mp.jpf-demo.aws.intellij.net/login) - JetBrains Account
 
-* https://mp.jpf-demo.aws.intellij.net/shop/buy/****** - Shop (requires additional parameters)
+* [https://mp.jpf-demo.aws.intellij.net/shop/buy/******](https://mp.jpf-demo.aws.intellij.net/shop/buy/) - Shop (requires additional parameters)
 
-* https://mp.jpf-demo.aws.intellij.net/emails - Emails Viewer
+* [https://mp.jpf-demo.aws.intellij.net/emails](https://mp.jpf-demo.aws.intellij.net/emails) - Emails Viewer
 
 ## Known Issues
 
 1. Buy plugin in the IDE will not land you at the Marketplace Demo instance, it will always land you at https://plugins.jetbrains.com. Should be removed in one of the upcoming updates of IntelliJ IDEA-based IDEs.
-
-1. Some texts in the sales system are not updated and don't cover plugins (e.g. refers to them as "JetBrains product".) In progress.
 
 ## What to test?
 
@@ -191,47 +190,47 @@ You might consider testing the following parts of the system:
 
 1. Plugins Repository Part
 
-* Adding a Marketplace plugin
+    * Adding a Marketplace plugin
 
-* Updating a Marketplace plugin (incl. releasing another version)
+    * Updating a Marketplace plugin (incl. releasing another version)
 
-* Getting sales/pricing information from Sales System
+    * Getting sales/pricing information from Sales System
 
-* Buy pages and links
+    * Buy pages and links
 
-* Purchase Terms
+    * Purchase Terms
 
-* etc
+    * etc
 
 1. Sales Systems Part
 
-* Purchasing plugin via Store
+    * Purchasing plugin via Store
 
-* Orders/Quotes/etc via Sales System
+    * Orders/Quotes/etc via Sales System
 
-* Sales Statistics
+    * Sales Statistics
 
-* Licenses issue workflow
+    * Licenses issue workflow
 
-* Emails sent
+    * Emails sent
 
-* Different scenarios
+    * Different scenarios
 
-* etc
+    * etc
 
 1. Product Part
 
-* Evaluating a plugin
+    * Evaluating a plugin
 
-* Licensing a plugin via JBA
+    * Licensing a plugin via JBA
 
-* Revoking a license
+    * Revoking a license
 
-* Multiple plugins licenses
+    * Multiple plugins licenses
 
-* Licenses with the different licensee
+    * Licenses with the different licensee
 
-* etc
+    * etc
 
 We also can arrange the expedited testing for you when JetBrains employee would go through the testing process together with you. Please reach out to us via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) if you would prefer this option or have any issues.
 

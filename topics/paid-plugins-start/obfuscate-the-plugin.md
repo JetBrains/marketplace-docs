@@ -28,11 +28,11 @@ Some of the popular Java obfuscators:
 
 At JetBrains, we had a lot of experience with [Zelix Klassmaster](https://www.zelix.com/klassmaster/index.html), so we are sharing some of the information on how to configure it. Information about Zelix configuration and tips on the features is provided by *Eugene Zhuravlev*, our IntelliJ IDEA developer who implemented the licensing mechanism and the Marketplace support in IntelliJ IDEA.
 
-You can find full documentation at https://www.zelix.com/klassmaster/docs/index.html, and we have been using the script file (not the UI tool.)
+You can find full documentation at [https://www.zelix.com/klassmaster/docs/index.html](https://www.zelix.com/klassmaster/docs/index.html), and we have been using the script file (not the UI tool.)
 
 Configuration of the obfuscator we use for IntelliJ IDEA based products:
 
-```
+```java
 trim deleteSourceFileAttributes=false
  deleteDeprecatedAttributes=false
  deleteAnnotationAttributes=false
@@ -79,7 +79,7 @@ The prices for Zelix Klassmaster start at US$239 (applies if your organization (
 
 ## ProGuard
 
-We have tried getting the same result with ProGuard (as it's free), and one of the major drawbacks would be lack of Strings Obfuscation support (Zelix option `encryptStringLiterals=enhanced`). Some users are complimenting ProGuard with additional paid string obfuscator (e.g. https://jfxstore.com/stringer/, see also [this article](https://medium.com/@anujjindal7/android-string-literals-obfuscation-in-code-6700a85d5cd1).) By default, ProGuard is doing `shrink`, `optimize`, `obfuscate`, `preverify`, and all four options are recommended. We would also recommend to use `-overloadaggressively` for more aggressive obfuscation and `-applymapping ChangeLog.txt` to keep the log of changes. See more options [here](https://www.guardsquare.com/en/products/proguard/manual/usage#obfuscationoptions).
+We have tried getting the same result with ProGuard (as it's free), and one of the major drawbacks would be lack of Strings Obfuscation support (Zelix option `encryptStringLiterals=enhanced`). Some users are complimenting ProGuard with additional paid string obfuscator (e.g. [https://jfxstore.com/stringer/](https://jfxstore.com/stringer/), see also [this article](https://medium.com/@anujjindal7/android-string-literals-obfuscation-in-code-6700a85d5cd1).) By default, ProGuard is doing `shrink`, `optimize`, `obfuscate`, `preverify`, and all four options are recommended. We would also recommend to use `-overloadaggressively` for more aggressive obfuscation and `-applymapping ChangeLog.txt` to keep the log of changes. See more options [here](https://www.guardsquare.com/en/products/proguard/manual/usage#obfuscationoptions).
 
 ## Other
 

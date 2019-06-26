@@ -12,9 +12,11 @@ There are no private keys in the platform (otherwise, they can easily be extract
 
 ![No License Dialog](no_license.png)
 
-Please find an example plugin with a license code check code [here]() --- UPDATE LINK. It shows product parameters declaration, as well as license check.
+Please find an example plugin with a license code check code [here](https://github.com/JetBrains/marketplace-makemecoffee-plugin). It shows product parameters declaration, as well as license check.
 
 You can find a `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check if the plugin is licensed or not (in a real-life use case, your plugin should not work if the plugin is not licensed).
+
+[//]: # (TODO update source code)
 
 `license/CheckLicense.java`
 
