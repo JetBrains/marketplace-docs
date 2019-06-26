@@ -5,9 +5,7 @@ You can download a plugin update from the [plugin repository](https://plugins.je
 
 URL format is the following:
 
-```
-https://plugins.jetbrains.com/maven/<channel>/com/jetbrains/plugins/<plugin_xml_id>/<version>/<plugin_xml_id>-<version>.<extension>
-```
+*https://plugins.jetbrains.com/maven/`<channel>`/com/jetbrains/plugins/`<plugin_xml_id>`/`<version>`/`<plugin_xml_id>`-`<version>`.`<extension>`*
 
 **Where**
 
@@ -29,7 +27,7 @@ Also, you can use Gradle or Maven to retrieve a plugin as a maven-dependency:
 
 **build.gradle**
 
-```
+```groovy
 repositories {
   maven { url 'https://plugins.jetbrains.com/maven' }
 }

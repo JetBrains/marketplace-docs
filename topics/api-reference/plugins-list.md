@@ -1,10 +1,8 @@
 [//]: # (title: Plugins List API)
 
 This API endpoint provides a list of all plugins compatible with a provided IDE build:
- 
-```
-https://plugins.jetbrains.com/plugins/list/?build=<productCode>-<buildNumber>
-```
+
+**https://plugins.jetbrains.com/plugins/list/?build=`<productCode>`-`<buildNumber>`**
 
 **Where**
 
@@ -14,6 +12,4 @@ https://plugins.jetbrains.com/plugins/list/?build=<productCode>-<buildNumber>
 
 e.g. for IntelliJ IDEA 2017.1 (`productCode=IU`, `buildNumber=171.3780.107`):
 
-```
-https://plugins.jetbrains.com/plugins/list/?build=IU-171.3780.107
-```
+[https://plugins.jetbrains.com/plugins/list/?build=IU-171.3780.107](https://plugins.jetbrains.com/plugins/list/?build=IU-171.3780.107)

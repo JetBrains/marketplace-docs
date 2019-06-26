@@ -20,7 +20,7 @@ You can add custom channels and upload an update to the channel on the plugin *E
 
 When using a non-default release channel, IntelliJ Platform Based IDEs users will need to add a new [custom plugin repository](https://www.jetbrains.com/idea/help/managing-enterprise-plugin-repositories.html) to install your plugin from the specified channel.
 
-For example, if you specify `'eap'` as a release channel, then users will need to add the `https://plugins.jetbrains.com/plugins/eap/list` repository to install the plugin and receive updates. These channels are treated as separate repositories for all intents and purposes.
+For example, if you specify `'eap'` as a release channel, then users will need to add the [https://plugins.jetbrains.com/plugins/eap/list](https://plugins.jetbrains.com/plugins/eap/list) repository to install the plugin and receive updates. These channels are treated as separate repositories for all intents and purposes.
 
 Popular channel names include:
 
@@ -34,10 +34,9 @@ It is also possible to host an [Enterprise Plugin Repository](https://www.jetbra
 
 As an option, you might add a custom repository specifying the Plugin ID (Plugin ID is a numeric ID of the plugin, can be retrieved from the plugin repository URL. e.g. [Scala](https://plugins.jetbrains.com/plugin/1347-scala) plugin ID is *1347*):
 
-```
-https://plugins.jetbrains.com/plugins/<channel>/<pluginId>
-```
-(e.g. `https://plugins.jetbrains.com/plugins/eap/1347`)
+**https://plugins.jetbrains.com/plugins/`<channel>`/`<pluginId>`**
+
+(e.g. [https://plugins.jetbrains.com/plugins/eap/1347](https://plugins.jetbrains.com/plugins/eap/1347))
 
 Please refer to the [Managing Enterprise Plugin Repositories](https://www.jetbrains.com/help/idea/managing-plugins.html) help article for more information on how to specify a custom plugin repository in the IntelliJ Platform Based IDEs to receive plugins and updates from the custom release channel:
 
