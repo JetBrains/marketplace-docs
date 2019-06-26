@@ -12,11 +12,11 @@ Requirements:
 
 * Should be **15** characters or shorter.
 
-* Should NOT contain any special symbols.
+* Should **NOT** contain any special symbols.
 
-* Should be in CAPITAL LETTERS.
+* Should be in **CAPITAL LETTERS**.
 
-Feel free to recommend us a product code of your choice during the initial communication - we'll gladly accept reasonable suggestions. We can't use XMLID as it doesn't conform to the Product Code format constraints and we didn't want to employ the same restrictions to XMLID.
+Feel free to recommend us a product code of your choice during the initial communication - we'll gladly accept reasonable suggestions. We can't use *XMLID* as it doesn't conform to the Product Code format constraints and we didn't want to employ the same restrictions to *XMLID*.
 
 Please note that changing a product code later is a very non-trivial process as we'll have to merge a lot of financial information and transactions, and additionally, we will have to maintain legacy product code in our systems for reference and backwards compatibility.
 
