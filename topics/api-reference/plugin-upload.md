@@ -20,13 +20,13 @@ Other parameters:
 
 Provide file as file contents. Curl command template:
 
-```shell
+```
 curl -i --header "Authorization: Bearer <hubPermanentToken>" -F pluginId=<pluginId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
 Curl command example:
 
-```shell
+```
 curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F pluginId=5047 -F file=@Go-0.11.1197.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
@@ -34,13 +34,13 @@ curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F pluginId=5047
 
 Provide file as file contents. Curl command template:
 
-```shell
+```
 curl -i --header "Authorization: Bearer <hubPermanentToken>" -F xmlId=<pluginXmlId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
 Curl command example:
 
-```shell
+```
 curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F xmlId=ro.redeul.google.go -F file=@Go-0.11.1197.zip -F channel=nightly https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
@@ -52,13 +52,13 @@ You should use [hubPermanentToken](https://www.jetbrains.com/help/hub/Manage-Per
 
 Push command template:
 
-```shell
+```Shell
 nuget push <path to plugin .nupkg file> <hubPermanentToken> -Source https://plugins.jetbrains.com/
 ```
 
 Push command example:
 
-```shell
+```Shell
 nuget push angularjs.1.9.0.nupkg perm:qwertyasdfghzxcvb -Source https://plugins.jetbrains.com/
 ```
 
@@ -70,7 +70,7 @@ You can modify this file using [the NuGet CLI commands](https://docs.microsoft.c
 
 For example, you can set a key for a source and add *plugins site* to the default push source:
 
-```shell
+```Shell
 # Set hub token for plugins site
 nuget setApiKey perm:qwertyasdfghzxcvb -Source https://plugins.jetbrains.com/
 
@@ -86,7 +86,7 @@ you can apply your own configuration file using `ConfigFile` option in *push* co
 
 For example:
 
-```shell
+```Shell
 nuget push angularjs.1.9.0.nupkg -ConfigFile ~/my.Config
 ```
 
