@@ -4,17 +4,17 @@ Every plugin sold via JetBrains Marketplace must define [additional parameters i
 
 1. `code` - a Plugin Product Code obtained from JetBrains on the previous step (type: `varchar`, 15 characters max.)
 
-It is used to "connect" a particular plugin to a product in JetBrains sales systems.
+    It is used to "connect" a particular plugin to a product in JetBrains sales systems.
 
-Please see [this article](obtain-a-product-code-from-jetbrains.md) for full requirements for the Product Code.
+    Please see [this article](obtain-a-product-code-from-jetbrains.md) for full requirements for the Product Code.
 
-2. `release-date` - date of the major version release in a format of `YYYYMMDD` (type: `integer`).
+1. `release-date` - date of the major version release in a format of `YYYYMMDD` (type: `integer`).
 
-It is a crucial parameter as the whole subscription model depends on it - perpetual fallback licenses and licensing term calculation rely on the `release-date`.
+    It is a crucial parameter as the whole subscription model depends on it - perpetual fallback licenses and licensing term calculation rely on the `release-date`.
 
-3. `release-version` - a major version number (type: `integer`).
+1. `release-version` - a major version number (type: `integer`).
 
-It is different from the version of the plugin, as this one is a version number of the major release (== release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
+    It is different from the version of the plugin, as this one is a version number of the major release (== release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
 
 (please read a [separate article on the versioning of paid plugins](notes-on-the-paid-plugins-versioning.md))
 
