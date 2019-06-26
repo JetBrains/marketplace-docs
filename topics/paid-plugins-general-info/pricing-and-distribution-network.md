@@ -10,7 +10,7 @@ Currency and variable prices are introduced in the same way as for JetBrains own
 
 ## Distribution Network - Resellers
 
-JetBrains will utilize its resellers network ([https://www.jetbrains.com/company/partners/#profession=reseller) to make plugins available via the JetBrains distribution network (very important for some markets where direct sales are problematic](https://www.jetbrains.com/company/partners/#profession=reseller).) Plugin vendor can opt-out from this option. 
+JetBrains will utilize its [resellers network](https://www.jetbrains.com/company/partners/#profession=reseller) to make plugins available via the JetBrains distribution network (very important for some markets where direct sales are problematic.) Plugin vendor can opt-out from this option. 
 
 In a case of selling a plugin via JetBrains' resellers, there will be an additional commission held by the reseller, and this reseller commission is paid from JetBrains commission (so the plugin developer always get a constant % of the plugin price.)
 

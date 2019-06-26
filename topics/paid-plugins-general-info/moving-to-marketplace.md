@@ -74,11 +74,11 @@ Please note that these migration workflows can be combined.
 
 * Billing address
 
-* * Address
+    * Address
 
-* * City
+    * City
 
-* * ZIP Code
+    * ZIP Code
 
 * License validity (date from YYYY-MM-DD ... to YYYY-MM-DD)
 
@@ -98,11 +98,11 @@ Please note that these migration workflows can be combined.
 
 * Billing address
 
-* * Address
+    * Address
 
-* * City
+    * City
 
-* * ZIP Code
+    * ZIP Code
 
 * License validity (date from YYYY-MM-DD ... to YYYY-MM-DD)
 

@@ -10,6 +10,6 @@ We will be rolling out the in-product support for the Marketplace in the followi
 
 * TeamCity - no estimates yet.
 
-* Hub / UpSource / YouTrack - no estimates yet.
+* Hub / Upsource / YouTrack - no estimates yet.
 
 Each step will require some time to develop in-product support for the solution.

@@ -16,7 +16,7 @@ Another thing which we have supported on the IntelliJ Platform side is a way to 
 
 The whole product part is already available since 2018.2 release of IntelliJ IDEA-based IDEs, but there have been significant additions, so the paid plugins part is fully operational since 2019.1 version of IntelliJ IDEA-based IDEs. [Database Tools and SQL plugin](https://plugins.jetbrains.com/plugin/10925-database-tools-and-sql) has been licensed via this mechanism since 2018.2.
 
-##How is it going to be different for Community Edition / Educational Edition / other IDEs built on top of IntelliJ Platform?
+## How is it going to be different for Community Edition / Educational Edition / other IDEs built on top of IntelliJ Platform?
 
 Right now we have a solution for paid versions of our IDEs because they already have JetBrains licensing mechanisms. As the next step, we are working on extracting these licensing mechanisms to a special plugin which will include all the licensing logic and will be required for running paid plugins in free editions of JetBrains IDEs or other IntelliJ Platform IDEs (e.g. Android Studio.)
 
