@@ -16,7 +16,11 @@
         <toc-element id="general-information-and-faq.md">
             <toc-element id="what-is-jetbrains-marketplace.md"/>
             <toc-element id="current-status-of-the-marketplace-project.md"/>
-            <toc-element id="legal-agreements.md"/>
+            <toc-element id="legal-agreements.md">
+                <toc-element title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
+                <toc-element title="JetBrains Plugin Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
+                <toc-element title="JetBrains Plugin Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
+            </toc-element>
             <toc-element id="revenue-sharing-and-fees.md"/>
             <toc-element id="payments-accountancy-taxes-services.md"/>
             <toc-element id="benefits.md"/>
