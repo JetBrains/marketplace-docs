@@ -2,15 +2,11 @@
 
 This API endpoint provides individual plugin details by specified *pluginId* or *pluginXmlId*:
  
-```
-https://plugins.jetbrains.com/plugins/list?pluginId=<pluginXmlId>
-```
+**https://plugins.jetbrains.com/plugins/list?pluginId=`<pluginXmlId>`**
 
 or
 
-```
-https://plugins.jetbrains.com/plugins/list?pluginId=<pluginId>
-```
+**https://plugins.jetbrains.com/plugins/list?pluginId=`<pluginId>`**
 
 **Where**
 

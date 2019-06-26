@@ -1,16 +1,12 @@
 [//]: # (title: Plugin Developers List API)
 
 This API endpoint provides a list of all plugin developers for a plugin by specified *pluginId* or *pluginXmlId*:
- 
-```
-https://plugins.jetbrains.com/plugin/developers?xmlId=<pluginXmlId>
-```
+
+**https://plugins.jetbrains.com/plugin/developers?xmlId=`<pluginXmlId>`**
 
 or
 
-```
-https://plugins.jetbrains.com/plugin/developers?pluginId=<pluginId>
-```
+**https://plugins.jetbrains.com/plugin/developers?pluginId=`<pluginId>`**
 
 **Where**
 
