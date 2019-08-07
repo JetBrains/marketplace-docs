@@ -25,4 +25,4 @@ Example:
 ```
 
 
-Means that a plugin with a Product Code `PPAIDPLUGIN` had its major version release (`2018.1`) on `June 20th, 2018`. Subsequent minor updates (e.g., `2018.1.1`, `2018.1.2`, `2018.1.x`) should have the same `release-date` and `release-version` before the next major version is released (`2018.2`) so that those users who have got a perpetual fallback license can use an opportunity to get the latest minor update of the major version they have got an access to.
+Means that a plugin with a Product Code `PPAIDPLUGIN` had its major version release (`2018.1`) on `September 18th, 2018`. Subsequent minor updates (e.g., `2018.1.1`, `2018.1.2`, `2018.1.x`) should have the same `release-date` and `release-version` before the next major version is released (`2018.2`) so that those users who have got a perpetual fallback license can use an opportunity to get the latest minor update of the major version they have got an access to.
