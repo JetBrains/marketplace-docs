@@ -18,12 +18,12 @@ If you cannot find your plugin in [the list of features](https://plugins.jetbrai
 
 ## File Type
 
-A plugin can [support specific file types](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/custom_language_support/registering_file_type.html) (file extensions). When there is a file with a specific extension open in an IDE, a hint will be shown to users prompting them to install your plugin.
+A plugin can [support specific file types](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/custom_language_support/registering_file_type.html). When there is a file with a specific extension, pattern or name open in an IDE, a hint will be shown to users prompting them to install your plugin.
 
 Both variants are supported by the `feature extractor`:
-* Extend [FileTypeFactory](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/platform-api/src/com/intellij/openapi/fileTypes/FileTypeFactory.java) and feed supported file extensions in `createFileTypes(FileTypeConsumer)`, values of `FileTypeConsumer` are analyzed.
+* Extend [FileTypeFactory](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/platform-api/src/com/intellij/openapi/fileTypes/FileTypeFactory.java) and feed supported file extensions/exact file name matches in `createFileTypes(FileTypeConsumer)`, values of `FileTypeConsumer` are analyzed.
 
-* Register `com.intellij.fileType` extension point (available in 2019.2+), `extensions` attribute is analyzed.
+* Register `com.intellij.fileType` extension point (available in 2019.2+), all attributes are analyzed.
 
 A suggestion to install plugins which support the _\*.d_ Extension Type:
 
