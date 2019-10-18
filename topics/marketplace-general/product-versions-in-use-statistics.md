@@ -2,9 +2,9 @@
 
 We are often asked by plugin developers which product versions should be supported by the plugin, as it is logical not to release plugin updates for all the product versions released to the market, but rather focus on the latest / the most used versions of the product.
 
-Previously, plugin developers would have to analyze their plugins downloads by the IDE version, but for an easier overview, we are publishing statistics that will help you decide which versions of products to support on this page.     
+Previously, plugin developers would have to analyze their plugins downloads by the IDE version, but for an easier overview, we are publishing statistics that will help you decide which versions of products to support here.     
 
-The statistics for this page has been gathered in October 2019, but looking into the older statistics, it doesn't change much overtime.
+The statistics here has been gathered in October 2019, but looking into the older statistics, it doesn't change much overtime.
 
 In general, statistics show the following trends:
 
