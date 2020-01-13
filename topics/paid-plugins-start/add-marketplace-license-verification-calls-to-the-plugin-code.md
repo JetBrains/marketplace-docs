@@ -43,7 +43,7 @@ import java.util.*;
  */
 public class CheckLicense {
   /**
-   * PRODUCT_CODE must be the same specified in plugin.xml inside the <productCode> tag
+   * PRODUCT_CODE must be the same specified in plugin.xml inside the <product-descriptor> tag
    */
   private static final String PRODUCT_CODE = "SMPL";
   private static final String KEY_PREFIX = "key:";
