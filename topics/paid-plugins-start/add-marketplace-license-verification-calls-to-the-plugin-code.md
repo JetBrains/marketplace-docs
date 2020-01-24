@@ -24,7 +24,6 @@ You can find a `CheckLicense` class in `license/CheckLicense.java`, which is the
 package com.company.license;
 
 import com.intellij.ui.LicensingFacade;
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.ByteArrayInputStream;
@@ -37,7 +36,7 @@ import java.util.*;
 
 public class CheckLicense {
   /**
-   * PRODUCT_CODE must be the same specified in plugin.xml inside the <productCode> tag
+   * PRODUCT_CODE must be the same specified in plugin.xml inside the <product-descriptor> tag
    */
   private static final String PRODUCT_CODE = "SMPL";
   private static final String KEY_PREFIX = "key:";
