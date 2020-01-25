@@ -29,7 +29,6 @@ import org.jetbrains.annotations.NotNull;
 import java.io.ByteArrayInputStream;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.security.Security;
 import java.security.Signature;
 import java.security.cert.*;
 import java.util.*;
@@ -162,14 +161,13 @@ public class CheckLicense {
     final String certBase64 = licenseParts[3];
 
     try {
-      final X509Certificate certificate = createCertificate(
-        Base64.getMimeDecoder().decode(certBase64.getBytes(StandardCharsets.UTF_8)), Collections.emptySet(), false
-      );
-      final Signature sig = Signature.getInstance(certificate.getSigAlgName(), "BC");
+      final Signature sig = Signature.getInstance("SHA1withRSA");
       // the last parameter of 'createCertificate()' set to 'false' switches off certificate expiration checks.
       // This might be the case if the key is at the same time a perpetual fallback license for older IDE versions.
       // Here it is only important that the key was signed with an authentic JetBrains certificate.
-      sig.initVerify(certificate);
+      sig.initVerify(createCertificate(
+        Base64.getMimeDecoder().decode(certBase64.getBytes(StandardCharsets.UTF_8)), Collections.emptySet(), false
+      ));
       final byte[] licenseBytes = Base64.getMimeDecoder().decode(licensePartBase64.getBytes(StandardCharsets.UTF_8));
       sig.update(licenseBytes);
       if (!sig.verify(Base64.getMimeDecoder().decode(signatureBase64.getBytes(StandardCharsets.UTF_8)))) {
