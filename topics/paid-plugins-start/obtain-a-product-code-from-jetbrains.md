@@ -12,7 +12,7 @@ Requirements:
 
 * Should be **15** characters or shorter.
 
-* Should **NOT** contain any special symbols.
+* Should **NOT** contain any numbers or special symbols.
 
 * Should be in **CAPITAL LETTERS**.
 
