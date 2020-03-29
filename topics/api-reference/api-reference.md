@@ -18,3 +18,5 @@ This section covers:
 * [Maven Interface](maven-interface.md)
 
 * [Plugin Developers List API](plugin-developers-list.md)
+
+* [Product Codes](product-codes.md)
