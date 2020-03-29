@@ -4,7 +4,7 @@ To support the Marketplace operations from the legal side, JetBrains has the fol
 
 ## 1. JetBrains Marketplace Developer Agreement
 
-This is an agreement between a plugin developer (or plugin vendor) and JetBrains covering all aspects of publishing the plugin to the Marketplace and (optionally) selling it via JetBrains. This document includes all terms and conditions related to business between the vendor (developer) and JetBrains.
+It is an agreement between a plugin developer (or plugin vendor) and JetBrains covering all aspects of publishing the plugin to the Marketplace and (optionally) selling it via JetBrains. This document includes all terms and conditions related to business between the vendor (developer) and JetBrains.
 
 You can find a document here: [https://plugins.jetbrains.com/legal/developer-agreement](https://plugins.jetbrains.com/legal/developer-agreement)
 
@@ -14,7 +14,7 @@ The document is attached to the article. Alternatively, you can leave comments i
 
 ## 2. JetBrains Plugin Marketplace Approval Guidelines
 
-This is a guideline for approval of the plugins, updates and related assets. It's referenced from the JetBrains Marketplace Developer Agreement and is applied towards all plugins (both paid and free.)
+It is a guideline for approval of the plugins, updates, and related assets. It's referenced from the JetBrains Marketplace Developer Agreement and is applied towards all plugins (both paid and free.)
 
 You can find a document here: [https://plugins.jetbrains.com/legal/approval-guidelines](https://plugins.jetbrains.com/legal/approval-guidelines) 
 
@@ -22,7 +22,7 @@ The document is attached to the article. Alternatively, you can leave comments i
 
 ##  3. JetBrains Plugin Marketplace Agreement
 
-This is a general document covering everything that happens on the JetBrains Marketplace resources (the main resource is a plugins repository: [https://plugins.jetbrains.com/](https://plugins.jetbrains.com/)). It's provided in addition to JetBrains general [Terms of Use](https://www.jetbrains.com/company/useterms.html) and expands it with marketplace-related terms. It's applicable to everyone using the marketplace (both to end-users and developers uploading/selling plugins).
+It is a general document covering everything that happens on the JetBrains Marketplace resources (the main resource is a plugins repository: [https://plugins.jetbrains.com/](https://plugins.jetbrains.com/)). It's provided in addition to JetBrains general [Terms of Use](https://www.jetbrains.com/company/useterms.html) and expands it with marketplace-related terms. It applies to everyone using the marketplace (both to end-users and developers uploading/selling plugins).
 
 You can find a document here: [https://plugins.jetbrains.com/legal/terms-of-use](https://plugins.jetbrains.com/legal/terms-of-use)
 
@@ -30,11 +30,11 @@ The document is attached to the article. Alternatively, you can leave comments i
 
 ## 4. Privacy Policy
 
-This is a unified document for all JetBrains web resources, it applies to the Marketplace, too: [https://www.jetbrains.com/company/privacy.html](https://www.jetbrains.com/company/privacy.html)
+It is a unified document for all JetBrains web resources, it applies to the Marketplace, too: [https://www.jetbrains.com/company/privacy.html](https://www.jetbrains.com/company/privacy.html)
 
 ## 5. Purchasing Terms
 
-This document includes payment terms, ways of product delivery, order placement and acceptance, how we manage personal data during the purchase, etc, and it covers products sold via the Marketplace, too: [https://www.jetbrains.com/store/terms/](https://www.jetbrains.com/store/terms/) (it's unified document for all purchases from JetBrains, already includes all the necessary Marketplace provisions.)
+This document includes payment terms, ways of product delivery, order placement and acceptance, how we manage personal data during the purchase, etc., and it covers products sold via the Marketplace, too: [https://www.jetbrains.com/store/terms/](https://www.jetbrains.com/store/terms/) (it's unified document for all purchases from JetBrains, already includes all the necessary Marketplace provisions.)
 
 ## Attachments
 
