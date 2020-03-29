@@ -1,6 +1,6 @@
 [//]: # (title: Plugin Upload API)
 
-Please note that maximum allowed plugin size is *200 MB*.
+Please note that the maximum allowed plugin size is *200 MB*.
 
 You should create a [**hubPermanentToken**](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) at [JetBrains Hub](https://hub.jetbrains.com/users/me?tab=authentification) and specify Marketplace in Scope.
 
@@ -8,11 +8,11 @@ You should create a [**hubPermanentToken**](https://www.jetbrains.com/help/hub/M
 
 Other parameters:
 
-* **pluginId** is a numeric ID of the plugin, can be retrieved from the plugin repository URL. e.g. [Scala](https://plugins.jetbrains.com/plugin/1347-scala) plugin ID is *1347*. (*pluginXmlId* can be used instead)
+* `pluginId` is a numeric ID of the plugin, it can be retrieved from the plugin repository URL, e.g. [Scala](https://plugins.jetbrains.com/plugin/1347-scala) `pluginId` is `1347`. (`pluginXmlId` can be used instead, too.)
 
-* **pluginXmlId** is an unique identifier of the plugin specified as `<id>` in plugin.xml. Can be found as a *Plugin XML ID* parameter on the right of the plugin's individual update page and in the plugin.xml. (*pluginId* can be used instead)
+* `pluginXmlId` is a unique identifier of the plugin specified as `<id>` in `plugin.xml`. It can be found as a `Plugin XML ID` parameter on the right of the plugin's individual update page and in the `plugin.xml`. (`pluginId` can be used instead, too.)
 
-* **channel** is a release channel the update is published to (empty channel means default *Stable* channel) (optional)
+* `channel` is a release channel the update is published to (empty channel means default `Stable` channel) (optional)
 
 ## POST
 
@@ -46,9 +46,9 @@ curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F xmlId=ro.rede
 
 ## .NET
 
-You can upload the plugins for .NET using *push* command of the *NuGet CLI*.
+You can upload the plugins for .NET using `push` command of the *NuGet CLI*.
  
-You should use [hubPermanentToken](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) for it with Plugin Repository in Scope as shown above. 
+You should use the [hubPermanentToken](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) for it with Plugin Repository in Scope as shown above. 
 
 Push command template:
 
@@ -81,8 +81,7 @@ nuget config -set defaultPushSource=https://plugins.jetbrains.com/
 nuget push angularjs.1.9.0.nupkg
 ```
 
-In addition to the fact that you can change NuGet's default configuration, 
-you can apply your own configuration file using `ConfigFile` option in *push* command. 
+In addition to the fact that you can change NuGet's default configuration, you can apply your own configuration file using `ConfigFile` option in `push` command. 
 
 For example:
 
@@ -90,4 +89,4 @@ For example:
 nuget push angularjs.1.9.0.nupkg -ConfigFile ~/my.Config
 ```
 
-To obtain more information about the NuGet configuration see [this page](https://docs.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior).
+To obtain more information about the NuGet configuration, see [this page](https://docs.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior).

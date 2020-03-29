@@ -6,9 +6,9 @@ This API endpoint provides a list of all plugins compatible with a provided IDE 
 
 **Where**
 
-* **productCode** is a two-character product code. Can be blank.
+* `productCode` is a two-character product code. It can be blank.
 
-* **buildNumber** is a build number of the IDE (specified in the *About Dialog* in the product, and in the release notes).
+* `buildNumber` is a build number of the IDE (specified in the `About Dialog` in the product, and in the release notes.)
 
 e.g. for IntelliJ IDEA 2017.1 (`productCode=IU`, `buildNumber=171.3780.107`):
 
