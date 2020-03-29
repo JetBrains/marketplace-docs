@@ -10,7 +10,7 @@ There are two ways to download the plugin version programmatically:
 
 * `pluginXmlId` is specified as a `Plugin XML ID` parameter on the right of the plugin's individual update page and in the `plugin.xml`.
 
-* `productCode` is a two-character product code. It can be blank.
+* `productCode` is a two-character product code (see [product codes reference](product-codes.md) for more information.) It can be blank.
 
 * `buildNumber` is a build number of the IDE (specified in the `About Dialog` in the product, and in the release notes.)
 

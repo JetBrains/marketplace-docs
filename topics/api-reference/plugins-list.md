@@ -6,7 +6,7 @@ This API endpoint provides a list of all plugins compatible with a provided IDE 
 
 **Where**
 
-* `productCode` is a two-character product code. It can be blank.
+* `productCode` is a two-character product code (see [product codes reference](product-codes.md) for more information.) It can be blank.
 
 * `buildNumber` is a build number of the IDE (specified in the `About Dialog` in the product, and in the release notes.)
 
