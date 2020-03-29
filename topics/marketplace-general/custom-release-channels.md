@@ -32,7 +32,7 @@ Popular channel names include:
 
 It is also possible to host an [Enterprise Plugin Repository](https://www.jetbrains.com/idea/help/adding-plugins-to-enterprise-repositories.html), in which case the URL structure will depend on your hosting address. For more information, please refer to the [IntelliJ IDEA documentation](https://www.jetbrains.com/idea/help/managing-plugins.html).
 
-As an option, you might add a custom repository specifying the Plugin ID (Plugin ID is a numeric ID of the plugin, can be retrieved from the plugin repository URL. e.g. [Scala](https://plugins.jetbrains.com/plugin/1347-scala) plugin ID is *1347*):
+As an option, you might add a custom repository specifying the Plugin ID (Plugin ID is a numeric ID of the plugin, can be retrieved from the plugin repository URL, e.g. [Scala](https://plugins.jetbrains.com/plugin/1347-scala) plugin ID is *1347*):
 
 **https://plugins.jetbrains.com/plugins/`<channel>`/`<pluginId>`**
 
@@ -44,7 +44,7 @@ Please refer to the [Managing Enterprise Plugin Repositories](https://www.jetbra
 
 ## Channel Priority Notice
 
-Please note that custom repositories take precedence over the default channel. The update is uploaded to the default channel when the custom channel name is not provided, default channel is also known as a stable or release channel. That means that plugins/updates from custom channels (e.g. EAP channel) "overwrite" plugins/updates from the main repository (default channel).
+Please note that custom repositories take precedence over the default channel. The update is uploaded to the default channel when the custom channel name is not provided, and a default channel is also known as a stable or release channel. That means that plugins/updates from custom channels (e.g., EAP channel) "overwrite" plugins/updates from the main repository (default channel).
 
 If a user is subscribed to the EAP custom channel, they won't be able to see plugin updates without the channel (so they won't be able to see new updates in the default channel).
 

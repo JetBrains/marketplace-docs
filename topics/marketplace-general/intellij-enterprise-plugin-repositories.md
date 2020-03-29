@@ -1,6 +1,6 @@
 [//]: # (title: IntelliJ Platform-based IDEs Enterprise Repositories)
 
-You can set up your own enterprise plugin repositories for IntelliJ Platform based IDEs (also known as custom plugin repositories).
+You can set up your enterprise plugin repositories for IntelliJ Platform-based IDEs (also known as custom plugin repositories.)
 
 For example, to store plugins that you want to reserve for your company's internal use only. 
 

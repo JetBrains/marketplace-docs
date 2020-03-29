@@ -5,16 +5,16 @@ The IntelliJ Platform IDEs will recommend a plugin for installation in one of th
  * If a project contains files of types which are unsupported by the running IDE but are supported by a plugin
    available in the plugin repository.
    
- * If a project was created in an different IDE installation which had the plugin installed, and includes shared
-   settings (modules, facets, artifacts or run configurations) configured using the plugin.
+ * If a project was created in n different IDE installation which had the plugin installed, and includes shared
+   settings (modules, facets, artifacts, or run configurations) configured using the plugin.
 
-IntelliJ Platform IDEs only show plugin suggestions in the appropriate context so they are meaningful to the user.
+IntelliJ Platform IDEs only show plugin suggestions in the appropriate context, so they are meaningful to the user.
 
 The [`feature extractor`](https://github.com/JetBrains/intellij-plugin-verifier/tree/master/intellij-feature-extractor/) tool catalogs these types of features for a plugin. It works by statically analyzing the bytecode of a plugin to extract values passed to the IntelliJ Platform APIs that support extending features in the above list. 
 
 However, if values are dynamically evaluated in a plugin, the `feature extractor` may return incomplete results.
 
-If you cannot find your plugin in [the list of features](https://plugins.jetbrains.com/feature/), you can either make your code easier for the analysis, or ask JetBrains to manually add any missed feature types.
+If you cannot find your plugin in [the list of features](https://plugins.jetbrains.com/feature/), you can either make your code easier for the analysis or ask JetBrains to add manually any missed feature types.
 
 ## File Type
 
@@ -43,7 +43,7 @@ Refer to [Run Configurations](https://www.jetbrains.org/intellij/sdk/docs/basics
 
 ## Facet Type
 
-To support a Facet Type feature you should extend [FacetType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/facet/FacetType.java), and pass `stringId` to its constructor. The value of the `stringId` parameter will be analyzed by the `feature extractor`.
+To support a Facet Type feature, you should extend [FacetType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/facet/FacetType.java), and pass `stringId` to its constructor. The value of the `stringId` parameter will be analyzed by the `feature extractor`.
 
 A notification to install plugins that support the *jangaroo* Facet Type:
 
