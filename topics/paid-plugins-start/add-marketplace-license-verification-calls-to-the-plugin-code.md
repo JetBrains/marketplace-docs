@@ -1,20 +1,20 @@
 [//]: # (title: 4. Add marketplace license verification calls to the plugin code)
 
-The technical solution requires plugins to define attributes of paid plugins in the plugin descriptor (`plugin.xml`), which has been done on the [previous step](prepare-a-plugin-to-be-sold-via-the-marketplace.md), and then all the licensing-related communication is done on the IntelliJ Platform side (so that you don't need to bundle it with your plugin or copy-paste licensing-specific functionality).
+The technical solution requires plugins to define attributes of paid plugins in the plugin descriptor (`plugin.xml`), which has been done on the [previous step](prepare-a-plugin-to-be-sold-via-the-marketplace.md), and then all the licensing-related communication is done on the IntelliJ Platform side (so that you don't need to bundle it with your plugin or copy-paste licensing-specific functionality.)
 
-This approach lets us keep the licensing mechanism as a "black box" which ensures higher protection against piracy, as well as decreases amount of work to be done on the plugin vendor side.
+This approach lets us keep the licensing mechanism as a "black box", which ensures higher protection against piracy, as well as decreases the amount of work to be done on the plugin vendor side.
 
-In the meantime, the plugin has to verify that the platform checked and verified that a user has a license for this particular plugin (and specific plugin version), and shut down its operations if the license is not there. To do so, a plugin has to include a standard code provided by JetBrains which would be checking that your plugin is licensed.
+In the meantime, the plugin has to verify that the platform checked and verified that a user has a license for this particular plugin (and specific plugin version), and shut down its operations if the license is not there. To do so, a plugin has to include a standard code provided by JetBrains, which would be checking that your plugin is licensed.
 
-There are no private keys in the platform (otherwise, they can easily be extracted/leaked), so the IntelliJ Platform will be getting a signed confirmation of the license from the server (online or on-premises) or the signed offline key. The plugin licensing verification code will be using JetBrains public certificate which will help you verify that the key is a genuine one.
+There are no private keys in the platform (otherwise, they can easily be extracted/leaked), so the IntelliJ Platform is getting a signed confirmation of the license from the server (online or on-premises) or the signed offline key. The plugin licensing verification code is using JetBrains public certificate, which helps us verify that the key is a genuine one.
 
-**(!)** For the release version of the IDE, the plugin license will be checked on start. If there is no license provided in the dialog and there is no evaluation available, the plugin will be disabled and won't be loaded at all. If the license would be removed/expired when the plugin is already loaded, it's technically impossible to unload the plugin, so it will be working until the IDE is restarted. In order to prevent the user from using the plugin in such a case, the plugin developer has to check `com.intellij.ui.LicensingFacade#getConfirmationStamp` / `isLicensed` (see the code below) and limit the functionality of the plugin if the license is not obtained.
+**(!)** For the release version of the IDE, the plugin license will be checked on the start. If there is no license provided in the dialog and there is no evaluation available, the plugin will be disabled, and won't be loaded at all. If the license would be removed/expired when the plugin is already loaded, it's technically impossible to unload the plugin, so it will be working until the IDE is restarted. In order to prevent the user from using the plugin in such a case, the plugin developer has to check `com.intellij.ui.LicensingFacade#getConfirmationStamp` / `isLicensed` (see the code below) and limit the functionality of the plugin if the license is not obtained.
 
 ![No License Dialog](no_license.png)
 
 Please find an example plugin with a license code check code [here](https://github.com/JetBrains/marketplace-makemecoffee-plugin). It shows product parameters declaration, as well as license check.
 
-You can find a `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check if the plugin is licensed or not (in a real-life use case, your plugin should not work if the plugin is not licensed).
+You can find a `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check if the plugin is licensed or not (in a real-life use case, your plugin should not work if the plugin is not licensed.)
 
 [//]: # (TODO update source code)
 
