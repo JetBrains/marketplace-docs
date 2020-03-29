@@ -4,7 +4,9 @@ We will be rolling out the in-product support for the Marketplace in the followi
 
 * IntelliJ IDEA-based IDEs (all paid IDEs including Rider) - **READY**
 
-* IntelliJ IDEA-based IDEs (free editions - community and educational) - **IN PROGRESS, WILL BE AVAILABLE SOON**
+* IntelliJ IDEA-based IDEs (free editions - community and educational) - **READY**
+
+* Space - until the end of the year 2020.
 
 * .NET (ReSharper platform plugins) - no estimates yet.
 

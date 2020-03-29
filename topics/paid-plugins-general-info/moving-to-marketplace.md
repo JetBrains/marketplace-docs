@@ -1,14 +1,14 @@
-[//]: # (title: Moving to the marketplace from other licensing/billing solutions)
+[//]: # (title: Moving to the Marketplace from other licensing/billing solutions)
 
 ## When to switch to the Marketplace?
 
 We generally recommend switching to the Marketplace solution with the plugin version update, so that the following workflow can be followed:
 
-1. Users are using a legacy licensing solution (e.g. until version 1.9.1.)
+1. Users are using a legacy licensing solution (e.g., until version 1.9.1.)
 
 1. Plugin developer announces that they are going to switch to another licensing solution and provides migration paths. Please note that there might be contractual obligations you have to follow (based on your EULA or contract with customers.)
 
-1. Version 2.0.0. is released with the Marketplace licensing, users migrate to it over time, version 1.9.1 and previous are still available with the old licensing solutions.
+1. Version 2.0.0. is released with the Marketplace licensing, users migrate to it over time, version 1.9.1, and previous are still available with the old licensing solutions.
 
 It might be technically possible to support both licensing mechanisms for some time in a single plugin, but it might complicate troubleshooting and licensing support, that's why we recommend switching to the Marketplace with the version update.
 
@@ -26,21 +26,21 @@ We have come up with three ways of migration:
 
 1. Plugin Developer reaches out to the customers and obtains explicit permission to transfer their personal data to JetBrains as a part of the migration process.
 
-1. Plugin Developer signs a special data sharing agreement with JetBrains. The agreement describes the process of data transfer and following processing of the personal data.
+1. Plugin Developer signs a special data-sharing agreement with JetBrains. The agreement describes the process of data transfer and the following processing of the personal data.
 
-1. Plugin Developer provides a list of customers with the required data (name, email, billing address, license term, etc - see below the data we require for different types of customers.)
+1. Plugin Developer provides a list of customers with the required data (name, email, billing address, license term, etc. - see below the data we require for different types of customers.)
 
-1. JetBrains will generate licenses for those customers in a new format (so that you can switch them to the marketplace.)
+1. JetBrains will generate licenses for those customers in a new format (so that you can switch them to the Marketplace.)
 
-1. JetBrains will send out license keys and other information to the customers so that they switch the license (as soon as your plugin is sold on the marketplace.)
+1. JetBrains will send out license keys and other information to the customers so that they switch the license (as soon as your plugin is sold on the Marketplace.)
 
 ### End-user submitting the information directly to JetBrains (verified by Plugin Developer)
 
-1. JetBrains publishes a special Landing Page which has a form for personal data submission (everything required for a license to be issued.) The form also contains a disclaimer of data shared with JetBrains (and the following data sharing with the plugin developer is done as of the Marketplace Developer Agreement.)
+1. JetBrains publishes a special Landing Page that has a form for personal data submission (everything required for a license to be issued.) The form also contains a disclaimer of data shared with JetBrains (and the following data sharing with the plugin developer is done as of the Marketplace Developer Agreement.)
 
-1. Plugin Developer sends the link to the page to their customers (end-users of the plugin) asking them to submit the information.
+1. Plugin Developer sends the link to the page to their customers (end-users of the plugin), asking them to submit the information.
 
-1. End-users submit the information at the page, notification is sent to JetBrains and Plugin Developer.
+1. End-users submit the information at the page, and notification is sent to JetBrains and Plugin Developer.
 
 1. Plugin Developer confirms the validity of the license for the end-user submitting the form.
 
@@ -108,4 +108,4 @@ Please note that these migration workflows can be combined.
 
 * Number of licenses (for a bunch of licenses of different validity)
 
-We won't add past orders with $$$ to our systems not to screw up the revenue statistics and commission calculation, but we can add such (or any other) information in the order / customer notes.
+We won't add past orders with $$$ to our systems not to screw up the revenue statistics and commission calculation, but we can add such (or any other) information in the order/customer notes.

@@ -1,6 +1,8 @@
 [//]: # (title: JetBrains Sales Systems - features for third-party plugins)
 
-Plugins will be very similar to JetBrains own products regarding how JetBrains sales systems will treat them on the business logic level, which means that most of the sales processes available for JetBrains products will also be available for third-party plugins sold via JetBrains. We are going to support all standard approaches we have for JetBrains own products, such as:
+Plugins are very similar to JetBrains own products regarding how JetBrains sales systems are treating them on the business logic level. That means most of the sales processes available for JetBrains products are also available for third-party plugins sold via JetBrains.
+
+We are supporting all standard approaches we have for JetBrains own products, such as:
 
 * Evaluation licenses.
 
@@ -18,7 +20,7 @@ Plugins will be very similar to JetBrains own products regarding how JetBrains s
 
 * Management via [JetBrains Account](https://account.jetbrains.com) (JBA).
 
-* Community support (free for opensource/classroom/students/etc). *(NOT YET AVAILABLE)*
+* Community support (free for opensource/classroom/students/etc). *(NOT YET AVAILABLE, MANUAL LICENSES OF THESE TYPES CAN BE REQUESTED VIA YOUR ACCOUNT MANAGER)*
 
 * Discounts. *(AVAILABLE VIA SALES REPRESENTATIVE NOW, TO BE AUTOMATED LATER)*
 

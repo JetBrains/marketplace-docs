@@ -1,8 +1,8 @@
-[//]: # (title: Who is providing a sales and technical support?)
+[//]: # (title: Who is providing sales and technical support?)
 
 ## Sales Support
 
-JetBrains or JetBrains' resellers provide sales support to end-users of the third-party plugins.
+JetBrains or JetBrains' resellers and distributors provide sales support to end-users of the third-party plugins.
 
 ## Technical Support
 

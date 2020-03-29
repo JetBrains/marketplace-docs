@@ -1,6 +1,6 @@
 [//]: # (title: How do I provide feedback?)
 
-We are looking forward to hearing back from you about our Marketplace project! We would be very glad to discuss terms and conditions of the marketplace, as well as the technical solution.
+We are looking forward to hearing back from you about our Marketplace project! We would be very glad to discuss terms and conditions of the Marketplace, as well as the technical solution.
 
 We've set up a couple of channels to gather feedback on the Marketplace:
 
