@@ -16,7 +16,13 @@ This section covers:
 
 * [6. Test the plugin licensing on the demo instance](test-the-plugin-licensing-on-the-demo-instance.md)
 
+* [7. Release the plugin](release-plugin.md)
+
 * [Notes on the paid plugins versioning](notes-on-the-paid-plugins-versioning.md)
+
+* [Notes on pricing](notes-on-pricing.md)
+
+* [Notes on information change](notes-on-information-change.md)
 
 * [Marketplace Demo Plugin](marketplace-demo-plugin.md)
 

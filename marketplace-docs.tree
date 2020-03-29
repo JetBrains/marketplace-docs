@@ -52,7 +52,10 @@
             <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
             <toc-element id="obfuscate-the-plugin.md"/>
             <toc-element id="test-the-plugin-licensing-on-the-demo-instance.md"/>
+            <toc-element id="release-plugin.md"/>
             <toc-element id="notes-on-the-paid-plugins-versioning.md"/>
+            <toc-element id="notes-on-pricing.md"/>
+            <toc-element id="notes-on-information-change.md"/>
             <toc-element id="marketplace-demo-plugin.md"/>
             <toc-element id="marketplace-video-demo.md"/>
         </toc-element>

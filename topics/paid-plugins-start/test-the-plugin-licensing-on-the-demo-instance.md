@@ -2,27 +2,27 @@
 
 ## Intro
 
-JetBrains' Marketplace and Business Application Development teams prepared a fully-functioning Marketplace Demo instance for you which can be used for full testing of the paid plugins marketplace in a safe and protected environment. It is always kept functioning, so that you can test the whole solution before releasing it to the public.
+JetBrains' Marketplace and Business Application Development teams prepared a fully-functioning Marketplace Demo instance for you, which can be used for full testing of the paid plugins marketplace in a safe and protected environment. It is always kept functioning so that you can test the whole solution before releasing it to the public.
 
-You should have gotten your personal credentials to access the Marketplace Demo instance together with the Product Code assigned by JetBrains (credentials have been sent in a separate email for those who got the Product Code earlier.) If you don't have your credentials yet, please reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email or other channels.
+You should have gotten your credentials to access the Marketplace Demo instance together with the Product Code assigned by JetBrains (credentials have been sent in a separate email for those who got the Product Code earlier.) If you don't have your credentials yet, please reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email or other channels.
 
-You need your credentials to access both the plugins repository part and the shop part, and you will need to provide your credentials separately for both of these separate applications (so it is normal that you might be required to re-provide your credentials when going from the plugins repository to the shop.)
+You need your credentials to access both the plugins repository part and the shop part. You will need to provide your credentials separately for both of these applications (so it is normal that you might be required to re-provide your credentials when going from the plugins repository to the shop.)
 
-Endpoints necessary for IDE functioning are open and don't require credentials to be accessed.
+Endpoints necessary for IDE functioning are open and don't require credentials to be accessed, so you shouldn't worry about it at all.
 
 ## Marketplace Demo Instance Limitations (!Important)
 
-* It is an internal demo of the marketplace, please do not share the access, license keys generated or any other information you are getting at this internal demo.
+* It is an internal demo of the Marketplace, please do not share the access, license keys generated or any other information you are getting at this internal demo.
 
-* In order to route the IDE requests to the Marketplace Demo instance, you are modifying internal parameters of the IDE. Don't forget to remove custom *VM Options* and *Properties* after the testing, otherwise, your IDE experience might be disrupted at any time.
+* To route the IDE requests to the Marketplace Demo instance, you are modifying the internal parameters of the IDE. Don't forget to remove custom *VM Options* and *Properties* after the testing. Otherwise, your IDE experience might be disrupted at any time.
 
 * It is NOT possible to generate offline license keys (aka Offline Activation Codes) at the demo stand due to security purposes. It will be possible to generate the offline license keys on production (read more about the offline keys at [https://sales.jetbrains.com/hc/en-gb/articles/207240825-How-do-I-manage-and-distribute-licenses-within-my-organization-](https://sales.jetbrains.com/hc/en-gb/articles/207240825-How-do-I-manage-and-distribute-licenses-within-my-organization-).)
 
-* It is NOT possible to download plugins / updates which have been copied from Production instance of the plugins repository. Only plugins / updates uploaded to this Marketplace Demo instance will be accessible.
+* It is NOT possible to download plugins/updates which have been copied from the Production instance of the plugins repository. Only plugins/updates uploaded to this Marketplace Demo instance will be accessible.
 
-* Outgoing emails sent by the demo sales stand are available to all testers. Please use responsibly and don't use any confidential names / information there. Please note that information about the plugin you are testing might be exposed to other Marketplace program users who are using the same test stand, so please reach out to us if you can't allow that to happen - we'll arrange the private testing.
+* Outgoing emails sent by the demo sales stand are available to all testers. Please use responsibly and don't use any confidential names/information there. Please note that information about the plugin you are testing might be exposed to other Marketplace program users who are using the same test stand, so please reach out to us if you can't allow that to happen - we'll arrange the private testing.
 
-* The standard user we are normally using:
+* The standard user we are usually using:
 
 ```
 Email: test.test@gmail.com
@@ -30,11 +30,11 @@ Username: TestTest
 Password: FJKDr478fdjhsj__
 ```
 
-* The stand is cleared every Monday at 3 am in the morning (Central European Time), so all the plugins / purchases will be removed. Marketplace team will be re-uploading all plugins currently in a testing mode (incl. at least one demo plugin) at around 10 am Central European Time.
+* The stand is cleared every Monday at 3 am (Central European Time), so all the plugins/purchases are removed then. Marketplace team is re-uploading all plugins currently in a testing mode (incl. at least one demo plugin) at around 10 am Central European Time.
 
 ## Test Setup at the Marketplace Demo Instance
 
-1. Access the Marketplace Demo instance at [https://marketplace.demo.plugins.aws.intellij.net/](https://marketplace.demo.plugins.aws.intellij.net/), use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails, use the username/password option:
+1. Access the Marketplace Demo instance at [https://marketplace.demo.plugins.aws.intellij.net/](https://marketplace.demo.plugins.aws.intellij.net/), use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails (JetBrains Team should use "sign in via Google Account" option exclusively), use the username/password option:
 
     ![Marketplace Sign In](marketplace_sign_in.png)
 
@@ -42,15 +42,15 @@ Password: FJKDr478fdjhsj__
 
 1. Upload update of your plugin (if existing) or a new plugin (if new) to the Marketplace Demo instance, use a standard procedure using the update plugin page (for existing plugin) and upload plugin page (for a new plugin.)
 
-    Please note that in order to upload the plugin, you need to sign in to the application with your normal Hub ([https://hub.jetbrains.com](https://hub.jetbrains.com)) account, the same as you use on the production instance.
+    Please note that to upload the plugin, you need to sign in to the application with your normal Hub ([https://hub.jetbrains.com](https://hub.jetbrains.com)) account, the same as you use on the production instance.
 
-    All the plugins from Production instance of the Plugins Repository uploaded before Monday should be available at this instance.
+    All the plugins from the Production instance of the Plugins Repository uploaded before Monday should be available at this instance.
 
     ![Marketplace Update Plugin](marketplace_update_plugin.png)
 
-1. Reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email asking us to approve the plugin / update at the demo instance (if necessary) and add it to the Marketplace available for sales.
+1. Reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email or Slack asking us to approve the plugin/update at the demo instance (if necessary) and add it to the Marketplace available for sales.
 
-    In order to make your plugin available for sales, we need the following information:
+    To make your plugin available for sales, we need the following information:
 
     - Customer billing period (Annual, Monthly, Both.)
 
@@ -62,7 +62,7 @@ Password: FJKDr478fdjhsj__
 
     And the following information will be needed for the accountancy to set the things up:
 
-    - Full Legal Name (e.g. full legal name of the company or your own full legal name if you are operating as an individual.)
+    - Full Legal Name (e.g., full legal name of the company or your full legal name if you are operating as an individual.)
 
     - Full Address incl. Street, House Number, Post Code, City, Country.
 
@@ -78,7 +78,7 @@ Password: FJKDr478fdjhsj__
 
     **(!!!)** Please attach the plugin update to the email so that we can re-upload it for you after the Marketplace Demo instance is cleaned. You can send us additional builds of the plugin at the same thread.
 
-1. JetBrains will process your request (normally should happen within 1-2 business days most), and will send you the confirmation.
+1. JetBrains will process your request (usually should happen within 1-2 business days most) and will send you the confirmation.
 
     Now you can start testing the plugin!
 
@@ -88,7 +88,7 @@ Password: FJKDr478fdjhsj__
 
 ## Preparing an IDE for Tests with a Demo Environment
 
-**(!!!)** In order to route the IDE requests to the Marketplace Demo instance, you are modifying internal parameters of the IDE. Don't forget to remove custom VM Options and Properties after the testing, otherwise, your IDE experience might be disrupted at any time.
+**(!!!)** To route the IDE requests to the Marketplace Demo instance, you are modifying the internal parameters of the IDE. Don't forget to remove custom VM Options and Properties after the testing. Otherwise, your IDE experience might be disrupted at any time.
 
 ### Configuring the IDE to work with a test Sales System
 
@@ -150,13 +150,13 @@ Or go to buy page from plugin overview: https://marketplace.demo.plugins.aws.int
 
 ### Payment information on the checkout
 
-At the checkout form, you need to use special test cards / payment information provided to us by Adyen (our payment provider): [https://docs.adyen.com/development-resources/test-cards/test-card-numbers/](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/)
+At the checkout form, you need to use special test cards/payment information provided to us by Adyen (our payment provider): [https://docs.adyen.com/development-resources/test-cards/test-card-numbers/](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/)
 
 **(!!!)* Please make sure NOT TO USE real data, always use Adyen-provided data.
 
 ## How to view emails sent by the Sales System?
 
-Due to the sensitivity of the data produced during the testing (such as license keys, order information, etc), we are not sending out any emails from the Marketplace Demo Sales Systems.
+Due to the sensitivity of the data produced during the testing (such as license keys, order information, etc.), we are not sending out any emails from the Marketplace Demo Sales Systems.
 
 All of the outgoing emails can be viewed at a special URL: [https://mp.jpf-demo.aws.intellij.net/emails](https://mp.jpf-demo.aws.intellij.net/emails)
 
@@ -164,9 +164,9 @@ All of the outgoing emails can be viewed at a special URL: [https://mp.jpf-demo.
 
 ![System Emails View](system_emails_view.png)
 
-**(!!!)** Please note that outgoing emails sent by the demo sales stand are available to all testers.
+**(!!!)** Please note that outgoing emails sent by the demo sales stand available to all testers.
 
-Please use responsibly and don't use any confidential names / information there. Please note that information about the plugin you are testing might be exposed to other Beta program users, so please reach out to us if you can't allow that to happen - we'll arrange the private testing.
+Please use responsibly and don't use any confidential names/information there. Please note that information about the plugin you are testing might be exposed to other Beta program users, so please reach out to us if you can't allow that to happen - we'll arrange the private testing.
 
 ## Useful Links Related to the Marketplace Demo Instance
 
@@ -177,10 +177,6 @@ Please use responsibly and don't use any confidential names / information there.
 * [https://mp.jpf-demo.aws.intellij.net/shop/buy/******](https://mp.jpf-demo.aws.intellij.net/shop/buy/) - Shop (requires additional parameters)
 
 * [https://mp.jpf-demo.aws.intellij.net/emails](https://mp.jpf-demo.aws.intellij.net/emails) - Emails Viewer
-
-## Known Issues
-
-1. Buy plugin in the IDE will not land you at the Marketplace Demo instance, it will always land you at https://plugins.jetbrains.com. Should be removed in one of the upcoming updates of IntelliJ IDEA-based IDEs.
 
 ## What to test?
 
@@ -206,7 +202,7 @@ You might consider testing the following parts of the system:
 
     * Purchasing plugin via Store
 
-    * Orders/Quotes/etc via Sales System
+    * Orders/Quotes/etc. via Sales System
 
     * Sales Statistics
 
@@ -232,6 +228,6 @@ You might consider testing the following parts of the system:
 
     * etc
 
-We also can arrange the expedited testing for you when JetBrains employee would go through the testing process together with you. Please reach out to us via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) if you would prefer this option or have any issues.
+We also can arrange the expedited testing for you when JetBrains employees would go through the testing process together with you. Please reach out to us via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) if you would prefer this option or have any issues.
 
 Happy Testing!

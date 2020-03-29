@@ -4,7 +4,8 @@ We will be rolling out the in-product support for the Marketplace in the followi
 
 * IntelliJ IDEA-based IDEs (all paid IDEs including Rider) - **READY**
 
-* IntelliJ IDEA-based IDEs (free editions - community and educational) - **READY**
+* IntelliJ IDEA-based IDEs (free editions - Community and Educational editions) - **READY**
+(please note that third-party IDEs based on the IntelliJ IDEA Community Edition e.g., Android Studio, is also supported. You can find more info in the following article: [do other IDEs built on top of IntelliJ Platform support paid plugins?](other-ides-support.md))
 
 * Space - until the end of the year 2020.
 
