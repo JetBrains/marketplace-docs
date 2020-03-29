@@ -24,7 +24,7 @@ You can easily use multi-component version numbers, and these constraints let yo
 
 `version` parameter has been used for a long time as a full version number. It is used by the IDE and plugins repository to define the latest compatible update of the plugin for an IDE build so that it can be offered to be installed or downloaded.
 
-`release-version` is related to licensing of the paid plugins, and it is different from the `version` of the plugin, as this one is a version number of the major release (== release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
+`release-version` is related to licensing of the paid plugins, and it is different from the `version` of the plugin, as this one is a version number of the major release (i.e., release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
 
 For major releases (e.g., *2018.1*), `version` is going to be equal to `release-version`, but they would be different for minor releases (e.g., for a minor update of the plugin the `version` will be *2018.1.1*, and the `release-version` will be *2018.1*).
 

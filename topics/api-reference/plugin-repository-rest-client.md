@@ -51,4 +51,4 @@ The `org.jetbrains.intellij.pluginRepository.Client` main class provides command
 
 # Published on Bintray
 
-https://bintray.com/jetbrains/intellij-plugin-service/plugin-repository-rest-client
+[https://bintray.com/jetbrains/intellij-plugin-service/plugin-repository-rest-client](https://bintray.com/jetbrains/intellij-plugin-service/plugin-repository-rest-client)

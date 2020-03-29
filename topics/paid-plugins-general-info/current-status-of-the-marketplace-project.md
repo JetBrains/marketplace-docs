@@ -8,6 +8,6 @@ There are some important conditions applied right now:
 
 * Right now special programs (Open Source, Education, etc.) for plugins are not available out-of-the-box - we are working on changes to our current programs workflow. It'll be available in the nearest future. For now, you will be able to request free licenses to be issued to education institutions, students, user groups, open-source, but it is now a manual process.
 
-As of the [JetBrains 2019 Annual Highlights Report](https://www.jetbrains.com/company/annualreport/2019/), approximately $130,000 USD has gone back into supporting plugin developers after the Marketplace launch.
+As of the [JetBrains 2019 Annual Highlights Report](https://www.jetbrains.com/company/annualreport/2019/), approximately $130,000 USD has gone back into supporting plugin developers in the 2019 year after the Marketplace launch.
 
 Please apply at the [Marketplace page](https://plugins.jetbrains.com/marketplace).
