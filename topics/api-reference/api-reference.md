@@ -19,4 +19,6 @@ This section covers:
 
 * [Plugin Developers List API](plugin-developers-list.md)
 
+* [Plugin Repository REST Client](plugin-repository-rest-client.md)
+
 * [Product Codes](product-codes.md)

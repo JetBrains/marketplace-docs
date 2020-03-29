@@ -64,6 +64,7 @@
         <toc-element id="plugin-details.md"/>
         <toc-element id="maven-interface.md"/>
         <toc-element id="plugin-developers-list.md"/>
+        <toc-element id="plugin-repository-rest-client.md"/>
         <toc-element id="product-codes.md"/>
     </toc-element>
 
