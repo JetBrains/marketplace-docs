@@ -9,9 +9,9 @@ An organization lets you gather on a single page such company-wide information a
 
 1. Registered users can [create organizations](https://plugins.jetbrains.com/organizations/new).
 2. The user who created the organization becomes its *administrator*.
-3. The organization's administrator can [add new members](##-Add-a-member) to the organization.
+3. The organization's administrator can [add new members](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Addamember) to the organization.
 4. The organization's administrator can grant additional administrator roles to other members of the organization.
-5. Organization members can [transfer their plugins](##-Plugin-transfer) to the organization.
+5. Organization members can [transfer their plugins](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Plugintransfer) to the organization.
 6. A plugin can be transferred to an organization if and only if the vendor field in the plugin descriptor is the same as the organization ID.
 7. If a plugin is transferred to the organization:
     1. The plugin authors retain the right to manage their plugins, even if some of them do not belong to the organization.
@@ -19,11 +19,11 @@ An organization lets you gather on a single page such company-wide information a
     3. The vendor field in the plugin descriptor should be the same as the organization ID.
 8. The organization can have only one ID. Multiple IDs are not allowed.
 9. Paid plugins must belong to an organization. It is necessary to associate the organization with the Company/Author's Full Legal Name, which is used in the Sales System.
-10. An organization can be [verified](##-Verified-organizations) by JetBrains.
+10. An organization can be [verified](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Verifiedorganizations) by JetBrains.
 
 ## Verified organizations
 
-"Verified organizations" have proved their commitment to the JetBrains platform and are considered to be a reliable plugin vendor. If an organization would like to be marked as "Verified", one of its members should contact the JetBrains Plugins Repository support and request this.
+"Verified organizations" have proved their commitment to the JetBrains platform and are considered to be a reliable plugin vendor. If an organization would like to be marked as "Verified", one of its members should contact the JetBrains Plugins Repository support via email [plugins-admin@jetbrains.com](mailto:plugins-admin@jetbrains.com) and request this.
 
 ## Examples
 
@@ -53,5 +53,5 @@ To add more members, an organization's administrator should open the organizatio
 ## Plugin transfer
 
 In order to transfer a plugin to an organization, a member should:
-1. Specify the organization's unique ID in the plugin.xml file as described in the [Examples](##-Examples).
+1. Specify the organization's unique ID in the plugin.xml file as described in the [Examples](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Examples).
 2. Click the **Transfer** button on the plugin edit page.
