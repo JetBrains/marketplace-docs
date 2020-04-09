@@ -6,5 +6,5 @@ We are using a *Bayesian Rating* to calculate the rating displayed for each plug
 bayesianRating = (sum(userRatings) + 2 * meanVote) / (count(userRatings) + 2)
 ```
 
-Here "meanVote" is the average vote of all plugins in the plugin repository.
+`meanVote` is an average vote of all plugins in the plugin repository.
 It may be a bit confusing that the plugin rating is not five, while all votes are five stars. However, the reason for using the Bayesian rating is to avoid the situation when the plugin with a few 5-star votes is rated higher than the plugins having many diverse votes (and not all of them are five stars.)
