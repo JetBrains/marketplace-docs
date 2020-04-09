@@ -9,7 +9,7 @@ CURL command template:
 curl -H "Authorization: Bearer <hubPermanentToken>" -X GET https://plugins.jetbrains.com/api/marketplace/plugin/{productCode}/license?email={email}
 ```
 
-where `productCode` is the [Product Code](../paid-plugins-start/obtain-a-product-code-from-jetbrains.md) of your plugin and 
+where `productCode` is the [Product Code](https://plugins.jetbrains.com/docs/marketplace/obtain-a-product-code-from-jetbrains.html) of your plugin and 
 `email` is an email of the user you would like to check.
 
 The response has the following format:
