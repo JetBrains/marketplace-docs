@@ -21,4 +21,6 @@ This section covers:
 
 * [Plugin Repository REST Client](plugin-repository-rest-client.md)
 
+* [Check License API](check-license.md)
+
 * [Product Codes](product-codes.md)
