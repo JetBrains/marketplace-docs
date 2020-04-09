@@ -2,9 +2,9 @@
 
 If you are the author of a paid plugin, you can check whether the user with the specified email address has a valid license or not.
 
-You should have a [**hubPermanentToken**](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) at [JetBrains Hub](https://hub.jetbrains.com/users/me?tab=authentification) with Marketplace in Scope.
+You should have a [Hub Permanent Token](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) (`hubPermanentToken`) at [JetBrains Hub](https://hub.jetbrains.com/users/me?tab=authentification) with `Marketplace` scope.
 
-Curl command template:
+CURL command template:
 ```Shell
 curl -H "Authorization: Bearer <hubPermanentToken>" -X GET https://plugins.jetbrains.com/api/marketplace/plugin/{productCode}/license?email={email}
 ```
