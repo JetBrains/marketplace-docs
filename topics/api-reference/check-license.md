@@ -1,6 +1,6 @@
 [//]: # (title: Check License API)
 
-If you are the author of a paid plugin, you can check whether the user with the specified email address has a valid license or not.
+If you are the author of a paid plugin, you can check whether the user with the specified email address has a license or not.
 
 You should have a [Hub Permanent Token](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) (`hubPermanentToken`) at [JetBrains Hub](https://hub.jetbrains.com/users/me?tab=authentification) with `Marketplace` scope.
 
@@ -18,11 +18,11 @@ The response has the following format:
   "licenses": [
     {
       "type": "string",
-      "trial": "boolean",
-      "period": "string",
+      "trial": "boolean?",
+      "period": "string?",
       "startFrom": "string($date)",
-      "validTill": "string($date)",
-      "overuseTill": "string($date)"
+      "validTill": "string($date)?",
+      "overuseTill": "string($date)?"
     }
   ]
  }
@@ -36,9 +36,9 @@ The response example:
       "type": "PERSONAL",
       "trial": false,
       "period": "Annual",
-      "startFrom": "26/06/2019",
-      "validTill": "25/06/2020",
-      "overuseTill": "02/07/2020"
+      "startFrom": "[2019,6,26]",
+      "validTill": "[2020,6,25]",
+      "overuseTill": "[2020,7,2]"
     }
   ]
 }
