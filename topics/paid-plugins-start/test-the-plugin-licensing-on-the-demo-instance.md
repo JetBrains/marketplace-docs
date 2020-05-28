@@ -34,13 +34,13 @@ Password: FJKDr478fdjhsj__
 
 ## Test Setup at the Marketplace Demo Instance
 
-1. Access the Marketplace Demo instance at [https://marketplace.demo.plugins.aws.intellij.net/](https://marketplace.demo.plugins.aws.intellij.net/), use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails (JetBrains Team should use "sign in via Google Account" option exclusively), use the username/password option:
+1. Access the Marketplace Demo instance at [https://master.demo.marketplace.intellij.net/](https://master.demo.marketplace.intellij.net/), use credentials you have obtained from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option as we can't connect it to non-JetBrains emails (JetBrains Team should use "sign in via Google Account" option exclusively), use the username/password option:
 
     ![Marketplace Sign In](marketplace_sign_in.png)
 
     **(!!!) Make sure to change the password on the first sign in.**
 
-1. Upload update of your plugin (if existing) or a new plugin (if new) to the Marketplace Demo instance, use a standard procedure using the update plugin page (for existing plugin) and upload plugin page (for a new plugin.)
+1. Create an [Organization](https://plugins.jetbrains.com/docs/marketplace/organizations.html) for you plugin. Upload update of your plugin (if existing) or a new plugin (if new) to the Marketplace Demo instance, use a standard procedure using the update plugin page (for existing plugin) and upload plugin page (for a new plugin). Transfer this plugin to the organization.
 
     Please note that to upload the plugin, you need to sign in to the application with your normal Hub ([https://hub.jetbrains.com](https://hub.jetbrains.com)) account, the same as you use on the production instance.
 
@@ -104,29 +104,25 @@ jb.service.configuration.url=https://mp.jpf-demo.aws.intellij.net/testservices/J
  
 ### Configuring the IDE to work with a test Plugins Repository
 
-Marketplace Demo runs on the test server [https://marketplace.demo.plugins.aws.intellij.net/](https://marketplace.demo.plugins.aws.intellij.net/).
+Marketplace Demo runs on the test server [https://master.demo.marketplace.intellij.net/](https://master.demo.marketplace.intellij.net/).
 
 The IDE has to be additionally configured to work with it instead of the production Plugins Repository.
 
 `Use Help | Edit Custom VM Options...` to open the `Intellij IDEA 2018.2.app.vmoptions` file (or similar depends on your version) in the editor and add
 
 ```
--Didea.plugins.host=https://marketplace.demo.plugins.aws.intellij.net/
+-Didea.plugins.host=https://master.demo.marketplace.intellij.net/
 ```
 
 Alternatively, you can add plugins to the IDE from disk.
 
 ## Where to get started with your Paid Plugin?
 
-As soon as your plugin is marked as Paid Plugin available for sale by JetBrains, you will see *Buy* button at the plugin page:
-
-![Plugin Buy](plugin_buy.png)
+As soon as your plugin is marked as Paid Plugin available for sale by JetBrains, you will see *Pricing* tab at the plugin page:
 
 ![Plugin Buy Page](plugin_buy_page.png)
 
-All the Marketplace-related information about the plugin is available on a service page **https://marketplace.demo.plugins.aws.intellij.net/marketplace/info?pluginId=`{ID}`** (the link is available at the Plugin Page - Marketplace.)
-
-![Plugin Information](plugin_info.png)
+All the Marketplace-related information about the plugin is available under *Sales Info* tab.
 
 ## How to buy a plugin license
 
@@ -138,7 +134,7 @@ Use the direct link to the shop: https://mp.jpf-demo.aws.intellij.net/shop/buy?i
 
 For quote: https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:{ID}:Y / https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:{ID}:M
 
-Or go to buy page from plugin overview: https://marketplace.demo.plugins.aws.intellij.net/plugin/{PLUGINID}
+Or go to buy page from plugin overview: https://master.demo.marketplace.intellij.net/plugin/{PLUGINID}
 
 ### Commercial license
 
@@ -146,7 +142,7 @@ Use the direct link on the shop: https://mp.jpf-demo.aws.intellij.net/shop/buy?i
 
 For quote: https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:{ID}:Y / https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:{ID}:M
 
-Or go to buy page from plugin overview: https://marketplace.demo.plugins.aws.intellij.net/plugin/{PLUGINID}
+Or go to buy page from plugin overview: https://master.demo.marketplace.intellij.net/plugin/{PLUGINID}
 
 ### Payment information on the checkout
 
@@ -170,7 +166,7 @@ Please use responsibly and don't use any confidential names/information there. P
 
 ## Useful Links Related to the Marketplace Demo Instance
 
-* [https://marketplace.demo.plugins.aws.intellij.net](https://marketplace.demo.plugins.aws.intellij.net) - Marketplace Demo
+* [https://master.demo.marketplace.intellij.net](https://master.demo.marketplace.intellij.net) - Marketplace Demo
 
 * [https://mp.jpf-demo.aws.intellij.net/login](https://mp.jpf-demo.aws.intellij.net/login) - JetBrains Account
 
