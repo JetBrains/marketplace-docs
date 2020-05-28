@@ -26,6 +26,5 @@ Every plugin sold via JetBrains Marketplace must define [additional parameters i
     
     This means that a plugin with a Product Code `PPAIDPLUGIN` had its major version release (`2018.1`) on `September 18th, 2018`. Subsequent minor updates (e.g., `2018.1.1`, `2018.1.2`, `2018.1.x`) should have the same `release-date` and `release-version` before the next major version is released (`2018.2`) so that those users who have got a perpetual fallback license can use an opportunity to get the latest minor update of the major version they have got access to.
 
-1. (optional) If your plugin is compatible with Community-edition based IDEs (e.g., IntelliJ IDEA Community Edition, PyCharm Community Edition, Android Studio), then you need to add a dependency on the `com.intellij.marketplace` to support this use case. With this dependency, the IDE will suggest a user install the JetBrains Marketplace Licensing Support plugin. After the IDE restart, the license mechanism will work like in IntelliJ IDEA Ultimate.
+1. Please note that the support of paid plugins in Community-edition based IDEs (e.g., IntelliJ IDEA Community Edition, PyCharm Community Edition, Android Studio) works starting with 2019.3.1 version of IDEs.
 
-    You can declare a dependency in the following way: `<depends>com.intellij.marketplace</depends>` (in `plugin.xml`.)
