@@ -18,7 +18,7 @@ It is a guideline for approval of the plugins, updates, and related assets. It's
 
 You can find a document here: [https://plugins.jetbrains.com/legal/approval-guidelines](https://plugins.jetbrains.com/legal/approval-guidelines) 
 
-The document is attached to the article. Alternatively, you can leave comments in the [Google Document version of the document](https://docs.google.com/document/d/11ls1qpMbUTLVjwLq5RHu6RVHrQ9vvLwSOeE-g88eJJs/edit). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
+The document is attached to the article. Alternatively, you can leave comments in the [Google Document version of the document](https://docs.google.com/document/d/1noU7fAKbd9mmHHWelP1bsuH21st0n9kfZaPtQxL0bdE/edit). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
 
 ##  3. JetBrains Plugin Marketplace Agreement
 
