@@ -4,7 +4,7 @@ JetBrains is maintaining an official client and CLI (command line interface) for
 
 You can find it in the [**plugin-repository-rest-client** GitHub repository](https://github.com/JetBrains/plugin-repository-rest-client).
 
-# Examples
+## Examples
 The code snippet below will initiate the instance of the JetBrains Marketplace repository.
 
 ```kotlin
@@ -17,7 +17,7 @@ val instance = PluginRepositoryFactory.create("https://plugins.jetbrains.com", "
 instance.downloader.download("org.jetbrains.plugins.go", version, into, channel)
 ```
 
-### Upload update &amp; new plugins
+### Upload update and new plugins
 
 The code snippet below will init the instance of the JetBrains Marketplace repository. You need to provide a [permanent hub token](https://www.jetbrains.com/help/youtrack/standalone/Manage-Permanent-Token.html) to authorize.
 
