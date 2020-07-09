@@ -17,7 +17,7 @@ val instance = PluginRepositoryFactory.create("https://plugins.jetbrains.com", "
 instance.downloader.download("org.jetbrains.plugins.go", version, into, channel)
 ```
 
-### Upload update & new plugins
+### Upload update &amp; new plugins
 
 The code snippet below will init the instance of the JetBrains Marketplace repository. You need to provide a [permanent hub token](https://www.jetbrains.com/help/youtrack/standalone/Manage-Permanent-Token.html) to authorize.
 

@@ -28,7 +28,7 @@ First of all, a plugin has to identify itself as a paid marketplace plugin in th
 
 As the next step, you need to add some calls from the plugin, and JetBrains is providing a standard licensing code to be added to the plugin distribution. All the licensing checks are done on the platform side, but the plugin has to verify that the platform checked and verified that a user has a license for this particular plugin (and specific plugin version), and shut down its operations if the license is not there. To do so, a plugin has to [include a standard code provided by JetBrains](add-marketplace-license-verification-calls-to-the-plugin-code.md) which would be checking that your plugin is licensed. 
 
-## Obfuscation & Protection
+## Obfuscation &amp; Protection
 
 We recommend you to obfuscate the paid plugin before uploading it to the plugins repository. Every application can be hacked, but proper obfuscation makes this job much harder.
 
