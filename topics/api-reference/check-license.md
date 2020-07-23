@@ -22,7 +22,10 @@ The response has the following format:
       "period": "string?",
       "startFrom": "string($date)",
       "validTill": "string($date)?",
-      "overuseTill": "string($date)?"
+      "overuseTill": "string($date)?",
+      "ownerCode": "integer",
+      "ownerType": "string",
+      "ownerEmail": "string"
     }
   ]
  }
@@ -38,7 +41,10 @@ The response example:
       "period": "Annual",
       "startFrom": "[2019,6,26]",
       "validTill": "[2020,6,25]",
-      "overuseTill": "[2020,7,2]"
+      "overuseTill": "[2020,7,2]",
+      "ownerCode": 1234567,
+      "ownerType": "Personal",
+      "ownerEmail": "test.test@gmail.com"
     }
   ]
 }
