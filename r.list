@@ -6,6 +6,8 @@
     <resource id="plugin-sample-gradle" file="plugin-license-sample-v3-Gradle.zip"/>
     <resource id="jetbrains-plugin-marketplace-agreement-docx" file="jetbrains-plugin-marketplace-agreement.docx"/>
     <resource id="jetbrains-plugin-marketplace-agreement-pdf" file="jetbrains-plugin-marketplace-agreement.pdf"/>
+    <resource id="jetbrains-plugin-marketplace-agreement-jbd-docx" file="jetbrains-plugin-marketplace-agreement-jbd.docx"/>
+    <resource id="jetbrains-plugin-marketplace-agreement-jbd-pdf" file="jetbrains-plugin-marketplace-agreement-jbd.pdf"/>
     <resource id="jetbrains-plugin-marketplace-approval-guidelines-docx" file="jetbrains-plugin-marketplace-approval-guidelines.docx"/>
     <resource id="jetbrains-plugin-marketplace-approval-guidelines-pdf" file="jetbrains-plugin-marketplace-approval-guidelines.pdf"/>
     <resource id="jetbrains-plugin-marketplace-developer-agreement-docx" file="jetbrains-plugin-marketplace-developer-agreement.docx"/>
