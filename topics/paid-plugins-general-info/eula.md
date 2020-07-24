@@ -10,7 +10,6 @@ JetBrains will be acting as a reseller taking money for third-party plugins and 
 
 The current version of the Standard EULA from the [JetBrains Marketplace Developer Agreement](https://plugins.jetbrains.com/legal/developer-agreement):
 
-***
 **Appendix 1**
 
 The Standard EULA (End User License Agreement) displayed below is primarily intended as an example of a EULA to accompany your Plugins. It cannot be used without necessary modifications. Using your own EULA or similar license agreement granting rights to users of your Plugin is recommended. Provision of this Standard EULA does not constitute legal advice; advice from a qualified attorney is required. If you use the wording presented below in the Standard EULA, you acknowledge that JetBrains is not liable for its use by you in any way and that you have to modify it to suit your individual needs.
@@ -51,6 +50,3 @@ ALL PLUGINS ARE PROVIDED TO YOU ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT W
 IN NO EVENT WILL DEVELOPER BE LIABLE FOR ANY DIRECT OR INDIRECT COSTS, LOSSES, OR DAMAGES ASSOCIATED WITH THE USE OF DEVELOPER'S PLUGINS.
 
 DEVELOPER SHALL NOT BE LIABLE TO YOU FOR ANY LOST PROFITS OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED, AND IN NO EVENT WILL DEVELOPER'S AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE USE OF PLUGIN EXCEED THE FEES WHICH YOU PAID VIA JETBRAINS PLUGIN MARKETPLACE SERVICE FOR PLUGINS IN THE THREE-MONTH PERIOD PRECEDING THE CLAIM. THIS LIMITATION WILL APPLY EVEN IF DEVELOPER HAS BEEN ADVISED OF THE POSSIBILITY OF THE LIABILITY EXCEEDING THE AMOUNT AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. JETBRAINS' LIABILITY IS EXCLUDED IN ITS ENTIRETY AS JETBRAINS IS NOT A PARTY TO THE CONTRACTUAL RELATIONSHIP BETWEEN DEVELOPER AND CUSTOMER.
-
-***
-
