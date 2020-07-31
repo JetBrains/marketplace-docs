@@ -60,6 +60,8 @@ Password: FJKDr478fdjhsj__
 
     - Businesses and organizations price (Monthly), in USD, yearly price is calculated as monthly price multiplied by 10.
 
+    - Allow sales via resellers (true/false)
+
     And the following information will be needed for the accountancy to set the things up:
 
     - Full Legal Name (e.g., full legal name of the company or your full legal name if you are operating as an individual.)
@@ -68,7 +70,9 @@ Password: FJKDr478fdjhsj__
 
     - VAT ID (if applicable.)
 
-    - Additional information e.g. company registration ID, etc.
+    - IBAN number
+
+    - SWIFT code
 
     - Main contact name.
 
