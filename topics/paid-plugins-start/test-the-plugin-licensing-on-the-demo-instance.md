@@ -48,6 +48,10 @@ Password: FJKDr478fdjhsj__
 
     ![Marketplace Update Plugin](marketplace_update_plugin.png)
 
+1. Go to the Edit Organization and submit your banking information under *Vendor information* tab.
+
+    ![Vendor Information](vendor_form.png)
+
 1. Reach out to JetBrains via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) email or Slack asking us to approve the plugin/update at the demo instance (if necessary) and add it to the Marketplace available for sales.
 
     To make your plugin available for sales, we need the following information:
@@ -61,24 +65,6 @@ Password: FJKDr478fdjhsj__
     - Businesses and organizations price (Monthly), in USD, yearly price is calculated as monthly price multiplied by 10.
 
     - Allow sales via resellers (true/false)
-
-    And the following information will be needed for the accountancy to set the things up:
-
-    - Full Legal Name (e.g., full legal name of the company or your full legal name if you are operating as an individual.)
-
-    - Full Address incl. Street, House Number, Post Code, City, Country.
-
-    - VAT ID (if applicable.)
-
-    - IBAN number
-
-    - SWIFT code
-
-    - Main contact name.
-
-    - Main contact email.
-
-    - Main contact phone (we will call you only in case of urgent questions if not reachable via email.)
 
     **(!!!)** Please attach the plugin update to the email so that we can re-upload it for you after the Marketplace Demo instance is cleaned. You can send us additional builds of the plugin at the same thread.
 
