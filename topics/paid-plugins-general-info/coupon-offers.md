@@ -16,7 +16,7 @@ You can specify an *End date* after which the coupons generated for this offer w
 After submitting this form, your new offer will appear in the **Current Offers** section of the sales info page where you can edit your offers, remove them, and generate coupons. Please note that if you remove an offer, all coupons associated with it will be invalidated.
 
 ## Generate coupons
-To generate coupons for your customers, click the plus sign in the offer section on the sales info page.
+To generate coupons for your customers, click the offer name in the offer section on the sales info page.
 ![Generate Coupons](generate_coupons.png)
 
 Enter the number of new coupons you want to create and click Generate New Coupons.
