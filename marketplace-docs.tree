@@ -45,6 +45,7 @@
             <toc-element id="other-ides-support.md"/>
             <toc-element id="license-server.md"/>
             <toc-element id="technical-implementation.md"/>
+            <toc-element id="identify-user-of-paid-plugin.md"/>
             <toc-element id="moving-to-marketplace.md"/>
             <toc-element id="product-versions-support.md"/>
             <toc-element id="feedback.md"/>
