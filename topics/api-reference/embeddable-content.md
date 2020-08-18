@@ -1,30 +1,31 @@
 [//]: # (title: Embeddable Content)  
 
-You can embed marketplace content onto your web-site. Currently, the next embeddable content is available:
-
- - Plugin Card
- - Install to IDE button
+You can embed Marketplace content onto your website. Currently, the following embeddable content is available:
+ - Plugin Card,
+ - Install to IDE button.
 
 **How to**
-Go to the plugin dashboard embeddable content section. Choose the **distribution type**. Include this content on your web-site. If you're not a plugin author and you don't have permissions to edit plugin, use the codes in the section below.
-
+1. Go to the plugin dashboard embeddable content section.
+2. Choose the **distribution type**.
+3. Include this content on your website.
+4. If you're not a plugin author and don't have permission to edit the plugin, use the codes in the section below.
 **Distribution type**
-There are two possible embeddable distribution. 
- - `iframe`
- - `<script>`
+There are two possible embeddable distributions: 
+ - `iframe`,
+ - `script`.
  
-We recommend using the `script` distribution type because it handles the `Content Security Policy` limitations such as redirecting to the Marketplace page.
+We recommend using the `script` distribution type because it handles the `Content Security Policy` limitations, such as redirecting to the Marketplace page.
 
 **Including script**
 In order to include the script copy the `script` code on the page or use the following snippet
 ```html
 <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
 ```
-After including the script on the page, the global variable `MarketplaceWidget` should be available on your page. To setup the widget you need to call the function `setupMarketplaceWidget` and provide it with the arguments below
+After including the script on the page, the global variable `MarketplaceWidget` should be available on your page. To set up the widget you need to call the function `setupMarketplaceWidget` and provide it with the arguments below:
 
- - `@param type` - `card` or `install`
- - `@param id`     - plugin id
- - `@param root` - the root container. Can be a valid `CSS Query` or `HTMLElement`
+ - `@param type` - `card` or `install`,
+ - `@param id`   - plugin id,
+ - `@param root` - the root container. Can be a valid `CSS Query` or `HTMLElement`.
 
 ```html
 <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
@@ -34,7 +35,7 @@ After including the script on the page, the global variable `MarketplaceWidget` 
 ```
 
 **Including iframe**
-In case, it's impossible for you to include the script on the page you can also include an `iframe`. Please, use the code below.
+In case you can't include the script on the page, you can also add an `iframe`. Please, use the code below.
 
 **Card**
 ```html
@@ -47,4 +48,4 @@ In case, it's impossible for you to include the script on the page you can also 
 ```
 
 **Limitations of the iframe option**
-Due the `Content-Security-Policy` we can't redirect the user to Marketplace page. 
+Due to the `Content-Security-Policy`, we can't redirect the user to the Marketplace page. 
