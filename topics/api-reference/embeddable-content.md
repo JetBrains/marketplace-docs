@@ -77,3 +77,6 @@ In case, it's impossible for you to include the script on the page you can also 
 ```html
 <iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/1347"></iframe>
 ```
+
+**Limitations of the iframe option**
+Due the `Content-Security-Policy` we can't redirect the user to Marketplace page. 
