@@ -4,19 +4,21 @@ You can embed Marketplace content onto your website. Currently, the following em
  - Plugin Card,
  - Install to IDE button.
 
-**How to**
+###How to
 1. Go to the plugin dashboard embeddable content section.
 2. Choose the **distribution type**.
 3. Include this content on your website.
 4. If you're not a plugin author and don't have permission to edit the plugin, use the codes in the section below.
+
 **Distribution type**
+
 There are two possible embeddable distributions: 
  - `iframe`,
  - `script`.
  
 We recommend using the `script` distribution type because it handles the `Content Security Policy` limitations, such as redirecting to the Marketplace page.
 
-**Including script**
+###Including script
 In order to include the script copy the `script` code on the page or use the following snippet
 ```html
 <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
@@ -34,7 +36,7 @@ After including the script on the page, the global variable `MarketplaceWidget` 
 </script>
 ```
 
-**Including iframe**
+###Including iframe
 In case you can't include the script on the page, you can also add an `iframe`. Please, use the code below.
 
 **Card**
@@ -48,4 +50,5 @@ In case you can't include the script on the page, you can also add an `iframe`. 
 ```
 
 **Limitations of the iframe option**
+
 Due to the `Content-Security-Policy`, we can't redirect the user to the Marketplace page. 
