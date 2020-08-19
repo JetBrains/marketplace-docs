@@ -1,6 +1,6 @@
 [//]: # (title: Embeddable Content)  
 
-You can embed marketplace content onto your web-site. Currently the next embedable content is available:
+You can embed marketplace content onto your web-site. Currently, the next embeddable content is available:
 
  - Plugin Card
  - Install to IDE button
@@ -32,37 +32,6 @@ After including the script on the page, the global variable `MarketplaceWidget` 
 <script>  
   MarketplaceWidget.setupMarketplaceWidget('install', 8554, "#root");  
 </script>
-```
-
-**CROSS-ORIGIN Post Messaging**
-We provide you some hooks to determine if any IDE instances are running and available. In order to receive this information you need to subscribe to messaging api and handle the message event.
-```javascript
-const onMessage = (ev: MessageEvent) => {  
-  const data = ev.data // data object;
-  switch(data.type) {
-    case "marketplace/post_ide":
-       const data = data.payload; // access ide list
-       break;  
-  }  
-};
-window.addEventListener('message', onMessage);
-```
-**Marketplace event data objects**
-We use `flux` actions to send the data. 
-
-**`marketplace/post_ide`**
-```javascript
-const data = { 
-   type: "marketplace/post_ide", 
-   payload: [{ name: "IntelliJ IDEA 2020.2", buildNumber: "IU-202.6397.94"}]
-}
-```
-**IDE Info object**
-```typescript
-type IDEInfo = {
-  name: string;
-  buildNumber: string;
-}
 ```
 
 **Including iframe**
