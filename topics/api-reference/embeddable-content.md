@@ -8,7 +8,6 @@ You can embed marketplace content onto your web-site. Currently, the next embedd
 **How to**
 Go to the plugin dashboard embeddable content section. Choose the **distribution type**. Include this content on your web-site. If you're not a plugin author and you don't have permissions to edit plugin, use the codes in the section below.
 
-
 **Distribution type**
 There are two possible embeddable distribution. 
  - `iframe`
