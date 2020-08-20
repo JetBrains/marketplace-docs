@@ -1,4 +1,4 @@
-[//]: # (title: Embeddable Content)  
+[//]: # (title: Embeddable Content)
 
 You can embed Marketplace content onto your website. Currently, the following embeddable content is available:
  - Plugin Card,
