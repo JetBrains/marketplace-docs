@@ -77,6 +77,7 @@
         <toc-element id="plugin-repository-rest-client.md"/>
         <toc-element id="check-license.md"/>
         <toc-element id="product-codes.md"/>
+        <toc-element id="embeddable-content.md"/>
     </toc-element>
 
 </product-profile>
