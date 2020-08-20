@@ -51,4 +51,5 @@ In case you can't include the script on the page, you can also add an `iframe`. 
 
 **Limitations of the iframe option**
 
-Due to the `Content-Security-Policy`, we can't redirect the user to the Marketplace page. 
+Due to the `Content-Security-Policy`, we can't redirect the user to the Marketplace page. This case affects
+the situation when user has no IDE available for the installation, and we show the link *Get From Marketplace*.
