@@ -4,7 +4,7 @@
 
 JetBrains Marketplace users expect high-quality plugins. The long-term success of your plugin directly depends on the plugin's quality. The higher it is the more installs, positive reviews, community involvement you get.
 
-If you only plan to develop your plugin please review these quality criteria prior to the publishing. If you have plugins already published on the Marketplace you may still consider reviewing the following criteria in order to further improve the plugin's quality.
+If you only plan to develop your plugin please review these quality criteria prior to the publishing. If you have plugins that are already published on the Marketplace you may still consider reviewing the following criteria in order to further improve the plugin's quality.
 
 Please note, that these criteria extend the [Plugin Approval Criteria](https://plugins.jetbrains.com/legal/approval-guidelines) but aren't obligatory. However, you may still be asked to improve some aspects of your plugin according to these criteria when you upload a new plugin to the Marketplace.
 
@@ -40,22 +40,22 @@ Some of the elements on the plugin page are extracted from the [Plugin Configura
 The description and change notes can contain most HTML tags.
 
 ### Plugin Name
-* The name doesn't start with the letter "A" or the dot sign if it is not needed (e.g. "Code Enhancer" instead of "A Code Enhancer");
-* The name is written in the Latin symbols. It may as well contain numbers and some general special symbols if needed (e.g. dot, a hyphen, parentheses);
+* The name shouldn't start with the letter "A" or the dot sign if it is not needed (e.g. "Code Enhancer" instead of "A Code Enhancer");
+* The name should be written in the Latin symbols. It may as well contain numbers and some general special symbols if needed (e.g. dot, a hyphen, parentheses);
 * A short memorable name is better than a long generic one;
 * Don't overuse meaningless words (e.g. "Plain Text Support" is better than "Free Plain Text Support Plus Platinum Maximum Edition").
 
 ### Plugin Logo
 You can find the instruction on how to change the plugin logo [here](https://jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_icon_file.html).
-* The logo is different from the [default logo](https://github.com/JetBrains/intellij-platform-plugin-template/blob/master/src/main/resources/META-INF/pluginIcon.svg) of the IntelliJ Platform Plugin Template;
+* The logo should be different from the [default logo](https://github.com/JetBrains/intellij-platform-plugin-template/blob/master/src/main/resources/META-INF/pluginIcon.svg) of the IntelliJ Platform Plugin Template;
 * If the logo contains text it should be readable;
 * A simple recognizable image is better than an overcomplicated one.
 
 ### Plugin Screenshots
-* The screenshots are of a high-quality;
+* The screenshots should be of a high-quality;
 * They shouldn't contain device images (e.g. a photo of your screen) or small text that will be illegible;
 * They should help to understand the functionality of your plugin;
-* None of the plugin screenshots contain advertising or content unrelated to the plugin functionality;
+* None of the plugin screenshots should contain advertising or content unrelated to the plugin functionality;
 * The screenshots shouldn't represent your plugin in a misleading way;
 * Please consider uploading the screenshots to the Marketplace instead of adding links to external resources to the plugin description;
 * Color scheme and Theme plugins should have screenshots to represent the visual style they provide.
