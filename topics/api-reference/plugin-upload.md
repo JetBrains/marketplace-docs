@@ -2,9 +2,7 @@
 
 Please note that the maximum allowed plugin size is *200 MB*.
 
-You should create a [**hubPermanentToken**](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) at [JetBrains Hub](https://hub.jetbrains.com/users/me?tab=authentification) and specify Marketplace in Scope.
-
-![Hub Token](hub_token.png)
+You should create a `permanentToken` in [My Tokens](https://plugins.jetbrains.com/author/me/tokens) tab within your Marketplace profile dashboard.
 
 Other parameters:
 
@@ -21,7 +19,7 @@ Other parameters:
 Provide file as file contents. Curl command template:
 
 ```Shell
-curl -i --header "Authorization: Bearer <hubPermanentToken>" -F pluginId=<pluginId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
+curl -i --header "Authorization: Bearer <permanentToken>" -F pluginId=<pluginId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
 Curl command example:
@@ -35,7 +33,7 @@ curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F pluginId=5047
 Provide file as file contents. Curl command template:
 
 ```Shell
-curl -i --header "Authorization: Bearer <hubPermanentToken>" -F xmlId=<pluginXmlId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
+curl -i --header "Authorization: Bearer <permanentToken>" -F xmlId=<pluginXmlId> -F file=@<path to plugin .jar/.zip file> -F channel=<channel> https://plugins.jetbrains.com/plugin/uploadPlugin
 ```
 
 Curl command example:
@@ -47,13 +45,11 @@ curl -i --header "Authorization: Bearer perm:qwertyasdfghzxcvb" -F xmlId=ro.rede
 ## .NET
 
 You can upload the plugins for .NET using `push` command of the *NuGet CLI*.
- 
-You should use the [hubPermanentToken](https://www.jetbrains.com/help/hub/Manage-Permanent-Tokens.html) for it with Plugin Repository in Scope as shown above. 
 
 Push command template:
 
 ```Shell
-nuget push <path to plugin .nupkg file> <hubPermanentToken> -Source https://plugins.jetbrains.com/
+nuget push <path to plugin .nupkg file> <permanentToken> -Source https://plugins.jetbrains.com/
 ```
 
 Push command example:
