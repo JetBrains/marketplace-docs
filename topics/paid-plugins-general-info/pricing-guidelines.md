@@ -5,7 +5,7 @@ There is no silver bullet in regard to setting a price for your plugin. Pricing 
 * [Pricing Perception Highlights](pricing-perception-highlights.md)
 * [Software Pricing Strategies](software-pricing-strategies.md)
     * [Cost-Plus Pricing](cost-plus-pricing.md)
-    * [Competitor-Based Pricing](competitor-baced-pricing.md)
+    * [Competitor-Based Pricing](competitor-based-pricing.md)
     * [Value-Based Pricing](value-based-pricing.md)
     * [Extra Metrics to Monitor](extra-metrics.md)
     * [Pricing as a Constant Process](pricing-constant-process.md)
