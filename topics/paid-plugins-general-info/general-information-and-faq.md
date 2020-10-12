@@ -42,7 +42,7 @@ In this section:
 
 * [Technical implementation of the marketplace in the product](technical-implementation.md)
 
-* [Pricing Guidelines](pricing-guidelines/pricing-guidelines.md)
+* [Pricing Guidelines](pricing-guidelines.md)
 
 * [Moving to the marketplace from other licensing/billing solutions](moving-to-marketplace.md)
 
