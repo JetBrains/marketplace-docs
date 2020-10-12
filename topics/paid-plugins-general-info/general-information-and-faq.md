@@ -42,6 +42,8 @@ In this section:
 
 * [Technical implementation of the marketplace in the product](technical-implementation.md)
 
+* [Pricing Guidelines](pricing-guidelines/pricing-guidelines.md)
+
 * [Moving to the marketplace from other licensing/billing solutions](moving-to-marketplace.md)
 
 * [What product versions are supported?](product-versions-support.md)

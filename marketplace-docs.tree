@@ -47,6 +47,16 @@
             <toc-element id="other-ides-support.md"/>
             <toc-element id="license-server.md"/>
             <toc-element id="technical-implementation.md"/>
+            <toc-element id="pricing-guidelines.md">
+                <toc-element id="pricing_perception_highlights.md"/>
+                <toc-element id="software-pricing-strategies.md">
+                    <toc-element id="cost-plus-pricing.md"/>
+                    <toc-element id="competitor-baced-pricing.md"/>
+                    <toc-element id="value-based-pricing.md"/>
+                    <toc-element id="extra-metrics.md"/>
+                    <toc-element id="pricing-constant-process.md"/>
+                </toc-element>
+            </toc-element>
             <toc-element id="identify-user-of-paid-plugin.md"/>
             <toc-element id="moving-to-marketplace.md"/>
             <toc-element id="product-versions-support.md"/>
