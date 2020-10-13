@@ -4,7 +4,7 @@ Competitor-Based Pricing is a method that utilizes competitor prices as a benchm
 
 | **Pros** | **Cons** |
 | -------- | -------- |
-| Simple, ease to use | Lack of your own pricing strategy that would take into consideration the peculiarities of your business |
+| Simple, easy to use | Lack of your own pricing strategy that would take into consideration the peculiarities of your business |
 | It might be close to what the market can reasonably sustain | There is a risk of price wars (especially when supply exceeds demand)|
 
 To estimate the competitor-based price, consider the following questions:

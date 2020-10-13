@@ -1,4 +1,4 @@
-[//]: # (title: Technical implementation of the marketplace in the product)
+[//]: # (title: Pricing Guidelines)
 
 There is no silver bullet in regard to setting a price for your plugin. Pricing depends on a variety of factors such as development costs, competition, regional specifics, and so on. Therefore, the topic remains a tricky one.
 
