@@ -1,4 +1,4 @@
-[//]: # (title:Cost-Plus Pricing)
+[//]: # (title: Cost-Plus Pricing)
 
 Cost-Plus pricing is a pricing method in which the selling price is set by evaluating all variable costs a company / developer incurs, and then adding a markup percentage to establish the price.
 

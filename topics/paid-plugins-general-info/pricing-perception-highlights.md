@@ -1,4 +1,4 @@
-[//]: # (title:Pricing Perception Highlights)
+[//]: # (title: Pricing Perception Highlights)
 
 Consumer psychology influences how companies set their prices. Below are some behavioral insights that are worth considering while pricing a product or service:
 

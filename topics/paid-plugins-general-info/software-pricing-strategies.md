@@ -1,4 +1,4 @@
-[//]: # (title:Software Pricing Strategies)
+[//]: # (title: Software Pricing Strategies)
 
 Software pricing is a complex and tricky topic. The price of a software product depends on a variety of factors such as development costs, competition, regional specifics, and others. There are 3 major pricing strategies that can be used to estimate your plugin price. It is recommended to consider all 3 approaches:
 

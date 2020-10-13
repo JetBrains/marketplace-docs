@@ -1,4 +1,4 @@
-[//]: # (title:Value-Based Pricing)
+[//]: # (title: Value-Based Pricing)
 
 The goal of value-based pricing is to figure out how much your potential customers are willing to pay for a product / plugin.
 

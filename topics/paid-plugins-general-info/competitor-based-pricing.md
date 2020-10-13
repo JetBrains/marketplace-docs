@@ -1,4 +1,4 @@
-[//]: # (title:Competitor-Based Pricing)
+[//]: # (title: Competitor-Based Pricing)
 
 Competitor-Based Pricing is a method that utilizes competitor prices as a benchmark. You can use competitor-based pricing to adjust the cost-based price. Basically, you should look at the prices of similar products / plugins to decide your own price point.
 
