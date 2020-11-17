@@ -281,10 +281,6 @@ import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
 
-/**
- * @author Eugene Zhuravlev
- * Date: 17-Sep-18
- */
 public class DemoAction extends AnAction {
 
   private static final String TITLE = "JB Marketplace Demo";
