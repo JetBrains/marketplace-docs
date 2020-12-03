@@ -12,7 +12,7 @@ Please note that these criteria extend the [Plugin Approval Criteria](https://pl
 
 Here you can find a few general advice regarding the overall expected user experience with the plugin.
 
-* Please follow the [IntelliJ Platform UI Guidelines](https://jetbrains.github.io/ui/);
+* Please follow the [IntelliJ Platform UI Guidelines](https://jetbrains.design/intellij/);
 * If the plugin adds menu items, toolbars, or other UI elements with text, please make sure that it is written in English;
 * Keyboard shortcuts can enhance the experience by helping users to stay more productive. If you decided to add a shortcut, please ensure that there are no conflicts with the default shortcuts of the target IDEs (see [Action System](https://jetbrains.org/intellij/sdk/docs/basics/action_system.html) to find instructions on how to add shortcuts, menu items, and other UI elements);
 * None of the notifications shown by plugin should contain advertising or content unrelated to the plugin functionality unless the user has explicitly opted in (for more information see [Notifications](https://jetbrains.org/intellij/sdk/docs/user_interface_components/notifications.html));
@@ -48,6 +48,7 @@ The description and change notes can contain most HTML tags.
 ### Plugin Logo
 You can find the instruction on how to change the plugin logo [here](https://jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_icon_file.html).
 * The logo should be different from the [default logo](https://github.com/JetBrains/intellij-platform-plugin-template/blob/master/src/main/resources/META-INF/pluginIcon.svg) of the IntelliJ Platform Plugin Template;
+* The logo should not resemble any of the JetBrains products' logos.
 * If the logo contains text it should be readable;
 * A simple, recognizable image is better than an overcomplicated one.
 
