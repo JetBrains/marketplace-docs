@@ -24,6 +24,8 @@ This section covers:
 
 * [Notes on information change](notes-on-information-change.md)
 
+* [Notes on adding free functionality](free-functionality.md)
+
 * [Marketplace Demo Plugin](marketplace-demo-plugin.md)
 
 * [Marketplace Video Demo](marketplace-video-demo.md)
