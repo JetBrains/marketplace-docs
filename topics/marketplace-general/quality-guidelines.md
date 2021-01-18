@@ -15,7 +15,7 @@ Here you can find a few general advice regarding the overall expected user exper
 * Please follow the [IntelliJ Platform UI Guidelines](https://jetbrains.design/intellij/);
 * If the plugin adds menu items, toolbars, or other UI elements with text, please make sure that it is written in English;
 * Keyboard shortcuts can enhance the experience by helping users to stay more productive. If you decided to add a shortcut, please ensure that there are no conflicts with the default shortcuts of the target IDEs (see [Action System](https://plugins.jetbrains.com/docs/intellij/basic-action-system.html) to find instructions on how to add shortcuts, menu items, and other UI elements);
-* None of the notifications shown by plugin should contain advertising or content unrelated to the plugin functionality unless the user has explicitly opted in (for more information see [Notifications](https://plugins.jetbrains.com/docs/intellij/notifications.html?from=jetbrains.org));
+* None of the notifications shown by plugin should contain advertising or content unrelated to the plugin functionality unless the user has explicitly opted in (for more information see [Notifications](https://plugins.jetbrains.com/docs/intellij/notifications.html));
 * Graphics, icons, images, or other UI elements displayed by plugin should not be distorted (see [Working with Icons and Images](https://plugins.jetbrains.com/docs/intellij/work-with-icons-and-images.html));
 * Make sure that none of the UI elements with text have cut-off letters or words;
 * The plugin should not redefine any normal functions of the IDE misleadingly or confusingly.

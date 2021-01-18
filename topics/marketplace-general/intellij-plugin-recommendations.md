@@ -55,7 +55,7 @@ Refer to [Facet](https://plugins.jetbrains.com/docs/intellij/facet.html) for add
 
 If you want IDEs to show a prompt that your plugin can support creating specific Module Types, you should extend [ModuleType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/openapi/module/ModuleType.java) and pass the `id` parameter for your Module Type to its constructor. The `feature extractor` will evaluate the values of `id`.
 
-See [Module](https://plugins.jetbrains.com/docs/intellij/module.html) and [Supporting Module Types](https://www.jetbrains.org/intellij/sdk/docs/tutorials/project_wizard/module_types.html) for more information about supporting Module Types.
+See [Module](https://plugins.jetbrains.com/docs/intellij/module.html) and [Supporting Module Types](https://plugins.jetbrains.com/docs/intellij/module-types.html) for more information about supporting Module Types.
 
 ## Artifact Type
 
