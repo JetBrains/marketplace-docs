@@ -4,7 +4,7 @@ JetBrains Marketplace for paid plugins is the next generation of the [Plugins Re
 
 This documentation describes all the business and technical information about the marketplace focusing on the paid plugins.
 
-You can find more information about the plugin development and plugin repository in general in [IntelliJ Platform SDK Documentation](https://www.jetbrains.org/intellij/sdk/docs/).
+You can find more information about the plugin development and plugin repository in general in [IntelliJ Platform SDK Documentation](https://plugins.jetbrains.com/docs/intellij/).
 
 Should you have any questions about the project, feel free to reach out to [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
 

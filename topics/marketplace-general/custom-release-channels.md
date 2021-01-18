@@ -2,7 +2,7 @@
 
 ## Uploading a Plugin Update to the Custom Release Channel
 
-You may deploy plugins to a specific channel of your choosing via the plugin repository web interface, [Gradle plugin](http://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/deployment.html) or the [API](plugin-upload.md).
+You may deploy plugins to a specific channel of your choosing via the plugin repository web interface, [Gradle plugin](https://plugins.jetbrains.com/docs/intellij/deployment.html) or the [API](plugin-upload.md).
 
 When empty, this will use the default plugin repository channel (*Stable*), available to all JetBrains plugin repository users, however, you can publish to an arbitrarily-named channel.
 

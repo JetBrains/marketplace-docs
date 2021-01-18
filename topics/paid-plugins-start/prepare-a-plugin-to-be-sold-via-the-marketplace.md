@@ -1,6 +1,6 @@
 [//]: # (title: 3. Prepare a plugin to be sold via the marketplace [plugin.xml parameters])
 
-Every plugin sold via JetBrains Marketplace must define [additional parameters in the plugin descriptor (plugin.xml)](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_configuration_file.html) in the `<product-descriptor>` tag, such as:
+Every plugin sold via JetBrains Marketplace must define [additional parameters in the plugin descriptor (plugin.xml)](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html) in the `<product-descriptor>` tag, such as:
 
 1. `code` - a Plugin Product Code obtained from JetBrains on the previous step (type: `varchar`, 15 characters max.)
 

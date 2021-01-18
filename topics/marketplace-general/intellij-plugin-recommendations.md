@@ -18,7 +18,7 @@ If you cannot find your plugin in [the list of features](https://plugins.jetbrai
 
 ## File Type
 
-A plugin can [support specific file types](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/custom_language_support/registering_file_type.html). When there is a file with a specific extension, pattern or name open in an IDE, a hint will be shown to users prompting them to install your plugin.
+A plugin can [support specific file types](https://plugins.jetbrains.com/docs/intellij/registering-file-type.html). When there is a file with a specific extension, pattern or name open in an IDE, a hint will be shown to users prompting them to install your plugin.
 
 Both variants are supported by the `feature extractor`:
 * Extend [FileTypeFactory](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/platform-api/src/com/intellij/openapi/fileTypes/FileTypeFactory.java) and feed supported file extensions/exact file name matches in `createFileTypes(FileTypeConsumer)`, values of `FileTypeConsumer` are analyzed.
@@ -29,7 +29,7 @@ A suggestion to install plugins which support the _\*.d_ Extension Type:
 
 ![File Extensions Type of Feature](feature_extractor_extensions.png)
 
-Refer to [Registering a File Type](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/custom_language_support/registering_file_type.html) to provide this feature in a plugin.
+Refer to [Registering a File Type](https://plugins.jetbrains.com/docs/intellij/registering-file-type.html) to provide this feature in a plugin.
 
 ## Run Configuration Type
 
@@ -39,7 +39,7 @@ A suggestion to install plugins that support the *Run D App* Configuration Type:
 
 ![Configuration Type of Feature](feature_extractor_configuration.png)
 
-Refer to [Run Configurations](https://www.jetbrains.org/intellij/sdk/docs/basics/run_configurations.html) to get more information about how to declare this feature in your plugin.
+Refer to [Run Configurations](https://plugins.jetbrains.com/docs/intellij/run-configurations.html) to get more information about how to declare this feature in your plugin.
 
 ## Facet Type
 
@@ -49,13 +49,13 @@ A notification to install plugins that support the *jangaroo* Facet Type:
 
 ![Facet Type of Feature](feature_extractor_facet.png)
 
-Refer to [Facet](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/project_model/facet.html) for additional information.
+Refer to [Facet](https://plugins.jetbrains.com/docs/intellij/facet.html) for additional information.
 
 ## Module Type
 
 If you want IDEs to show a prompt that your plugin can support creating specific Module Types, you should extend [ModuleType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/openapi/module/ModuleType.java) and pass the `id` parameter for your Module Type to its constructor. The `feature extractor` will evaluate the values of `id`.
 
-See [Module](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/project_model/module.html) and [Supporting Module Types](https://www.jetbrains.org/intellij/sdk/docs/tutorials/project_wizard/module_types.html) for more information about supporting Module Types.
+See [Module](https://plugins.jetbrains.com/docs/intellij/module.html) and [Supporting Module Types](https://www.jetbrains.org/intellij/sdk/docs/tutorials/project_wizard/module_types.html) for more information about supporting Module Types.
 
 ## Artifact Type
 

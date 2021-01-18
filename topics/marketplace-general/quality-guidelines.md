@@ -14,9 +14,9 @@ Here you can find a few general advice regarding the overall expected user exper
 
 * Please follow the [IntelliJ Platform UI Guidelines](https://jetbrains.design/intellij/);
 * If the plugin adds menu items, toolbars, or other UI elements with text, please make sure that it is written in English;
-* Keyboard shortcuts can enhance the experience by helping users to stay more productive. If you decided to add a shortcut, please ensure that there are no conflicts with the default shortcuts of the target IDEs (see [Action System](https://jetbrains.org/intellij/sdk/docs/basics/action_system.html) to find instructions on how to add shortcuts, menu items, and other UI elements);
-* None of the notifications shown by plugin should contain advertising or content unrelated to the plugin functionality unless the user has explicitly opted in (for more information see [Notifications](https://jetbrains.org/intellij/sdk/docs/user_interface_components/notifications.html));
-* Graphics, icons, images, or other UI elements displayed by plugin should not be distorted (see [Working with Icons and Images](https://jetbrains.org/intellij/sdk/docs/reference_guide/work_with_icons_and_images.html));
+* Keyboard shortcuts can enhance the experience by helping users to stay more productive. If you decided to add a shortcut, please ensure that there are no conflicts with the default shortcuts of the target IDEs (see [Action System](https://plugins.jetbrains.com/docs/intellij/basic-action-system.html) to find instructions on how to add shortcuts, menu items, and other UI elements);
+* None of the notifications shown by plugin should contain advertising or content unrelated to the plugin functionality unless the user has explicitly opted in (for more information see [Notifications](https://plugins.jetbrains.com/docs/intellij/notifications.html?from=jetbrains.org));
+* Graphics, icons, images, or other UI elements displayed by plugin should not be distorted (see [Working with Icons and Images](https://plugins.jetbrains.com/docs/intellij/work-with-icons-and-images.html));
 * Make sure that none of the UI elements with text have cut-off letters or words;
 * The plugin should not redefine any normal functions of the IDE misleadingly or confusingly.
 
@@ -31,7 +31,7 @@ If you want your plugin not to be generally available (e.g., it is an alpha/beta
 ## Marketplace Plugin Page
 
 The plugin page is the main page of your plugin on the JetBrains Marketplace. A page of high quality is key to a more significant number of downloads. 
-Some of the elements on the plugin page are extracted from the [Plugin Configuration File — plugin.xml](https://jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_configuration_file.html) and cannot be changed without uploading a new plugin version:
+Some of the elements on the plugin page are extracted from the [Plugin Configuration File — plugin.xml](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html) and cannot be changed without uploading a new plugin version:
 * Plugin URL (`<idea-plugin url="">`);
 * Name (`<name>`);
 * Description (`<description>`);
@@ -46,7 +46,7 @@ The description and change notes can contain most HTML tags.
 * Don't overuse meaningless words (e.g., "Plain Text Support" is better than "Free Plain Text Support Plus Platinum Maximum Edition").
 
 ### Plugin Logo
-You can find the instruction on how to change the plugin logo [here](https://jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_icon_file.html).
+You can find the instruction on how to change the plugin logo [here](https://plugins.jetbrains.com/docs/intellij/plugin-icon-file.html).
 * The logo should be different from the [default logo](https://github.com/JetBrains/intellij-platform-plugin-template/blob/master/src/main/resources/META-INF/pluginIcon.svg) of the IntelliJ Platform Plugin Template;
 * The logo should not resemble any of the JetBrains products' logos.
 * If the logo contains text it should be readable;
