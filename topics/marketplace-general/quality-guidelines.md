@@ -47,7 +47,7 @@ The description and change notes can contain most HTML tags.
 
 ### Plugin Logo
 You can find the instruction on how to change the plugin logo [here](https://plugins.jetbrains.com/docs/intellij/plugin-icon-file.html).
-* The logo should be different from the [default logo](https://github.com/JetBrains/intellij-platform-plugin-template/blob/master/src/main/resources/META-INF/pluginIcon.svg) of the IntelliJ Platform Plugin Template;
+* The logo should be different from the [default logo](https://github.com/JetBrains/intellij-platform-plugin-template/blob/main/src/main/resources/META-INF/pluginIcon.svg) of the IntelliJ Platform Plugin Template;
 * The logo should not resemble any of the JetBrains products' logos.
 * If the logo contains text it should be readable;
 * A simple, recognizable image is better than an overcomplicated one.
