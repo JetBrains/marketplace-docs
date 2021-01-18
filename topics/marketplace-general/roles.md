@@ -5,11 +5,13 @@ The roles provided in order from less permissive. Each next role has all the per
 
 ### Non-registered user
 A user who is not logged in with the [JetBrains Hub](https://hub.jetbrains.com/) account.
+
 **Permissions**
 * Read-only access to the Marketplace catalog (can see plugins pages, download available plugin versions)
 
 ### Registered user
 A user who is logged in with the JetBrains Hub account.
+
 **Permissions**
 * Upload new plugins
 * Write reviews/comments
@@ -18,6 +20,7 @@ A user who is logged in with the JetBrains Hub account.
 
 ### Plugin Author
 A user who is added as a Developer to at least one plugin.
+
 **Permissions**
 * Publish updates for their plugins
 * Add new authors to their plugins
@@ -31,6 +34,7 @@ A user who is added as a Developer to at least one plugin.
 
 ### Organization administrator
 Global administrator in the scope of an organization.
+
 **Permissions**
 * Manage organization details
 * Manage organization staff
@@ -50,5 +54,6 @@ This role is needed for specific JetBrains team members to provide an ability to
 
 ### Marketplace administrator
 The role with global rights for members of the JetBrains Marketplace team.
+
 **Permissions**
 * All
