@@ -4,7 +4,7 @@ Plugin developers / vendors are paid following the rules defined in the [Develop
 
 * Up to 30 days after the end-of-the-month (so that all credit cards/etc. settlement periods pass before the payment.)
 
-* Paid to the bank account (unless agreed otherwise e.g., PayPal.)
+* Paid to the bank account.
 
 * Paid only when it's more than 200$ to limit the number of transactions, paid on 31st December of every year even if it's less than 200$.
 
