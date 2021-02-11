@@ -20,8 +20,6 @@ The whole product part is already available since the 2018.2 release of IntelliJ
 
 The support for Community Edition (and other free and open-source editions) of IntelliJ IDEA-based IDEs, as well as all IDEs built on top of open-source IntelliJ Platform, has been launched at the beginning of 2020. It might still take some time until the relevant changes arrive to third-party IDEs (depends on their release cycle), e.g., Android Studio will support paid Marketplace plugins after Android Studio 4.0 is released.
 
-Licensing mechanism is delivered to the IDE as a special plugin, and your paid plugin should depend on this plugin to function in Community and other Community Edition-based IDEs.
-
 ## What should be supported on the plugin side?
 
 First of all, a plugin has to identify itself as a paid marketplace plugin in the `plugin.xml` providing `productCode,` `release-date,` and `release-version` attributes (you can read more about them in [a dedicated article](prepare-a-plugin-to-be-sold-via-the-marketplace.md).)
