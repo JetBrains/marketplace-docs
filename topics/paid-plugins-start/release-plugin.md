@@ -17,7 +17,7 @@ After all the testing is done, you are ready to start sales of the plugin on the
 1. When the previous steps are completed, you will see the `Add to Marketplace` button on the Sales Info tab. 
    If the plugin is ready to release, press this button and submit the `Add Plugin to Marketplace` form.
 
-   ![Vendor Information](vendor_form.png)
+   ![Add To Marketplace](add_to_marketplace.png)
 
    Please be careful when filling out this form. If some fields are needed to be changed after submitting, please
    write to the Marketplace Team via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
