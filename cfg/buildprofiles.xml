@@ -34,6 +34,7 @@
         <config-webmaster>marketplace@jetbrains.com</config-webmaster>
         <config-sideblocks>true</config-sideblocks>
         <config-search-scopes-provider>https://www.jetbrains.com/search/json/</config-search-scopes-provider>
+        <product-web-url>https://plugins.jetbrains.com</product-web-url>
     </variables>
     <layout name="New Web help" mode="web2">
         <style>s.css</style>
