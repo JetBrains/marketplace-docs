@@ -1,4 +1,4 @@
-[//]: # (title: Special Offers and Coupons)
+[//]: # (title: Special Coupons from Plugin Developers)
 
 Authors of paid plugins can create custom offers for their customers.
 
