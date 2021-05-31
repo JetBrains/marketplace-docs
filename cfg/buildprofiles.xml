@@ -30,7 +30,7 @@
         <config-feedback-enabled>true</config-feedback-enabled>
         <config-feedback-widget>true</config-feedback-widget>
         <config-feedback-support>mailto:marketplace@jetbrains.com</config-feedback-support>
-        <config-feedback-url>https://support.jetbrains.com</config-feedback-url>
+        <config-feedback-url>https://data.services.jetbrains.com/feedback</config-feedback-url>
         <config-webmaster>marketplace@jetbrains.com</config-webmaster>
         <config-sideblocks>true</config-sideblocks>
         <config-search-scopes-provider>https://www.jetbrains.com/search/json/</config-search-scopes-provider>
