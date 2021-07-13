@@ -1,13 +1,43 @@
-[//]: # (title: How do I provide feedback?)
+[//]: # (title: Getting Help and Providing Feedback)
 
-We are looking forward to hearing back from you about our Marketplace project! We would be very glad to discuss terms and conditions of the Marketplace, as well as the technical solution.
+Feel free to reach out to us with questions and comments about Marketplace features, terms and conditions, and technical solutions. 
+We are looking forward to hearing from you!
 
-We've set up a couple of channels to gather feedback on the Marketplace:
+## Getting Help with JetBrains Marketplace
 
-* Create a new topic in the [Marketplace Paid Plugins](https://intellij-support.jetbrains.com/hc/en-us/community/topics/115000009284-Marketplace-Paid-Plugins) community forums, and they will be handled by the Marketplace Team.
+**Use the JetBrains Platform Slack:** Post your questions to the 
+  [#marketplace](https://jetbrains-platform.slack.com/messages/C5U6ZNG20) channel. Keep in mind that it’s not an official 
+  support channel, but a community of plugin developers and JetBrains employees.
 
-* Send an email to [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
+**Community forum:** Check out topics in the 
+  [Marketplace Paid Plugins](https://intellij-support.jetbrains.com/hc/en-us/community/topics/115000009284-Marketplace-Paid-Plugins) 
+  or create a new one, and it will be handled by community members or the Marketplace Team.
+  
+**Issue Tracker:** To report a bug or request a feature, submit a new issue to the 
+  [Marketplace YouTrack](https://youtrack.jetbrains.com/newIssue?project=MP) with the corresponding type.
 
-* For legal documents: please review them on Google Docs (links shared in the [relevant article](legal-agreements.md)) and leave your comments and suggestions there (or in DOCX/PDF files and share them with us.)
+**Submit your request via email:** [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
 
-* Feel free to reach out to us with questions and comments at any time!
+**Marketplace documentation feedback:** If you are having trouble with the guide itself, such as missing, incorrect, 
+  or confusing content, please raise an issue in the [Marketplace YouTrack](https://youtrack.jetbrains.com/newIssue?project=MP&c=Type%20Task&c=Subsystem%20Docs). 
+  If you want to report an issue for a specific page, use the “Was this page helpful” feedback form at the bottom of each 
+  documentation page. To add feedback, click **No**, and the form will appear. Please try to be as specific as possible 
+  and provide your email address in order to be notified about updates.
+
+**Plugin Ideas:** Explore the JetBrains Marketplace section with [ideas for future plugins](https://plugins.jetbrains.com/plugin-ideas). 
+  Pick a community-driven idea to implement or create your own.
+  
+## Learn and communicate
+* Explore plugin development documentation:
+  * [IntelliJ Platform SDK](https://plugins.jetbrains.com/docs/intellij/welcome.html)
+  * [ReSharper DevGuide](https://www.jetbrains.com/help/resharper/sdk/README.html)
+  * [TeamCity Plugin Development](https://plugins.jetbrains.com/docs/teamcity/)
+  * [Developer Portal for YouTrack and Hub](https://www.jetbrains.com/help/youtrack/devportal/building-custom-widgets.html)
+  
+* Watch the Busy Plugin Developers webinar series:
+  * [Episode 0](https://www.youtube.com/watch?v=-6D5-xEaYig)
+  * [Episode 1](https://www.youtube.com/watch?v=vAlor5-hC0Q)
+  
+* Follow JetBrains Platform on Twitter: [@JBPlatform](https://twitter.com/jbplatform)
+* Subscribe to the [JetBrains Platform Blog](https://blog.jetbrains.com/platform/)
+* Join the [JetBrains Platform Slack](https://join.slack.com/t/jetbrains-platform/shared_invite/zt-efmgbnth-Yc3wLMR2_kagrmh9bOmCSA)
