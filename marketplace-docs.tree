@@ -15,6 +15,7 @@
         <toc-element id="plugins-ranking.md"/>
         <toc-element id="plugins-rating.md"/>
         <toc-element id="organizations.md"/>
+            <toc-element id="reserved-plugin-ids.md"/>
         <toc-element id="custom-pages.md"/>
         <toc-element id="product-versions-in-use-statistics.md"/>
         <toc-element id="unique-downloads.md"/>
