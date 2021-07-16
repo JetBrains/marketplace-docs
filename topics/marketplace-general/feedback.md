@@ -5,15 +5,15 @@ We are looking forward to hearing from you!
 
 ## Getting Help with JetBrains Marketplace
 
-**Use the JetBrains Platform Slack:** Post your questions to the 
+![Slack](slack.svg){width=25}{type="joined"} **Use the JetBrains Platform Slack:** Post your questions to the 
   [#marketplace](https://jetbrains-platform.slack.com/messages/C5U6ZNG20) channel. Keep in mind that it’s not an official 
   support channel, but a community of plugin developers and JetBrains employees.
 
-**Community forum:** Check out topics in the 
+![Forum](forum.svg){width=25}{type="joined"} **Community forum:** Check out topics in the 
   [Marketplace Paid Plugins](https://intellij-support.jetbrains.com/hc/en-us/community/topics/115000009284-Marketplace-Paid-Plugins) 
   or create a new one, and it will be handled by community members or the Marketplace Team.
-  
-**Issue Tracker:** To report a bug or request a feature, submit a new issue to the 
+
+![YouTrack](youtrack.svg){width=25}{type="joined"} **Issue Tracker:** To report a bug or request a feature, submit a new issue to the 
   [Marketplace YouTrack](https://youtrack.jetbrains.com/newIssue?project=MP) with the corresponding type.
 
 **Submit your request via email:** [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
@@ -23,9 +23,6 @@ We are looking forward to hearing from you!
   If you want to report an issue for a specific page, use the “Was this page helpful” feedback form at the bottom of each 
   documentation page. To add feedback, click **No**, and the form will appear. Please try to be as specific as possible 
   and provide your email address in order to be notified about updates.
-
-**Plugin Ideas:** Explore the JetBrains Marketplace section with [ideas for future plugins](https://plugins.jetbrains.com/plugin-ideas). 
-  Pick a community-driven idea to implement or create your own.
   
 ## Learn and communicate
 * Explore plugin development documentation:
@@ -33,11 +30,13 @@ We are looking forward to hearing from you!
   * [ReSharper DevGuide](https://www.jetbrains.com/help/resharper/sdk/README.html)
   * [TeamCity Plugin Development](https://plugins.jetbrains.com/docs/teamcity/)
   * [Developer Portal for YouTrack and Hub](https://www.jetbrains.com/help/youtrack/devportal/building-custom-widgets.html)
+
+* Explore the JetBrains Marketplace section with [ideas for future plugins](https://plugins.jetbrains.com/plugin-ideas). 
+  Pick a community-driven idea to implement or create your own.
   
-* Watch the Busy Plugin Developers webinar series:
+* Watch the Busy Plugin Developers webinar series on ![YouTube](youtube.svg){width=25}{type="joined"} YouTube:
   * [Episode 0](https://www.youtube.com/watch?v=-6D5-xEaYig)
   * [Episode 1](https://www.youtube.com/watch?v=vAlor5-hC0Q)
-  
-* Follow JetBrains Platform on Twitter: [@JBPlatform](https://twitter.com/jbplatform)
-* Subscribe to the [JetBrains Platform Blog](https://blog.jetbrains.com/platform/)
-* Join the [JetBrains Platform Slack](https://join.slack.com/t/jetbrains-platform/shared_invite/zt-efmgbnth-Yc3wLMR2_kagrmh9bOmCSA)
+* Follow JetBrains Platform on ![Twitter](twitter.svg){width=25}{type="joined"} Twitter: [@JBPlatform](https://twitter.com/jbplatform)
+* Subscribe to ![Blog](blog.svg){width=25}{type="joined"} the [JetBrains Platform Blog](https://blog.jetbrains.com/platform/)
+* Join ![Slack](slack.svg){width=25}{type="joined"} the [JetBrains Platform Slack](https://join.slack.com/t/jetbrains-platform/shared_invite/zt-efmgbnth-Yc3wLMR2_kagrmh9bOmCSA)

@@ -62,7 +62,6 @@
             <toc-element id="identify-user-of-paid-plugin.md"/>
             <toc-element id="moving-to-marketplace.md"/>
             <toc-element id="product-versions-support.md"/>
-            <toc-element id="feedback.md"/>
             <toc-element id="marketplace-eap.md"/>
         </toc-element>
         <toc-element id="trying-out-the-marketplace.md">
@@ -93,5 +92,6 @@
         <toc-element id="product-codes.md"/>
         <toc-element id="embeddable-content.md"/>
     </toc-element>
+    <toc-element id="feedback.md"/>
 
 </product-profile>
