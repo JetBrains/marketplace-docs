@@ -34,7 +34,7 @@ We are looking forward to hearing from you!
 * Explore the JetBrains Marketplace section with [ideas for future plugins](https://plugins.jetbrains.com/plugin-ideas). 
   Pick a community-driven idea to implement or create your own.
   
-* Watch the Busy Plugin Developers webinar series on ![YouTube](youtube.svg){width=25}{type="joined"} [YouTube](http://localhost:63342/marketplace-docs/preview/marketplace-docs/blog.svg?_ijt=19dh6c01shlr983lc4pfl16qlg)
+* Watch the Busy Plugin Developers webinar series on ![YouTube](youtube.svg){width=25}{type="joined"} [YouTube](https://youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY)
 * Follow JetBrains Platform on ![Twitter](twitter.svg){width=25}{type="joined"} Twitter: [@JBPlatform](https://twitter.com/jbplatform)
 * Subscribe to the ![Blog](blog.svg){width=25}{type="joined"} [JetBrains Platform Blog](https://blog.jetbrains.com/platform/)
 * Join the ![Slack](slack.svg){width=25}{type="joined"} [JetBrains Platform Slack](https://join.slack.com/t/jetbrains-platform/shared_invite/zt-efmgbnth-Yc3wLMR2_kagrmh9bOmCSA)
