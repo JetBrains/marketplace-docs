@@ -16,7 +16,7 @@ We are looking forward to hearing from you!
 ![YouTrack](youtrack.svg){width=25}{type="joined"} **Issue Tracker:** To report a bug or request a feature, submit a new issue to the 
   [Marketplace YouTrack](https://youtrack.jetbrains.com/newIssue?project=MP) with the corresponding type.
 
-**Submit your request via email:** [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
+![Email](email.svg){width=25}{type="joined"} **Submit your request via email:** [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
 
 **Marketplace documentation feedback:** If you are having trouble with the guide itself, such as missing, incorrect, 
   or confusing content, please raise an issue in the [Marketplace YouTrack](https://youtrack.jetbrains.com/newIssue?project=MP&c=Type%20Task&c=Subsystem%20Docs). 
@@ -34,9 +34,7 @@ We are looking forward to hearing from you!
 * Explore the JetBrains Marketplace section with [ideas for future plugins](https://plugins.jetbrains.com/plugin-ideas). 
   Pick a community-driven idea to implement or create your own.
   
-* Watch the Busy Plugin Developers webinar series on ![YouTube](youtube.svg){width=25}{type="joined"} YouTube:
-  * [Episode 0](https://www.youtube.com/watch?v=-6D5-xEaYig)
-  * [Episode 1](https://www.youtube.com/watch?v=vAlor5-hC0Q)
+* Watch the Busy Plugin Developers webinar series on ![YouTube](youtube.svg){width=25}{type="joined"} [YouTube](http://localhost:63342/marketplace-docs/preview/marketplace-docs/blog.svg?_ijt=19dh6c01shlr983lc4pfl16qlg)
 * Follow JetBrains Platform on ![Twitter](twitter.svg){width=25}{type="joined"} Twitter: [@JBPlatform](https://twitter.com/jbplatform)
-* Subscribe to ![Blog](blog.svg){width=25}{type="joined"} the [JetBrains Platform Blog](https://blog.jetbrains.com/platform/)
-* Join ![Slack](slack.svg){width=25}{type="joined"} the [JetBrains Platform Slack](https://join.slack.com/t/jetbrains-platform/shared_invite/zt-efmgbnth-Yc3wLMR2_kagrmh9bOmCSA)
+* Subscribe to the ![Blog](blog.svg){width=25}{type="joined"} [JetBrains Platform Blog](https://blog.jetbrains.com/platform/)
+* Join the ![Slack](slack.svg){width=25}{type="joined"} [JetBrains Platform Slack](https://join.slack.com/t/jetbrains-platform/shared_invite/zt-efmgbnth-Yc3wLMR2_kagrmh9bOmCSA)
