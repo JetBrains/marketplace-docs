@@ -1,32 +1,20 @@
-[//]: # (title: 3. Prepare a plugin to be sold via the marketplace [plugin.xml parameters])
+[//]: # (title: Preparing Your Plugin for Publication)
 
-Every plugin sold via JetBrains Marketplace must define [additional parameters in the plugin descriptor (plugin.xml)](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html) in the `<product-descriptor>` tag, such as:
 
-1. `code` - a Plugin Product Code obtained from JetBrains on the previous step (type: `varchar`, 15 characters max.)
+The process of plugin development can be challenging. For more detailed guidance about how to develop plugins successfully, feel free to check out our [IntelliJ Platform Plugin SDK](https://plugins.jetbrains.com/docs/intellij/welcome.html) documentation, which goes deeper into the plugin creation process and covers the basics of working with the IntelliJ Platform.
 
-    It is used to "connect" a particular plugin to a product in JetBrains sales systems.
+If your plugin is technically ready, you can begin working through the steps required to prepare it for publishing:
 
-    Please see [this article](obtain-a-product-code-from-jetbrains.md) for full Product Code requirements.
+1. [Define the required parameters](add-required-parameters.md) in the plugin descriptor (plugin.xml).
 
-1. `release-date` - date of the major version release in a format of `YYYYMMDD` (type: `integer`).
+2. Create an [Organization](organizations.md) and make sure the Organization ID is added to [the plugin descriptor (plugin.xml)](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html).
 
-    It is a crucial parameter as the whole subscription model depends on it - perpetual fallback licenses and licensing term calculation rely on the `release-date`.
+3. Make sure the plugin meets [the approval criteria](https://plugins.jetbrains.com/legal/approval-guidelines).
 
-1. `release-version` - a major version number (type: `integer`).
 
-    It is different from the version of the plugin, as this one is a version number of the major release (i.e., the release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
+<control>Optional steps:</control>
 
-    (please read a [separate article on the versioning of paid plugins](notes-on-the-paid-plugins-versioning.md))
+* [Obfuscate the plugin code](obfuscate-the-plugin.md)
 
-    Example:
-    
-    ```xml
-    <product-descriptor code="PPAIDPLUGIN" release-date="20180918" release-version="20181"/>
-    ```
-    
-    This means that a plugin with a Product Code `PPAIDPLUGIN` had its major version release (`2018.1`) on `September 18th, 2018`. Subsequent minor updates (e.g., `2018.1.1`, `2018.1.2`, `2018.1.x`) should have the same `release-date` and `release-version` before the next major version is released (`2018.2`) so that those users who have got a perpetual fallback license can use an opportunity to get the latest minor update of the major version they have got access to.
-
-    Please note the plugin version with altered `release-version` and `release-date` is considered a new stable version of the plugin, so the current active trial licenses are reset in this case.
- 
-1. `optional` - not required parameter (type: `boolean`). Should be set to `true` if you would like to add the free functionality to your plugin. Please see [this article](free-functionality.md) to find more information. The default value of this parameter is `false`.
+* [Add marketplace license verification calls](add-marketplace-license-verification-calls-to-the-plugin-code.md)
 

@@ -1,5 +1,5 @@
-[//]: # (title: 1. Submit a request to sell plugins at the Marketplace)
+[//]: # (title: Submit a request to sell plugins through JetBrains Marketplace)
 
-The Marketplace was launched on June 26th, 2019, and it is now in the early stage of the operations, that's why the process of setting up a new paid plugin on the Marketplace requires assistance from JetBrains team to test the licensing solution together with the sales system and plugins repository team.
+Please submit a request via the [Apply to Marketplace form](https://plugins.jetbrains.com/build-and-market#form), and our vendor success team will get in touch with you.
 
-Please submit the request via the [Apply to Marketplace form](https://plugins.jetbrains.com/marketplace/) or reach out to us via [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) and we will be happy to assist you.
+The process of setting up a new paid plugin on JetBrains Marketplace is not fully automated and requires assistance from the JetBrains team. If you encounter any issues with submitting the request, feel free to contact us at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com). 

@@ -1,32 +1,15 @@
-[//]: # (title: Trying Out the Marketplace)
+[//]: # (title: Step-by-Step Guide to Putting a Plugin up for Sale)
 
-This part of the Marketplace documentation goes deeper into the details of the marketplace implementation and describes the process of publishing the paid plugin to the Marketplace.
+This section of the Marketplace documentation describes the process of publishing a paid plugin to JetBrains Marketplace.
 
-This section covers:
+Please follow these steps to start selling a new plugin:
 
-* [1. Submit a request to sell plugins at the Marketplace](submit-a-request-to-sell-plugins-at-the-marketplace.md)
+1. <a href="submit-a-request-to-sell-plugins-at-the-marketplace.md">Submit a request</a>
+2. <a href="obtain-a-product-code-from-jetbrains.md">Create a Product Code</a>
+3. <a href="prepare-a-plugin-to-be-sold-via-the-marketplace.md">Prepare your plugin for publication</a>
+4. <a href="release-plugin.md">Release the Plugin</a>
 
-* [2. Obtain a Product Code from JetBrains](obtain-a-product-code-from-jetbrains.md)
 
-* [3. Prepare a plugin to be sold via the marketplace [plugin.xml parameters]](prepare-a-plugin-to-be-sold-via-the-marketplace.md)
+Keep in mind that you can test the plugin on our <a href="main-demo.md">Marketplace Demo</a>  instance before uploading it. You will be able to go through the whole plugin release process and check how purchasing the plugin works. Moreover, you can make sure the plugin functions as intended and play around with plugin updates. If your plugin contains <a href="https://plugins.jetbrains.com/docs/marketplace/free-functionality.html">free functionality</a>, you can test the logic behind licensing checks.
 
-* [4. Add marketplace license verification calls to the plugin code](add-marketplace-license-verification-calls-to-the-plugin-code.md)
-
-* [5. Obfuscate the plugin](obfuscate-the-plugin.md)
-
-* [6. Test the plugin licensing on the demo instance](test-the-plugin-licensing-on-the-demo-instance.md)
-
-* [7. Release the plugin](release-plugin.md)
-
-* [Notes on the paid plugins versioning](notes-on-the-paid-plugins-versioning.md)
-
-* [Notes on pricing](notes-on-pricing.md)
-
-* [Notes on information change](notes-on-information-change.md)
-
-* [Notes on adding free functionality](free-functionality.md)
-
-* [Marketplace Demo Plugin](marketplace-demo-plugin.md)
-
-* [Marketplace Video Demo](marketplace-video-demo.md)
 

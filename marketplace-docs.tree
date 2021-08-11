@@ -68,11 +68,14 @@
         <toc-element id="trying-out-the-marketplace.md">
             <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.md"/>
             <toc-element id="obtain-a-product-code-from-jetbrains.md"/>
-            <toc-element id="prepare-a-plugin-to-be-sold-via-the-marketplace.md"/>
-            <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
-            <toc-element id="obfuscate-the-plugin.md"/>
-            <toc-element id="test-the-plugin-licensing-on-the-demo-instance.md"/>
+            <toc-element id="prepare-a-plugin-to-be-sold-via-the-marketplace.md">
+                <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
+                <toc-element id="obfuscate-the-plugin.md"/>
+                <toc-element id="add-required-parameters.md"/>
+            </toc-element>
             <toc-element id="release-plugin.md"/>
+            <toc-element id="main-demo.md"/>
+            <toc-element id="test-the-plugin-licensing-on-the-demo-instance.md"/>
             <toc-element id="notes-on-the-paid-plugins-versioning.md"/>
             <toc-element id="notes-on-pricing.md"/>
             <toc-element id="notes-on-information-change.md"/>
