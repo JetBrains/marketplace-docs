@@ -16,7 +16,7 @@ The number should contain at least 2 digits, as it will be split into 2 numbers,
 This is different from the [version](notes-on-the-paid-plugins-versioning.md) of the plugin, as this is a version number of the major release (i.e. the release that happened on `release-date`). 
 
 <note>
-<p>Please make sure the `release-version` and the ‘version’ parameters match. They should have similar integers at the beginning, like `release-version=20201`  and `version=2020.1.1.`</p>
+<p>Please make sure the `release-version` and the `version` parameters match. They should have similar integers at the beginning, like `release-version=20201`  and `version=2020.1.1.`</p>
 </note>
 
 Let’s take a look at an example:

@@ -68,7 +68,7 @@ width="460"/>
 
 Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="licensing-schemes.md">Licensing Schemes</a>.
 
-
+//NEED TO REWORK THIS PARAGRAPH 
 If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com). Also note that the release version and release date are set in the `plugin.xml` file. To change these values, reupload the plugin with new values and remove any wrong plugin versions.
 
 5. Once these steps have been performed, we will review your plugin within two business days. You will receive a notification as soon as the status of the review changes or if there are any questions regarding the approval of your plugin.
