@@ -26,7 +26,7 @@ The initial release of a new plugin will be the first major release. That is why
 
  ```xml
     <product-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
-<version>2021.1.0</version>
+<version>2021.1.1</version>
    ```
 
 <note><p>If you’re building the plugin with Gradle, the plugin version is defined in the plugins section of a project's build.gradle file. For more detailed information, please refer <a href="https://plugins.jetbrains.com/docs/intellij/gradle-guide.html#controlling-downloads-by-the-gradle-plugin">here</a>.</p></note>
@@ -37,7 +37,7 @@ Here is an example of a minor update:
 
  ```xml
     <product-descriptor code="PPAIDPLUGIN" release-date="20210818" release-version="20211"/>
-    <version>2021.1.1</version>
+    <version>2021.1.2</version>
 ```
 
 

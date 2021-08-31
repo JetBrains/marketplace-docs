@@ -42,12 +42,12 @@ width="540"/>
 
 <tip>
     <p>
-        If this button is not available, please make sure that you specified the <a href="https://plugins.jetbrains.com/docs/marketplace/organizations.html">Organization ID </a> correctly. Keep in mind that your Organization ID may differ from your Organization Name.
+        If this button is not available, please make sure that you specified the <a href="organizations.md">Organization ID </a> correctly. Keep in mind that your Organization ID may differ from your Organization Name.
     </p>
 </tip>
 
 
-4. Go to the **Sales Info** tab on the Plugin page and select any community discounts you want your plugin to offer.
+4. Go to the **Sales Info** tab on the Plugin page and select any [community discounts](community-programs.md) you want your plugin to offer.
 
 <img src="community_prog.png" alt="Select Community Programs"
    width="460"/>
@@ -59,7 +59,7 @@ width="460"/>
 
 <tip>
     <p>
-        If you don’t see this button, please make sure you specified your banking information under the  <emphasis>Vendor Information</emphasis> tab for your <a href="https://plugins.jetbrains.com/docs/marketplace/organizations.html">Organization</a>.
+        If you don’t see this button, please make sure you specified your banking information under the  <emphasis>Vendor Information</emphasis> tab for your <a href="organizations.md">Organization</a>.
     </p>
 </tip>
 
@@ -68,11 +68,11 @@ width="460"/>
 
 Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="licensing-schemes.md">Licensing Schemes</a>.
 
-//NEED TO REWORK THIS PARAGRAPH 
-If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com). Also note that the release version and release date are set in the `plugin.xml` file. To change these values, reupload the plugin with new values and remove any wrong plugin versions.
+
+If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com). 
+
 
 5. Once these steps have been performed, we will review your plugin within two business days. You will receive a notification as soon as the status of the review changes or if there are any questions regarding the approval of your plugin.
-
 
 Once your plugin is up and running, it’s time to check out our articles about plugin management:
 

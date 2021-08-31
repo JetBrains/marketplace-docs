@@ -4,15 +4,15 @@ Plugin creators need to [define the attributes](add-required-parameters.md) of t
 
 This approach lets us keep the licensing mechanism as a "black box", which ensures higher protection against piracy and also decreases the amount of work to be done on the plugin vendor side.
 
-In the meantime, you could add an additional feature to your plugin that would allow it to verify on its own that a user has a license for this particular plugin (and specific plugin version). We’d like to emphasize that this is an optional step, but it’s one we recommend implementing for the following reasons:
+In the meantime, you could add an additional feature to your plugin that would allow it to verify on its own that a user has a license for this particular plugin (and specific plugin version). We’d like to emphasize that this is an <control>optional step</control>, but it’s one we recommend implementing for the following reasons:
 
 * Even though the IDE checks the plugin license at least once a day, it’s never wrong to increase the security layer against piracy by adding this functionality to your plugin.
 
 <note>
-<p>It’s important to note that having the plugin perform license checks too often may lead to high CPU usage. That is why we recommend sticking to a few checks per day.</p>
+<p>Having the plugin perform license checks too often may lead to high CPU usage. That is why we recommend sticking to a few checks per day.</p>
 </note>
 
-* These verification calls could also be useful for your plugin scheme, for example if you’re developing a free plugin with paid functionality. You can implement logic to notify users who aren't licensed that there is a paid functionality in your plugin, and have this notification appear during the license check.
+* These verification calls could also be useful for your plugin scheme, for example if you’re developing a [free plugin with paid functionality](free-functionality.md). You can implement logic to notify users who aren't licensed that there is a paid functionality in your plugin, and have this notification appear during the license check.
 
 
 To implement license verification on the plugin side, a plugin has to include a standard code provided by JetBrains, which checks that your plugin is licensed.
