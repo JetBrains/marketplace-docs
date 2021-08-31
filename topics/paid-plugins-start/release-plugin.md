@@ -2,7 +2,7 @@
 
 <note>
     <p>
-         Keep in mind that you are able to perform all the tests on our <a href="main-demo.md">Demo</a> instance before publishing your plugin to JetBrains Marketplace.
+         Keep in mind that you are able to perform all the tests on our <a href="marketplace-demo.md">Demo</a> instance before publishing your plugin to JetBrains Marketplace.
     </p>
 </note>
 
