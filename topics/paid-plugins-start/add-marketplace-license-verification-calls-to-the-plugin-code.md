@@ -24,7 +24,7 @@ Here you will find an example [plugin](https://github.com/JetBrains/marketplace-
 
 
 
-You can find the `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check whether the plugin is licensed (in an actual use case, your plugin should not work if the plugin is not licensed.)
+You can find the `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check whether the plugin is licensed.
 
 
 

@@ -63,7 +63,7 @@ Please change the link accordingly where ```{ID}``` = PRODUCT CODE
 
 <emphasis>Payment information on the checkout</emphasis>
 
-At the checkout form, you need to use special test cards/payment information provided to us by Adyen (our payment provider): https://docs.adyen.com/development-resources/test-cards/test-card-numbers/
+At the checkout form, you need to use special test cards/payment information provided to us by Adyen (our payment provider): [https://docs.adyen.com/development-resources/test-cards/test-card-numbers/](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/)
 
 
 <warning> 
@@ -76,15 +76,15 @@ Feel free to check all the emails you as a user might receive: sign up, license 
 
 Due to the sensitivity of the data produced during the testing (such as license keys, order information, etc.), we don’t send out any emails from the Marketplace Demo Sales Systems.
 
-That is why all of the outgoing emails can be viewed at a special URL: https://mp.jpf-demo.aws.intellij.net/emails
+That is why all of the outgoing emails can be viewed at a special URL: [https://mp.jpf-demo.aws.intellij.net/emails](https://mp.jpf-demo.aws.intellij.net/emails)
 
 Please create a test user with credentials similar to this:
 
-Email: test.test@gmail.com
+```Email: test.test@gmail.com```
 
-Username: TestTest
+```Username: TestTest```
 
-Password: FJKDr478fdjhsj__
+```Password: FJKDr478fdjhsj__```
 
 
 <note>
