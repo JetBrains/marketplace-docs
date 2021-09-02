@@ -2,7 +2,7 @@
 
 Every plugin sold via JetBrains Marketplace must define the following parameters in the [plugin descriptor (plugin.xml)](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html), which can be found in the `<product-descriptor>`:
 
-1. `code` - a [Plugin Product Code](obtain-a-product-code-from-jetbrains.md) obtained from JetBrains (type: `varchar`, 15 characters max.).
+1. `code` - a [Plugin Product Code](obtain-a-product-code-from-jetbrains.md) that you agreed on with the JetBrains team (type: `varchar`, 15 characters max.).
    This is used to connect a particular plugin to a product in the JetBrains Sales system.
 
 2. `release-date` - date of the major version release, written in the ‘YYYYMMDD’ format (type: `integer`).
@@ -31,7 +31,7 @@ The initial release of a new plugin will be the first major release. That is why
 
 <note><p>If you’re building the plugin with Gradle, the plugin version is defined in the plugins section of a project's build.gradle file. For more detailed information, please refer <a href="https://plugins.jetbrains.com/docs/intellij/gradle-guide.html#controlling-downloads-by-the-gradle-plugin">here</a>.</p></note>
 
-According to the `release-date` parameter, this plugin can be purchased starting from `August 18, 2021`. Its major version release is `2021.1`, and that number should not be changed in your further minor updates. As for the `version` parameter, it is equal to `release-version` initially, but it will be different for minor releases. 
+According to the `release-date` parameter, this plugin can be purchased starting from `August 18, 2021`. Its major version release is `2021.1`, and that number should not be changed in your further minor updates. As for the `version` parameter, it matches the `release-version` initially. When you increase the `version` parameter for minor updates, it still should match the 'release-version' (only last digits are increased).
 
 Here is an example of a minor update: 
 

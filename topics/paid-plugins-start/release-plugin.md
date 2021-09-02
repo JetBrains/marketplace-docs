@@ -34,7 +34,7 @@ width="540"/>
 </warning>
 
 
-3. Then transfer the plugin to your Organization by going to the plugin overview page and clicking the “Transfer to Organization” button:
+3. If you have not already done so, please transfer the plugin to your Organization by going to the plugin overview page and clicking the “Transfer to Organization” button:
 
   
 <img src="transfer-button.png" alt="Add to Organization"
@@ -48,6 +48,9 @@ width="540"/>
 
 
 4. Go to the **Sales Info** tab on the Plugin page and select any [community discounts](community-programs.md) you want your plugin to offer.
+
+<img src="tabs.png" alt="Sales Info tab"
+width="460"/>
 
 <img src="community_prog.png" alt="Select Community Programs"
    width="460"/>
@@ -64,7 +67,7 @@ width="460"/>
 </tip>
 
 <img src="sales_details.png" alt="Fill in the sales info"
-width="460"/>
+width="354"/>
 
 Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="licensing-schemes.md">Licensing Schemes</a>.
 
@@ -74,12 +77,5 @@ If some fields need to be changed after submission, please write to the Marketpl
 
 5. Once these steps have been performed, we will review your plugin within two business days. You will receive a notification as soon as the status of the review changes or if there are any questions regarding the approval of your plugin.
 
-Once your plugin is up and running, it’s time to check out our articles about plugin management:
 
-
-* Ranking Plugins
-* Rating Plugins
-* Discounts and Offers
-* Plugin Statistics
-* Notes on Information Changes
 

@@ -6,8 +6,8 @@ Just follow these steps to test your plugin:
 
 1. [Obtain the credentials](demo-obtain-creds.md) to access the Marketplace Demo instance.
 2. [Prepare an IDE](demo-prepare-ide.md) for tests with a Marketplace Demo environment.
-3. Learn about [Marketplace Demo instance limitations](demo-limitations-1.md).
-4. [Start testing](demo-start-test-1.md) on the Marketplace Demo instance.
+3. Learn about [Marketplace Demo instance limitations](demo-limitations.md).
+4. [Start testing](demo-start-test.md) on the Marketplace Demo instance.
 
 
 
