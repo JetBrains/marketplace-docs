@@ -7,10 +7,6 @@ Marketplace Demo works with [Sales Systems Marketplace Demo](https://mp.jpf-demo
 
 ```jb.service.configuration.url=https://mp.jpf-demo.aws.intellij.net/testservices/JetBrainsAccount.xml>```
 
-<tip>
-<p>Don't be surprised if you will be asked to purchase/activate your own plugin. You can easily <a href="demo-start-test.md">purchase</a> this license via Demo stand to get user experience.</p>
-</tip>
-
 2. Then use Help | Edit Custom VM Options... to open the IntelliJ IDEA 2018.2.app.vmoptions file (or similar depending on your version) in the editor and add:
 
 ```-Didea.plugins.host=https://master.demo.marketplace.intellij.net/>```
@@ -19,7 +15,7 @@ Marketplace Demo works with [Sales Systems Marketplace Demo](https://mp.jpf-demo
 <p>To route the IDE requests to the Marketplace Demo instance, you are modifying the internal parameters of the IDE. Don't forget to remove these custom VM Options and Properties after testing. Otherwise, your IDE experience could be disrupted at any time.</p>
 </note>
 
-Instead of editing Custom VM Options, you can add plugins to the IDE from the disk as an alternative:
+Alternatively, you can add plugins to the IDE from the disk:
 
 <img src="installfromthedisk.png" alt="Plugin Manager"
 width="706"/> 

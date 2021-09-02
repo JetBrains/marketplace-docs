@@ -9,7 +9,7 @@
 
     <toc-element id="about-marketplace.md">
         <toc-element id="create-your-marketplace-listing.md">
-            <toc-element id="plugin-overview-page.md""/>
+            <toc-element id="plugin-overview-page.md"/>
         </toc-element>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
@@ -79,8 +79,8 @@
             <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
                 <toc-element id="demo-obtain-creds.md"/>
                 <toc-element id="demo-prepare-ide.md"/>
-                <toc-element id="demo-limitations-1.md"/>
-                <toc-element id="demo-start-test-1.md"/>
+                <toc-element id="demo-limitations.md"/>
+                <toc-element id="demo-start-test.md"/>
             </toc-element>
             <toc-element id="notes-on-the-paid-plugins-versioning.md"/>
             <toc-element id="notes-on-pricing.md"/>
