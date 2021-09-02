@@ -8,19 +8,19 @@
                  start-page="about-marketplace.md">
 
     <toc-element id="about-marketplace.md">
-        <toc-element id="create-your-marketplace-listing.md">
-            <toc-element id="plugin-overview-page.md"/>
-        </toc-element>
+        <toc-element id="roles.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
         <toc-element id="intellij-plugin-recommendations.md"/>
+        <toc-element id="create-your-marketplace-listing.md">
+            <toc-element id="plugin-overview-page.md"/>
+            <toc-element id="custom-pages.md"/>
+        </toc-element>
+        <toc-element id="organizations.md"/>
         <toc-element id="plugins-ranking.md"/>
         <toc-element id="plugins-rating.md"/>
-        <toc-element id="organizations.md"/>
-        <toc-element id="custom-pages.md"/>
         <toc-element id="product-versions-in-use-statistics.md"/>
         <toc-element id="unique-downloads.md"/>
-        <toc-element id="roles.md"/>
     </toc-element>
     <toc-element id="paid-plugins-marketplace.md">
         <toc-element id="general-information-and-faq.md">
