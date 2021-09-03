@@ -20,7 +20,7 @@ You can easily use multi-component version numbers, and these constraints let yo
 
 ## release-version vs. version
 
-[Paid plugins related changes](prepare-a-plugin-to-be-sold-via-the-marketplace.md) to the plugin descriptor (*plugin.xml*) introduced a `release-version` in addition to the existing `version` parameter, and this part requires an additional explanation.
+[Paid plugins related changes](prepare-your-plugin-for-publication.md) to the plugin descriptor (*plugin.xml*) introduced a `release-version` in addition to the existing `version` parameter, and this part requires an additional explanation.
 
 `version` parameter has been used for a long time as a full version number. It is used by the IDE and plugins repository to define the latest compatible update of the plugin for an IDE build so that it can be offered to be installed or downloaded.
 

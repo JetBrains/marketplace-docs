@@ -22,7 +22,7 @@ The support for Community Edition (and other free and open-source editions) of I
 
 ## What should be supported on the plugin side?
 
-First of all, a plugin has to identify itself as a paid marketplace plugin in the `plugin.xml` providing `productCode,` `release-date,` and `release-version` attributes (you can read more about them in [a dedicated article](prepare-a-plugin-to-be-sold-via-the-marketplace.md).)
+First of all, a plugin has to identify itself as a paid marketplace plugin in the `plugin.xml` providing `productCode,` `release-date,` and `release-version` attributes (you can read more about them in [a dedicated article](prepare-your-plugin-for-publication.md).)
 
 As the next step, you need to add some calls from the plugin, and JetBrains is providing a standard licensing code to be added to the plugin distribution. All the licensing checks are done on the platform side, but the plugin has to verify that the platform checked and verified that a user has a license for this particular plugin (and specific plugin version), and shut down its operations if the license is not there. To do so, a plugin has to [include a standard code provided by JetBrains](add-marketplace-license-verification-calls-to-the-plugin-code.md) which would be checking that your plugin is licensed. 
 
