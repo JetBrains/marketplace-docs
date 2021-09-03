@@ -1,6 +1,6 @@
 [//]: # (title: Start testig on Marketplace Demo)
 
-Once you have [obtained the credentials](demo-obtain-creds.md) and gotten familiar with the [Marketplace Demo limitations](demo-limitations-1.md), you’re ready to hop in and start your tests.
+Once you have [obtained the credentials](demo-obtain-creds.md) and gotten familiar with the [Marketplace Demo limitations](demo-limitations.md), you’re ready to hop in and start your tests.
 
 <note>
 <p>Please note that information about the plugin you are testing might be exposed to other Marketplace program users who are using the same test stand.</p>
