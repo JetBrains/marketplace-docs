@@ -104,6 +104,6 @@
         <toc-element id="check-license.md"/>
         <toc-element id="product-codes.md"/>
         <toc-element id="embeddable-content.md"/>
-    </toc-element>
-
+        </toc-element>
+        <toc-element id="feedback.md"/>
 </product-profile>
