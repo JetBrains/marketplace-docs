@@ -8,5 +8,4 @@
     <resources src="r.list"/>
     <vars src="v.list"/>
     <product src="marketplace-docs.tree" web-path="/docs/marketplace/"/>
-    <product src="testcopy.tree"/>
 </ihp>

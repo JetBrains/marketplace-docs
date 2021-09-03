@@ -16,5 +16,5 @@ If your plugin is technically ready, you can begin working through the steps req
 
 * [Obfuscate the plugin code](obfuscate-the-plugin.md)
 
-* [Add marketplace license verification calls](add-marketplace-license-verification-calls-to-the-plugin-code.md)
+* [Add Marketplace license verification calls](add-marketplace-license-verification-calls-to-the-plugin-code.md)
 

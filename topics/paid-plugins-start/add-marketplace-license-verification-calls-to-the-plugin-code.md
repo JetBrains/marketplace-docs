@@ -1,4 +1,4 @@
-[//]: # (title: Add marketplace license verification calls to the plugin code)
+[//]: # (title: Add Marketplace license verification calls to the plugin code)
 
 Plugin creators need to [define the attributes](add-required-parameters.md) of their paid plugins in the plugin descriptor (`plugin.xml`) to start selling process. Then, all the licensing-related communication, including plugin license checks, is done on the IntelliJ Platform side. Licenses will first be checked by the IDE on startup. After that, there will be additional checks at least once a day, so you don't need to bundle it with your plugin or copy-paste licensing-specific functionality.
 
@@ -24,7 +24,7 @@ Here you will find an example [plugin](https://github.com/JetBrains/marketplace-
 
 
 
-You can find the `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check whether the plugin is licensed (in an actual use case, your plugin should not work if the plugin is not licensed.)
+You can find the `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check whether the plugin is licensed.
 
 
 

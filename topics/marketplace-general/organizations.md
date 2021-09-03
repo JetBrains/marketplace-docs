@@ -20,6 +20,7 @@ An organization lets you gather on a single page such company-wide information a
 8. The organization can have only one ID. Multiple IDs are not allowed.
 9. Paid plugins must belong to an organization. It is necessary to associate the organization with the Company/Author's Full Legal Name, which is used in the Sales System.
 10. An organization can be [verified](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Verifiedorganizations) by JetBrains.
+11. The organization's administrator can [reserve plugin IDs](https://plugins.jetbrains.com/docs/marketplace/reserved-plugin-ids.html).
 
 ## Verified organizations
 

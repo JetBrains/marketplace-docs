@@ -39,6 +39,7 @@ Global administrator in the scope of an organization.
 * Manage organization details
 * Manage organization staff
 * Manage organization plugins
+* [Reserve plugin IDs](https://plugins.jetbrains.com/docs/marketplace/reserved-plugin-ids.html)
 * Grant other organization members the administrator role
 * Remove the organization (only if this organization doesn’t have vendor information for paid plugins)
 
