@@ -12,6 +12,7 @@
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
         <toc-element id="intellij-plugin-recommendations.md"/>
+        <toc-element id="product-versions-in-use-statistics.md"/>
         <toc-element id="create-your-marketplace-listing.md">
             <toc-element id="plugin-overview-page.md"/>
             <toc-element id="custom-pages.md"/>
