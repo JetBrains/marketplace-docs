@@ -58,7 +58,7 @@ Please change the link accordingly where ```{ID}``` = PRODUCT CODE
 * https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:```{ID}```:M
 
 
-<emphasis>Or go to buy page from the plugin overview:<emphasis>
+<emphasis>Or go to buy page from the plugin overview:</emphasis>
 
 * https://marketplace.demo.plugins.aws.intellij.net/plugin/```{ID}```
 
