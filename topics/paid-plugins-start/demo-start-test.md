@@ -6,7 +6,7 @@ Once you have [obtained the credentials](demo-obtain-creds.md) and gotten famili
 <p>Please note that information about the plugin you are testing might be exposed to other Marketplace program users who are using the same test stand.</p>
 </note>
 
-<control>Marketplace sign in</control>
+## Marketplace sign in
 
 Please access the [Marketplace Demo instance](https://master.demo.marketplace.intellij.net/) and use the credentials you have [obtained](demo-obtain-creds.md) from JetBrains. Unfortunately, you can't use the "sign in via Google Account" option, as we can't connect it to non-JetBrains emails (the JetBrains team should use the "sign in via Google Account" option exclusively). Use the username/password option.
 
@@ -15,7 +15,7 @@ Please access the [Marketplace Demo instance](https://master.demo.marketplace.in
 </warning>
 
 
-<control>Marketplace Demo plugin upload</control>
+## Marketplace Demo plugin upload
 
 Once you access the Marketplace Demo instance, you should log into the Marketplace application itself:
 
@@ -41,27 +41,45 @@ To see how it would look to the end-user, please switch to the preview mode here
 <img src="pricing-user.png" alt="Pricing page for a user"
 width="460"/>
 
-<control>How to test the purchase process?</control>
+## How to test the purchase process?
 
 Please change the link accordingly where ```{ID}``` = PRODUCT CODE
 
-<emphasis>Personal license</emphasis>
+### Personal license
 
-* Use the direct link to the shop: https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:```{ID}```:Y / https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:```{ID}```:M
+<emphasis>Use the direct link to the shop:</emphasis>
 
-* For a quote: https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:```{ID}```:Y / https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:```{ID}```:M
+* https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:```{ID}```:Y
+* https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:```{ID}```:M
 
-* Or go to buy page from the plugin overview:  https://marketplace.demo.plugins.aws.intellij.net/plugin/```{ID}```
+<emphasis>For a quote:</emphasis>
+  
+* https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:```{ID}```:Y  
+* https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:```{ID}```:M
 
-<emphasis>Commercial license</emphasis>
 
-* Use the direct link on the shop: https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:```{ID}```:Y / https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:```{ID}```:M
+<emphasis>Or go to buy page from the plugin overview:<emphasis>
 
-* For a quote: https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:```{ID}```:Y / https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:```{ID}```:M
+* https://marketplace.demo.plugins.aws.intellij.net/plugin/```{ID}```
 
-* Or go to buy page from the plugin overview:  https://marketplace.demo.plugins.aws.intellij.net/plugin/```{ID}```
+### Commercial license
 
-<emphasis>Payment information on the checkout</emphasis>
+<emphasis>Use the direct link on the shop:</emphasis>
+
+* https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:```{ID}```:Y
+* https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:```{ID}```:M
+
+<emphasis>For a quote:</emphasis>
+
+* https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:```{ID}```:Y 
+* https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:```{ID}```:M
+
+
+<emphasis>Or go to buy page from the plugin overview</emphasis>
+
+* https://marketplace.demo.plugins.aws.intellij.net/plugin/```{ID}```
+
+### Payment information on the checkout
 
 At the checkout form, you need to use special test cards/payment information provided to us by Adyen (our payment provider): [https://docs.adyen.com/development-resources/test-cards/test-card-numbers/](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/)
 
@@ -70,7 +88,7 @@ At the checkout form, you need to use special test cards/payment information pro
 <p>Please make sure NOT TO USE real data, only use the Adyen-provided data.</p>
 </warning>
 
-<control>How to test emails sent by the Sales System?</control>
+## How to test emails sent by the Sales System?
 
 Feel free to check all the emails you as a user might receive: sign up, license purchase, etc.
 
@@ -94,7 +112,7 @@ Please create a test user with credentials similar to this:
 Please use responsibly and don't use any confidential names/information there. Please note that information about the plugin you are testing might be exposed to other Beta program users. If you need private testing, please reach out to us and we’ll try to arrange it.
 
 
-<control>What to test?</control>
+## What to test?
 
 
 You might consider testing and reviewing your plugin:
