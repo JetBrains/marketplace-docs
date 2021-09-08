@@ -2,9 +2,9 @@
 
 The core elements of a plugin’s Overview page are extracted from the [Plugin Configuration File — plugin.xml](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html) and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.
 
-<chapter title="Plugin name">
-    <p>The plugin’s name is added in the plugin.xml file, under the ```name``` tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).</p>
-</chapter>
+## Plugin name
+
+The plugin’s name is added in the plugin.xml file, under the ```name``` tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).
 
 <table>
     <tr>
@@ -53,8 +53,7 @@ The core elements of a plugin’s Overview page are extracted from the [Plugin C
     </tr>
 </table>
 
-<chapter title="Product compatibility">
-</chapter>
+## Product compatibility
 
 
 The list of compatible products is displayed under the “Buy” or “Get” button (depending on whether you are publishing a free plugin or a paid one).
@@ -67,8 +66,7 @@ width="706"/>
 <img src="compatibility2.png" alt="Compatibility Admin Page"
 width="460"/>
 
-<chapter title="Plugin description">
-</chapter>
+## Plugin description
 
 The plugin description should be added to the plugin.xml file under the ```description``` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on [JetBrains Marketplace](https://plugins.jetbrains.com/).
 
@@ -113,8 +111,7 @@ width="460"/>
 * Put some inline links to useful resources (issue tracker, forum, etc.) to the description. This way, the links will be available from the Plugin Manager inside IDEs.
 * Draft the description with SEO keywords in mind, but please avoid keyword stuffing.
 
-<chapter title="Plugin logo">
-</chapter>
+## Plugin logo
 
 The plugin logo should be added directly to the plugin’s distribution file. You can find the detailed requirements and instructions on how to add the plugin logo [here](https://plugins.jetbrains.com/docs/intellij/plugin-icon-file.html). The general recommendation is to use a simple, recognizable, eye-catching image. It is better to avoid including text, but If the logo contains it, the text should be readable.
 
@@ -127,8 +124,7 @@ The plugin logo should be added directly to the plugin’s distribution file. Yo
 * Use a logo that resembles any of the JetBrains product logos or the logos of any other brands.
 
 
-<chapter title="Media">
-</chapter>
+## Media
 
 
 The media section is the first element that users will see on the plugin page, and it is one of the best ways to show your plugin in action. You can add screenshots and video under the Media section in the admin panel of the plugin page after uploading your plugin.
@@ -177,8 +173,7 @@ The recommended screenshot size is 1280 x 800 px (16:10 aspect ratio). You can a
 If you've got a product video on YouTube, you can add the URL to it. We recommend using a short promo or demo video that’s less than 5 minutes long. A video can help you improve user interaction with your listing.
 
 
-<chapter title="Tags">
-</chapter>
+## Tags
 
 Plugin tags are displayed above the plugin name on the plugin page and are used as search filters. You should select at least one plugin tag while uploading the plugin (in the Plugin Upload form). You can also change tags later under the General Information section on the admin panel.
 
@@ -187,8 +182,7 @@ width="460"/>
 
 Choose your tags wisely, as they will affect searchability. Don’t select categories that the plugin does not fit. If you feel that an appropriate tag is missing, please contact the Marketplace team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com), and we will consider adding it.
 
-<chapter title="General Usage Instructions">
-</chapter>
+## General Usage Instructions
 
 You can choose to add general usage instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a [Custom page](custom-pages.md).
 
@@ -198,16 +192,14 @@ width="460"/>
 Use concise, action-oriented headlines, and structure them clearly: (e.g. “1. Launch IDE 2. Go to File -> Settings -> Tools to configure the plugin...”)
 
 
-<chapter title="Change Notes">
-</chapter>
+## Change Notes
 
 
 Change notes help you track the progress you’ve made on your plugin, introduce new features, announce changes, and recap bug fixes.
 
 To add change notes, write a short summary of the changes in a new plugin version inside the ```change-notes``` tag of the plugin.xml file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a [Custom page](custom-pages.md) and providing a link to it or to an external page in the change notes.
 
-<chapter title="Plugin Links">
-</chapter>
+## Plugin Links
 
 You can add links to your website, issue tracker, forum page, source code, documentation, and license to your plugin page. They will be displayed in the Additional Information section.
 
