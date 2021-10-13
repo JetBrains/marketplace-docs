@@ -63,7 +63,7 @@ Please be careful when filling out this form. We recommend checking out our <a h
 <img src="sales_details.png" alt="Fill in the sales info"
 width="354"/>
 
-<tip><p>Please add annual billing method if you're planning to support free community programs.</p>
+<tip><p>Please add an annual billing method if you're planning to support free community programs.</p>
 </tip>
 
 If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
@@ -73,6 +73,6 @@ If some fields need to be changed after submission, please write to the Marketpl
 <img src="community_prog.png" alt="Select Community Programs"
 width="460"/>
 
-Please keep in mind that free community programs require annual billing method. To enable it, please contact our Support Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
+Please keep in mind that free community programs require an annual billing method. To enable it, please contact our Support Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
 
 6. Once these steps have been performed, we will review your plugin within two business days. You will receive a notification as soon as the status of the review changes or if there are any questions regarding the approval of your plugin.
