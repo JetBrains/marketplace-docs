@@ -47,15 +47,7 @@ width="540"/>
 </tip>
 
 
-4. Go to the **Sales Info** tab on the Plugin page and select any [community discounts](community-programs.md) you want your plugin to offer.
-
-<img src="tabs.png" alt="Sales Info tab"
-width="460"/>
-
-<img src="community_prog.png" alt="Select Community Programs"
-   width="460"/>
-
-Below the community programs, you will see the `Add to Marketplace` button. Press this button when you are ready to release your plugin.
+4. Go to the **Sales Info** tab on the Plugin page and press the `Add to Marketplace` button to fill in the sales details.
 
 <img src="add-to-market.png" alt="Add to Marketplace"
 width="460"/>
@@ -66,13 +58,21 @@ width="460"/>
     </p>
 </tip>
 
+Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="licensing-schemes.md">Licensing Schemes</a>.
+
 <img src="sales_details.png" alt="Fill in the sales info"
 width="354"/>
 
-Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="licensing-schemes.md">Licensing Schemes</a>.
+<tip><p>Please add an annual billing method if you're planning to support free community programs.</p>
+</tip>
 
+If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
 
-If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com). 
+5. Below the sales details, you can select any [community discounts](community-programs.md) you want your plugin to offer.
 
+<img src="community_prog.png" alt="Select Community Programs"
+width="460"/>
 
-5. Once these steps have been performed, we will review your plugin within two business days. You will receive a notification as soon as the status of the review changes or if there are any questions regarding the approval of your plugin.
+Please keep in mind that free community programs require an annual billing method. To enable it, please contact our Support Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
+
+6. Once these steps have been performed, we will review your plugin within two business days. You will receive a notification as soon as the status of the review changes or if there are any questions regarding the approval of your plugin.
