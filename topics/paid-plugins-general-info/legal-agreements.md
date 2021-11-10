@@ -10,7 +10,7 @@ You can find a document here: [https://plugins.jetbrains.com/legal/developer-agr
 
 This agreement must be signed (on the website, no physical copy) before the plugin is uploaded. It includes terms and conditions for non-marketplace developer-related matters as well.
 
-The document is attached to the article. Alternatively, you can leave comments in the [Google Document version of the document](https://docs.google.com/document/d/1noU7fAKbd9mmHHWelP1bsuH21st0n9kfZaPtQxL0bdE/edit). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
+The document is attached to the article. Alternatively, you can leave comments in the [Google Document version of the document](https://docs.google.com/document/d/1twHbfMfJXgT10LsHbsl8jKMd_esfNTsSQYo0nhKI2kI/edit). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
 
 ## 2. JetBrains Plugin Marketplace Approval Guidelines
 
