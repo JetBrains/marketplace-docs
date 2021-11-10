@@ -1,4 +1,4 @@
-[//]: # (title: Plugin Upload API)
+[//]: #(title: Plugin Upload API)
 
 Please note that the maximum allowed plugin size is *200 MB*.
 
@@ -60,7 +60,7 @@ nuget push angularjs.1.9.0.nupkg perm:qwertyasdfghzxcvb -Source https://plugins.
 
 **Configuration**
 
-Configuration for NuGet is located in `%AppData%\NuGet\NuGet.Config` (Windows), `~/.config/NuGet/NuGet.Config` or `~/.nuget/NuGet/NuGet.Config` (Mac/Linux).
+Configuration for NuGet is located in `%\AppData%\NuGet\NuGet.Config` (Windows), `~/.config/NuGet/NuGet.Config` or `~/.nuget/NuGet/NuGet.Config` (Mac/Linux).
 
 You can modify this file using [the NuGet CLI commands](https://docs.microsoft.com/en-us/nuget/reference/nuget-config-file). 
 
