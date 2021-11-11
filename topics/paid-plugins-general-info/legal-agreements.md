@@ -28,7 +28,7 @@ You can find a document here: [https://plugins.jetbrains.com/legal/terms-of-use]
 
 If you are using the Marketplace from Russia, [Terms of Use (JetBrains Distributions s.r.o.)](https://plugins.jetbrains.com/legal/ru-terms-of-use) apply instead of the standard Terms of Use.
 
-The documents are attached to the article. Alternatively, you can leave comments in the Google Document versions of the documents ([JetBrains Plugin Marketplace Agreement](https://docs.google.com/document/d/1xw24DYnDunbxm3lDZjB7F0ZgjPDDhyWMA4be8d41V0I/edit), [JetBrains Plugin Marketplace Agreement (JetBrains Distributions s.r.o.)](https://docs.google.com/document/d/1sXeR5y3bIgrpX2Yu2mq_6LfYXD8ofxRBt7ZFvGn6MV4/edit)). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
+The documents are attached to the article. Alternatively, you can leave comments in the Google Document versions of the documents ([JetBrains Plugin Marketplace Agreement](https://docs.google.com/document/d/1xw24DYnDunbxm3lDZjB7F0ZgjPDDhyWMA4be8d41V0I/edit), [JetBrains Plugin Marketplace Agreement (JetBrains Distributions s.r.o.)](https://docs.google.com/document/d/1SvgcnBGVI7fN0SgIMLYk5uXmnKSrUg5HXoP-hgO-Ry8/edit)). Your comments are going to be visible to other viewers and JetBrains employees, feel free to create a copy and send it to us if you want to keep comments in secret.
 
 ## 4. Privacy Policy
 
