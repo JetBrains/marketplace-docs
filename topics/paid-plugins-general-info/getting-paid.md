@@ -6,8 +6,8 @@ Plugin developers / vendors are paid following the rules defined in the [Develop
 
 * Paid to the bank account.
 
-* Paid only when it's more than 200$ to limit the number of transactions, paid on 31st December of every year even if it's less than 200$.
+* Paid only when it's more than 200$ (or 200€) to limit the number of transactions, paid on 31st December of every year even if it's less than 200$.
 
 * Paid upon a self-billing invoice issued by JetBrains (so that you don't need to generate it yourself every time, please see Developer Agreement for more information.)
 
-* Paid in US Dollars (unless agreed otherwise.)
+* Paid in US Dollar (USD) or EURO (EUR).  
