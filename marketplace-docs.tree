@@ -8,7 +8,9 @@
                  start-page="about-marketplace.md">
 
     <toc-element id="about-marketplace.md">
+        <toc-element id="quality-guidelines.md"/>
         <toc-element id="roles.md"/>
+        <toc-element id="semver.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
         <toc-element id="intellij-plugin-recommendations.md"/>
