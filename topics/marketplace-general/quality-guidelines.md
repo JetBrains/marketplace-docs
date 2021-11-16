@@ -38,6 +38,7 @@ Some of the elements on the plugin page are extracted from the [Plugin Configura
 * Change notes of the latest version (`<change-notes>`);
 * Vendor links (`<vendor>`).
 The description and change notes can contain most HTML tags.
+Please note, that if your plugin has the **SemVer** option enabled, some fields may not be extracted from the plugin.xml file. For more information see [Semantic Versioning](https://plugins.jetbrains.com/docs/marketplace/semantic-versioning.html). 
 
 ### Plugin Name
 * The name shouldn't start with the letter "A" or the dot sign if it is not needed (e.g., "Code Enhancer" instead of "A Code Enhancer");
