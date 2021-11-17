@@ -7,7 +7,7 @@
                  status="release"
                  start-page="about-marketplace.md">
 
-    <toc-element id="about-marketplace.md">
+    <toc-element id="about-marketplace.md" accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html">
         <toc-element id="roles.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
