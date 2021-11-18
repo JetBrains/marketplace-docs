@@ -1,31 +1,48 @@
-[//]: # (title: Notes on the paid plugins versioning)
+[//]: # (title: Versioning of Paid Plugins)
 
-There have been no constraints imposed on the plugin version format for plugins before the Marketplace introduction, but it seems that we have to introduce them now for paid plugins sold via JetBrains Marketplace. The primary reason for that is the simplicity of the unification of the versions so that there are no issues with non-standard versions in regards to the licensing mechanisms.
+<p>We would like to be as flexible as possible with respect to the versioning models our plugin authors employ, and we don't intend to lock you into ours. We have, however, implemented a few constraints that are designed to unify the versioning models and prevent issues that may arise from non-standard versioning schemes and licensing mechanisms.</p>
+<p>To make it easier for you to keep your versioning consistent with our guidelines, we’d like to tell you more about how the releases of our products – and many plugins – are versioned.</p>
+<p>There are two versioning parameters that you should be aware of:</p>
+<list>
+ <li><code>release-version</code> – the major version, which is closely related to the licensing model</li>
+ <li><code>version</code> – the build number that is used by the IDE and JetBrains Marketplace</li>
+</list>
 
-Let us give you a bit more context about how our products (and many of our plugins) releases are versioned. A few years back we have [introduced changes to its release and versioning](https://blog.jetbrains.com/blog/2016/03/09/jetbrains-toolbox-release-and-versioning-changes/), and we are pleased with this decision, so we'd recommend you to align your plugin release version numbers with JetBrains release version numbers for further sync (as users already know how the model works for our products.)
+# Release-version vs. Version
 
-## Release Version Constraints
+<p>We use the <code>version</code> parameter to identify the latest update of the plugin that is compatible with your IDE, which allows us to suggest installing the appropriate version. We recommend to follow the Semantic Versioning in regards to the <code>version</code> parameter. For more information see <a href="https://plugins.jetbrains.com/docs/marketplace/semantic-versioning.html">Semantic Versioning</a>.</p>
+<p>In addition to the <code>version</code> parameter, <a href="add-required-parameters.md">the changes</a> you make for paid plugins specifically introduces the <code>release-version</code> parameter, which pertains to the licensing of paid plugins. It identifies what is considered to be a major release, and it is tied to the release-date. For example:</p>
 
-It's important to note that we would like to be as flexible as possible, so we don't have intentions to "lock" you to our versioning model, and the only rules we introduce are:
+```xml
+<product-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
+<version>2021.1.1</version>
+```
 
-* The version number should be an `integer` (dots and other special symbols CAN be there, but WILL be ignored.)
+<note>
+<p>Note that both the <code>release-version</code> and the <code>version</code> should begin with similar integers, like <code>release-version=20211</code> and <code>version=2021.1.1.</code></p>
+</note>
 
-* The next version should be bigger than the previous one (versions can't be descending.)
+<p>This example can be considered our initial plugin upload, so it is labeled as a major release. When we upload any minor updates, we keep the release-version untouched and only increment the version:
+</p>
 
-* The version number should consist of at least two characters.
+```xml
+<product-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
+<version>2021.1.2</version>
+```
 
-You can easily use multi-component version numbers, and these constraints let you release your plugins with version numbers such as 2018.1, 2018.1.2, 1.1, 1.1.0, etc.
+# Release-version constraints
 
-**(!) These are the rules for paid plugins via JetBrains Marketplace only, and they are not applied to other plugins.**
+<p>Your <code>release-version</code> must meet the following conditions:</p>
+<list>
+     <li>It must be an <code>integer</code> (dots or other special symbols are allowed but will be ignored).</li>
+     <li>Each <code>release-version</code> must be greater than the previous one (they can't be descending).</li>
+     <li>It must contain at least 2 digits, as it will be split into 2 numbers, the second of which will contain only one digit. If, for example, <code>release-version=20211</code>, the first number would be <code>2021</code> and the second number would be <code>1</code>.</li>
+</list>
 
-## release-version vs. version
+<tip>
+<p>Since <code>release-version</code> is an integer, the <control>2021.1</control> version will be converted to <control>20211</control> when compared/used by the IDE. You can enter it as <control>20211</control> in your plugin.xml from the very beginning.</p>
+</tip>
 
-[Paid plugins related changes](prepare-your-plugin-for-publication.md) to the plugin descriptor (*plugin.xml*) introduced a `release-version` in addition to the existing `version` parameter, and this part requires an additional explanation.
+<p>Obviously, our intention is not to limit your versioning scheme to the YYYY.R format. Feel free to use the system that works best for you. Please just make sure it meets release-version conditions described above. </p>
 
-`version` parameter has been used for a long time as a full version number. It is used by the IDE and plugins repository to define the latest compatible update of the plugin for an IDE build so that it can be offered to be installed or downloaded.
-
-`release-version` is related to licensing of the paid plugins, and it is different from the `version` of the plugin, as this one is a version number of the major release (i.e., release which happened on `release-date`). You shouldn't put a minor release version here to make sure that perpetual fallback license holders get access to minor updates of the major version.
-
-For major releases (e.g., *2018.1*), `version` is going to be equal to `release-version`, but they would be different for minor releases (e.g., for a minor update of the plugin the `version` will be *2018.1.1*, and the `release-version` will be *2018.1*).
-
-Please note that `release-version` is `integer`, so the *2018.1* version will be converted to *20181* when compared/used by the IDE. You can put it as *20181* to *plugin.xml* from the very start.
+Even though the difference between the <code>release-version</code> and <code>version</code> parameters might initially seem a bit complex, we hope this article sheds some light on how to manage them successfully. If you still have any questions about these parameters or versioning in general, do not hesitate to contact us at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
