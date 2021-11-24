@@ -1,45 +1,140 @@
-[//]: # (title: Revenue sharing and JetBrains fee for plugins sold via Marketplace)
+[//]: # (title: Revenue sharing)
 
-If the plugin is sold & licensed via JetBrains, a revenue-sharing model is applied.
+<p>A revenue-sharing model is applied for all plugins sold and licensed via JetBrains, which means that JetBrains takes a commission from all plugin sales. Our reason for this is that we want to make sure that the Marketplace model is sustainable and that we are able to re-invest in the plugin development ecosystem. The commission on each plugin purchase is set to 15%, and it is deducted from the sale price before money is transferred to the plugin developer.
 
-The `rake` (commission on plugin purchase via JetBrains, "100%-rake%" is known as a `Developer Fee`) is a % of a plugin sale price charged by JetBrains (deducted from the sale price before transferring money to the plugin developer) for its services, and it's set to the following amount:
+As outlined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer Agreement</a>, the commission rate can be changed with one-month notice, but it can never be more than 25%. For high-revenue plugins, we may work with the plugin creators to negotiate a custom formula in order to make the terms more favorable for them.
 
-* **5% for the first year from the launch of the marketplace** (`promo period` - the reduced fee which covers only part of JetBrains expenses. The fee is reduced for the first year to support the first vendors adopting JetBrains Marketplace.) As the support for paid plugins on the Marketplace has been released on June 26th, 2019, this % will be applied until June 30th, 2020 (23:59:59 CEST.)
+We don’t charge any additional fees pertaining to developing extensions or listing them on JetBrains Marketplace.</p>
 
-* **15% after the first year since the marketplace paid plugins launch passed.** This % will be applied from July 1st, 2020 (00:00:00 CEST), as the paid plugins support at the Marketplace has been launched on June 26th, 2019.
+## Share calculation in regards to taxes and distribution channels
 
-As of the developer agreement, the commission can be changed with one-month notice, but it never can be more than 25%. Later on, we'd like to reduce the commission for high-revenue plugins - we've provided a clause to define a "custom formula" based on individual negotiations.
+<p>We calculate the plugin developer fee from the price set by the vendor. If there are any additional taxes (such as VAT or WHT) involved in the sale to the end user (either personal or commercial), then these taxes are calculated on top of the price and can’t be included in the calculation of the fee. JetBrains takes care of processing any taxes related to the sale of the license. If any partner, reseller, or distributor commissions are involved, they are paid from JetBrains’ commission, not by the plugin developer.</p>
 
-There will be no additional "marketplace developer fee" or "subscription fee" for getting access to the marketplace for vendors, but we'll review all the vendors who would like to join the program.
+<p>Here are some examples of how the developer’s share is calculated (<control>percentage values may vary</control> depending on circumstances and are used here as examples):</p>
 
-## Pricing/fee calculations in regards to taxes and distribution channels
+<table>
+    <tr>
+        <td>
+            Direct sale:
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Last price
+        </td>
+        <td>
+            $100
+        </td>
+    </tr>
+     <tr>
+        <td>
+            Tax (20%)
+        </td>
+        <td>
+            $20
+        </td>
+    </tr>
+     <tr>
+        <td>
+            Total price for customer
+        </td>
+        <td>
+            $120
+        </td>
+    </tr>
+     <tr>
+        <td>
+            JetBrains commission
+        </td>
+        <td>
+            $15
+        </td>
+    </tr>
+     <tr>
+        <td>
+            Developer fee
+        </td>
+        <td>
+            $85
+        </td>
+    </tr>
+</table>
 
-We always calculate the plugin developer fee from the list price (i.e., the price you have set as the price we need to sell the plugin for), so you will always get 100%-rake% as your plugin developer commission.
+<table>
+    <tr>
+        <td>
+            Sale via a Reseller:
+        </td>
+    </tr>
+    <tr>
+        <td>
+            List price
+        </td>
+        <td>
+            $100
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tax (20%)
+        </td>
+        <td>
+            $20
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Total price for customer
+        </td>
+        <td>
+            $120
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Reseller fee (5%)
+        </td>
+        <td>
+            $5
+        </td>
+    </tr>
+    <tr>
+        <td>
+            JetBrains commission (15% minus the reseller fee)
+        </td>
+        <td>
+            $10
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Developer fee
+        </td>
+        <td>
+            $85
+        </td>
+    </tr>
+</table>
 
-If there are any additional taxes (e.g., VAT, WHT, etc.) involved in the sale to the end-user (either personal or commercial), the tax is calculated on top of the list price. After that, the collected tax is settled with the respective government tax office. As neither JetBrains nor plugin developer is entitled to get these tax money collected, it is not a part of the fee calculation.
 
-If there are any partner / reseller / distributor commissions involved, they are paid from JetBrains commission, not from plugin developer commission.
+## Terms 
 
-A couple of examples:
+<p><code>List price</code> – the price set by the vendor.</p>
+<p><code>Tax</code> – the total amount of taxes paid on the product, such as VAT, WHT, etc.</p>
+<p><code>Total price for customer</code> - the amount the customer pays in total, which includes the sale price and taxes.</p>
+<p><code>Reseller fee</code> – the percentage of the plugin’s list price kept by the reseller.</p>
+<p><code>JetBrains commission</code> - the commission JetBrains gets from the sale of the plugin or product.</p>
+<p><code>Developer’s share</code> - the amount the plugin vendor receives from the sale.</p> 
 
-![Marketplace Direct Sale](marketplace_direct_sale.png)
+## Payouts for plugin vendors
 
-![Marketplace Reseller Sale](marketplace_reseller_sale.png)
-
-## TERMS
-
-* `Plugin Price` AKA `List Price` - the price which is agreed with the vendor to be a "source" price.
-
-* `Marketed Price` - the price which is shown to end-users.
-
-* `TAX i.e., VAT/WHT/etc.` - amount of taxes - VAT/WHT/GST/etc. (!) EXAMPLE, NOT REAL NUMBERS
-
-* `Customer paid` - how much does the customer pay (usually, it's a marketed price plus taxes.)
-
-* `Margin` - reseller margin (how much % they keep from the plugin price / list price when selling JetBrains product.) (!) EXAMPLE, NOT REAL NUMBERS.
-
-* `Vendor fee` - how much the vendor of the product/plugin gets as a remuneration.
-
-* `JetBrains got (excl. taxes)` - what JetBrains gets (we don't include taxes here for simplicity of calculations.)
-
-* `JetBrains paid to plugin dev (excl. taxes)` - what JetBrains pays out to the plugin developer (we don't include taxes here for simplicity of calculations.)
+<p>Plugin vendors are paid in accordance with the rules defined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer Agreement</a>.</p>
+<p>Among other things, this agreement stipulates that plugin vendors are paid:</p>
+<list>
+  <li>In USD or EUR, as determined by the vendor and specified under the <emphasis>Vendor Information</emphasis> tab for your <a href="https://plugins.jetbrains.com/docs/marketplace/organizations.html">Organization</a>.</li>
+  <li>Up to 30 days after the end of the month</li>
+  <li>To the vendor’s bank account.</li>
+  <li>When the payout amount reaches a minimum of $200/€200, depending on the currency selected.</li>
+  <li>On December 31 of every year, even if the payout amount is less than the minimum.</li>
+  <li>Using a self-billing invoice issued by JetBrains, so you don't need to generate one yourself.</li>
+</list>
