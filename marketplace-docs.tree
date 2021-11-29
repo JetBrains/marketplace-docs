@@ -39,6 +39,7 @@
             <toc-element id="obfuscate-the-plugin.md"/>
             <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
             <toc-element id="versioning-of-paid-plugins.md"/>
+            <toc-element id="free-functionality.md"/>
         </toc-element>
         <toc-element id="release-plugin.md"/>
         <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
@@ -46,11 +47,8 @@
             <toc-element id="demo-prepare-ide.md"/>
             <toc-element id="demo-limitations.md"/>
             <toc-element id="demo-start-test.md"/>
+            <toc-element id="marketplace-demo-plugin.md"/>
         </toc-element>
-        <toc-element id="notes-on-information-change.md"/>
-        <toc-element id="free-functionality.md"/>
-        <toc-element id="marketplace-demo-plugin.md"/>
-        <toc-element id="marketplace-video-demo.md"/>
     </toc-element>
         <toc-element id="general-information-and-faq.md">
             <toc-element id="legal-agreements.md">
