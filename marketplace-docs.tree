@@ -59,7 +59,7 @@
                 <toc-element toc-title="JetBrains Plugin Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
             </toc-element>
             <toc-element id="revenue-sharing-and-fees.md"/>
-            <toc-element id="payments-accountancy-taxes-services.md"/>
+            <toc-element id="payment-processing.md"/>
             <toc-element id="pricing-and-distribution-network.md"/>
             <toc-element id="plugin-types.md"/>
             <toc-element id="licensing-schemes.md"/>
