@@ -6,7 +6,7 @@ In this section:
 
 * [Revenue sharing and JetBrains fee for plugins sold via Marketplace](revenue-sharing-and-fees.md)
 
-* [Who is taking care of the payment processing, accountancy and tax processing related to the sale of license?](payments-accountancy-taxes-services.md)
+* [Payment Processing](payment-processing.md)
 
 * [Pricing and Distribution Network](pricing-and-distribution-network.md)
 
