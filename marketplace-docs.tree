@@ -20,7 +20,7 @@
         </toc-element>
         <toc-element id="plugin-stats.md">
             <toc-element id="analytics-tab.md"/>
-            <toc-element id="download-statistics.md"/>
+            <toc-element id="download-statistics.md" accepts-web-file-names="unique-downloads.html"/>
             <toc-element id="plugins-ranking.md"/>
             <toc-element id="plugins-rating.md"/>
             <toc-element id="identify-user-of-paid-plugin.md"/>
