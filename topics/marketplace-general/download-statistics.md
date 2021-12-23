@@ -4,13 +4,17 @@
 <p>Additionally, you can view downloads divided by period (month, week, day) or specific IDE (without a time reference). You can download the graph in various formats (image, CSV, etc.)</p>
 <p>Plugin download statistics for all versions may also include downloads of removed updates. Keep in mind that the processing latency for download statistics is 24 hours.</p>
 
+### Total Downloads:
+
+<p>We show the total number of downloads right above the graph. This number is also displayed in the plugin card preview and IDE search.</p>
+
 <img src="download-main.png" alt="Main Download Window"
 width="720"/>
 
 ### Unique Downloads:
 
-<p>By default, we show unique download statistics. The uniqueness is based on the unique user ID (UUID)  which is bound to the computer OS. The UUID is shared among all IntelliJ-based IDEs on this computer and does not change during IDE updates.</p>
-<p>However, the UUID will be different if an IDE with one license is installed on various computers.</p>
+<p>By default, we show unique download statistics. Keep in mind that we do not count the total number of unique downloads, but you can check the uniqueness per day, per week or per month.</p> 
+<p>The uniqueness is based on the unique user ID (UUID)  which is bound to the computer OS. The UUID is shared among all IntelliJ-based IDEs on this computer and does not change during IDE updates.However, the UUID will be different if an IDE with one license is installed on various computers.</p>
 
 ### Downloads by version:
 
