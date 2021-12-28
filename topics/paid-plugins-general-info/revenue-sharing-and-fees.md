@@ -1,10 +1,8 @@
 [//]: # (title: Revenue sharing)
 
-<p>A revenue-sharing model is applied for all plugins sold and licensed via JetBrains, which means that JetBrains takes a commission from all plugin sales. Our reason for this is that we want to make sure that the Marketplace model is sustainable and that we are able to re-invest in the plugin development ecosystem. The commission on each plugin purchase is set to 15%, and it is deducted from the sale price before money is transferred to the plugin developer.
-
-As outlined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer Agreement</a>, the commission rate can be changed with one-month notice, but it can never be more than 25%. For high-revenue plugins, we may work with the plugin creators to negotiate a custom formula in order to make the terms more favorable for them.
-
-We don’t charge any additional fees pertaining to developing extensions or listing them on JetBrains Marketplace.</p>
+<p>A revenue-sharing model is applied for all plugins sold and licensed via JetBrains, which means that JetBrains takes a commission from all plugin sales. Our reason for this is that we want to make sure that the Marketplace model is sustainable and that we are able to re-invest in the plugin development ecosystem. The commission on each plugin purchase is set to 15%, and it is deducted from the sale price before money is transferred to the plugin developer.</p>
+<p>As outlined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer Agreement</a>, the commission rate can be changed with one-month notice, but it can never be more than 25%. For high-revenue plugins, we may work with the plugin creators to negotiate a custom formula in order to make the terms more favorable for them.</p>
+<p>We don’t charge any additional fees pertaining to developing extensions or listing them on JetBrains Marketplace.</p>
 
 ## Share calculation in regards to taxes and distribution channels
 
