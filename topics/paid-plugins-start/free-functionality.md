@@ -17,7 +17,7 @@ width="706"/>
 
 <warning>
     <p>
-        Please note that the <code>optional</code> parameter can be set only once, with the first uploaded plugin update containing this parameter. So, you need to choose between freemium and fully paid models before uploading a plugin, as it can't be changed later.
+        Please note that the <code>optional</code> parameter can be set only once, with the first uploaded plugin update containing this parameter. So, you need to choose between freemium and fully paid models before uploading the first paid plugin update, as it can't be changed later.
     </p>
 </warning>
 
