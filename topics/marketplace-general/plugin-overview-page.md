@@ -4,7 +4,7 @@ The core elements of a plugin’s Overview page are extracted from the [Plugin C
 
 ## Plugin name
 
-The plugin’s name is added in the plugin.xml file, under the ```name``` tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).
+The plugin’s name is added in the plugin.xml file, under the ```name``` tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).  There is a limitation of max 60 characters, however we strongly recommend using a shorter name.
 
 <table>
     <tr>
@@ -61,10 +61,10 @@ The list of compatible products is displayed under the “Buy” or “Get” bu
 <img src="compatibility.png" alt="Compatibility Overview Page"
 width="706"/>
 
-[The compatibility strategy](https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html) is determined by the plugin.xml file. You can also manually reconfigure the list of compatible products in the admin panel under the General Information section.
+[The product compatibility](https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html) is determined by the plugin.xml file. You can also manually reconfigure the list of compatible products in the admin panel under the General Information section.
 
-<img src="compatibility2.png" alt="Compatibility Admin Page"
-width="460"/>
+<img src="product-compatibility.png" alt="Compatibility Admin Page"
+width="706"/>
 
 ## Plugin description
 
@@ -178,16 +178,16 @@ If you've got a product video on YouTube, you can add the URL to it. We recommen
 Plugin tags are displayed above the plugin name on the plugin page and are used as search filters. You should select at least one plugin tag while uploading the plugin (in the Plugin Upload form). You can also change tags later under the General Information section on the admin panel.
 
 <img src="tags.png" alt="Fields for Tags"
-width="460"/>
+width="720"/>
 
 Choose your tags wisely, as they will affect searchability. Don’t select categories that the plugin does not fit. If you feel that an appropriate tag is missing, please contact the Marketplace team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com), and we will consider adding it.
 
-## General Usage Instructions
+## Getting started section
 
-You can choose to add general usage instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a [Custom page](custom-pages.md).
+You can choose to add getting started instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a [Custom page](custom-pages.md).
 
-<img src="general-instructions.png" alt="Fields for instructions"
-width="460"/>
+<img src="getting-started.png" alt="Fields for instructions"
+width="720"/>
 
 Use concise, action-oriented headlines, and structure them clearly: (e.g. “1. Launch IDE 2. Go to File -> Settings -> Tools to configure the plugin...”)
 
@@ -199,14 +199,14 @@ Change notes help you track the progress you’ve made on your plugin, introduce
 
 To add change notes, write a short summary of the changes in a new plugin version inside the ```change-notes``` tag of the plugin.xml file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a [Custom page](custom-pages.md) and providing a link to it or to an external page in the change notes.
 
-## Plugin Links
+## Contacts and resources
 
-You can add links to your website, issue tracker, forum page, source code, documentation, and license to your plugin page. They will be displayed in the Additional Information section.
+You can add links to your website, issue tracker, forum page, source code, documentation, and any other custom links to your plugin page. They will be displayed in the Additional Information section.
 
 Please make sure that all of the external links on your plugin page are reachable from the internet. If you add a source code repository link, please make sure that it is publicly available.
 
-<img src="additiona-info.png" alt="Additional Information"
-width="460"/>
+<img src="contacts.png" alt="Additional Information"
+width="720"/>
 
 In order to display your vendor site and email address on the Plugin page, you should fill in the optional "url" and “email” attributes in the plugin.xml file:
 

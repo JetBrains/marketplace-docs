@@ -14,10 +14,6 @@
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
         <toc-element id="intellij-plugin-recommendations.md"/>
         <toc-element id="product-versions-in-use-statistics.md"/>
-        <toc-element id="create-your-marketplace-listing.md">
-            <toc-element id="plugin-overview-page.md" accepts-web-file-names="quality-guidelines.html"/>
-            <toc-element id="custom-pages.md"/>
-        </toc-element>
         <toc-element id="plugin-stats.md">
             <toc-element id="analytics-tab.md"/>
             <toc-element id="download-statistics.md" accepts-web-file-names="unique-downloads.html"/>
@@ -30,6 +26,10 @@
         <toc-element id="reserved-plugin-ids.md"/>
         <toc-element id="contributing-to-the-blog.md"/>
     </toc-element>
+    <toc-element id="create-your-marketplace-listing.md">
+        <toc-element id="plugin-overview-page.md" accepts-web-file-names="quality-guidelines.html"/>
+        <toc-element id="custom-pages.md"/>
+    </toc-element>
     <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.md" accepts-web-file-names="trying-out-the-marketplace.html">
         <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.md"/>
         <toc-element id="obtain-a-product-code-from-jetbrains.md"/>
@@ -41,13 +41,13 @@
             <toc-element id="free-functionality.md"/>
         </toc-element>
         <toc-element id="release-plugin.md"/>
-        <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
-            <toc-element id="demo-obtain-creds.md"/>
-            <toc-element id="demo-prepare-ide.md"/>
-            <toc-element id="demo-limitations.md"/>
-            <toc-element id="demo-start-test.md"/>
-            <toc-element id="marketplace-demo-plugin.md"/>
-        </toc-element>
+    </toc-element>
+    <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
+        <toc-element id="demo-obtain-creds.md"/>
+        <toc-element id="demo-prepare-ide.md"/>
+        <toc-element id="demo-limitations.md"/>
+        <toc-element id="demo-start-test.md"/>
+        <toc-element id="marketplace-demo-plugin.md"/>
     </toc-element>
         <toc-element id="general-information-and-faq.md">
             <toc-element id="legal-agreements.md">
