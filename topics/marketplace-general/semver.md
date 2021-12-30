@@ -23,13 +23,13 @@ To turn on SemVer for your plugin, tick the **SemVer Only** option on the plugin
 
 ![SemVer Only](semver_ui.png)
 
-As soon as you tick this option, the Marketplace will check if your update version meets SemVer rules. If so, Marketplace compares the maximum version among existing updates with the new update's version. If the existing update has greater version than the new one, the update will be uploaded without changing the plugin page. Otherwise, the following fields will be extracted from the update's [configuration file — plugin.xml](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html):
+If you tick this option, the Marketplace begins checking versions against SemVer rules with the next update upload. If the version meets the rules, Marketplace compares the maximum version among existing updates with the new update version. If the existing update has greater version than the new one, the update will be uploaded without changing the plugin page. Otherwise, the following fields will be extracted from the update [configuration file — plugin.xml](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html):
 * Plugin URL `<idea-plugin url="">`
 * Name `<name></name>`
 * Vendor information `<vendor url="" email=""></vendor>`
 * Description `<description></description>`
-If you try to upload a new update with the non-SemVer version you will receive the following error:
+  If you try to upload a new update with the non-SemVer version you will receive the following error:
 
 ![SemVer Error](semver_error.png)
 
-As of now, the main benefit to turn on the SemVer option is the ability to upload an update with minor fixes without changing the information on the plugin's page. In the nearest future we will start sorting updates of the plugins with SemVer enabled by their version. As of now, the updates are sorted by upload timestamp.
+As of now, the main benefit to turn on the SemVer option is the ability to upload an update with minor fixes without changing the information on the plugin page. In the nearest future we will start sorting updates of the plugins with SemVer enabled by their version. As of now, the updates are sorted by upload timestamp.
