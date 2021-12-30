@@ -15,6 +15,12 @@ width="706"/>
 <p>Thanks to this optional attribute, the IDE will not check for a license on IDE startup, which allows us to install the plugin and start using it.
 </p>
 
+<warning>
+    <p>
+        Please note that the <code>optional</code> parameter can be set only once, with the first uploaded plugin update containing this parameter. So, you need to choose between freemium and fully paid models before uploading the first paid plugin update, as it can't be changed later.
+    </p>
+</warning>
+
 <p> It is up to the plugin developers to decide exactly what functionality will be available for free and what will require a license. To do that, please use the following <code>requestLicense</code> method that checks if a license has been obtained when the paid functionality is called.</p>
 
 ```Java

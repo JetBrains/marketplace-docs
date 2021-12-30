@@ -13,7 +13,7 @@ This is one of the most crucial parameters, as the subscription model depends on
 
 The number should contain at least 2 digits, as it will be split into 2 numbers, the second of which will contain only one digit. Take, for example, `release-version=20201`. The first number would be `2020` and the second one `1`.  
 
-This is different from the [version](notes-on-the-paid-plugins-versioning.md) of the plugin, as this is a version number of the major release (i.e. the release that happened on `release-date`). 
+This is different from the [version](versioning-of-paid-plugins.md) of the plugin, as this is a version number of the major release (i.e. the release that happened on `release-date`). 
 
 <note>
 <p>Please make sure the `release-version` and the `version` parameters match. They should have similar integers at the beginning, like `release-version=20201`  and `version=2020.1.1.`</p>

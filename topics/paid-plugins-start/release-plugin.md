@@ -29,7 +29,7 @@ width="540"/>
 
 <warning>
     <p>
-        Please make sure that your plugin meets all the  <a href="https://plugins.jetbrains.com/legal/approval-guidelines">requirements</a> and that you’ve correctly specified the <a href="notes-on-the-paid-plugins-versioning.md">plugin version and release date</a>.
+        Please make sure that your plugin meets all the  <a href="https://plugins.jetbrains.com/legal/approval-guidelines">requirements</a> and that you’ve correctly specified the <a href="versioning-of-paid-plugins.md">plugin version and release date</a>.
     </p>
 </warning>
 

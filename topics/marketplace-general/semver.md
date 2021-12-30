@@ -24,6 +24,7 @@ To turn on SemVer for your plugin, tick the **SemVer Only** option on the plugin
 ![SemVer Only](semver_ui.png)
 
 If you tick this option, the Marketplace begins checking versions against SemVer rules with the next update upload. If the version meets the rules, Marketplace compares the maximum version among existing updates with the new update version. If the existing update has greater version than the new one, the update will be uploaded without changing the plugin page. Otherwise, the following fields will be extracted from the update [configuration file — plugin.xml](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html):
+
 * Plugin URL `<idea-plugin url="">`
 * Name `<name></name>`
 * Vendor information `<vendor url="" email=""></vendor>`

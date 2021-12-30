@@ -24,7 +24,7 @@ An organization lets you gather on a single page such company-wide information a
 
 ## Verified organizations
 
-"Verified organizations" have proved their commitment to the JetBrains platform and are considered to be a reliable plugin vendor. If an organization would like to be marked as "Verified", one of its members should contact the JetBrains Plugins Repository support via email [plugins-admin@jetbrains.com](mailto:plugins-admin@jetbrains.com) and request this.
+"Verified organizations" have proved their commitment to the JetBrains platform and are considered to be a reliable plugin vendor. If an organization would like to be marked as "Verified", one of its members should contact the JetBrains Plugins Repository support via email [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) and request this.
 
 ## Examples
 
