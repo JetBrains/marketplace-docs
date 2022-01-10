@@ -11,3 +11,9 @@ Once you have a [JetBrains Account](https://account.jetbrains.com/) status eligi
 4. If the offer provides a free license for your account status, you will be able to use the `Apply` button, which will generate a free license and assign it to your JetBrains Account.
 
    ![Apply Button](apply_button.png)
+
+<note>
+    <p>
+        If your account has a special status, but you are not able to apply for the offer, please contact JetBrains Marketplace support via email <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+    </p>
+</note>
