@@ -2,8 +2,8 @@
 
 Plugin vendors can submit a blog post as a part of their additional value program. Posting blog articles can help you position yourselves as thought leaders and drive awareness and interest in your plugin. Your post will be published in the [JetBrains Platform blog](https://blog.jetbrains.com/platform/) or the blog of an applicable JetBrains product (subject to negotiation). You can state your preferences regarding which blog section you’d like to appear in, but this is up to editorial discretion.
 
-This option is available for both free and paid plugin vendors, provided that your article brings value to readers. You can contribute in the form of a guest post or an interview. These types of posts can be published once per month. If there is a queue of posts to be published, **submissions from commercial partners (paid plugin developers) will be prioritized**.
-If your blog post is published on the JetBrains Platform blog, it is not allowed to reuse it on your own blog or other platforms. Instead, you can create a supporting post and provide a link to your guest post.
+This option is available for both paid and free plugin vendors, **but your plugin shouldn’t be paid via own checkout**. You can contribute in the form of a guest post or an interview. These types of posts can be published once per month. If there is a queue of posts to be published, **submissions from commercial partners (paid plugin developers) will be prioritized**.
+If your blog post is published on the JetBrains Platform blog, **it is not allowed to reuse it on your own blog or other platforms**. Instead, you can create a supporting post and provide a link to your guest post.
 
 ## Guest posts
 
