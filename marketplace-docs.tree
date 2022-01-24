@@ -11,6 +11,7 @@
         <toc-element id="benefits-of-jetbrains-marketplace.md"/>
         <toc-element id="getting-started.md"/>
         <toc-element id="roles.md"/>
+        <toc-element id="semver.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="intellij-enterprise-plugin-repositories.md"/>
         <toc-element id="intellij-plugin-recommendations.md"/>
