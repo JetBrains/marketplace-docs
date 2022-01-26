@@ -19,6 +19,7 @@ To check if the given version number matches SemVer rules, you can use:
 * [Regex101 sandboxes](https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string)
 * An online checker, [for example](https://jubianchi.github.io/semver-check)
 
+SemVer is turned on by default for all new plugins. However, you can manually turn it on for your existing plugin if its versions already match the rules.
 To turn on SemVer for your plugin, tick the **SemVer Only** option on the plugin page:
 
 ![SemVer Only](semver_ui.png)
