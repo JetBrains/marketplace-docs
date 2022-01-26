@@ -28,7 +28,8 @@ If you tick this option, the Marketplace begins checking versions against SemVer
 * Name `<name></name>`
 * Vendor information `<vendor url="" email=""></vendor>`
 * Description `<description></description>`
-  If you try to upload a new update with the non-SemVer version you will receive the following error:
+  
+If you try to upload a new update with the non-SemVer version you will receive the following error:
 
 ![SemVer Error](semver_error.png)
 
