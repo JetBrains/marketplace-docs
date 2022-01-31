@@ -1,4 +1,4 @@
-[//]: # (title: Create Your Marketplace Listing)
+[//]: # (title: Publishing and Listing your plugin)
 
 The Marketplace plugin page is the webpage used for JetBrains Marketplace listings. It provides users with useful links and information about your plugin’s functionality,  product compatibility, versions, and pricing (if applicable).  When you upload a plugin to JetBrains Marketplace, it becomes available to over 10 million users of JetBrains products. They can download, evaluate, and buy your plugin from the plugin page, as well as rate and review it.
 
