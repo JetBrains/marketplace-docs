@@ -1,12 +1,12 @@
 [//]: # (title: Freemium plugins)
 
-<p>Freemium plugins offer some features at no cost in addition to paid features.The reasons for implementing this model can be different, from helping you attract new users, or simply making some profit without going fully paid.</p>
+<p>Freemium plugins offer some features at no cost in addition to paid features. The reasons for implementing this model can be different, from helping you attract new users, or simply making some profit without going fully paid.</p>
 
 <chapter title="How does it look for users?"
          id="how-does-it-look" 
          level="3"/>
 
-<p>Users will see an explanatory note under the "Get" button that informs them about paid features.</p>
+<p>Users will see an explanatory note under the “Get” button that informs them about paid features.</p>
 
 <img src="free-paid-example.png" alt="An example of how the tag looks like"
 width="706"/>
@@ -16,7 +16,7 @@ width="706"/>
 <img src="ide-freemium.png" alt="Freemium tag in IDE"
 width="706"/>
 
-<p>While they have the “Freemium” tag along with the “Paid”  tag in the older IDE versions:</p>
+<p>While they have the “Freemium” tag along with the “Paid” tag in the older IDE versions:</p>
 
 <img src="old-ide-freemium.png" alt="Freemium tag in old IDEs"
 width="706"/>
