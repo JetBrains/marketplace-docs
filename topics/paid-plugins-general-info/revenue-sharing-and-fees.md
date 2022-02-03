@@ -6,7 +6,7 @@
 
 ## Share calculation in regards to taxes and distribution channels
 
-<p>We calculate the plugin developer fee from the price set by the vendor. If there are any additional taxes (such as VAT or WHT) involved in the sale to the end user (either personal or commercial), then these taxes are calculated on top of the price and can’t be included in the calculation of the fee. JetBrains takes care of processing any taxes related to the sale of the license. If any partner, reseller, or distributor commissions are involved, they are paid from JetBrains’ commission, not by the plugin developer.</p>
+<p>We calculate the plugin developer’s share from the price set by the vendor. If there are any additional taxes (such as VAT or WHT) involved in the sale to the end user (either personal or commercial), then these taxes are calculated on top of the price and can’t be included in the calculation of the fee. JetBrains takes care of processing any taxes related to the sale of the license. If any partner, reseller, or distributor commissions are involved, they are paid from JetBrains’ commission, not by the plugin developer.</p>
 
 <p>Here are some examples of how the developer’s share is calculated (<control>percentage values may vary</control> depending on circumstances and are used here as examples):</p>
 
@@ -50,7 +50,7 @@
     </tr>
      <tr>
         <td>
-            Developer fee
+            Developer’s share
         </td>
         <td>
             $85
@@ -106,7 +106,7 @@
     </tr>
     <tr>
         <td>
-            Developer fee
+            Developer’s share
         </td>
         <td>
             $85
