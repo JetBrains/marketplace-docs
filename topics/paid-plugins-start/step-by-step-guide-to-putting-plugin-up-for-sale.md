@@ -10,6 +10,6 @@ Please follow these steps to start selling a new plugin:
 4. <a href="release-plugin.md">Release the Plugin</a>
 
 
-Keep in mind that you can test the plugin on our <a href="marketplace-demo.md">Marketplace Demo</a>  instance before uploading it. You will be able to go through the whole plugin release process and check how purchasing the plugin works. Moreover, you can make sure the plugin functions as intended and play around with plugin updates. If your plugin contains <a href="free-functionality.md">free functionality</a>, you can test the logic behind licensing checks.
+Keep in mind that you can test the plugin on our <a href="marketplace-demo.md">Marketplace Demo</a>  instance before uploading it. You will be able to go through the whole plugin release process and check how purchasing the plugin works. Moreover, you can make sure the plugin functions as intended and play around with plugin updates. If your plugin contains <a href="freemium.md">free functionality</a>, you can test the logic behind licensing checks.
 
 
