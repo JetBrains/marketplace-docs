@@ -1,6 +1,6 @@
-[//]: # (title: How plugin developers / vendors are paid?)
+[//]: # (title: How plugin developers are paid?)
 
-Plugin developers / vendors are paid following the rules defined in the [Developer Agreement](https://plugins.jetbrains.com/legal/developer-agreement):
+Plugin developers are paid following the rules defined in the [Developer Agreement](https://plugins.jetbrains.com/legal/developer-agreement):
 
 * Up to 30 days after the end-of-the-month (so that all credit cards/etc. settlement periods pass before the payment.)
 
