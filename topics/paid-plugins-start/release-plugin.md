@@ -58,7 +58,7 @@ width="460"/>
     </p>
 </tip>
 
-Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="licensing-schemes.md">Licensing Schemes</a>.
+Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="license-types-and-schemes.md">Licensing Schemes</a>.
 
 <img src="sales_details.png" alt="Fill in the sales info"
 width="354"/>

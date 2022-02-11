@@ -51,7 +51,7 @@
         </toc-element>
         <toc-element id="release-plugin.md"/>
     </toc-element>
-    <toc-element id="freemium.md" accepts-web-file-names="free-functionality.md"/>
+    <toc-element id="freemium.md" accepts-web-file-names="free-functionality.html"/>
     <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
         <toc-element id="demo-obtain-creds.md"/>
         <toc-element id="demo-prepare-ide.md"/>
@@ -62,11 +62,9 @@
         <toc-element id="billing-and-licensing.md">
             <toc-element id="payment-processing.md"/>
             <toc-element id="plugin-types.md"/>
-            <toc-element id="licensing-schemes.md"/>
-            <toc-element id="license-types.md"/>
+            <toc-element id="license-types-and-schemes.md" accepts-web-file-names="licensing-types.html,licensing-schemes.html"/>
             <toc-element id="revenue-sharing-and-fees.md"/>
             <toc-element id="getting-paid.md"/>
-            <toc-element id="jetbrains-sales-systems.md"/>
             <toc-element id="how-to-buy-a-plugin.md"/>
             <toc-element id="discounts-and-offers.md">
                 <toc-element id="coupon-offers.md"/>
@@ -83,8 +81,6 @@
                 </toc-element>
             </toc-element>
             <toc-element id="technical-implementation.md"/>
-            <toc-element id="pricing-and-distribution-network.md"/>
-            <toc-element id="license-server.md"/>
             <toc-element id="moving-to-marketplace.md"/>
         </toc-element>
     <toc-element id="api-reference.md">
