@@ -26,6 +26,9 @@ Here you will find an example [plugin](https://github.com/JetBrains/marketplace-
 
 You can find the `CheckLicense` class in `license/CheckLicense.java`, which is then used in `actions/DemoAction.java` to check whether the plugin is licensed.
 
-
+<tip>
+  <p><code>LicensingFacade.getInstance() == null</code> means the LicensingFacade object is not initialized yet. So you cannot say for sure whether a plugin is licensed or not.</p>
+  <p>As soon as <code>LicensingFacade.getInstance() != null</code>, all initialization procedures are now completed and the plugin can examine the state of the LicensingFacade object. Now the lack of a licensing stamp will definitely mean that the license is missing.</p>
+</tip>
 
 There are no private keys in the platform (otherwise, they could easily be extracted/leaked), so the IntelliJ Platform gets a signed confirmation of the license from the server (online or on-premises) or the signed offline key. The plugin licensing verification code uses the JetBrains public certificate, which helps us verify that the key is genuine.
