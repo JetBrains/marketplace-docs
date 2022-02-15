@@ -45,6 +45,7 @@
         <toc-element id="obtain-a-product-code-from-jetbrains.md"/>
         <toc-element id="prepare-your-plugin-for-publication.md" accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html">
             <toc-element id="add-required-parameters.md"/>
+            <toc-element id="technical-implementation.md"/>
             <toc-element id="obfuscate-the-plugin.md"/>
             <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
             <toc-element id="versioning-of-paid-plugins.md"/>
@@ -59,9 +60,9 @@
         <toc-element id="demo-start-test.md"/>
         <toc-element id="marketplace-demo-plugin.md"/>
     </toc-element>
-        <toc-element id="billing-and-licensing.md">
+        <toc-element id="billing-and-licensing.md" accepts-web-file-names="jetbrains-sales-systems.html">
             <toc-element id="payment-processing.md"/>
-            <toc-element id="plugin-types.md"/>
+            <toc-element id="business-models.md" accepts-web-file-names="plugin-types.html"/>
             <toc-element id="license-types-and-schemes.md" accepts-web-file-names="licensing-types.html,licensing-schemes.html"/>
             <toc-element id="revenue-sharing-and-fees.md"/>
             <toc-element id="getting-paid.md"/>
@@ -80,7 +81,6 @@
                     <toc-element id="pricing-constant-process.md"/>
                 </toc-element>
             </toc-element>
-            <toc-element id="technical-implementation.md"/>
             <toc-element id="moving-to-marketplace.md"/>
         </toc-element>
     <toc-element id="api-reference.md">
