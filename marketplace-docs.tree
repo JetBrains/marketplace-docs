@@ -52,7 +52,7 @@
         </toc-element>
         <toc-element id="release-plugin.md"/>
     </toc-element>
-    <toc-element id="freemium.md" accepts-web-file-names="free-functionality.html"/>
+    <toc-element id="freemium.html" accepts-web-file-names="free-functionality.html"/>
     <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
         <toc-element id="demo-obtain-creds.md"/>
         <toc-element id="demo-prepare-ide.md"/>

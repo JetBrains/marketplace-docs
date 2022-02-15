@@ -45,4 +45,4 @@ As you can see, only the `version` parameter has been changed. Subsequent minor 
 
 <tip><p>A plugin version with an altered `release-version` and `release-date` is considered a new stable version of the plugin, and in this case the current active trial licenses are reset.</p></tip>
 
-4. `optional` – not a required parameter (type: `boolean`). This should be set to `true` if you would like to add the free functionality to your plugin. Please see [this article](freemium.md) for more information about free functionality. The default value of this parameter is `false`.
+4. `optional` – not a required parameter (type: `boolean`). This should be set to `true` if you would like to add the free functionality to your plugin. Please see [this article](freemium.html) for more information about free functionality. The default value of this parameter is `false`.

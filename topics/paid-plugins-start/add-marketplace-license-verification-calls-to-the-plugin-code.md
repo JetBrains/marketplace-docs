@@ -12,7 +12,7 @@ In the meantime, you could add an additional feature to your plugin that would a
 <p>Having the plugin perform license checks too often may lead to high CPU usage. That is why we recommend sticking to a few checks per day.</p>
 </note>
 
-* These verification calls could also be useful for your plugin scheme, for example if you’re developing a [free plugin with paid functionality](freemium.md). You can implement logic to notify users who aren't licensed that there is a paid functionality in your plugin, and have this notification appear during the license check.
+* These verification calls could also be useful for your plugin scheme, for example if you’re developing a [free plugin with paid functionality](freemium.html). You can implement logic to notify users who aren't licensed that there is a paid functionality in your plugin, and have this notification appear during the license check.
 
 
 To implement license verification on the plugin side, a plugin has to include a standard code provided by JetBrains, which checks that your plugin is licensed.
