@@ -4,7 +4,8 @@
 id="update-a-plugin"
 level="3"/>
 
-<p>To upload an update for your plugin, just click on the <control>Upload Update</control> button in the top left corner:</p>
+<p>In most cases, updates are uploaded automatically using Gradle tasks as described in <a href="https://plugins.jetbrains.com/docs/intellij/deployment.html">Publishing Plugins with Gradle</a>.</p>
+<p>To upload an update manually, just click on the <control>Upload Update</control> button in the top left corner:</p>
 
 <img src="upload-update.png" alt="Upload Update button"
 width="706"/>
