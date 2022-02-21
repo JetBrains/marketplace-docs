@@ -1,5 +1,12 @@
 [//]: # (title: Plugins List API)
 
+<warning>
+    <p>
+        This API endpoint is deprecated.
+    </p>
+</warning>
+
+
 This API endpoint provides a list of all plugins compatible with a provided IDE build:
 
 **https://plugins.jetbrains.com/plugins/list/?build=`<productCode>`-`<buildNumber>`**
