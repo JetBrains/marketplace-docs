@@ -10,7 +10,7 @@
 
 # Release-version vs. Version
 
-<p>We use the <code>version</code> parameter to identify the latest update of the plugin that is compatible with your IDE, which allows us to suggest installing the appropriate version. We recommend to follow the Semantic Versioning in regards to the <code>version</code> parameter. For more information see <a href="https://plugins.jetbrains.com/docs/marketplace/semantic-versioning.html">Semantic Versioning</a>.</p>
+<p>We use the <code>version</code> parameter to identify the latest update of the plugin that is compatible with your IDE, which allows us to suggest installing the appropriate version. Keep in mind that SemVer (Semantic Versioning) is turned on by default for all new plugins. For more information see <a href="semver.md">Semantic Versioning</a>.</p>
 <p>In addition to the <code>version</code> parameter, <a href="add-required-parameters.md">the changes</a> you make for paid plugins specifically introduces the <code>release-version</code> parameter, which pertains to the licensing of paid plugins. It identifies what is considered to be a major release, and it is tied to the release-date. For example:</p>
 
 ```xml
