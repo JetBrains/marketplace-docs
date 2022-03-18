@@ -77,7 +77,7 @@ Please change the link accordingly where ```{ID}``` = PRODUCT CODE
 
 <emphasis>Or go to buy page from the plugin overview</emphasis>
 
-* https://marketplace.demo.plugins.aws.intellij.net/plugin/```{ID}```
+* https://master.demo.marketplace.intellij.net/purchase-link/```{ID}```
 
 ### Payment information on the checkout
 
