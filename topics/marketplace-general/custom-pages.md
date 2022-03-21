@@ -38,7 +38,7 @@ Under the name field is a Markdown editor. You can use the most common Markdown 
 
 * Headings
 
-```
+```markdown
 # H1
 ## H2
 ### H3
@@ -54,43 +54,43 @@ Alternative H2
 
 * Bold
 
-```
+```markdown
 **Text in bold**
 ```
 
 * Italics
 
-```
+```markdown
 *Text in italics*
 ```
 
 * Links
 
-```
+```markdown
 [Link](URL)
 ```
 
 * Citation
 
-```
+```markdown
 > Citation
 ```
 
 * Code
 
-```
+```markdown
 `Code`
 ```
 
 * Pictures
 
-```
+```markdown
 ![Picture](URL)
 ```
 
 * Unordered list
 
-```
+```markdown
 * Unordered list can use asterisks
 - Or minuses
 + Or even pluses
@@ -98,7 +98,7 @@ Alternative H2
 
 * Ordered list
 
-```
+```markdown
 1. First ordered list item
 2. Second item
 3. Another item
