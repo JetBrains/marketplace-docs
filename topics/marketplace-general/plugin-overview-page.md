@@ -211,9 +211,9 @@ width="720"/>
 In order to display your vendor site and email address on the Plugin page, you should fill in the optional "url" and “email” attributes in the plugin.xml file:
 
 
+```xml
+<vendor url="https://www.company.com" email="support@company.com">Company Inc.</vendor>
 ```
- <vendor url="https://www.company.com" email="support@company.com"> Company Inc.</vendor>
- ```
 
 Note that if you have a plugin transferred to an [Organization](organizations.md), the Vendor link will lead to an organization page.
 Links to the bug tracker, forum, and source code can be added in an admin panel under the Technical Information section.
@@ -221,8 +221,8 @@ The license link should be added upon upload (in the Plugin Upload form) and can
 
 A vendor website can be added in the plugin.xml file:
 
-```
- <idea-plugin url="https://www.com.com/plugin">.
+```xml
+<idea-plugin url="https://www.com.com/plugin">
 ```
 
 Note that the “Plugin homepage” link in the plugin manager in IDEs links to your Marketplace plugin page, not the website you specified under the ```idea-plugin``` tag.
