@@ -2,24 +2,9 @@
 
 <buildprofiles>
     <variables>
-        <list-bullets>blue_romb_blt.png</list-bullets>
-        <list-links>seealso_blt.gif</list-links>
-        <toc-image-doc>topic.gif</toc-image-doc>
-        <toc-image-folder>folder.gif</toc-image-folder>
-        <marker-note>note.gif</marker-note>
-        <marker-warning>notice_purple.gif</marker-warning>
-        <marker-tip>tip.gif</marker-tip>
-        <marker-extlink>mark.gif</marker-extlink>
-        <printable-marker>iconpdf.png</printable-marker>
-        <marker-arrowup>moveUp.gif</marker-arrowup>
-        <hr-delimiter>hr.gif</hr-delimiter>
-        <header-background>bg_idea_big.jpg</header-background>
-        <toc-image-root>IDEA.gif</toc-image-root>
         <images-home>images</images-home>
-        <printable-marker>printable.png</printable-marker>
         <help-app-version>3</help-app-version>
         <stylesheets-home>css</stylesheets-home>
-        <pdf-bullet>blt_pdf.png</pdf-bullet>
         <web-root>https://plugins.jetbrains.com</web-root>
         <web-community-path>Developer Community:http://www.jetbrains.net/devnet/community/idea/kb</web-community-path>
         <download-page/>
