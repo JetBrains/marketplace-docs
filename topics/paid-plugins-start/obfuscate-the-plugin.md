@@ -2,6 +2,10 @@
 
 We recommend obfuscating your paid plugin before uploading it to the Marketplace. Every application can be hacked, but proper obfuscation makes doing so much harder.
 
+> Blog post [The Plugin Obfuscation Experience](https://blog.jetbrains.com/platform/2022/05/the-plugin-obfuscation-experience/) discusses using [](#proguard).
+>
+{type="tip"}
+
 Here are some of the most popular Java obfuscators:
 
 * ProGuard
