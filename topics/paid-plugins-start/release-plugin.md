@@ -22,10 +22,12 @@ width="354"/>
 <tip><p>If you don’t see the tab for banking information, please contact us via <emphasis>marketplace@jetbrains.com</emphasis></p></tip>
 
 
-2. Upload the plugin to <a href="https://plugins.jetbrains.com/">JetBrains Marketplace</a>.
+2. If this is your initial release, please upload the plugin to <a href="https://plugins.jetbrains.com/">JetBrains Marketplace</a>.
 
 <img src="plugin_upload.png" alt="A button for plugin upload"
 width="540"/>
+
+If you are switching the model from being a free plugin to paid/freemium, just <a href="plugin-updates.md">upload an update</a>. 
 
 <warning>
     <p>
