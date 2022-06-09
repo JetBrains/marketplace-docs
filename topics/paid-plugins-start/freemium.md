@@ -2,6 +2,10 @@
 
 <p>Freemium plugins offer some features at no cost in addition to paid features. The reasons for implementing this model can be different, from helping you attract new users, or simply making some profit without going fully paid.</p>
 
+<note>
+   <p>If you're switching the payment model from free to freemium, please <a href="inform-your-users-in-advance.md">inform your users in advance</a>.</p>
+</note>
+
 <chapter title="How does it look for users?"
          id="how-does-it-look" 
          level="3"/>

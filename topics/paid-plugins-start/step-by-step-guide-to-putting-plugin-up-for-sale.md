@@ -2,7 +2,11 @@
 
 This section of the Marketplace documentation describes the process of publishing a paid plugin to JetBrains Marketplace.
 
-Please follow these steps to start selling a new plugin:
+<note>
+   <p>If you're switching the payment model from free to paid, please <a href="inform-your-users-in-advance.md">inform your users in advance</a>.</p>
+</note>
+
+Please follow these steps to start selling a plugin:
 
 1. <a href="submit-a-request-to-sell-plugins-at-the-marketplace.md">Submit a request</a>
 2. <a href="obtain-a-product-code-from-jetbrains.md">Create a Product Code</a>
