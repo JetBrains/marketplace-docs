@@ -4,7 +4,7 @@ The core elements of a plugin’s Overview page are extracted from the [Plugin C
 
 ## Plugin name
 
-The plugin’s name is added in the plugin.xml file, under the ```name``` tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).  There is a limitation of max 60 characters, however we strongly recommend using a shorter name.
+The plugin’s name is added in the <path>plugin.xml</path> file, under the `name` tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).  There is a limitation of max 60 characters, however we strongly recommend using a shorter name.
 
 <table>
     <tr>
@@ -61,14 +61,14 @@ The list of compatible products is displayed under the “Buy” or “Get” bu
 <img src="compatibility.png" alt="Compatibility Overview Page"
 width="706"/>
 
-[The product compatibility](https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html) is determined by the plugin.xml file. You can also manually reconfigure the list of compatible products in the admin panel under the General Information section.
+[The product compatibility](https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html) is determined by the <path>plugin.xml</path> file. You can also manually reconfigure the list of compatible products in the admin panel under the General Information section.
 
 <img src="product-compatibility.png" alt="Compatibility Admin Page"
 width="706"/>
 
 ## Plugin description
 
-The plugin description should be added to the plugin.xml file under the ```description``` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on [JetBrains Marketplace](https://plugins.jetbrains.com/).
+The plugin description should be added to the <path>plugin.xml</path> file under the `description` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on [JetBrains Marketplace](https://plugins.jetbrains.com/).
 
 Make sure your description is concise and offers a clear value proposition. It should be easy to understand at a glance what the product offers.
 
@@ -197,7 +197,7 @@ Use concise, action-oriented headlines, and structure them clearly: (e.g. “1. 
 
 Change notes help you track the progress you’ve made on your plugin, introduce new features, announce changes, and recap bug fixes.
 
-To add change notes, write a short summary of the changes in a new plugin version inside the ```change-notes``` tag of the plugin.xml file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a [Custom page](custom-pages.md) and providing a link to it or to an external page in the change notes.
+To add change notes, write a short summary of the changes in a new plugin version inside the `change-notes` tag of the <path>plugin.xml</path> file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a [Custom page](custom-pages.md) and providing a link to it or to an external page in the change notes.
 
 ## Contacts and resources
 
@@ -208,24 +208,25 @@ Please make sure that all of the external links on your plugin page are reachabl
 <img src="contacts.png" alt="Additional Information"
 width="720"/>
 
-In order to display your vendor site and email address on the Plugin page, you should fill in the optional "url" and “email” attributes in the plugin.xml file:
+In order to display your vendor site and email address on the Plugin page, you should fill in the optional `url` and `email` attributes in the <path>plugin.xml</path> file:
 
 
 ```xml
-<vendor url="https://www.company.com" email="support@company.com">Company Inc.</vendor>
+<vendor url="https://www.company.com" 
+          email="support@company.com">Company Inc.</vendor>
 ```
 
 Note that if you have a plugin transferred to an [Organization](organizations.md), the Vendor link will lead to an organization page.
 Links to the bug tracker, forum, and source code can be added in an admin panel under the Technical Information section.
 The license link should be added upon upload (in the Plugin Upload form) and can be edited in the General Information section.
 
-A vendor website can be added in the plugin.xml file:
+A vendor website can be added in the <path>plugin.xml</path> file:
 
 ```xml
-<idea-plugin url="https://www.com.com/plugin">
+<idea-plugin url="https://www.company.com/plugin">
 ```
 
-Note that the “Plugin homepage” link in the plugin manager in IDEs links to your Marketplace plugin page, not the website you specified under the ```idea-plugin``` tag.
+Note that the <control>Plugin homepage</control> link in the plugin manager in IDEs links to your Marketplace plugin page, not the website you specified under the `idea-plugin` tag.
 
 <img src="homepage.png" alt="Plugin Homepage"
 width="460"/>
