@@ -1,58 +1,103 @@
 [//]: # (title: Organizations)
 
-## Overview
+<p>Organizations simply let you gather all the plugins and plugin authors associated with your company on a single page that also provides information such as a link to your company’s website and an email address. Personal plugins do not belong to an organization and do not need to be transferred. We recommend creating an organization for companies or individual users who are planning to sell plugins or provide services such as bespoke plugin development, plugin training, and plugin translation.</p>
 
-The number of plugins on the Marketplace is constantly growing. These plugins are created by both individual users and companies. To simplify the search process and the support of plugins, and also to increase the credibility of plugins, we have added a new entity – **_Organizations_**.
-An organization lets you gather on a single page such company-wide information as company website and email address. An organization includes both plugin authors and their plugins. Each organization has a name and a *unique ID*.
+## Creating an organization
 
-## Rules
+<p>To create an organization, navigate to your profile on JetBrains Marketplace, switch to the <emphasis>My Organizations</emphasis> tab, and click the <a href="https://plugins.jetbrains.com/organizations/new">Add Organization</a> button:</p>
 
-1. Registered users can [create organizations](https://plugins.jetbrains.com/organizations/new).
-2. The user who created the organization becomes its *administrator*.
-3. The organization's administrator can [add new members](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Addamember) to the organization.
-4. The organization's administrator can grant additional administrator roles to other members of the organization.
-5. Organization members can [transfer their plugins](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Plugintransfer) to the organization.
-6. A plugin can be transferred to an organization if and only if the vendor field in the plugin descriptor is the same as the organization ID.
-7. If a plugin is transferred to the organization:
-    1. The plugin authors retain the right to manage their plugins, even if some of them do not belong to the organization.
-    2. The plugin can additionally be managed by the organization's administrators.
-    3. The vendor field in the plugin descriptor should be the same as the organization ID.
-8. The organization can have only one ID. Multiple IDs are not allowed.
-9. Paid plugins must belong to an organization. It is necessary to associate the organization with the Company/Author's Full Legal Name, which is used in the Sales System.
-10. An organization can be [verified](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Verifiedorganizations) by JetBrains.
-11. The organization's administrator can [reserve plugin IDs](https://plugins.jetbrains.com/docs/marketplace/reserved-plugin-ids.html).
+<img src="AddOrganization.png" alt="Add Organization"
+width="406"/>
 
-## Verified organizations
+<note><p>Keep in mind that the user who creates an organization becomes its administrator.</p></note>
+<p>Each organization has a public name and a unique ID. Be sure to choose your Organization ID carefully, because you won’t be able to edit this parameter later on. You should also keep in mind that one organization cannot have multiple Organization IDs.</p>
 
-"Verified organizations" have proved their commitment to the JetBrains platform and are considered to be a reliable plugin vendor. If an organization would like to be marked as "Verified", one of its members should contact JetBrains Marketplace support via email [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com) and request this.
+<img src="CreateOrganization.png" alt="Create Organization"
+width="406"/>
 
-## Examples
+<p>All the other information, including the Organization Name, email address, and website, can be updated at any time.</p>
 
-The ID of the organization [JetBrains s.r.o.](https://plugins.jetbrains.com/organization/JetBrains) is "JetBrains". To be able to transfer a plugin to this organization, the organization's administrator or the author of the plugin should configure the plugin as described below.
+## Organization administrators
 
-### IntelliJ IDEA-based IDEs
+<p>As an administrator, you can:</p>
+<list>
+ <li>Manage all the plugins under your organization.</li>
+ <li>Update the organization details, including the banking information.</li>
+ <li>Add new members to the organization.</li>
+ <li>Grant additional administrator roles to other organization members.</li>
+ <li>Revoke administrator privileges.</li>
+ <li><a href="https://plugins.jetbrains.com/docs/marketplace/reserved-plugin-ids.html">Reserve plugin IDs</a></li>
+</list>
 
-* A plugin with `<vendor>JetBrains</vendor>` may be transferred to the JetBrains organization.
-* A plugin with `<vendor>JetBrains s.r.o</vendor>` may not be transferred to the JetBrains organization.
+## Adding members
 
-### TeamCity
+To add more members, you just need to open the <emphasis>Edit Organization</emphasis> page, switch to the <emphasis>People & Plugins</emphasis> tab, and enter the plugin author's ID in the <emphasis>Add User</emphasis> field.
 
-* A plugin must have `<vendor><name>JetBrains</name></vendor>` in order to be transferred to the JetBrains organization.
+## Associating plugins with an organization
 
-### ReSharper
+<p>To associate plugins with an organization, the administrator or the plugin’s author should specify the Organization ID in the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml</a> file:</p>
 
-* A NuGet package must have an ID such as `JetBrains.<something>`, as described in the [docs](https://www.jetbrains.com/help/resharper/sdk/HowTo/Start/CreateNuGetPackageForPlugin.html), to be transferred to the JetBrains organization.
+**IntelliJ IDEA-based IDEs:**
 
-### Hub
+```<vendor>OrganizationID</vendor>```
 
-* A widget must have JetBrains as the author to be transferred to the JetBrains organization.
+**TeamCity:** 
 
-## Add a member
+```<vendor><name>OrganizationID</name></vendor>```
 
-To add more members, an organization's administrator should open the organization edit page [https://plugins.jetbrains.com/organization/{&organization_unique_id}/edit](https://plugins.jetbrains.com/organization/{&organization_id}/edit), switch to the "People & Plugins" tab, and enter the plugin author's ID in the "Add User" field.
+**Resharper:**
 
-## Plugin transfer
+*For more details, please refer to <a href="https://www.jetbrains.com/help/resharper/sdk/CreateNuGetPackageForPlugin.html">this page</a>.*
 
-In order to transfer a plugin to an organization, a member should:
-1. Specify the organization's unique ID in the plugin.xml file as described in the [Examples](https://plugins.jetbrains.com/docs/marketplace/organizations.html#Organizations-Examples).
-2. Click the **Transfer** button on the plugin edit page.
+```<id>OrganizationID.PluginName</id>```
+
+
+
+<p>Once this has been done, you will have the option to transfer the plugin to the organization:</p>
+
+<img src="transferorg.png" alt="Add Organization"
+width="310"/>
+
+<warning><p>If this button does not appear, please make sure that you specified the Organization ID correctly. Keep in mind that the Organization ID may differ from the Organization Name.</p></warning>
+
+<p>Once the plugin has been transferred, the plugin authors will retain the right to manage their plugins, even if some of them do not belong to the organization. At this point, the plugin may also be managed by the organization's administrators.</p>
+
+## Verifying organizations
+
+If an organization would like to be marked as "Verified", one of its members should contact JetBrains Marketplace support by sending an email to [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
+
+## Submitting vendor information
+
+<p>Paid and freemium plugins must belong to an organization and must be associated with the name, either the Company Name or the full legal name of the plugin’s author, that is used in the Sales System.</p>
+<p>You can submit your banking information in the Vendor Information tab:</p>
+
+<img src="VendorInfo.png" alt="Vendor Information tab"
+width="354"/>
+
+<warning><p>If you don’t see this tab, please contact us at <control>marketplace@jetbrains.com</control>.</p></warning>
+
+## Transferring plugins from one organization to another
+
+<p>You can easily move free plugins to another organization by following these steps:</p>
+
+1. De-associate the plugin from its current organization by removing it in the <emphasis>Users & Plugins</emphasis> tab.
+2. Update the Organization ID in the plugin.xml file and upload this version to the marketplace.
+3. Transfer the plugin to the new organization on the plugin’s <emphasis>Overview</emphasis> page.
+
+For freemium or paid plugins, the procedure is not so simple, and it requires the involvement of the Marketplace Support team. If you wish to transfer a freemium or paid plugin, please contact us at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
+
+## FAQ
+
+Q: Why should I create an Organization and transfer my plugins to it?
+
+A: Organizations increase the credibility of plugins and simplify the search process for end users, all while easing the plugin management process for you. Having an organization will also make it harder for anyone else to use your name or brand without your permission. Finally, if you want to sell your plugin, it must belong to an organization.
+
+Q: What is the difference between organization-owned plugins and personal plugins?
+
+A: There are no huge differences. Creating an organization is more like a tool for maintaining several plugins or selling them. A single (and free) personal plugin doesn’t really need to be transferred to an organization. Furthermore, if you’re an author who belongs to an organization, you can still keep your own plugins as personal ones.
+
+Q: What will happen to my plugins if I transfer them to an organization?
+
+A: Plugins that you move will have a note added to them that says they belong to the organization. They will also be listed on the organization’s page. Make sure that the value in the Vendor field is the same as the Organization ID. Please see the documentation for further details.
+
+
