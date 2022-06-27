@@ -34,12 +34,7 @@ After that, feel free to upload a new plugin following the steps described in th
 As soon as your plugin is approved, it will be marked as a Paid Plugin available for sale. You as a plugin vendor should see the “Pricing” tab here:
 
 <img src="pricing-admin.png" alt="Pricing page for a vendor"
-width="460"/>
-
-To see how it would look to the end-user, please switch to the preview mode here:
-
-<img src="pricing-user.png" alt="Pricing page for a user"
-width="460"/>
+width="540"/>
 
 ## How to test the purchase process?
 
