@@ -59,3 +59,9 @@ level="3">
         </chapter>
     </tab>
 </tabs>
+
+## Purchasing 100 licenses in one click
+
+<p>To purchase more than 1 license, just select the necessary number of licenses under the Pricing tab and click <control>Buy</control>:</p>
+<img src="100licenses.png" alt="Select 100 licenses"
+                               width="706"/>
