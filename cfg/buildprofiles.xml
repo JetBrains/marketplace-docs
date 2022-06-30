@@ -7,7 +7,8 @@
         <stylesheets-home>css</stylesheets-home>
         <web-root>https://plugins.jetbrains.com</web-root>
         <web-community-path>Developer Community:http://www.jetbrains.net/devnet/community/idea/kb</web-community-path>
-        <download-page/>
+        <download-page>https://plugins.jetbrains.com/build-and-market</download-page>
+        <config-download-title>Start Selling Plugins</config-download-title>
         <images-prefix-override>images/</images-prefix-override>
         <force-resources-app-url>true</force-resources-app-url>
         <config-disqus-id>jetbrains</config-disqus-id>
