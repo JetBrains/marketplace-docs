@@ -1,10 +1,8 @@
 [//]: # (title: Add Marketplace license verification calls to the plugin code)
 
-Plugin creators need to [define the attributes](add-required-parameters.md) of their paid plugins in the plugin descriptor (`plugin.xml`) to start selling process. Then, all the licensing-related communication, including plugin license checks, is done on the IntelliJ Platform side. Licenses will first be checked by the IDE on startup. After that, there will be additional checks at least once a day, so you don't need to bundle it with your plugin or copy-paste licensing-specific functionality.
+Plugin creators need to [define the attributes](add-required-parameters.md) of their paid plugins in the plugin descriptor (`plugin.xml`) to start selling process. Then, all the licensing-related communication, including plugin license checks, is done on the IntelliJ Platform side. Licenses will first be checked by the IDE on startup. After that, there will be additional checks at least once a day.
 
-This approach lets us keep the licensing mechanism as a "black box", which ensures higher protection against piracy and also decreases the amount of work to be done on the plugin vendor side.
-
-In the meantime, you could add an additional feature to your plugin that would allow it to verify on its own that a user has a license for this particular plugin (and specific plugin version). We’d like to emphasize that this is an <control>optional step</control>, but it’s one we recommend implementing for the following reasons:
+However, you should verify on your own that a user has a license for the plugin by adding license verification calls to the plugin code. We recommend implementing this for the following reasons: 
 
 * Even though the IDE checks the plugin license at least once a day, it’s never wrong to increase the security layer against piracy by adding this functionality to your plugin.
 
