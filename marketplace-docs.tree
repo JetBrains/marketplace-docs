@@ -38,6 +38,7 @@
         <toc-element id="plugin-updates.md"/>
         <toc-element id="plugin-overview-page.md" accepts-web-file-names="quality-guidelines.html"/>
         <toc-element id="custom-pages.md"/>
+        <toc-element id="Documentation_Page.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="semver.md"/>
     </toc-element>
