@@ -1,6 +1,6 @@
 [//]: # (title: Plugin Recommendations)
 
-The IntelliJ Platform IDEs will recommend a plugin for installation in one of the following cases:
+The IntelliJ Platform IDEs may recommend a plugin for installation in one of the following cases:
 
  * If a project contains files of types which are unsupported by the running IDE but are supported by a plugin
    available in the plugin repository.
@@ -9,6 +9,8 @@ The IntelliJ Platform IDEs will recommend a plugin for installation in one of th
    settings (modules, facets, artifacts, or run configurations) configured using the plugin.
 
 IntelliJ Platform IDEs only show plugin suggestions in the appropriate context, so they are meaningful to the user.
+
+<warning><p>Features implemented by third-party plugins are subject to review and approval by JetBrains Marketplace, and must meet <a href="https://plugins.jetbrains.com/legal/approval-guidelines">the approval criteria</a>. We may establish additional criteria on a case-by-case basis and reserve the right to reject the feature implementation.</p></warning>
 
 The [`feature extractor`](https://github.com/JetBrains/intellij-plugin-verifier/tree/master/intellij-feature-extractor/) tool catalogs these types of features for a plugin. It works by statically analyzing the bytecode of a plugin to extract values passed to the IntelliJ Platform APIs that support extending features in the above list. 
 
