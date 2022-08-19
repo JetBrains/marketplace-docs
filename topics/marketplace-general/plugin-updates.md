@@ -46,3 +46,7 @@ level="3"/>
 
 <img src="compatibility-range.png" alt="Edit compatibility range"
 width="406"/>
+
+Use `since-build` and `until-build` values to declare the product compatibility of specific version range. Please refer to the following <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">build number ranges</a> to specify these values correctly.
+
+<warning><p>Keep in mind that compatibility with the specified version range (and compatible products) must always be verified using <a href="https://plugins.jetbrains.com/docs/intellij/verifying-plugin-compatibility.html#plugin-verifier">Plugin Verifier</a> to ensure binary compatibility.</p></warning>
