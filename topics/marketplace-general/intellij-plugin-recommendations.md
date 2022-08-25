@@ -33,6 +33,12 @@ A suggestion to install plugins which support the _\*.d_ Extension Type:
 
 Refer to [Registering a File Type](https://plugins.jetbrains.com/docs/intellij/registering-file-type.html) to provide this feature in a plugin.
 
+<warning>
+    <p>
+        Please note, that a file type won't get recommended if it conflicts with a bundled file type.
+    </p>
+</warning>
+
 ## Run Configuration Type
 
 When you want IDEs to show that your plugin supports Run Configuration Type, you need to implement [ConfigurationType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/execution/configurations/ConfigurationType.java) and implement the `getId()` method. The `feature extractor` analyzes the value of `getId()`.
@@ -66,3 +72,8 @@ To support specific Artifact Types, extend [ArtifactType](https://upsource.jetbr
 An example suggestion to enable a plugin which supports a *dm.bundle* Artifact Type:
 
 ![Artifact Type of Feature](feature_extractor_artifacts.png)
+
+## Dependency Support
+
+To support a specific dependency you should declare a tag like `<dependencySupport kind="java" coordinate="org.junit:org.junit" displayName="Junit"/>` in the plugin.xml file.
+
