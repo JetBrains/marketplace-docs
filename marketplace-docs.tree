@@ -40,6 +40,7 @@
         <toc-element id="custom-pages.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="semver.md"/>
+        <toc-element id="plugin-notification-settings.md"/>
     </toc-element>
     <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.md" accepts-web-file-names="trying-out-the-marketplace.html">
         <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.md"/>
