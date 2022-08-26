@@ -41,7 +41,7 @@ Refer to [Registering a File Type](https://plugins.jetbrains.com/docs/intellij/r
 
 ## Run Configuration Type
 
-When you want IDEs to show that your plugin supports Run Configuration Type, you need to implement [ConfigurationType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/execution/configurations/ConfigurationType.java) and implement the `getId()` method. The `feature extractor` analyzes the value of `getId()`.
+When you want IDEs to show that your plugin supports Run Configuration Type, you need to implement [ConfigurationType](https://github.com/JetBrains/intellij-community/blob/idea/222.3739.54/platform/execution/src/com/intellij/execution/configurations/ConfigurationType.java) and implement the `getId()` method. The `feature extractor` analyzes the value of `getId()`.
 
 A suggestion to install plugins that support the *Run D App* Configuration Type:
 
@@ -51,7 +51,7 @@ Refer to [Run Configurations](https://plugins.jetbrains.com/docs/intellij/run-co
 
 ## Facet Type
 
-To support a Facet Type feature, you should extend [FacetType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/facet/FacetType.java), and pass `stringId` to its constructor. The value of the `stringId` parameter will be analyzed by the `feature extractor`.
+To support a Facet Type feature, you should extend [FacetType](https://github.com/JetBrains/intellij-community/blob/idea/222.3739.54/platform/lang-core/src/com/intellij/facet/FacetType.java), and pass `stringId` to its constructor. The value of the `stringId` parameter will be analyzed by the `feature extractor`.
 
 A notification to install plugins that support the *jangaroo* Facet Type:
 
@@ -61,13 +61,13 @@ Refer to [Facet](https://plugins.jetbrains.com/docs/intellij/facet.html) for add
 
 ## Module Type
 
-If you want IDEs to show a prompt that your plugin can support creating specific Module Types, you should extend [ModuleType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/platform/lang-api/src/com/intellij/openapi/module/ModuleType.java) and pass the `id` parameter for your Module Type to its constructor. The `feature extractor` will evaluate the values of `id`.
+If you want IDEs to show a prompt that your plugin can support creating specific Module Types, you should extend [ModuleType](https://github.com/JetBrains/intellij-community/blob/idea/222.3739.54/platform/lang-core/src/com/intellij/openapi/module/ModuleType.java) and pass the `id` parameter for your Module Type to its constructor. The `feature extractor` will evaluate the values of `id`.
 
 See [Module](https://plugins.jetbrains.com/docs/intellij/module.html) and [Supporting Module Types](https://plugins.jetbrains.com/docs/intellij/module-types.html) for more information about supporting Module Types.
 
 ## Artifact Type
 
-To support specific Artifact Types, extend [ArtifactType](https://upsource.jetbrains.com/idea-ce/file/idea-ce-4f9b5f89b2a19ce700b1373a465c16b28ed8ad52/java/compiler/openapi/src/com/intellij/packaging/artifacts/ArtifactType.java), and pass an `id` parameter to its constructor. The value of the `id` parameter is analyzed by the `feature extractor`.
+To support specific Artifact Types, extend [ArtifactType](https://github.com/JetBrains/intellij-community/blob/idea/222.3739.54/java/compiler/openapi/src/com/intellij/packaging/artifacts/ArtifactType.java), and pass an `id` parameter to its constructor. The value of the `id` parameter is analyzed by the `feature extractor`.
 
 An example suggestion to enable a plugin which supports a *dm.bundle* Artifact Type:
 
