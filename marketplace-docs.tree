@@ -20,7 +20,6 @@
             <toc-element id="plugins-ranking.md"/>
             <toc-element id="plugins-rating.md"/>
             <toc-element id="identify-user-of-paid-plugin.md"/>
-            <toc-element id="customer-information-access.md"/>
         </toc-element>
         <toc-element id="organizations.md"/>
         <toc-element id="reserved-plugin-ids.md"/>
@@ -32,7 +31,7 @@
         </toc-element>
         <toc-element id="eula.md"/>
         <toc-element id="sales-and-technical-support.md"/>
-        <toc-element id="sales-related-emails.md"/>
+        <toc-element id="sales-related-emails.md" accepts-web-file-names="customer-information-access.html"/>"/>
     </toc-element>
     <toc-element id="publishing-and-listing-your-plugin.md">
         <toc-element id="uploading-a-new-plugin.md"/>
