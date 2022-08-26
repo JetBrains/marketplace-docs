@@ -23,7 +23,7 @@ We are looking forward to hearing from you!
 ## Learn and communicate
 * Explore plugin development documentation:
   * [IntelliJ Platform SDK](https://plugins.jetbrains.com/docs/intellij/welcome.html)
-  * [ReSharper DevGuide](https://www.jetbrains.com/help/resharper/sdk/README.html)
+  * [ReSharper DevGuide](https://www.jetbrains.com/help/resharper/sdk/welcome.html)
   * [TeamCity Plugin Development](https://plugins.jetbrains.com/docs/teamcity/)
   * [Developer Portal for YouTrack and Hub](https://www.jetbrains.com/help/youtrack/devportal/building-custom-widgets.html)
 
