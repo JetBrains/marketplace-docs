@@ -52,6 +52,8 @@ Here’s how the emails look:
 
 According to the [JetBrains Plugin Marketplace Agreement](https://plugins.jetbrains.com/legal/terms-of-use), JetBrains can provide you with information about your plugin customers to enable communications related to plugin support,  sales-related information like pricing changes, and other necessary emails to keep customers using their plugins. JetBrains applies the data minimization principle in these handovers to make sure only relevant personal data is handed over for these purposes.
 
+<warning><p>Please note, that JetBrains doesn't provide you direct access to customer information unless they have purchased the plugin.</p></warning>
+
 In order to send product-related emails and marketing offers, you must explicitly get the user's consent. Consider adding a subscription form to your site, implementing an email collecting form in the product, or adding a link to your subscription center on the plugin page.
 
 **You should also provide a link to your privacy policy. We recommend doing so as a custom link on your plugin page.**
