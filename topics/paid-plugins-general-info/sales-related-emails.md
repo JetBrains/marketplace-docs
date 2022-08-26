@@ -12,15 +12,15 @@ The Subscription Pack serves as a way to co-term subscriptions expiring at diffe
 
 **Here are examples of the emails we send:**
 
-![Example1](email-example.png)
+<img src="email-example.png" alt="Example1" width="612"/>
 
-![Example2](email-example-2.png)
+<img src="email-example-2.png" alt="Example2" width="1066"/>
 
 ## In-product Notifications
 
 Users receive notifications about new plugin versions and plugin license and trial expirations right inside their IDE. These messages prompt users to update plugins to the latest version, renew subscriptions, or buy and activate licenses.
 
-![In-product Notifications](email-in-product-notifications.png)
+<img src="email-in-product-notifications.png" alt="In-product Notifications" width="574"/>
 
 ## Plugin nurturing emails
 
@@ -30,7 +30,7 @@ These are campaigns developed specifically for users of plugins paid via Marketp
 This is delivered to users when they first activate a trial license of a plugin. 
 This email contains a link to your plugin page, documentation, and bug tracker (if present on the plugin page). Please populate the dedicated fields in the plugin page admin settings with the links to these resources.
 
-![Links](email-links.png)
+<img src="email-links.png" alt="Links" width="464"/>
 
 * **Trial expiration reminder**
 
@@ -42,11 +42,11 @@ This email is sent to plugin users who purchased a plugin a month ago. It encour
 
 Here’s how the emails look:
 
-![Thank you](email-thanks.png)
+<img src="email-thanks.png" alt="Thank you" width="1192"/>
 
-![Your Subscription](email-subscription.png)
+<img src="email-subscription.png" alt="Your Subscription" width="1048"/>
 
-![Your Feedback](email-feedback.png)
+<img src="email-feedback.png" alt="Your Feedback" width="1221"/>
 
 ## How can I contact the users of my plugin directly?
 
@@ -56,4 +56,4 @@ In order to send product-related emails and marketing offers, you must explicitl
 
 **You should also provide a link to your privacy policy. We recommend doing so as a custom link on your plugin page.**
 
-![Privacy Policy](email-privacy.png)
+<img src="email-privacy.png" alt="Privacy Policy" width="524"/>
