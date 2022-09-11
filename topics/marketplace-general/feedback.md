@@ -9,6 +9,12 @@ We are looking forward to hearing from you!
   [#marketplace](https://jetbrains-platform.slack.com/messages/C5U6ZNG20) channel. Keep in mind that it’s not an official 
   support channel, but a community of plugin developers and JetBrains employees.
 
+<note>
+    <p>
+        Please note that you have to be logged into the JetBrains Platform Slack workspace. Otherwise, you will get an error. If you're not a member, request an invite [here](https://plugins.jetbrains.com/slack).
+    </p>
+</note>
+
 ![YouTrack](youtrack.svg){width=25}{type="joined"} **Issue Tracker:** To report a bug or request a feature, submit a new issue to the 
   [Marketplace YouTrack](https://youtrack.jetbrains.com/newIssue?project=MP) with the corresponding type.
 
