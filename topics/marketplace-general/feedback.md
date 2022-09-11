@@ -11,7 +11,7 @@ We are looking forward to hearing from you!
 
 <note>
     <p>
-        Please note that you have to be logged into the JetBrains Platform Slack workspace. Otherwise, you will get an error. If you're not a member, request an invite [here](https://plugins.jetbrains.com/slack).
+        Please note that you have to be logged into the JetBrains Platform Slack workspace. Otherwise, you will get an error. If you're not a member, request an invite <a href="https://plugins.jetbrains.com/slack">here</a>.
     </p>
 </note>
 
