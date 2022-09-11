@@ -230,3 +230,16 @@ Note that the <control>Plugin homepage</control> link in the plugin manager in I
 
 <img src="homepage.png" alt="Plugin Homepage"
 width="460"/>
+
+## Donations
+
+* Adding or having a donation link is not mandatory for plugin authors.
+* Donation links can be added for all of the types of plugins in the Marketplace: (i) Free, (ii) Paid, and (iii) Externally Paid.
+* Donations do not replace license purchase for paid plugins.
+* Donation links should not be included within the plugin description.
+* JetBrains only provides a dedicated field to add a link for donations.
+* JetBrains reserves the right, at any time and for any reason, to discontinue the field for donation links or to remove such links.
+* The plugin author may choose various third-party payment processing services through which the donations may be submitted and processed, and so additional terms may apply to such payments based on the third-party payment processing provider; however, such services are in no way operated, endorsed, or supported by JetBrains.
+* JetBrains doesn't take or receive any commission nor in any way process or participate in the transaction.
+* Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to settle any potential financial and legal issues on the user´s side.
+* All related disputes, including refund requests, chargebacks, and cancellations will be handled by the respective plugin author and/or the respective third-party payment processing provider.
