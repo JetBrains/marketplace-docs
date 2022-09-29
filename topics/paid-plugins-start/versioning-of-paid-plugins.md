@@ -19,7 +19,7 @@
 ```
 
 <note>
-<p>Note that both the <code>release-version</code> and the <code>version</code> should begin with similar integers, like <code>release-version=20211</code> and <code>version=2021.1.1.</code></p>
+<p>Please keep in mind that the <code>version</code> parameter can be skipped in the source <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml</a> file if the Gradle <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-patchpluginxml-version">patchPluginXml</a> task is enabled and configured.</p>
 </note>
 
 <p>This example can be considered our initial plugin upload, so it is labeled as a major release. When we upload any minor updates, we keep the release-version untouched and only increment the version:
@@ -37,6 +37,7 @@
      <li>It must be an <code>integer</code> (dots or other special symbols are allowed but will be ignored).</li>
      <li>Each <code>release-version</code> must be greater than the previous one (they can't be descending).</li>
      <li>It must contain at least 2 digits, as it will be split into 2 numbers, the second of which will contain only one digit. If, for example, <code>release-version=20211</code>, the first number would be <code>2021</code> and the second number would be <code>1</code>.</li>
+     <li>The first 2 digits of <code>release-version</code> must match with the <code>version</code> parameter, like <code>release-version=20211</code> and <code>version=2021.1.1.</code></li>
 </list>
 
 <tip>
