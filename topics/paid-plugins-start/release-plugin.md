@@ -10,7 +10,7 @@
 
 Once everything is done, you are ready to start the release process.
 
-1. Make sure that you have an [Organization](organizations.md) and that you have submitted your banking information under the *Vendor Information* tab.
+1. Make sure that you have an [Organization](organizations.xml) and that you have submitted your banking information under the *Vendor Information* tab.
 
 <img src="test_org.png" alt="My Organizations tab"
 width="460"/> <img src="VendorInfo.png" alt="Vendor Information tab"
