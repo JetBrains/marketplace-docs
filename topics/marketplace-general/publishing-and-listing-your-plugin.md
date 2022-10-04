@@ -10,4 +10,4 @@ After uploading a plugin to Marketplace, it will be manually reviewed by the Mar
 
 <note><p>We may review published plugins at our discretion. We reserve the right to unpublish a plugin if an author rejects or doesn’t respond to our requests for adjustments.</p></note>
 
-You can find the key requirements and tips for creating a plugin page in the [Plugin Overview page](plugin-overview-page.md) section.
+You can find the key requirements and tips for creating a plugin page in the [Plugin Overview page](plugin-overview-page.xml) section.
