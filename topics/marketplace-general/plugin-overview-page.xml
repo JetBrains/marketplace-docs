@@ -1,4 +1,11 @@
-[//]: # (title: Plugin Overview page)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic>
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Plugin Overview page"
+       id="Plugin-Overview-page">
+
+
 
 <p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.xml</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.</p>
 
@@ -22,7 +29,6 @@
 <li>Write the name in title case.</li>
 <li>Use an original name. (Check whether the name you want is already in use on JetBrains Marketplace).</li>
 </list></p>
-
 <control>Example:</control>
 <p>✅ "Plain Text Support"</p>
 <p>❌ "Free Plain Text Support Plus Platinum Maximum Edition”</p>
@@ -32,7 +38,6 @@
 <li>Use the word “Plugin” in the name.</li>
 <li>Include “JetBrains” or supported JetBrains products in the name. (Compatible products are displayed separately on the plugin page).</li>
 </list></p>
-
 <control>Example:</control>
 <p>❌ "XYZ CLion Plugin”</p>
 <p>❌ "IntelliJer"</p>
@@ -40,18 +45,18 @@
 <li>Infringe on any third-party trademarks.</li>
 <li>Use punctuation marks when not explicitly needed or as a separator instead of spaces. (Some punctuation marks are permitted but discouraged).</li>
 </list></p>
-
 <control>Example:</control>
 <p>❌ “XYZ.Language.Plugin”</p>
 <p><list>
 <li>Include functionality descriptions, version info, or other notes.</li>
 </list></p>
-
 <control>Example:</control>
 <p>❌ “XYZ - Free Version”</p>
         </td>
     </tr>
-</table></chapter>
+</table>
+
+</chapter>
 
 <chapter title="Product compatibility">
 
@@ -99,9 +104,7 @@
         </td>
     </tr>
 </table>
-
 <control>Tips and Tricks:</control>
-
 <p><list>
 <li>The first line of the plugin description should contain a short plugin summary in English (up to 170 characters). This will be used for the plugin’s preview card on the  Marketplace site. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
 <li>Make sure that your description has been proofread and that it is formatted properly before you upload your plugin.</li>
@@ -114,11 +117,8 @@
 <chapter title="Plugin logo">
 
 <p>The plugin logo should be added directly to the plugin’s distribution file. You can find the detailed requirements and instructions on how to add the plugin logo <a href="https://plugins.jetbrains.com/docs/intellij/plugin-icon-file.html">here</a>. The general recommendation is to use a simple, recognizable, eye-catching image. It is better to avoid including text, but If the logo contains it, the text should be readable.</p>
-
 <note><p>Note, that you can choose not to use a logo.</p></note>
-
 <control>❌ DON’T:</control>
-
 <p><list>
 <li>Use the <a href="https://github.com/JetBrains/intellij-platform-plugin-template/blob/main/src/main/resources/META-INF/pluginIcon.svg">default logo</a> of the <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a> or <a href="https://github.com/JetBrains/intellij-sdk-code-samples">IntelliJ SDK Code Samples</a>.</li>
 <li>Create a logo that merely consists of text repeating your plugin name.</li>
@@ -132,17 +132,14 @@
 <p>The media section is the first element that users will see on the plugin page, and it is one of the best ways to show
 your plugin in action. You can add screenshots and video under the Media section in the admin panel of the plugin page
 after uploading your plugin.</p>
-
 <img src="media.png" alt="Fields for Media" width="460"/>
 
 <chapter title="Screenshots">
 
 <p>We recommend adding screenshots that display plugin features. You can use a <path>.gif</path> showing some action or add overlay text to clarify what a screenshot depicts. The recommended screenshot size is 1280 x 800 px (16:10 aspect ratio). You can also add informational slides in addition to screenshots.</p>
-
 <note>
 <p>Theme plugins must have screenshots that display the visual style they provide.</p>
 </note>
-
 <table>
     <tr>
         <td>
@@ -172,6 +169,7 @@ after uploading your plugin.</p>
         </td>
     </tr>
 </table>
+
 </chapter>
 
 <chapter title="Video">
@@ -221,7 +219,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <p>In order to display your vendor site and email address on the Plugin page, you should fill in the optional <code>url</code> and <code>email</code> attributes in the <path>plugin.xml</path> file:</p>
 
-<p><code lang="XML">
+<p><code style="block" lang="XML">
     <![CDATA[
         <vendor url="https://www.company.com" email="support@company.com">Company Inc.</vendor>
     ]]>
@@ -231,7 +229,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <p>A vendor website can be added in the <path>plugin.xml</path> file:</p>
 
-<p><code lang="XML">
+<p><code style="block" lang="XML">
 <![CDATA[
 <idea-plugin url="https://www.company.com/plugin"></idea-plugin>
 ]]>
@@ -260,9 +258,8 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <chapter title="How to add a Donation link">
 
-<p>We provided adding Donation links in the Web application for Free plugins.
-For Paid, Freemium, and Externally Paid plugins, we provide this functionality by request via email. While we are working on adding this functionality for all plugins, we apologize for the temporary inconvenience.
-<list>
+    <p>We provided adding Donation links in the Web application for Free plugins. For Paid, Freemium, and Externally Paid plugins, we provide this functionality by request via email. While we are working on adding this functionality for all plugins, we apologize for the temporary inconvenience.</p>
+<p><list>
 <li>If it’s a Free plugin, go to the “Monetization tab” in your backoffice.</li>
 <li>If it is a Paid, Freemium, or Externally Paid plugin, please write to us via <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>. <emphasis>Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to settle any potential financial and legal issues on your side.</emphasis></li>
 </list></p>
@@ -270,3 +267,5 @@ For Paid, Freemium, and Externally Paid plugins, we provide this functionality b
 </chapter>
 
 </chapter>
+
+</topic>

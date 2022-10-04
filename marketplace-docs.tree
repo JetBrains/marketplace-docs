@@ -36,7 +36,7 @@
     <toc-element id="publishing-and-listing-your-plugin.md">
         <toc-element id="uploading-a-new-plugin.md"/>
         <toc-element id="plugin-updates.md"/>
-        <toc-element id="plugin-overview-page.md" accepts-web-file-names="quality-guidelines.html"/>
+        <toc-element id="plugin-overview-page.xml" accepts-web-file-names="quality-guidelines.html"/>
         <toc-element id="custom-pages.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="semver.md"/>

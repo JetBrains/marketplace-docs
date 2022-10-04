@@ -1,7 +1,7 @@
 [//]: # (title: Uploading a new plugin)
 
 <note>
- <p>Please follow our <a href="plugin-overview-page.md">recommendations</a> and make sure the plugin meets the <a href="https://plugins.jetbrains.com/legal/approval-guidelines">approval criteria</a> before you upload it.
+ <p>Please follow our <a href="plugin-overview-page.xml">recommendations</a> and make sure the plugin meets the <a href="https://plugins.jetbrains.com/legal/approval-guidelines">approval criteria</a> before you upload it.
 </p></note>
 <p>The process of uploading a new plugin is quite simple:
 <list type="decimal">
