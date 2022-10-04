@@ -38,7 +38,7 @@
         <toc-element id="plugin-updates.md"/>
         <toc-element id="plugin-overview-page.xml" accepts-web-file-names="quality-guidelines.html"/>
         <toc-element id="custom-pages.md"/>
-        <toc-element id="custom-release-channels.md"/>
+        <toc-element id="custom-release-channels.xml"/>
         <toc-element id="semver.xml"/>
         <toc-element id="plugin-notification-settings.md"/>
     </toc-element>
