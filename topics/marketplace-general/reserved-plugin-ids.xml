@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Reserved plugin IDs"
+       id="reserved-plugin-ids">
+
+    <p>If a company has <a href="https://www.jetbrains.com/help/idea/managing-plugins.html#repos">custom repositories
+    </a> with
+        internal plugins for IntelliJ-based IDEs, there may be name collisions between these plugins and third-party
+        plugins on the JetBrains Marketplace. To overcome this, it is now possible to reserve plugin IDs in the
+        organization settings.
+    </p>
+
+    <p>An <a href="https://plugins.jetbrains.com/docs/marketplace/roles.html#organization-administrator">organization
+        administrator
+    </a> can reserve
+        plugin IDs on the <control>People &amp; Plugins</control> tab in the organization settings. One organization can
+        have no more than
+        five reserved IDs. If, for some reason, you need more, please get in touch with Marketplace support.
+    </p>
+
+    <img src="settings-reserved-plugin-ids.png" alt="Reserved plugin IDs" width="1181"/>
+
+    <p>Please note that one cannot reserve IDs of the plugins already uploaded on the Marketplace. Please also note that
+        if you decide to upload your internal plugin with a reserved ID on the Marketplace, please remove the ID entry
+        in the organization settings first.
+    </p>
+</topic>
