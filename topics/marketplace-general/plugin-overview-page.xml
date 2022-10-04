@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="Plugin Overview page"
@@ -223,7 +224,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
     ]]>
 </code></p>
 
-<p>Note that if you have a plugin transferred to an <a href="organizations.md">Organization</a>, the Vendor link will lead to an organization page. Links to the bug tracker, forum, and source code can be added in an admin panel under the Technical Information section. The license link should be added upon upload (in the Plugin Upload form) and can be edited in the General Information section.</p>
+<p>Note that if you have a plugin transferred to an <a href="organizations.xml">Organization</a>, the Vendor link will lead to an organization page. Links to the bug tracker, forum, and source code can be added in an admin panel under the Technical Information section. The license link should be added upon upload (in the Plugin Upload form) and can be edited in the General Information section.</p>
 
 <p>A vendor website can be added in the <path>plugin.xml</path> file:</p>
 

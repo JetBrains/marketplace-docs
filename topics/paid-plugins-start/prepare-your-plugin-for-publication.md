@@ -11,7 +11,7 @@ If your plugin is technically ready, you can begin working through the <control>
 
 3. Make sure the plugin meets [the approval criteria](https://plugins.jetbrains.com/legal/approval-guidelines).
 
-4. Create an [Organization](organizations.md) and make sure the Organization ID is added to [the plugin descriptor (plugin.xml)](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html).
+4. Create an [Organization](organizations.xml) and make sure the Organization ID is added to [the plugin descriptor (plugin.xml)](https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html).
 
 
 

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Roles"
+       id="roles">
+
+    <p>People could have various roles in JetBrains Marketplace. The roles provided in order from less permissive. Each
+        next role has all the permissions of the previous one.
+    </p>
+
+    <chapter title="Non-registered user" level="3">
+        <p>A user who is not logged in with the <a href="https://hub.jetbrains.com/">JetBrains Hub</a> account.
+        </p>
+        <p>
+            <control>Permissions</control>
+        </p>
+        <p>
+            <list>
+                <li>Read-only access to the Marketplace catalog (can see plugins pages, download available plugin
+                    versions)
+                </li>
+            </list>
+        </p>
+    </chapter>
+
+    <chapter title="Registered user" level="3">
+        <p>A user who is logged in with the JetBrains Hub account.</p>
+        <p>
+            <control>Permissions</control>
+        </p>
+        <p>
+            <list>
+                <li>Upload new plugins</li>
+                <li>Write reviews/comments</li>
+                <li>Rate plugins</li>
+                <li>Create
+                    <a href="https://plugins.jetbrains.com/docs/marketplace/organizations.html">organizations</a>
+                </li>
+            </list>
+        </p>
+    </chapter>
+
+    <chapter title="Plugin Author" level="3">
+        <p>A user who is added as a Developer to at least one plugin.</p>
+        <p>
+            <control>Permissions</control>
+        </p>
+        <p>
+            <list>
+                <li>Publish updates for their plugins</li>
+                <li>Add new authors to their plugins</li>
+                <li>Edit the information of their plugins</li>
+                <li>Add <a href="https://plugins.jetbrains.com/docs/marketplace/custom-pages.html">custom pages</a> to
+                    their plugins
+                </li>
+                <li>Move their plugins to an organization if they are members of this organization and the plugins are
+                    properly configured
+                </li>
+                <li>Check statistics of their plugins</li>
+                <li>Apply their plugins to be <a
+                        href="https://plugins.jetbrains.com/docs/marketplace/submit-a-request-to-sell-plugins-at-the-marketplace.html">
+                    sold
+                </a> on the Marketplace
+                </li>
+                <li>Subscribe to the new comments/reviews of their plugins</li>
+                <li>Subscribe to the verification results of their plugins (if available)</li>
+            </list>
+        </p>
+    </chapter>
+
+    <chapter title="Organization administrator" level="3">
+        <p>Global administrator in the scope of an organization.</p>
+        <p>
+            <control>Permissions</control>
+        </p>
+        <p>
+            <list>
+                <li>Manage organization details</li>
+                <li>Manage organization staff</li>
+                <li>Manage organization plugins</li>
+                <li>
+                    <a href="https://plugins.jetbrains.com/docs/marketplace/reserved-plugin-ids.html">Reserve Plugin
+                        IDs
+                    </a>
+                </li>
+                <li>Grant other organization members the administrator role</li>
+                <li>Remove the organization (only if this organization doesn't have vendor information for paid
+                    plugins)
+                </li>
+            </list>
+        </p>
+    </chapter>
+
+    <chapter title="Moderator" level="3">
+        <p>This role is needed for specific JetBrains team members to provide an ability to manage plugins in the scope
+            of a family. As of now, we have the following moderator types:
+        </p>
+        <p>
+            <list>
+                <li>IntelliJ-based IDEs</li>
+                <li>TeamCity</li>
+                <li>Hub</li>
+                <li>.Net</li>
+                <li>Educational Courses</li>
+                <li>Space</li>
+            </list>
+        </p>
+        <p>
+            <control>Permissions</control>
+        </p>
+        <p>
+            <list>
+                <li>Manage all plugins of a specific type (edit the information of these plugins, approve/unapprove
+                    these plugins and/or their updates, remove them).
+                </li>
+            </list>
+        </p>
+    </chapter>
+
+    <chapter title="Marketplace administrator" level="3">
+        <p>The role with global rights for members of the JetBrains Marketplace team.</p>
+        <p>
+            <control>Permissions</control>
+        </p>
+        <p>
+            <list>
+                <li>All</li>
+            </list>
+        </p>
+    </chapter>
+
+</topic>
