@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Custom Release Channels"
+       id="custom-release-channels">
+
+    <chapter title="Uploading a Plugin Update to the Custom Release Channel">
+        <p>You may deploy plugins to a specific channel of your choosing via the plugin repository web interface, <a
+                href="https://plugins.jetbrains.com/docs/intellij/deployment.html">Gradle plugin
+        </a> or the <a href="plugin-upload.md">API
+        </a>.
+        </p>
+        <p>When empty, this will use the default channel (<emphasis>Stable</emphasis>), available to
+            all JetBrains Marketplace users, however, you can publish to an arbitrarily-named channel.
+        </p>
+        <p>When using a non-default release channel, users will need to add a new custom plugin repository to install
+            your plugin.
+        </p>
+        <p>In the plugin repository, all channels will be displayed on the plugin page:</p>
+        <img src="plugin_repository_custom_channels.png" alt="Custom Channels" width="800"/>
+
+        <p>You can add custom channels and upload an update to the channel on the plugin <path>Edit</path> page (as well
+            as via Gradle plugin and the API):
+        </p>
+        <img src="plugin_repository_add_custom_channel.png" alt="Add Channels" width="568"/>
+    </chapter>
+
+    <chapter title="Configuring a Custom Channel in IntelliJ Platform Based IDEs">
+        <p>When using a non-default release channel, IntelliJ Platform Based IDEs users will need to add a new <a
+                href="https://www.jetbrains.com/idea/help/managing-enterprise-plugin-repositories.html">custom plugin
+            repository
+        </a> to install
+            your plugin from the specified channel.
+        </p>
+
+        <p>For example, if you specify <code>'eap'</code> as a release channel, then users will need to add the
+            <a href="https://plugins.jetbrains.com/plugins/eap/list">https://plugins.jetbrains.com/plugins/eap/list</a>
+            repository to
+            install the plugin and receive updates. These channels are treated as separate repositories for all intents
+            and
+            purposes.
+        </p>
+
+        <p>Popular channel names include:</p>
+        <p>
+            <list>
+                <li>`eap`: https://plugins.jetbrains.com/plugins/eap/list</li>
+                <li>`alpha`: https://plugins.jetbrains.com/plugins/alpha/list</li>
+                <li>`beta`: https://plugins.jetbrains.com/plugins/beta/list</li>
+            </list>
+        </p>
+
+        <p>It is also possible to host an <a
+                href="https://www.jetbrains.com/idea/help/adding-plugins-to-enterprise-repositories.html">Enterprise
+            Plugin Repository</a>, in which case
+            the URL structure will depend on your hosting address. For more information, please refer to the <a
+                    href="https://www.jetbrains.com/idea/help/managing-plugins.html">IntelliJ IDEA documentation</a>.
+        </p>
+
+        <p>As an option, you might add a custom repository specifying the Plugin ID (Plugin ID is a numeric ID of the
+            plugin, can be retrieved from the Marketplace URL, e.g.
+            <a href="https://plugins.jetbrains.com/plugin/1347-scala">Scala</a>
+            plugin ID is <code>1347</code>):
+        </p>
+        <p>
+            <code style="block" lang="xml">
+            <![CDATA[
+                https://plugins.jetbrains.com/plugins/`
+                <channel>`/`
+                    <pluginId>`
+                ]]>
+        </code>
+        </p>
+        <p>(For example, <a href="https://plugins.jetbrains.com/plugins/eap/1347">
+            https://plugins.jetbrains.com/plugins/eap/1347</a>.
+        </p>
+
+        <p>Please refer to the <a href="https://www.jetbrains.com/help/idea/managing-plugins.html">Managing Enterprise
+            Plugin
+            Repositories
+        </a> help article for more information on how to specify a custom plugin repository in the IntelliJ Platform
+            Based IDEs to receive plugins and updates
+            from the custom release channel:
+        </p>
+        <img src="intellij_custom_plugin_repository.png" alt="Add Custom Plugin Repository in IntelliJ IDEA"
+             width="816"/>
+
+    </chapter>
+
+    <chapter title="Channel Priority Notice">
+        <p>Please note that custom repositories take precedence over the default channel. The update is uploaded to the
+            default channel when the custom channel name is not provided, and a default channel is also known as a
+            stable or
+            release channel. That means that plugins/updates from custom channels (e.g., EAP channel) "overwrite"
+            plugins/updates from the main repository (default channel).
+        </p>
+        <p>If a user is subscribed to the EAP custom channel, they won't be able to see plugin updates without the
+            channel
+            (so they won't be able to see new updates in the default channel).
+        </p>
+        <p>Therefore, it is recommended to add updates to the custom channel when you add them to the default (stable)
+            channel if you want a user to get this update.
+        </p>
+        <p>This behavior is temporary and going to be significantly reworked in the future.</p>
+    </chapter>
+
+</topic>
