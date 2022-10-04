@@ -132,7 +132,7 @@ The media section is the first element that users will see on the plugin page, a
 <img src="media.png" alt="Fields for Media"
 width="460"/>
 
-<control>Screenshots</control>
+### Screenshots
 
 We recommend adding screenshots that display plugin features. You can use a gif showing some action or add overlay text to clarify what a screenshot depicts.
 Note: Theme plugins must have screenshots that display the visual style they provide.
@@ -168,7 +168,7 @@ The recommended screenshot size is 1280 x 800 px (16:10 aspect ratio). You can a
     </tr>
 </table>
 
-<control>Video</control>
+### Video
 
 If you've got a product video on YouTube, you can add the URL to it. We recommend using a short promo or demo video that’s less than 5 minutes long. A video can help you improve user interaction with your listing.
 
@@ -211,10 +211,12 @@ width="720"/>
 In order to display your vendor site and email address on the Plugin page, you should fill in the optional `url` and `email` attributes in the <path>plugin.xml</path> file:
 
 
-```xml
+<p><code style="block" lang="XML">
+<![CDATA[
 <vendor url="https://www.company.com" 
           email="support@company.com">Company Inc.</vendor>
-```
+]]>
+</code></p>
 
 Note that if you have a plugin transferred to an [Organization](organizations.md), the Vendor link will lead to an organization page.
 Links to the bug tracker, forum, and source code can be added in an admin panel under the Technical Information section.
@@ -222,9 +224,11 @@ The license link should be added upon upload (in the Plugin Upload form) and can
 
 A vendor website can be added in the <path>plugin.xml</path> file:
 
-```xml
-<idea-plugin url="https://www.company.com/plugin">
-```
+<p><code style="block" lang="XML">
+<![CDATA[
+<idea-plugin url="https://www.company.com/plugin"></idea-plugin>
+]]>
+</code></p>
 
 Note that the <control>Plugin homepage</control> link in the plugin manager in IDEs links to your Marketplace plugin page, not the website you specified under the `idea-plugin` tag.
 
@@ -233,13 +237,24 @@ width="460"/>
 
 ## Donations
 
-* Adding or having a donation link is not mandatory for plugin authors.
-* Donation links can be added for all of the types of plugins in the Marketplace: (i) Free, (ii) Paid, and (iii) Externally Paid.
-* Donations do not replace license purchase for paid plugins.
-* Donation links should not be included within the plugin description.
-* JetBrains only provides a dedicated field to add a link for donations.
-* JetBrains reserves the right, at any time and for any reason, to discontinue the field for donation links or to remove such links.
-* The plugin author may choose various third-party payment processing services through which the donations may be submitted and processed, and so additional terms may apply to such payments based on the third-party payment processing provider; however, such services are in no way operated, endorsed, or supported by JetBrains.
-* JetBrains doesn't take or receive any commission nor in any way process or participate in the transaction.
-* Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to settle any potential financial and legal issues on the user´s side.
-* All related disputes, including refund requests, chargebacks, and cancellations will be handled by the respective plugin author and/or the respective third-party payment processing provider.
+<p><list>
+<li>Adding or having a donation link is not mandatory for plugin authors.</li>
+<li>Donation links can be added for all of the types of plugins in the Marketplace: (i) Free, (ii) Paid, and (iii) Externally Paid.</li>
+<li>Donations do not replace license purchase for paid plugins.</li>
+<li>Donation links should not be included within the plugin description.</li>
+<li>JetBrains only provides a dedicated field to add a link for donations.</li>
+<li>JetBrains reserves the right, at any time and for any reason, to discontinue the field for donation links or to remove such links.</li>
+<li>The plugin author may choose various third-party payment processing services through which the donations may be submitted and processed, and so additional terms may apply to such payments based on the third-party payment processing provider; however, such services are in no way operated, endorsed, or supported by JetBrains.</li>
+<li>JetBrains doesn't take or receive any commission nor in any way process or participate in the transaction.</li>
+<li>Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to settle any potential financial and legal issues on the user´s side.</li>
+<li>All related disputes, including refund requests, chargebacks, and cancellations will be handled by the respective plugin author and/or the respective third-party payment processing provider.</li>
+</list></p>
+
+### How to add a Donation link
+
+<p>We provided adding Donation links in the Web application for Free plugins.</p>
+<p>For Paid, Freemium, and Externally Paid plugins, we provide this functionality by request via email. While we are working on adding this functionality for all plugins, we apologize for the temporary inconvenience.</p>
+<p><list>
+<li>If it’s a Free plugin, go to the “Monetization tab” in your backoffice.</li>
+<li>If it is a Paid, Freemium, or Externally Paid plugin, please write to us via <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>. <emphasis>Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to settle any potential financial and legal issues on your side.</emphasis></li>
+</list></p>
