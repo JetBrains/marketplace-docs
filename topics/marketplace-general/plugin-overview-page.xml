@@ -3,9 +3,7 @@
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        title="Plugin Overview page"
-       id="Plugin-Overview-page">
-
-
+       id="plugin-overview-page">
 
 <p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.xml</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.</p>
 
