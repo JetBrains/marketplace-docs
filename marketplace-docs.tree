@@ -9,11 +9,11 @@
 
     <toc-element id="about-marketplace.xml" accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html,paid-plugins-marketplace.html">
         <toc-element id="benefits-of-jetbrains-marketplace.xml"/>
-        <toc-element id="getting-started.md"/>
+        <toc-element id="getting-started.xml"/>
         <toc-element id="roles.xml"/>
         <toc-element id="intellij-enterprise-plugin-repositories.xml"/>
         <toc-element id="intellij-plugin-recommendations.xml"/>
-        <toc-element id="product-versions-in-use-statistics.md"/>
+        <toc-element id="product-versions-in-use-statistics.xml"/>
         <toc-element id="plugin-stats.xml">
             <toc-element id="analytics-tab.xml"/>
             <toc-element id="download-statistics.xml" accepts-web-file-names="unique-downloads.html"/>
@@ -33,16 +33,16 @@
         <toc-element id="sales-and-technical-support.md"/>
         <toc-element id="sales-related-emails.md" accepts-web-file-names="customer-information-access.html"/>"/>
     </toc-element>
-    <toc-element id="publishing-and-listing-your-plugin.md">
+    <toc-element id="publishing-and-listing-your-plugin.xml">
         <toc-element id="uploading-a-new-plugin.xml"/>
         <toc-element id="plugin-updates.xml"/>
         <toc-element id="plugin-overview-page.xml" accepts-web-file-names="quality-guidelines.html"/>
-        <toc-element id="custom-pages.md"/>
+        <toc-element id="custom-pages.xml"/>
         <toc-element id="custom-release-channels.xml"/>
         <toc-element id="Documentation_Page.md"/>
         <toc-element id="custom-release-channels.md"/>
         <toc-element id="semver.xml"/>
-        <toc-element id="plugin-notification-settings.md"/>
+        <toc-element id="plugin-notification-settings.xml"/>
     </toc-element>
     <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.md" accepts-web-file-names="trying-out-the-marketplace.html">
         <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.md"/>
@@ -72,7 +72,7 @@
             <toc-element id="license-types-and-schemes.md" accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html"/>
             <toc-element id="revenue-sharing-and-fees.md"/>
             <toc-element id="getting-paid.md"/>
-            <toc-element id="how-to-buy-a-plugin.md"/>
+            <toc-element id="how-to-buy-a-plugin.xml"/>
             <toc-element id="discounts-and-offers.md">
                 <toc-element id="coupon-offers.md"/>
                 <toc-element id="community-programs.md"/>
@@ -101,5 +101,5 @@
         <toc-element id="product-codes.md"/>
         <toc-element id="embeddable-content.md"/>
         </toc-element>
-        <toc-element id="feedback.md"/>
+        <toc-element id="feedback.xml"/>
 </product-profile>

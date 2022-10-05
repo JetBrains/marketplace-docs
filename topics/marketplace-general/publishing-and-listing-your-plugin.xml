@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Publishing and Listing your plugin"
+       id="publishing-and-listing-your-plugin">
+
+    <p>The Marketplace plugin page is the webpage used for JetBrains Marketplace listings. It provides users with useful
+        links and information about your plugin’s functionality, product compatibility, versions, and pricing (if
+        applicable). When you upload a plugin to JetBrains Marketplace, it becomes available to over 10 million users of
+        JetBrains products. They can download, evaluate, and buy your plugin from the plugin page, as well as rate and
+        review it.
+    </p>
+    <p>A high-quality page is essential to attracting and engaging new customers, which will result in a higher number
+        of downloads. So, it is important to prepare appropriate, high-quality content for the plugin page before
+        uploading it to the Marketplace.
+    </p>
+
+    <chapter title="Plugin page review">
+        <p>After uploading a plugin to Marketplace, it will be manually reviewed by the Marketplace team. You will be
+            contacted and asked to make changes if we find anything that doesn’t fit our guidelines. To speed up the
+            review
+            process, make sure the information you provide is complete and correct. Note that the plugin page
+            requirements
+            are subject to change, as the Marketplace is constantly evolving. Be prepared to adjust to new requirements
+            as
+            they come out.
+        </p>
+
+        <note>
+            <p>We may review published plugins at our discretion. We reserve the right to unpublish a plugin if an
+                author rejects or doesn’t respond to our requests for adjustments.
+            </p>
+        </note>
+
+        <p>You can find the key requirements and tips for creating a plugin page in the <a
+                href="plugin-overview-page.xml">Plugin Overview
+            page
+        </a> section.
+        </p>
+    </chapter>
+
+</topic>
