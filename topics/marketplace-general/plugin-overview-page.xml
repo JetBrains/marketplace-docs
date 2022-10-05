@@ -192,7 +192,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <chapter title="Getting started section">
 
-<p>You can choose to add getting started instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a <a href="custom-pages.md">Custom page</a>.</p>
+<p>You can choose to add getting started instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a <a href="custom-pages.xml">Custom page</a>.</p>
 
 <img src="getting-started.png" alt="Fields for instructions" width="720"/>
 
@@ -204,7 +204,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <p>Change notes help you track the progress you’ve made on your plugin, introduce new features, announce changes, and recap bug fixes.</p>
 
-<p>To add change notes, write a short summary of the changes in a new plugin version inside the <code>change-notes</code> tag of the <path>plugin.xml</path> file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a <a href="custom-pages.md">Custom page</a> and providing a link to it or to an external page in the change notes.</p>
+<p>To add change notes, write a short summary of the changes in a new plugin version inside the <code>change-notes</code> tag of the <path>plugin.xml</path> file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a <a href="custom-pages.xml">Custom page</a> and providing a link to it or to an external page in the change notes.</p>
 
 </chapter>
 

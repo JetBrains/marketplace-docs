@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Custom Pages"
+       id="custom-pages">
+
+    <p>Although it is possible to use HTML tags in the plugin description, usually it is not enough when it comes to
+        adding and editing additional content. Moreover, making changes to the Plugin page often requires publishing a
+        new version of the plugin itself, while trying to include a variety of kinds of texts, like descriptions,
+        manuals, promo material, and so on, can make the overall description bulky.
+    </p>
+    <p>To address these problems, the <control>Custom Pages</control> feature has been implemented. It allows the author
+        of a plugin
+        to add and manage custom content via the <path>Custom Pages</path> tab. These pages could be used for:
+    </p>
+    <p>
+        <list>
+            <li>
+                Marketing landing pages
+            </li>
+            <li>
+                Presenting additional information
+            </li>
+            <li>
+                Plugin documentation
+            </li>
+            <li>
+                etc.
+            </li>
+        </list>
+    </p>
+
+    <chapter title="Create a new Custom Page">
+        <p>Custom pages can be created only for existing plugins. You cannot create custom pages if you doesn't have any
+            uploaded plugins on the Marketplace. It is still possible to create custom pages even if the plugin has not
+            been
+            approved yet.
+        </p>
+        <p>To create a new custom page, open the <path>Custom Pages</path> tab on the plugin page and click the
+            <path>Add New Page</path>
+            button:
+        </p>
+        <img src="no_custom_page.png" alt="Create a new Custom Page" width="1140"/>
+        <p>After that, more custom pages can be added by clicking the <path>Add New Page</path> button on the left
+            panel.
+        </p>
+    </chapter>
+
+    <chapter title="Manage a Custom Page">
+        <p>The following features are available for the custom pages:</p>
+        <p>
+            <list>
+                <li>
+                    Markdown editor
+                </li>
+                <li>
+                    Ability to see page previews
+                </li>
+                <li>
+                    Ability to upload images
+                </li>
+                <li>
+                    Ability to save the page as a draft before publishing
+                </li>
+            </list>
+        </p>
+        <img src="new_custom_page.png" alt="Manage a Custom Page" width="1140"/>
+        <p>A name and an address of a new page can be up to 24 symbols long. By default, the address is the same as the
+            page
+            name, but they can be edited separately.
+        </p>
+        <p>Under the name field is a Markdown editor. You can use the most common Markdown features here:</p>
+        <p>
+            <list>
+                <li>
+                    Headings
+                    <code style="block" lang="markup">
+                        # H1
+                        ## H2
+                        ### H3
+                        #### H4
+                        ##### H5
+
+                        Alternative H1
+                        ======
+
+                        Alternative H2
+                        ------
+                    </code>
+                </li>
+                <li>
+                    Bold
+                    <code style="block" lang="markup">
+                        **Text in bold**
+                    </code>
+                </li>
+                <li>
+                    Italics
+                    <code style="block" lang="markup">
+                        *Text in italics*
+                    </code>
+                </li>
+                <li>
+                    Links
+                    <code style="block" lang="markup">
+                        [Link](URL)
+                    </code>
+                </li>
+                <li>
+                    Citation
+                    <code style="block" lang="markup">
+                        > Citation
+                    </code>
+                </li>
+                <li>
+                    Code
+                    <code style="block" lang="markup">
+                        `Code`
+                    </code>
+                </li>
+                <li>
+                    Pictures
+                    <code style="block" lang="markup">
+                        ![Picture](URL)
+                    </code>
+                </li>
+                <li>
+                    Unordered list
+                    <code style="block" lang="markup">
+                        * Unordered list can use asterisks
+                        - Or minuses
+                        + Or even pluses
+                    </code>
+                </li>
+                <li>
+                    Ordered list
+                    <code style="block" lang="markup">
+                        1. First ordered list item
+                        2. Second item
+                        3. Another item
+                    </code>
+                </li>
+            </list>
+        </p>
+        <p>You can switch between the Markdown editor and preview at any time by clicking the <control>
+            Markdown/Preview
+        </control> selector
+            under the custom page name field.
+        </p>
+        <p>Under the Markdown editor is a picture uploader and the <control>Save</control>, <control>Publish</control>/<control>
+            Unpublish
+        </control> and <control>Discard</control> buttons.
+        </p>
+        <p>Once the custom page is saved and published it will become available for the users as a new plugin tab after
+            the
+            <path>Reviews</path>
+            tab.
+        </p>
+        <p>A custom page can be deleted by clicking the *Remove* button with the trash bin icon next to the custom page
+            address field.
+        </p>
+    </chapter>
+
+</topic>
