@@ -12,7 +12,7 @@
         <toc-element id="getting-started.md"/>
         <toc-element id="roles.xml"/>
         <toc-element id="intellij-enterprise-plugin-repositories.xml"/>
-        <toc-element id="intellij-plugin-recommendations.md"/>
+        <toc-element id="intellij-plugin-recommendations.xml"/>
         <toc-element id="product-versions-in-use-statistics.md"/>
         <toc-element id="plugin-stats.xml">
             <toc-element id="analytics-tab.xml"/>
@@ -34,8 +34,8 @@
         <toc-element id="sales-related-emails.md" accepts-web-file-names="customer-information-access.html"/>"/>
     </toc-element>
     <toc-element id="publishing-and-listing-your-plugin.md">
-        <toc-element id="uploading-a-new-plugin.md"/>
-        <toc-element id="plugin-updates.md"/>
+        <toc-element id="uploading-a-new-plugin.xml"/>
+        <toc-element id="plugin-updates.xml"/>
         <toc-element id="plugin-overview-page.xml" accepts-web-file-names="quality-guidelines.html"/>
         <toc-element id="custom-pages.md"/>
         <toc-element id="custom-release-channels.xml"/>
