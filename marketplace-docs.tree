@@ -24,14 +24,14 @@
         <toc-element id="organizations.xml"/>
         <toc-element id="reserved-plugin-ids.xml"/>
         <toc-element id="contributing-to-the-blog.xml"/>
-        <toc-element id="legal-agreements.md">
+        <toc-element id="legal-agreements.xml">
             <toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
             <toc-element toc-title="JetBrains Plugin Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
             <toc-element toc-title="JetBrains Plugin Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
         </toc-element>
-        <toc-element id="eula.md"/>
-        <toc-element id="sales-and-technical-support.md"/>
-        <toc-element id="sales-related-emails.md" accepts-web-file-names="customer-information-access.html"/>"/>
+        <toc-element id="eula.xml"/>
+        <toc-element id="sales-and-technical-support.xml"/>
+        <toc-element id="sales-related-emails.xml" accepts-web-file-names="customer-information-access.html"/>"/>
     </toc-element>
     <toc-element id="publishing-and-listing-your-plugin.xml">
         <toc-element id="uploading-a-new-plugin.xml"/>
@@ -49,7 +49,7 @@
         <toc-element id="obtain-a-product-code-from-jetbrains.md"/>
         <toc-element id="prepare-your-plugin-for-publication.md" accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html">
             <toc-element id="add-required-parameters.md"/>
-            <toc-element id="technical-implementation.md"/>
+            <toc-element id="technical-implementation.xml"/>
             <toc-element id="obfuscate-the-plugin.md"/>
             <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
             <toc-element id="versioning-of-paid-plugins.md"/>
@@ -66,28 +66,28 @@
         <toc-element id="demo-start-test.md"/>
         <toc-element id="marketplace-demo-plugin.md"/>
     </toc-element>
-        <toc-element id="billing-and-licensing.md" accepts-web-file-names="jetbrains-sales-systems.html">
-            <toc-element id="payment-processing.md" accepts-web-file-names="payments-accountancy-taxes-services.html"/>
-            <toc-element id="business-models.md" accepts-web-file-names="plugin-types.html"/>
-            <toc-element id="license-types-and-schemes.md" accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html"/>
-            <toc-element id="revenue-sharing-and-fees.md"/>
-            <toc-element id="getting-paid.md"/>
+        <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html">
+            <toc-element id="payment-processing.xml" accepts-web-file-names="payments-accountancy-taxes-services.html"/>
+            <toc-element id="business-models.xml" accepts-web-file-names="plugin-types.html"/>
+            <toc-element id="license-types-and-schemes.xml" accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html"/>
+            <toc-element id="revenue-sharing-and-fees.xml"/>
+            <toc-element id="getting-paid.xml"/>
             <toc-element id="how-to-buy-a-plugin.xml"/>
-            <toc-element id="discounts-and-offers.md">
-                <toc-element id="coupon-offers.md"/>
-                <toc-element id="community-programs.md"/>
+            <toc-element id="discounts-and-offers.xml">
+                <toc-element id="coupon-offers.xml"/>
+                <toc-element id="community-programs.xml"/>
             </toc-element>
-            <toc-element id="pricing-guidelines.md">
-                <toc-element id="pricing-perception-highlights.md"/>
-                <toc-element id="software-pricing-strategies.md">
-                    <toc-element id="cost-plus-pricing.md"/>
-                    <toc-element id="competitor-based-pricing.md"/>
-                    <toc-element id="value-based-pricing.md"/>
-                    <toc-element id="extra-metrics.md"/>
-                    <toc-element id="pricing-constant-process.md"/>
+            <toc-element id="pricing-guidelines.xml">
+                <toc-element id="pricing-perception-highlights.xml"/>
+                <toc-element id="software-pricing-strategies.xml">
+                    <toc-element id="cost-plus-pricing.xml"/>
+                    <toc-element id="competitor-based-pricing.xml"/>
+                    <toc-element id="value-based-pricing.xml"/>
+                    <toc-element id="extra-metrics.xml"/>
+                    <toc-element id="pricing-constant-process.xml"/>
                 </toc-element>
             </toc-element>
-            <toc-element id="moving-to-marketplace.md"/>
+            <toc-element id="moving-to-marketplace.xml"/>
         </toc-element>
     <toc-element id="api-reference.md">
         <toc-element id="plugin-upload.md"/>

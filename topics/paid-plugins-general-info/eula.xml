@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="End User License Agreement - EULA"
+       id="eula">
+
+    <p>The use of the plugin <b>will be covered by the EULA between plugin author/vendor and an end-user, there is no
+        EULA
+        between JetBrains and end-user on third-party plugins</b>.
+    </p>
+
+    <p>You must provide your own end user license agreement (known as <emphasis>Developer EULA</emphasis>) with any
+        Plugin via the
+        JetBrains
+        Marketplace. Developer EULA must, at a minimum, include terms consistent with, and at least as protective of
+        JetBrains as the terms in the Standard EULA. The Standard EULA cannot be used instead of your Developer EULA,
+        unless
+        you make the necessary modifications to it to adjust it to your needs.
+    </p>
+
+    <p>The Developer EULA must specify, among other things, that you are the licensor of your Plugins and that JetBrains
+        is not a party to Developer EULA.
+    </p>
+
+    <p>JetBrains will be acting as a reseller taking money for third-party plugins and will be transferring all sale
+        revenue (holding JetBrains commission) to the plugin vendor.
+    </p>
+
+    <p>The current version of the Standard EULA from the <a
+            href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer
+        Agreement</a>:
+    </p>
+    <p>
+        <b>
+            Appendix 1
+        </b>
+    </p>
+    <p>
+        The Standard EULA (End User License Agreement) displayed below is primarily intended as an example of a EULA to
+        accompany your Plugins. It cannot be used without necessary modifications. Using your own EULA or similar
+        license
+        agreement granting rights to users of your Plugin is recommended. Provision of this Standard EULA does not
+        constitute legal advice; advice from a qualified attorney is required. If you use the wording presented below in
+        the
+        Standard EULA, you acknowledge that JetBrains is not liable for its use by you in any way and that you have to
+        modify it to suit your individual needs.
+    </p>
+    <p>
+        <b>
+            Standard EULA
+        </b>
+    </p>
+    <p>
+        <b>"Developer"</b>
+        means
+        <b>\[FILL IN\]</b>
+    </p>
+    <p>
+        <b>"JetBrains"</b>
+        means JetBrains s.r.o. with its registered office at Na Hřebenech II 1718/10, Prague, 14000, Czech
+        Republic, registered with the Commercial Register kept by the Municipal Court of Prague, Section C, file 86211,
+        ID.Nr.: 265 02 275.
+    </p>
+    <p>
+        <b>"JetBrains Affiliate"</b>
+        means the subsidiary and/or any associated companies of JetBrains.
+    </p>
+    <p>
+        <b>"JetBrains Marketplace"</b>
+        means any platform operated by JetBrains or a JetBrains Affiliate on which JetBrains or
+        a JetBrains Affiliate markets Plugins for JetBrains Products, including the website
+        <a href="https://plugins.jetbrains.com">https://plugins.jetbrains.com</a>
+        and/or any other website or other platform, whether
+        named JetBrains Marketplace, JetBrains Plugins Repository, or otherwise.
+    </p>
+    <p>
+        <b>"JetBrains Product"</b>
+        means any software program or service made available by JetBrains.
+    </p>
+    <p>
+        <b>"Plugin"</b>
+        means the Plugin for JetBrains Product that Developer makes available under this Standard EULA.
+    </p>
+    <p>
+        <b>"Plugin Information"</b>
+        means the following information and materials: (a) JetBrains Marketplace Plugin title, tags
+        / category, name(s) of Developer(s), product description, icon, logo or banner images, and any other information
+        related to Plugins; (b) the metadata, graphics, artwork, images, trademarks, trade names, logos and other
+        descriptive or identifying information and materials associated with Developer or appears in connection with
+        Plugin;
+        and (c) in the case of cloud hosted Plugins, an XML/JSON descriptor of Plugin.
+    </p>
+    <p>
+        <b>"Plugin Users"</b>
+        means users that are able to access and use Plugin concurrently.
+    </p>
+    <p>
+        <b>"You"</b>
+        means an individual or an entity concluding this Standard EULA.
+    </p>
+    <p>
+        This Standard EULA governs the terms of use of Plugin made available to You via JetBrains Marketplace. This
+        Standard
+        EULA is entered into between You and Developer.
+    </p>
+    <p>
+        If Plugin is a paid Plugin, you must ensure that the maximum number of Plugin Users does not exceed the number
+        of
+        Plugin Users for which you have purchased Plugin.
+    </p>
+    <p>
+        You are authorized to use Plugin in accordance with its documentation provided by Developer and for the period
+        of
+        time specified by Developer.
+    </p>
+    <p>
+        You may not modify, reverse-engineer, decompile, or disassemble Plugin in whole or in part, or create any
+        derivative
+        works from Plugin, or sublicense any rights in Plugin, unless otherwise expressly authorized in writing by
+        Developer.
+    </p>
+    <p>
+        Plugin is protected by copyright and other intellectual property laws and treaties. Developer or its licensors
+        own
+        all title, copyright and other intellectual property rights in Plugin.
+    </p>
+    <p>
+        ALL PLUGINS ARE PROVIDED TO YOU ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES. USE OF PLUGINS IS AT
+        YOUR
+        OWN RISK. DEVELOPER MAKES NO WARRANTY AS TO PLUGIN'S USE OR PERFORMANCE. TO THE MAXIMUM EXTENT PERMITTED BY
+        APPLICABLE LAW, DEVELOPER DISCLAIMS ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING,
+        BUT
+        NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+        NON-INFRINGEMENT, WITH REGARD TO PLUGINS, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES. DEVELOPER
+        DOES NOT WARRANT THAT PLUGINS ARE ACCURATE, RELIABLE, OR CORRECT; THAT PLUGIN MEETS YOUR REQUIREMENTS; THAT
+        PLUGINS
+        WILL BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION, UNINTERRUPTED, OR SECURE; THAT ANY DEFECTS OR ERRORS WILL
+        BE
+        CORRECTED; OR THAT PLUGINS ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+    </p>
+    <p>
+        IN NO EVENT WILL DEVELOPER BE LIABLE FOR ANY DIRECT OR INDIRECT COSTS, LOSSES, OR DAMAGES ASSOCIATED WITH THE
+        USE OF
+        DEVELOPER'S PLUGINS.
+    </p>
+    <p>
+        DEVELOPER SHALL NOT BE LIABLE TO YOU FOR ANY LOST PROFITS OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED, AND IN NO
+        EVENT
+        WILL DEVELOPER'S AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE USE OF PLUGIN EXCEED THE
+        FEES WHICH YOU PAID VIA JETBRAINS PLUGIN MARKETPLACE SERVICE FOR PLUGINS IN THE THREE-MONTH PERIOD PRECEDING THE
+        CLAIM. THIS LIMITATION WILL APPLY EVEN IF DEVELOPER HAS BEEN ADVISED OF THE POSSIBILITY OF THE LIABILITY
+        EXCEEDING
+        THE AMOUNT AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. JETBRAINS' LIABILITY IS
+        EXCLUDED IN ITS ENTIRETY AS JETBRAINS IS NOT A PARTY TO THE CONTRACTUAL RELATIONSHIP BETWEEN DEVELOPER AND
+        CUSTOMER.
+    </p>
+
+</topic>

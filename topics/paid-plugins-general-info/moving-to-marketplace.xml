@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Moving to the Marketplace from other licensing/billing solutions"
+       id="moving-to-marketplace">
+
+    <chapter title="When to switch to the Marketplace?">
+        <p>We generally recommend switching to the Marketplace solution with the plugin version update, so that the
+            following
+            workflow can be followed:
+        </p>
+        <p>
+            <list type="decimal">
+                <li>
+                    Users are using a legacy licensing solution (e.g., until version 1.9.1.)
+                </li>
+                <li>
+                    Plugin developer announces that they are going to switch to another licensing solution and provides
+                    migration
+                    paths. Please note that there might be contractual obligations you have to follow (based on your
+                    EULA or contract
+                    with customers.)
+                </li>
+                <li>
+                    Version 2.0.0. is released with the Marketplace licensing, users migrate to it over time, version
+                    1.9.1, and
+                    previous are still available with the old licensing solutions.
+                </li>
+            </list>
+        </p>
+        <p>
+            It might be technically possible to support both licensing mechanisms for some time in a single plugin, but
+            it might
+            complicate troubleshooting and licensing support, that's why we recommend switching to the Marketplace with
+            the
+            version update.
+        </p>
+    </chapter>
+
+    <chapter title="Different users migration paths">
+        <p>In general, we have a rather simple migration process performed (on the technical side) via REST API or
+            simple
+            CSV
+            upload on our side.
+        </p>
+        <p>The migration process is greatly complicated by the privacy protection mechanisms we have to employ to
+            protect
+            the
+            personal information of your customers.
+        </p>
+        <p>You, and not JetBrains, have a right to access and process the personal data of your customers, that's why we
+            can't
+            simply accept a list of customers and issue the licenses to them as a part of the migration process. We need
+            to
+            make
+            sure that the data is passed according to GDPR and other regulations covering personal data protection.
+        </p>
+        <p>We have come up with three ways of migration:</p>
+
+        <chapter title="GDPR-compliant customers list passed from Plugin Developer to JetBrains">
+            <p>
+                <list type="decimal">
+                    <li>
+                        Plugin Developer reaches out to the customers and obtains explicit permission to transfer their
+                        personal data to
+                        JetBrains as a part of the migration process.
+                    </li>
+                    <li>
+                        Plugin Developer signs a special data-sharing agreement with JetBrains. The agreement describes
+                        the process of
+                        data transfer and the following processing of the personal data.
+                    </li>
+                    <li>
+                        Plugin Developer provides a list of customers with the required data (name, email, billing
+                        address, license term,
+                        etc. - see below the data we require for different types of customers.)
+                    </li>
+                    <li>
+                        JetBrains will generate licenses for those customers in a new format (so that you can switch
+                        them to the
+                        Marketplace.)
+                    </li>
+                    <li>
+                        JetBrains will send out license keys and other information to the customers so that they switch
+                        the license (as
+                        soon as your plugin is sold on the Marketplace.)
+                    </li>
+                </list>
+            </p>
+        </chapter>
+
+        <chapter title="End-user submitting the information directly to JetBrains (verified by Plugin Developer)">
+            <p>
+                <list type="decimal">
+                    <li>
+                        JetBrains publishes a special Landing Page that has a form for personal data submission
+                        (everything required for
+                        a license to be issued.) The form also contains a disclaimer of data shared with JetBrains (and
+                        the following data
+                        sharing with the plugin developer is done as of the Marketplace Developer Agreement.)
+                    </li>
+                    <li>
+                        Plugin Developer sends the link to the page to their customers (end-users of the plugin), asking
+                        them to submit
+                        the information.
+                    </li>
+                    <li>
+                        End-users submit the information at the page, and notification is sent to JetBrains and Plugin
+                        Developer.
+                    </li>
+                    <li>
+                        Plugin Developer confirms the validity of the license for the end-user submitting the form.
+                    </li>
+                    <li>
+                        JetBrains issues the license to the end-user.
+                    </li>
+                </list>
+            </p>
+        </chapter>
+
+        <chapter title="JetBrains generates special coupon codes to be provided at the check-out by end-user (distributed by Plugin
+    Developer)">
+            <p>
+                <list type="decimal">
+                    <li>
+                        Plugin Developer informs JetBrains on the number of existing customers of various types
+                        (personal, commercial,
+                        and their validity of licenses.)
+                    </li>
+                    <li>
+                        JetBrains generates special coupon codes and passes them to the Plugin Developer.
+                    </li>
+                    <li>
+                        Plugin Developer distributes the coupon codes to the end-users (customers.)
+                    </li>
+                    <li>
+                        Coupon codes are used by the plugin end-users (customers) to issue a license to their email.
+                    </li>
+                </list>
+            </p>
+        </chapter>
+
+        <note>
+            <p>
+                Please note, that these migration workflows can be combined.
+            </p>
+        </note>
+    </chapter>
+
+    <chapter title="Required information">
+        <chapter title="What information do we need to issue licenses for individual customers">
+            <p>
+                <list>
+                    <li>
+                        First Name
+                    </li>
+                    <li>
+                        Last Name
+                    </li>
+                    <li>
+                        Email
+                    </li>
+                    <li>
+                        Country
+                    </li>
+                    <li>
+                        (optional) Phone
+                    </li>
+                    <li>
+                        Billing address
+                        <list>
+                            <li>
+                                Address
+                            </li>
+                            <li>
+                                City
+                            </li>
+                            <li>
+                                ZIP Code
+                            </li>
+                        </list>
+                    </li>
+                    <li>
+                        License validity (date from YYYY-MM-DD ... to YYYY-MM-DD)
+                    </li>
+                </list>
+            </p>
+        </chapter>
+        <chapter title="What information will we need to issue licenses for commercial customers">
+            <p>
+                <list>
+                    <li>
+                        Company Name
+                    </li>
+                    <li>
+                        First Name
+                    </li>
+                    <li>
+                        Last Name
+                    </li>
+                    <li>
+                        Email
+                    </li>
+                    <li>
+                        Country
+                    </li>
+                    <li>
+                        (optional) Phone
+                    </li>
+                    <li>
+                        Billing address
+                        <list>
+                            <li>
+                                Address
+                            </li>
+                            <li>
+                                City
+                            </li>
+                            <li>
+                                ZIP Code
+                            </li>
+                        </list>
+                    </li>
+                    <li>
+                        License validity (date from YYYY-MM-DD ... to YYYY-MM-DD)
+                    </li>
+                    <li>
+                        Number of licenses (for a bunch of licenses of different validity)
+                    </li>
+                </list>
+            </p>
+        </chapter>
+    </chapter>
+    <p>
+        We won't add past orders with $$$ to our systems not to screw up the revenue statistics and commission
+        calculation,
+        but we can add such (or any other) information in the order/customer notes.
+    </p>
+
+</topic>
