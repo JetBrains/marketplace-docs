@@ -42,11 +42,11 @@
         <toc-element id="semver.xml"/>
         <toc-element id="plugin-notification-settings.xml"/>
     </toc-element>
-    <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.md" accepts-web-file-names="trying-out-the-marketplace.html">
-        <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.md"/>
-        <toc-element id="obtain-a-product-code-from-jetbrains.md"/>
-        <toc-element id="prepare-your-plugin-for-publication.md" accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html">
-            <toc-element id="add-required-parameters.md"/>
+    <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.xml" accepts-web-file-names="trying-out-the-marketplace.html">
+        <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.xml"/>
+        <toc-element id="obtain-a-product-code-from-jetbrains.xml"/>
+        <toc-element id="prepare-your-plugin-for-publication.xml" accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html">
+            <toc-element id="add-required-parameters.xml"/>
             <toc-element id="technical-implementation.xml"/>
             <toc-element id="obfuscate-the-plugin.md"/>
             <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
@@ -62,7 +62,7 @@
         <toc-element id="demo-prepare-ide.md"/>
         <toc-element id="demo-limitations.md"/>
         <toc-element id="demo-start-test.md"/>
-        <toc-element id="marketplace-demo-plugin.md"/>
+        <toc-element id="marketplace-demo-plugin.xml"/>
     </toc-element>
         <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html">
             <toc-element id="payment-processing.xml" accepts-web-file-names="payments-accountancy-taxes-services.html"/>
