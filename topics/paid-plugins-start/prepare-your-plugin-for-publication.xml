@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Preparing Your Plugin for Publication"
+       id="prepare-your-plugin-for-publication">
+
+    <p>The process of plugin development can be challenging. For more detailed guidance about how to develop plugins
+        successfully, feel free to check out our <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html">
+            IntelliJ Platform Plugin
+            SDK
+        </a> documentation, which goes deeper into the plugin
+        creation process and covers the basics of working with the IntelliJ Platform.
+    </p>
+
+    <p>If your plugin is technically ready, you can begin working through the <control>required</control> steps to
+        prepare it for publishing:
+    </p>
+    <procedure>
+        <step>
+            <a href="add-required-parameters.xml">Define the required parameters</a>
+            in the plugin descriptor (<path>
+            plugin.xml</path>).
+        </step>
+        <step>
+            <a href="add-marketplace-license-verification-calls-to-the-plugin-code.md">Add Marketplace license
+                verification
+                calls</a>.
+        </step>
+        <step>
+            Make sure the plugin meets <a href="https://plugins.jetbrains.com/legal/approval-guidelines">the approval
+            criteria</a>.
+        </step>
+        <step>
+            Create an <a href="organizations.xml">Organization</a> and make sure the Organization ID is added to <a
+                href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin descriptor
+            (plugin.xml)</a>.
+        </step>
+    </procedure>
+
+    <p>As an <control>optional step</control> we recommend <a href="obfuscate-the-plugin.md">obfuscating the plugin
+        code</a>.
+    </p>
+
+</topic>

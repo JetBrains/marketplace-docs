@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Marketplace Demo Plugin"
+       id="marketplace-demo-plugin">
+
+    <p>You can find a demo plugin attached to this article. It shows product parameters declaration, as well as license
+        check.
+    </p>
+
+    <p>Additional demo plugin source code is also available on GitHub: <a
+            href="https://github.com/JetBrains/marketplace-makemecoffee-plugin">
+        JetBrains/marketplace-makemecoffee-plugin</a>.
+    </p>
+    <res resource-id="plugin-sample-devkit"/>
+
+    <res resource-id="plugin-sample-gradle"/>
+
+</topic>
