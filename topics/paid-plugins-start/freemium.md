@@ -31,7 +31,7 @@ level="3"/>
 
 <list type="decimal">
         <li><control>Submit the request and create a product code</control>
-             <p>Please <a href="submit-a-request-to-sell-plugins-at-the-marketplace.md">submit a request</a> via the <a href="https://plugins.jetbrains.com/build-and-market#form">Apply to Marketplace</a> form. After that, you will be contacted by our vendor success team via email with further steps. One of these steps is to create a <a href="obtain-a-product-code-from-jetbrains.md">Product Code</a> and provide it in the reply.</p>
+             <p>Please <a href="submit-a-request-to-sell-plugins-at-the-marketplace.xml">submit a request</a> via the <a href="https://plugins.jetbrains.com/build-and-market#form">Apply to Marketplace</a> form. After that, you will be contacted by our vendor success team via email with further steps. One of these steps is to create a <a href="obtain-a-product-code-from-jetbrains.xml">Product Code</a> and provide it in the reply.</p>
         </li>
         <li>
             <p><control>Prepare your plugin</control></p>
@@ -44,7 +44,7 @@ level="3"/>
                   <procedure>
                       <p>You must define the following parameters in the plugin descriptor (plugin.xml):</p>
                       <code style="block" lang="XML" title="Parameters">product-descriptor code="PPAIDPLUGIN" release-date="20201225" release-version="20201" optional="true"</code>
-                      <p>More information on these additional parameters can be found <a href="add-required-parameters.md">here</a>.</p>
+                      <p>More information on these additional parameters can be found <a href="add-required-parameters.xml">here</a>.</p>
                       <p>Please make sure the <code lang="XML">optional</code> parameter in product-descriptor is set to <control>true</control>. Thanks to this optional attribute, the IDE will not check for a license on IDE startup, which allows us to install the plugin and start using it.</p>
                          <warning>
                                 <p>Please note that the <code lang="XML">optional</code> parameter can be set only once, with the first uploaded plugin version containing this parameter. So, you need to choose between freemium and fully paid models before uploading the first paid plugin version, as it can't be changed later.</p>

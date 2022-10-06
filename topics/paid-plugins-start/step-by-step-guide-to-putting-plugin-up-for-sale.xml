@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Step-by-Step Guide to Putting a Plugin up for Sale"
+       id="step-by-step-guide-to-putting-plugin-up-for-sale">
+
+    <p>This section of the Marketplace documentation describes the process of publishing a paid plugin to JetBrains
+        Marketplace.
+    </p>
+
+    <note>
+        <p>If you're switching the payment model from free to paid, please <a href="inform-your-users-in-advance.md">
+            inform your users in advance</a>.
+        </p>
+    </note>
+    <procedure title="Follow these steps to start selling a plugin">
+        <step>
+            <a href="submit-a-request-to-sell-plugins-at-the-marketplace.xml">Submit a request</a>
+        </step>
+        <step>
+            <a href="obtain-a-product-code-from-jetbrains.xml">Create a Product Code</a>
+        </step>
+        <step>
+            <a href="prepare-your-plugin-for-publication.xml">Prepare your plugin for publication</a>
+        </step>
+        <step>
+            <a href="release-plugin.md">Release the Plugin</a>
+        </step>
+    </procedure>
+    <p>Keep in mind that you can test the plugin on our <a href="marketplace-demo.md">Marketplace Demo</a>  instance
+        before
+        uploading it. You will be able to go through the whole plugin release process and check how purchasing the
+        plugin
+        works. Moreover, you can make sure the plugin functions as intended and play around with plugin updates. If your
+        plugin contains <a href="freemium.md">free functionality</a>, you can test the logic behind licensing checks.
+    </p>
+
+</topic>
