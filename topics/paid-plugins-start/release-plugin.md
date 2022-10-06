@@ -44,7 +44,7 @@ If you are switching the model from being a free plugin to paid/freemium, just <
 
 <tip>
     <p>
-        If this button is not available, please make sure that you specified the <a href="organizations.md">Organization ID </a> correctly. Keep in mind that your Organization ID may differ from your Organization Name.
+        If this button is not available, please make sure that you specified the <a href="organizations.xml">Organization ID </a> correctly. Keep in mind that your Organization ID may differ from your Organization Name.
     </p>
 </tip>
 
@@ -56,11 +56,11 @@ width="460"/>
 
 <tip>
     <p>
-        If you don’t see this button, please make sure you specified your banking information under the  <emphasis>Vendor Information</emphasis> tab for your <a href="organizations.md">Organization</a>.
+        If you don’t see this button, please make sure you specified your banking information under the  <emphasis>Vendor Information</emphasis> tab for your <a href="organizations.xml">Organization</a>.
     </p>
 </tip>
 
-Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.md">Pricing Guidelines</a> and details on the supported <a href="license-types-and-schemes.md">Licensing Schemes</a>.
+Please be careful when filling out this form. We recommend checking out our <a href="pricing-guidelines.xml">Pricing Guidelines</a> and details on the supported <a href="license-types-and-schemes.xml">Licensing Schemes</a>.
 
 <img src="sales_details.png" alt="Fill in the sales info"
 width="354"/>
@@ -70,7 +70,7 @@ width="354"/>
 
 If some fields need to be changed after submission, please write to the Marketplace Team at [marketplace@jetbrains.com](mailto:marketplace@jetbrains.com).
 
-5. Below the sales details, you can select any [community discounts](community-programs.md) you want your plugin to offer.
+5. Below the sales details, you can select any [community discounts](community-programs.xml) you want your plugin to offer.
 
 <img src="community_prog.png" alt="Select Community Programs"
 width="460"/>

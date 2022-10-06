@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Special Community Offers"
+       id="community-programs">
+
+    <p>Vendors of paid plugins may provide special subscription and pricing offers for different types of individuals
+        and organizations (student, open-source, etc.), in alignment with JetBrains’ special offers. You can learn more
+        about the terms and apply to get special status for your account <a
+                href="https://www.jetbrains.com/store/#discounts">here</a>.
+    </p>
+    <p>Once you have a <a href="https://account.jetbrains.com/">JetBrains Account</a> status eligible for the offer, you
+        can find
+        offers available for specific plugins on the dedicated plugin pricing page. To apply for a particular offer:
+    </p>
+    <p>
+        <list type="decimal">
+            <li>
+                Log in to the <a href="https://plugins.jetbrains.com/">JetBrains Marketplace</a> with this account or
+                check if the
+                email matches the one for the Marketplace account. You can find the email associated with the
+                Marketplace account <a href="https://plugins.jetbrains.com/author/me/">here</a>.
+            </li>
+            <li>
+                Go to the <path>Pricing tab</path> on the Plugin page (press the <control>Buy</control> button in the
+                upper right-hand corner).
+            </li>
+            <li>
+                Pick the most suitable discount from the available discounts dropdown list, and the price will
+                automatically be adjusted.
+                <img src="discounts_dropdown.png" alt="Discounts Dropdown" width="2544"/>
+            </li>
+            <li>
+                If the offer provides a free license for your account status, you will be able to use the
+                <control>Apply</control>
+                button, which will generate a free license and assign it to your JetBrains Account.
+                <img src="apply_button.png" alt="Apply Button" width="2590"/>
+            </li>
+        </list>
+    </p>
+    <note>
+        <p>
+            If your account has a special status, but you are not able to apply for the offer, please contact JetBrains
+            Marketplace support via email <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+        </p>
+    </note>
+</topic>

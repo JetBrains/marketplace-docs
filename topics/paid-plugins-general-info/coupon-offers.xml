@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Special Coupons from Plugin Developers"
+       id="coupon-offers">
+
+    <p>Authors of paid plugins can create custom offers for their customers.</p>
+    <procedure style="steps" title="Create a new offer">
+        <step>
+            Open the <path>Sales Info</path> tab of your plugin page.
+        </step>
+        <step>
+            Click the <control>Add New Offer</control> button:
+            <img src="sales_info.png" alt="Sales Info" width="2758"/>
+        </step>
+        <step>
+            Enter a name and (optionally) a description for the new offer in the opened form.
+            This form helps you generate single-use coupons for your customers.
+            <img src="new_offer.png" alt="Offer Form" width="3584"/>
+        </step>
+        <step>
+            Enter either a <control>Discount Value</control> or a <control>Free Period</control>. If you set a Free
+            Period Discount, customers who apply
+            this offer will be able to use your plugin for free during this period. If you set a Discount Value,
+            customers can use this discount to purchase a monthly or annual subscription for your plugin (depending on
+            the <control>Billing Period</control> you specify).
+        </step>
+        <step>
+            (Optional) Specify an <control>End date</control> after which the coupons generated for this offer will
+            expire. If you don’t specify a
+            <control>Billing Period</control>, the offer is available for both monthly and annual subscription types.
+            You can also specify the
+            <control>Countries</control>
+            in which you want your offer to be available.
+        </step>
+    </procedure>
+    <p>
+        After submitting this form, your new offer will appear in the <path>Current Offers</path> section of the <path>
+        Sales Info
+    </path> tab
+        where you can edit your offers, remove them, and generate coupons.
+    </p>
+    <warning>
+        <p>
+            If you remove an offer, all coupons associated with it will be invalidated.
+        </p>
+    </warning>
+    <procedure title="Generate coupons" style="steps">
+        <step>
+            Click the offer name in the <path>Current Offers</path> section on the <path>Sales Info</path> tab.
+            <img src="generate_coupons.png" alt="Generate Coupons" width="2564"/>
+        </step>
+        <step>
+            Enter the number of new coupons you want to create.
+        </step>
+        <step>
+            Click <control>Generate New Coupons</control>.
+        </step>
+        <step>
+            You can then copy the coupon code or download the generated coupons as PDF files to send to your users.
+            <img src="download_pdf.png" alt="Coupons Form" width="1824"/>
+        </step>
+    </procedure>
+</topic>

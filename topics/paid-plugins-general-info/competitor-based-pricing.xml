@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Competitor-Based Pricing"
+       id="competitor-based-pricing">
+
+    <p>
+        <emphasis>Competitor-Based Pricing</emphasis>
+        is a method that utilizes competitor prices as a benchmark. You can use competitor-based
+        pricing to adjust the cost-based price. Basically, you should look at the prices of similar products/plugins
+        to decide your own price point.
+    </p>
+    <table>
+        <tr>
+            <td>
+                Pros
+            </td>
+            <td>
+                Cons
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Simple, easy to use
+            </td>
+            <td>
+                Lack of your own pricing strategy that would take into consideration the peculiarities of your business
+            </td>
+        </tr>
+        <tr>
+            <td>
+                It might be close to what the market can reasonably sustain
+            </td>
+            <td>
+                There is a risk of price wars (especially when supply exceeds demand)
+            </td>
+        </tr>
+    </table>
+    <p>
+        To estimate the competitor-based price, consider the following questions:
+    </p>
+    <p>
+        <list>
+            <li>
+                Who are my competitors?
+            </li>
+            <li>
+                Do they propose similar products/plugins?
+            </li>
+            <li>
+                Do they offer more or fewer features?
+            </li>
+            <li>
+                How do competitors price their products/plugins?
+            </li>
+            <li>
+                How does the cost-based price for my product/plugin compare with the competitors’ offers?
+            </li>
+        </list>
+    </p>
+</topic>

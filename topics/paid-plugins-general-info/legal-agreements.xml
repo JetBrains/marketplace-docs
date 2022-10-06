@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Legal Agreements"
+       id="legal-agreements">
+
+    <p>To support the Marketplace operations from the legal side, JetBrains has the following agreements in place:</p>
+
+    <chapter level="2" title="1. JetBrains Marketplace Developer Agreement">
+        <p>It is an agreement between a plugin developer (or plugin vendor) and JetBrains covering all aspects of
+            publishing the plugin to the Marketplace and (optionally) selling it via JetBrains. This document includes
+            all terms and conditions related to business between the vendor (developer) and JetBrains.
+        </p>
+        <p>You can find a document here: <a href="https://plugins.jetbrains.com/legal/developer-agreement">
+            https://plugins.jetbrains.com/legal/developer-agreement</a>.
+        </p>
+        <p>This agreement must be signed (on the website, no physical copy) before the plugin is uploaded. It includes
+            terms and conditions for non-marketplace developer-related matters as well.
+        </p>
+        <p>The document is attached to the article. Alternatively, you can leave comments in the <a
+                href="https://docs.google.com/document/d/1twHbfMfJXgT10LsHbsl8jKMd_esfNTsSQYo0nhKI2kI/edit">Google
+            Document version of the document</a>. Your comments are going to be visible to other viewers and JetBrains
+            employees, feel free to create a copy and send it to us if you want to keep comments in secret.
+        </p>
+    </chapter>
+
+    <chapter level="2" title="2. JetBrains Plugin Marketplace Approval Guidelines">
+        <p>It is a guideline for approval of the plugins, updates, and related assets. It's referenced from the
+            JetBrains Marketplace Developer Agreement and is applied towards all plugins (both paid and free.)
+        </p>
+
+        <p>You can find a document here: <a href="https://plugins.jetbrains.com/legal/approval-guidelines">
+            https://plugins.jetbrains.com/legal/approval-guidelines</a>.
+        </p>
+
+        <p>The document is attached to the article. Alternatively, you can leave comments in the <a
+                href="https://docs.google.com/document/d/11ls1qpMbUTLVjwLq5RHu6RVHrQ9vvLwSOeE-g88eJJs/edit">Google
+            Document version of the document</a>. Your comments are going to be visible to other viewers and JetBrains
+            employees, feel free to create a copy and send it to us if you want to keep comments in secret.
+        </p>
+    </chapter>
+
+    <chapter level="2" title="3. JetBrains Plugin Marketplace Agreement">
+        <p>It is a general document covering everything that happens on the JetBrains Marketplace resources (the main
+            resource is a plugin repository: <a href="https://plugins.jetbrains.com/">https://plugins.jetbrains.com/</a>).
+            It's provided in addition to JetBrains general
+            <a href="https://www.jetbrains.com/company/useterms.html">Terms of Use</a>
+            and expands it with marketplace-related terms. It applies to everyone using the marketplace (both to
+            end-users and developers uploading/selling plugins).
+        </p>
+
+        <p>You can find a document here: <a href="https://plugins.jetbrains.com/legal/terms-of-use">
+            https://plugins.jetbrains.com/legal/terms-of-use</a>.
+        </p>
+
+        <p>If you are using the Marketplace from Russia, <a href="https://plugins.jetbrains.com/legal/ru-terms-of-use">
+            Terms of Use (JetBrains Distributions
+            s.r.o.)
+        </a> apply instead of the standard Terms of Use.
+        </p>
+
+        <p>The documents are attached to the article. Alternatively, you can leave comments in the Google Document
+            versions
+            of the documents (<a
+                    href="https://docs.google.com/document/d/1xw24DYnDunbxm3lDZjB7F0ZgjPDDhyWMA4be8d41V0I/edit">
+                JetBrains Plugin Marketplace
+                Agreement</a>, <a
+                    href="https://docs.google.com/document/d/1SvgcnBGVI7fN0SgIMLYk5uXmnKSrUg5HXoP-hgO-Ry8/edit">
+                JetBrains
+                Plugin Marketplace Agreement (JetBrains Distributions
+                s.r.o.)</a>). Your comments are going to be visible to other viewers and JetBrains employees,
+            feel free to create a copy and send it to us if you want to keep comments in secret.
+        </p>
+    </chapter>
+
+    <chapter level="2" title="4. Privacy Policy">
+        <p>It is a unified document for all JetBrains web resources, it applies to the Marketplace, too: <a
+                href="https://www.jetbrains.com/company/privacy.html">https://www.jetbrains.com/company/privacy.html</a>.
+        </p>
+    </chapter>
+
+    <chapter level="2" title="5. Purchasing Terms">
+        <p>This document includes payment terms, ways of product delivery, order placement and acceptance, how we manage
+            personal data during the purchase, etc., and it covers products sold via the Marketplace, too:
+            <a href="https://www.jetbrains.com/store/terms/">https://www.jetbrains.com/store/terms/</a>
+            (it's unified document for all purchases from JetBrains, already includes all the necessary Marketplace
+            provisions.)
+        </p>
+    </chapter>
+
+    <chapter level="2" title="Attachments">
+        <res resource-id="jetbrains-plugin-marketplace-agreement-docx"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-agreement-pdf"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-agreement-jbd-docx"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-agreement-jbd-pdf"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-approval-guidelines-docx"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-approval-guidelines-pdf"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-developer-agreement-docx"/>
+
+        <res resource-id="jetbrains-plugin-marketplace-developer-agreement-pdf"/>
+    </chapter>
+
+</topic>
