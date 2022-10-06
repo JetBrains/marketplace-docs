@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Value-Based Pricing"
+       id="value-based-pricing">
+
+    <p>The goal of value-based pricing is to figure out how much your potential customers are willing to pay for a
+        product / plugin.
+    </p>
+    <p>
+        Instead of looking inwardly at your costs, or towards your competitors, with value-based pricing this time you
+        look outward. You go out and ask your potential customers what value they see in your product.
+    </p>
+    <table>
+        <tr>
+            <td>
+                Pros
+            </td>
+            <td>
+                Cons
+            </td>
+        </tr>
+        <tr>
+            <td>
+                The price reflects customers’ willingness to pay
+            </td>
+            <td>
+                It takes time to gather information from customers
+            </td>
+        </tr>
+        <tr>
+            <td>
+                You get to know your customers
+            </td>
+            <td>
+                The value-based price might not fully consider your costs
+            </td>
+        </tr>
+    </table>
+    <p>
+        Overall, there are two major ways that a product or service can create value for customers:
+    </p>
+    <p>
+        <list>
+            <li>
+                It helps increase customers’ revenue
+                <list>
+                    <li>
+                        by increasing the number of their paying users
+                    </li>
+                    <li>
+                        by increasing the customer retention rate
+                    </li>
+                    <li>
+                        by increasing the average revenue per customer
+                    </li>
+                </list>
+            </li>
+            <li>
+                It helps decrease customers’ expenses
+                <list>
+                    <li>
+                        by saving their costs
+                    </li>
+                    <li>
+                        by saving their time
+                    </li>
+                </list>
+            </li>
+        </list>
+    </p>
+    <p>
+        Consider answering these questions to understand how much value your product or service creates for your
+        customers:
+    </p>
+    <p>
+        <list>
+            <li>
+                What pain points will the customer solve with a product / plugin?
+            </li>
+            <li>
+                What product / plugin feature is the least valuable for the customer?
+            </li>
+            <li>
+                What product / plugin feature is the most valuable for the customer?
+            </li>
+            <li>
+                What is the price that a customer wants to pay for the product / plugin?
+            </li>
+            <li>
+                What is the price that a customer is willing to pay for the product / plugin?
+            </li>
+        </list>
+    </p>
+    <p>
+        It is also worth checking your potential customers’ price sensitivity by asking these questions:
+    </p>
+
+
+    <p>
+        <list>
+            <li>
+                At what price would the customer consider the product too expensive?
+            </li>
+            <li>
+                At what price would the customer consider the product to be so cheap that they would not consider it?
+            </li>
+            <li>
+                At what price would the customer consider the product to start to get expensive?
+            </li>
+            <li>
+                At what price would the customer consider the product to be a ‘good value’?
+            </li>
+        </list>
+    </p>
+    <p>
+        <emphasis>
+            Sources: <a href="https://www.priceintelligently.com/blog/bid/163986/a-complete-guide-to-pricing-strategy">
+            Price Intelligently SaaS Pricing
+            Strategy</a>, <a
+                href="https://www.priceintelligently.com/hubfs/Price-Intelligently-SaaS-Pricing-Strategy.pdf">The
+            Anatomy of
+            SaaS Pricing Strategy</a>, <a href="https://go.productplan.com/saas-pricing-book/">The
+            Power of Experimental Pricing</a>, <a
+                href="https://www.toptal.com/product-managers/product-management/software-pricing-strategy-and-architecture">
+            Toptal</a>, <a href="https://blog.hubspot.com/sales/pricing-strategy">Hubspot</a>, <a
+                href="https://www.getcheddar.com/blog/cost-plus-pricing-for-saas/">Getcheddar Cost-Based
+            Pricing</a>, <a href="https://medium.com/datadriveninvestor/saas-margins-are-terrible-29ededa27e55">
+            Medium</a>, <a href="https://www.getcheddar.com/blog/saas-value-based-pricing/">Getcheddar Value-Based
+            Pricing</a>, <a
+                href="https://www.priceintelligently.com/blog/bid/179505/a-no-bull-straightforward-guide-to-value-based-pricing-strategy">
+            Price
+            Intelligently</a>.
+        </emphasis>
+    </p>
+
+</topic>

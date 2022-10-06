@@ -48,14 +48,16 @@
                     <li>The “License Activation” window should appear. Just click the <control>Buy license</control> button
                         in the top-right corner to start the purchase process:
                         <img src="License-Activation-window.png" alt="License Activation window"
-                             width="460"/>
+                             width="1598"/>
                     </li>
                     <li>You will be redirected to the plugin’s <control>Pricing</control> page, where you can select the
                         desired subscription.
                     </li>
-                    <note>Keep in mind that you can apply for a discount or get a free license if you have a JetBrains
-                        Account that is eligible for the offer. You can learn more about such offers <a
-                                href="community-programs.md">here</a>.
+                    <note>
+                        <p>Keep in mind that you can apply for a discount or get a free license if you have a JetBrains
+                            Account that is eligible for the offer. You can learn more about such offers <a
+                                    href="community-programs.xml">here</a>.
+                        </p>
                     </note>
                     <li>If you don’t have an active <a
                             href="https://sales.jetbrains.com/hc/en-gb/articles/208459005-What-is-a-JetBrains-Account-">
@@ -85,7 +87,7 @@
                     </li>
                     <note>Keep in mind that you can apply for a discount or get a free license if you have a JetBrains
                         Account that is eligible for the offer. You can learn more about such offers <a
-                                href="community-programs.md">here</a>.
+                                href="community-programs.xml">here</a>.
                     </note>
                     <li>If you don’t have an active <a
                             href="https://sales.jetbrains.com/hc/en-gb/articles/208459005-What-is-a-JetBrains-Account-">
@@ -107,7 +109,7 @@
         <p>To purchase more than 1 license, just select the necessary number of licenses under the Pricing tab and
             click <control>Buy</control>:
         </p>
-        <img src="100licenses.png" alt="Select 100 licenses" width="706"/>
+        <img src="100licenses.png" alt="Select 100 licenses" width="2010"/>
     </chapter>
 
 
