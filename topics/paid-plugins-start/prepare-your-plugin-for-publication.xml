@@ -24,7 +24,7 @@
             plugin.xml</path>).
         </step>
         <step>
-            <a href="add-marketplace-license-verification-calls-to-the-plugin-code.md">Add Marketplace license
+            <a href="add-marketplace-license-verification-calls-to-the-plugin-code.xml">Add Marketplace license
                 verification
                 calls</a>.
         </step>
@@ -39,7 +39,7 @@
         </step>
     </procedure>
 
-    <p>As an <control>optional step</control> we recommend <a href="obfuscate-the-plugin.md">obfuscating the plugin
+    <p>As an <control>optional step</control> we recommend <a href="obfuscate-the-plugin.xml">obfuscating the plugin
         code</a>.
     </p>
 

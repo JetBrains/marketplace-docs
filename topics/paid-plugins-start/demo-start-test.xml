@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Start testing on Marketplace Demo"
+       id="demo-start-test">
+
+    <p>Once you have <a href="demo-obtain-creds.xml">obtained the credentials</a> and gotten familiar with the <a
+            href="demo-limitations.xml">Marketplace Demo
+        limitations</a>, you’re ready to hop in and start your tests.
+    </p>
+    <note>
+        <p>Please note that information about the plugin you are testing might be exposed to other Marketplace program
+            users who are using the same test stand.
+        </p>
+    </note>
+    <chapter title="Marketplace sign in">
+        <p>Access the <a href="https://master.demo.marketplace.intellij.net/">Marketplace Demo instance</a> and use the
+            credentials
+            you have <a href="demo-obtain-creds.xml">obtained</a> from JetBrains. Unfortunately, you can't use the "sign
+            in via Google
+            Account" option, as we can't connect it to non-JetBrains emails (the JetBrains team should use the "sign in
+            via
+            Google Account" option exclusively). Use the username/password option.
+        </p>
+        <warning>
+            <p>Make sure to change the password on the first sign in.</p>
+        </warning>
+    </chapter>
+
+    <chapter title="Marketplace Demo plugin upload">
+        <p>Once you access the Marketplace Demo instance, you should log into the Marketplace application itself:</p>
+
+        <img src="hub-login.png" alt="Hub Login Window" width="864"/>
+
+        <p>Please use your normal <a href="https://hub.jetbrains.com">Hub</a> account, the same as you would use on the
+            production
+            instance.
+        </p>
+
+        <p>After that, feel free to upload a new plugin following the steps described in the <a
+                href="release-plugin.xml">Release the
+            Plugin
+        </a> section. Once all the steps are completed, please reach out to the JetBrains team
+            via <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> or
+            <a href="https://plugins.jetbrains.com/slack">Slack</a>
+            asking us to approve the plugin. We’ll review it within 1-2 business days and send you a confirmation.
+        </p>
+
+        <note>
+            <p>You might notice plugins copied from the Production instance. Please keep in mind that it is NOT possible
+                to
+                download such plugins/updates. Only plugins/updates uploaded to this Marketplace Demo instance will be
+                accessible.
+            </p>
+        </note>
+        <p>As soon as your plugin is approved, it will be marked as a Paid Plugin available for sale. You as a plugin
+            vendor
+            should see the <path>Pricing</path> tab here:
+        </p>
+        <img src="pricing-admin.png" alt="Pricing page for a vendor" width="2106"/>
+    </chapter>
+
+    <chapter title="How to test the purchase process?">
+        <p>Change the link accordingly where <code>{ID}</code> = PRODUCT CODE
+        </p>
+        <chapter title="Personal license">
+            <p>
+                <emphasis>Use the direct link to the shop:</emphasis>
+            </p>
+            <p>
+                <list>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:<code>{ID}</code>:Y
+                    </li>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:<code>{ID}</code>:M
+                    </li>
+                </list>
+            </p>
+            <p>
+                <emphasis>For a quote:</emphasis>
+            </p>
+            <p>
+                <list>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:<code>{ID}</code>:Y
+                    </li>
+                    <li>
+                        * https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:<code>{ID}</code>:M
+                    </li>
+                </list>
+            </p>
+            <p>
+                <emphasis>Or go to buy page from the plugin overview:</emphasis>
+            </p>
+            <p>
+                <list>
+                    <li>
+                        https://master.demo.marketplace.intellij.net/purchase-link/
+                        <code>{ID}</code>
+                    </li>
+                </list>
+            </p>
+        </chapter>
+        <chapter title="Commercial license">
+            <p>
+                <emphasis>Use the direct link on the shop:</emphasis>
+            </p>
+            <p>
+                <list>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:<code>{ID}</code>:Y
+                    </li>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:<code>{ID}</code>:M
+                    </li>
+                </list>
+            </p>
+            <p>
+                <emphasis>For a quote:</emphasis>
+            </p>
+            <p>
+                <list>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:<code>{ID}</code>:Y
+                    </li>
+                    <li>
+                        https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:<code>{ID}</code>:M
+                    </li>
+                </list>
+            </p>
+
+            <p>
+                <emphasis>Or go to buy page from the plugin overview</emphasis>
+            </p>
+            <p>
+                <list>
+                    <li>
+                        https://master.demo.marketplace.intellij.net/purchase-link/
+                        <code>{ID}</code>
+                    </li>
+                </list>
+            </p>
+        </chapter>
+        <chapter title="Payment information on the checkout">
+            <p>At the checkout form, you need to use special test cards/payment information provided to us by Adyen (our
+                payment provider): <a href="https://docs.adyen.com/development-resources/test-cards/test-card-numbers/">
+                    https://docs.adyen.com/development-resources/test-cards/test-card-numbers/</a>.
+            </p>
+            <warning>
+                <p>Make sure <emphasis>NOT TO USE</emphasis> real data, only use the Adyen-provided data.
+                </p>
+            </warning>
+        </chapter>
+    </chapter>
+
+    <chapter title="How to test emails sent by the Sales System?">
+        <p>Feel free to check all the emails you as a user might receive: sign up, license purchase, etc.</p>
+        <p>Due to the sensitivity of the data produced during the testing (such as license keys, order information,
+            etc.),
+            we don’t send out any emails from the Marketplace Demo Sales Systems.
+        </p>
+        <p>That is why all the outgoing emails can be viewed at a special URL: <a
+                href="https://mp.jpf-demo.aws.intellij.net/emails">https://mp.jpf-demo.aws.intellij.net/emails</a>.
+        </p>
+        <p>Create a test user with credentials similar to this:</p>
+        <p>
+            <code style="block">
+                Email: test.test@gmail.com
+                Username: TestTest
+                Password: FJKDr478fdjhsj__
+            </code>
+        </p>
+        <note>
+            <p>Please note that outgoing emails sent by the Marketplace Demo sales stand are available to all testers.
+            </p>
+        </note>
+        <p>Use responsibly and don't use any confidential names/information there. Please note that information about
+            the plugin you are testing might be exposed to other Beta program users. If you need private testing, please
+            reach out to us, and we’ll try to arrange it.
+        </p>
+    </chapter>
+
+    <chapter title="What to test?">
+        <p>You might consider testing and reviewing your plugin:</p>
+        <p>
+            <emphasis>As a Vendor:</emphasis>
+        </p>
+        <p>
+            <list>
+                <li>
+                    Review Vendor Cabinet
+                </li>
+                <li>
+                    Update a plugin (new version upload)
+                </li>
+                <li>
+                    Check Pricing information and Sales Info
+                </li>
+                <li>
+                    Review Purchase Terms
+                </li>
+            </list>
+        </p>
+        <p>
+            <emphasis>As a User:</emphasis>
+        </p>
+        <p>
+            <list>
+                <li>
+                    Evaluate a plugin
+                </li>
+                <li>
+                    Purchase plugin via the Store
+                </li>
+                <li>
+                    Orders/Quotes/etc. via Sales System
+                </li>
+                <li>
+                    Emails
+                </li>
+            </list>
+        </p>
+    </chapter>
+    <p>Feel free to reach out to us via <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> if you
+        have any
+        issues or require our assistance.
+    </p>
+    <p>Happy testing!</p>
+    <p>The Marketplace team</p>
+</topic>

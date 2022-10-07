@@ -84,7 +84,7 @@
             to verify that the platform checked and verified that a user has a license for this particular plugin (and
             specific
             plugin version), and shut down its operations if the license is not there. To do so, a plugin has to <a
-                    href="add-marketplace-license-verification-calls-to-the-plugin-code.md">include a
+                    href="add-marketplace-license-verification-calls-to-the-plugin-code.xml">include a
                 standard code provided by JetBrains
             </a> which would be checking that your plugin is licensed.
         </p>
@@ -101,7 +101,7 @@
             Klassmaster</a>.
         </p>
 
-        <p>Read more about the obfuscation <a href="obfuscate-the-plugin.md">in the dedicated article</a>.
+        <p>Read more about the obfuscation <a href="obfuscate-the-plugin.xml">in the dedicated article</a>.
         </p>
     </chapter>
 
