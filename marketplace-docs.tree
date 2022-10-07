@@ -50,20 +50,20 @@
         <toc-element id="prepare-your-plugin-for-publication.xml" accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html">
             <toc-element id="add-required-parameters.xml"/>
             <toc-element id="technical-implementation.xml"/>
-            <toc-element id="obfuscate-the-plugin.md"/>
-            <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.md"/>
-            <toc-element id="versioning-of-paid-plugins.md"/>
+            <toc-element id="obfuscate-the-plugin.xml"/>
+            <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.xml"/>
+            <toc-element id="versioning-of-paid-plugins.xml"/>
         </toc-element>
-        <toc-element id="release-plugin.md"/>
+        <toc-element id="release-plugin.xml"/>
     </toc-element>
-    <toc-element id="freemium.md" accepts-web-file-names="free-functionality.html">
-    <toc-element id="inform-your-users-in-advance.md"/>
+    <toc-element id="freemium.xml" accepts-web-file-names="free-functionality.html">
+    <toc-element id="inform-your-users-in-advance.xml"/>
     </toc-element>
-    <toc-element id="marketplace-demo.md" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
-        <toc-element id="demo-obtain-creds.md"/>
-        <toc-element id="demo-prepare-ide.md"/>
-        <toc-element id="demo-limitations.md"/>
-        <toc-element id="demo-start-test.md"/>
+    <toc-element id="marketplace-demo.xml" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
+        <toc-element id="demo-obtain-creds.xml"/>
+        <toc-element id="demo-prepare-ide.xml"/>
+        <toc-element id="demo-limitations.xml"/>
+        <toc-element id="demo-start-test.xml"/>
         <toc-element id="marketplace-demo-plugin.xml"/>
     </toc-element>
         <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html">

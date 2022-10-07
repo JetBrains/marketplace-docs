@@ -43,7 +43,7 @@
                     would be <code>2020</code> and the second one <code>1</code>.
                 </p>
                 <p>
-                    This is different from the <a href="versioning-of-paid-plugins.md">version</a> of the plugin, as
+                    This is different from the <a href="versioning-of-paid-plugins.xml">version</a> of the plugin, as
                     this is a
                     version number
                     of the major release (i.e. the release that happened on <code>release-date</code>).
@@ -123,7 +123,7 @@
                 — not a required parameter (type: <code>boolean</code>). This should be set to <code>true</code> if you
                 would like
                 to
-                add the free functionality to your plugin. Please see <a href="freemium.md">this article</a> for more
+                add the free functionality to your plugin. Please see <a href="freemium.xml">this article</a> for more
                 information
                 about
                 free functionality. The default value of this parameter is <code>false</code>.

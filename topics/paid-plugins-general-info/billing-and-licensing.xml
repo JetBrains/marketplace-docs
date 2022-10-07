@@ -45,7 +45,7 @@
 
     <p>JetBrains is utilizing its resellers and distributors network to make plugins available via the JetBrains
         distribution network. Plugin vendors decide whether to participate or not during the <a
-                href="release-plugin.md">release process</a>.
+                href="release-plugin.xml">release process</a>.
     </p>
     <p>In a case of selling a plugin via JetBrains' resellers, there will be an additional commission held by the
         reseller, and this reseller commission is paid from JetBrains commission (so the plugin developer always gets a
