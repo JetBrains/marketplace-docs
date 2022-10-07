@@ -5,7 +5,7 @@
 <product-profile id="marketplace-docs"
                  name="JetBrains Marketplace"
                  status="release"
-                 start-page="about-marketplace.md">
+                 start-page="about-marketplace.xml">
 
     <toc-element id="about-marketplace.xml" accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html,paid-plugins-marketplace.html">
         <toc-element id="benefits-of-jetbrains-marketplace.xml"/>
