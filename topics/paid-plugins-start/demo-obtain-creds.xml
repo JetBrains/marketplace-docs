@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Obtain the credentials to access the Marketplace Demo instance"
+       id="demo-obtain-creds">
+
+    <p>You should have already received the credentials after <a
+            href="submit-a-request-to-sell-plugins-at-the-marketplace.xml">submitting a
+        request
+    </a> to start selling your plugin. Please check
+        your
+        inbox for an email titled <emphasis>“You have been granted access to the JetBrains Marketplace
+            Sandbox"</emphasis>.
+    </p>
+
+    <p>If you don’t have it, feel free to reach out to JetBrains via
+        <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>
+        or <a href="https://plugins.jetbrains.com/slack">Slack</a>.
+        You will get a separate email with username/password details.
+    </p>
+
+    <warning>
+        <p>Make sure to change the password when you first sign in.</p>
+    </warning>
+
+    <p>You need your credentials to access both the
+        <a href="https://master.demo.marketplace.intellij.net">Marketplace Demo</a>
+        server
+        and the <a href="https://mp.jpf-demo.aws.intellij.net/login">Sales Systems Marketplace Demo</a>. You will need
+        to provide
+        your
+        credentials separately for both of these applications (it is normal if you are asked to re-provide your
+        credentials
+        when going from the plugins repository to the shop.)
+    </p>
+
+    <tip>
+        <p>Endpoints necessary for the IDE to function are open and don't require credentials to be accessed.</p>
+    </tip>
+</topic>
