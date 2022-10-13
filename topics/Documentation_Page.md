@@ -16,7 +16,7 @@ If you are asking yourself why you should bother about writing documentation for
 external search engines will bring it to everyone who types the keywords into the search query.
 * Documentation helps you to stand out and communicate features of a plugin better so that your customers get the most out of it.
 * Documentation makes your product look more professional and reliable and helps build trust in it.
-* Documentation is a way to support your current users. If they find answers in documentation, this will decrease the support load, which is crucial for a small team. Good documentation also often leads to higher rating of a plugin
+* Documentation is a way to support your current users. If they find answers in documentation, this will decrease the support load, which is crucial for a small team. Good documentation also often leads to higher rating of a plugin.
 
 You can use not only common Markdown but a variety of semantic markup elements and attributes tailored 
 specifically to create documentation, like:
@@ -42,10 +42,10 @@ This run configuration includes more than 100 automated tests that run during th
 of your content, and a detailed build log to let you know if something goes wrong.
 
 What you need to do is:
-* download the plugin [here]();
+* download the plugin [here](https://plugins.jetbrains.com/plugin/20158-writerside);
 * create a documentation folder alongside your plugins' code or a separate docs repository;
 * write the actual content with the help of templates, live preview, and assistance; 
 * commit and push the result;
 * promote a successful build to publish your content to the Documentation tab.
 
-For more information, refer to the [Writerside plugin help]().
+For more information, refer to the [Writerside plugin help](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
