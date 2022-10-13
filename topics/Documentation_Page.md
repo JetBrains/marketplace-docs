@@ -3,7 +3,7 @@
 If your plugin needs not only a landing page with a features' overview but user-facing documentation, 
 the **Documentation** page is coming into play.
 
-Unlike [Custom pages](custom-pages.md), the **Documentation** page is designed to host documentation 
+Unlike [Custom pages](custom-pages.xml), the **Documentation** page is designed to host documentation 
 in a separate tab. 
 
 This is not a single page but a full-fledged help instance with a structure, a table of contents, and in-topic navigation. 
