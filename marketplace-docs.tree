@@ -40,8 +40,6 @@
         <toc-element id="custom-pages.xml"/>
         <toc-element id="Documentation_Page.md"/>
         <toc-element id="custom-release-channels.xml"/>
-        <toc-element id="Documentation_Page.md"/>
-        <toc-element id="custom-release-channels.xml"/>
         <toc-element id="semver.xml"/>
         <toc-element id="plugin-notification-settings.xml"/>
     </toc-element>
