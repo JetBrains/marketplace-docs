@@ -18,6 +18,11 @@ external search engines will bring it to everyone who types the keywords into th
 * Documentation makes your product look more professional and reliable and helps build trust in it.
 * Documentation is a way to support your current users. If they find answers in documentation, this will decrease the support load, which is crucial for a small team. Good documentation also often leads to higher rating of a plugin.
 
+## Create documentation for your plugin
+
+To add documentation for your plugin, install the [Writerside plugin](https://plugins.jetbrains.com/plugin/20158-writerside) for IntelliJ IDEs 
+and start writing docs inside your development environment.
+
 You can use not only common Markdown but a variety of semantic markup elements and attributes tailored 
 specifically to create documentation, like:
 
@@ -28,24 +33,25 @@ specifically to create documentation, like:
 * smart code snippets
 * notes, tips, and warnings.
 
-Under the hood, the ability to author and publish documentation is supported by the [Writerside plugin]() for IntelliJ IDEs,
-which lets you write docs inside your development environment without switching to a separate tool.
-
 On top of that, it has a built-in live preview that displays the docs in the way they will appear on the web, 
 and a possibility to build docs locally so that you can review them without running a build on a CI/CD.
 
-We’re going to have run configurations on TeamCity prepared for you, so that you’ll be able to run builds, 
-check docs on staging and then promote updates to
-your documentation pages. 
+## Publish documentation
 
-This run configuration includes more than 100 automated tests that run during the build and check the integrity and quality
+We will prepare run configurations on TeamCity, so you can run builds, 
+check docs on staging and then promote updates to your documentation pages.
+
+These run configurations include more than 100 automated tests that run during the build and check the integrity and quality
 of your content, and a detailed build log to let you know if something goes wrong.
 
-What you need to do is:
-* download the plugin [here](https://plugins.jetbrains.com/plugin/20158-writerside);
-* create a documentation folder alongside your plugins' code or a separate docs repository;
-* write the actual content with the help of templates, live preview, and assistance; 
-* commit and push the result;
-* promote a successful build to publish your content to the Documentation tab.
+<procedure style="choices">
+    <p>So what you need to do to have documentation on the Documentation tab is:</p>
+    <step>download the plugin <a href="https://plugins.jetbrains.com/plugin/20158-writerside">here</a>;</step>
+    <step>create a documentation folder alongside your plugins' code or a separate docs repository;</step>
+    <step>write the actual content with the help of templates, live preview, and assistance;</step>
+    <step>commit and push the result;</step>
+    <step>contact us via email <path>writerside@jetbrains.com</path> and ask to create a run configuration for your plugin;</step>
+    <step>promote a successful build to publish your content to the Documentation tab.</step>
+</procedure>
 
 For more information, refer to the [Writerside plugin help](https://plugins.jetbrains.com/plugin/20158-writerside/docs).
