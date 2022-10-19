@@ -26,6 +26,11 @@
     </p>
 
     <p>
+        <control>File size:</control>
+        the maximum allowed plugin size is <control>300 MB</control>.
+    </p>
+
+    <p>
         <control>License:</control>
         You must provide your own end user license agreement with any Plugin via JetBrains Marketplace. We
         cannot tell you what your Plugin Developer EULA should say, but we can point you to <a
