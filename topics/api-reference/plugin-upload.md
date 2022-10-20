@@ -1,6 +1,6 @@
 [//]: # (title: Plugin Upload API)
 
-Please note that the maximum allowed plugin size is *300 MB*.
+Please note that the maximum allowed plugin size is *400 MB*.
 
 You should create a `permanentToken` in [My Tokens](https://plugins.jetbrains.com/author/me/tokens) tab within your Marketplace profile dashboard.
 
