@@ -1,5 +1,5 @@
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Documentation_Page" title="Documentation Page">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="documentation-page" title="Documentation Page">
     <p>If your plugin needs not only a landing page with a features' overview but user-facing documentation,
         the <b>Documentation</b> page is coming into play.
     </p>
