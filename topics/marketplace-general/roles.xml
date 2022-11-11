@@ -10,7 +10,7 @@
         next role has all the permissions of the previous one.
     </p>
 
-    <chapter title="Non-registered user" level="3">
+    <chapter title="Non-registered user" level="3" id="non-registered-user">
         <p>A user who is not logged in with the <a href="https://hub.jetbrains.com/">JetBrains Hub</a> account.
         </p>
         <p>
@@ -25,7 +25,7 @@
         </p>
     </chapter>
 
-    <chapter title="Registered user" level="3">
+    <chapter title="Registered user" level="3" id="registered-user">
         <p>A user who is logged in with the JetBrains Hub account.</p>
         <p>
             <control>Permissions</control>
@@ -42,7 +42,7 @@
         </p>
     </chapter>
 
-    <chapter title="Plugin Author" level="3">
+    <chapter title="Plugin Author" level="3" id="plugin-author">
         <p>A user who is added as a Developer to at least one plugin.</p>
         <p>
             <control>Permissions</control>
@@ -70,7 +70,7 @@
         </p>
     </chapter>
 
-    <chapter title="Organization administrator" level="3">
+    <chapter title="Organization administrator" level="3" id="organization-administrator">
         <p>Global administrator in the scope of an organization.</p>
         <p>
             <control>Permissions</control>
@@ -93,7 +93,7 @@
         </p>
     </chapter>
 
-    <chapter title="Moderator" level="3">
+    <chapter title="Moderator" level="3" id="moderator">
         <p>This role is needed for specific JetBrains team members to provide an ability to manage plugins in the scope
             of a family. As of now, we have the following moderator types:
         </p>
@@ -119,7 +119,7 @@
         </p>
     </chapter>
 
-    <chapter title="Marketplace administrator" level="3">
+    <chapter title="Marketplace administrator" level="3" id="marketplace-administrator">
         <p>The role with global rights for members of the JetBrains Marketplace team.</p>
         <p>
             <control>Permissions</control>

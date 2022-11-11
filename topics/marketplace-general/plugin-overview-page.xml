@@ -8,7 +8,7 @@
 
 <p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.xml</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.</p>
 
-<chapter title="Plugin name">
+<chapter title="Plugin name" id="plugin-name">
 
 <p>The plugin’s name is added in the <path>plugin.xml</path> file, under the <code>name</code> tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).  There is a limitation of max 60 characters, however we strongly recommend using a shorter name.</p>
 
@@ -57,7 +57,7 @@
 
 </chapter>
 
-<chapter title="Product compatibility">
+<chapter title="Product compatibility" id="plugin-compatibility">
 
 <p>The list of compatible products is displayed under the “Buy” or “Get” button (depending on whether you are publishing a free plugin or a paid one).</p>
 
@@ -68,7 +68,7 @@
 <img src="product-compatibility.png" alt="Compatibility Admin Page" width="706"/>
 </chapter>
 
-<chapter title="Plugin description">
+<chapter title="Plugin description" id="plugin-description">
 
 <p>The plugin description should be added to the <path>plugin.xml</path> file under the `description` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on <a href="https://plugins.jetbrains.com/">JetBrains Marketplace.</a></p>
 
@@ -113,7 +113,7 @@
 </list></p>
 </chapter>
 
-<chapter title="Plugin logo">
+<chapter title="Plugin logo" id="plugin-logo">
 
 <p>The plugin logo should be added directly to the plugin’s distribution file. You can find the detailed requirements and instructions on how to add the plugin logo <a href="https://plugins.jetbrains.com/docs/intellij/plugin-icon-file.html">here</a>. The general recommendation is to use a simple, recognizable, eye-catching image. It is better to avoid including text, but If the logo contains it, the text should be readable.</p>
 <note><p>Note, that you can choose not to use a logo.</p></note>
@@ -126,14 +126,14 @@
 
 </chapter>
 
-<chapter title="Media">
+<chapter title="Media" id="media">
 
 <p>The media section is the first element that users will see on the plugin page, and it is one of the best ways to show
 your plugin in action. You can add screenshots and video under the Media section in the admin panel of the plugin page
 after uploading your plugin.</p>
 <img src="media.png" alt="Fields for Media" width="460"/>
 
-<chapter title="Screenshots">
+<chapter title="Screenshots" id="screenshots">
 
 <p>We recommend adding screenshots that display plugin features. You can use a <path>.gif</path> showing some action or add overlay text to clarify what a screenshot depicts. The recommended screenshot size is 1280 x 800 px (16:10 aspect ratio). You can also add informational slides in addition to screenshots.</p>
 <note>
@@ -171,7 +171,7 @@ after uploading your plugin.</p>
 
 </chapter>
 
-<chapter title="Video">
+<chapter title="Video" id="video">
 
 <p>If you've got a product video on YouTube, you can add the URL to it. We recommend using a short promo or demo video
 that’s less than 5 minutes long. A video can help you improve user interaction with your listing.</p>
@@ -180,7 +180,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 </chapter>
 
-<chapter title="Tags">
+<chapter title="Tags" id="tags">
 
 <p>Plugin tags are displayed above the plugin name on the plugin page and are used as search filters. You should select at least one plugin tag while uploading the plugin (in the Plugin Upload form). You can also change tags later under the General Information section on the admin panel.</p>
 
@@ -190,7 +190,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 </chapter>
 
-<chapter title="Getting started section">
+<chapter title="Getting started section" id="getting-started-section">
 
 <p>You can choose to add getting started instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a <a href="custom-pages.xml">Custom page</a>.</p>
 
@@ -200,7 +200,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 </chapter>
 
-<chapter title="Change Notes">
+<chapter title="Change Notes" id="change-notes">
 
 <p>Change notes help you track the progress you’ve made on your plugin, introduce new features, announce changes, and recap bug fixes.</p>
 
@@ -208,7 +208,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 </chapter>
 
-<chapter title="Contacts and resources">
+<chapter title="Contacts and resources" id="contacts-and-resources">
 
 <p>You can add links to your website, issue tracker, forum page, source code, documentation, and any other custom links to your plugin page. They will be displayed in the Additional Information section.</p>
 
@@ -240,7 +240,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 </chapter>
 
-<chapter title="Donations">
+<chapter title="Donations" id="donations">
 
 <p><list>
 <li>Adding or having a donation link is not mandatory for plugin authors.</li>
