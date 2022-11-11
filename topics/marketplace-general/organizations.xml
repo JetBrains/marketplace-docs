@@ -13,7 +13,7 @@
         bespoke plugin development, plugin training, and plugin translation.
     </p>
 
-    <chapter title="Creating an organization">
+    <chapter title="Creating an organization" id="creating-an-organization">
         <p>To create an organization, navigate to your profile on JetBrains Marketplace, switch to the <emphasis>My
             Organizations
         </emphasis> tab, and click the <a href="https://plugins.jetbrains.com/organizations/new">Add Organization</a> button:
@@ -38,7 +38,7 @@
         </p>
     </chapter>
 
-    <chapter title="Organization administrators">
+    <chapter title="Organization administrators" id="organization-administrators">
         <p>As an administrator, you can:</p>
         <list>
             <li>Manage all the plugins under your organization.</li>
@@ -52,7 +52,7 @@
         </list>
     </chapter>
 
-    <chapter title="Adding members">
+    <chapter title="Adding members" id="adding-members">
         <p>To add more members, you just need to open the <control>Edit Organization</control> page, switch to the <control>
             People &amp; Plugins
         </control> tab, and enter the plugin author's ID in the <control>Add User</control> field.
@@ -122,14 +122,14 @@
 
     </chapter>
 
-    <chapter title="Verifying organizations">
+    <chapter title="Verifying organizations" id="verified-organizations">
         <p>If an organization would like to be marked as "Verified", one of its members should contact JetBrains
             Marketplace
             support by sending an email to <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
         </p>
     </chapter>
 
-    <chapter title="Submitting vendor information">
+    <chapter title="Submitting vendor information" id="submitting-vendor-information">
         <p>Paid and freemium plugins must belong to an organization and must be associated with the name, either the
             Company Name or the full legal name of the plugin’s author, that is used in the Sales System.
         </p>
@@ -145,7 +145,7 @@
         </warning>
     </chapter>
 
-    <chapter title="Transferring plugins from one organization to another">
+    <chapter title="Transferring plugins from one organization to another" id="transferring-plugins-from-one-organization-to-another">
         <p>You can easily move free plugins to another organization by following these steps:</p>
 
         <p>
@@ -167,7 +167,7 @@
 
     </chapter>
 
-    <chapter title="FAQ">
+    <chapter title="FAQ" id="faq">
         <p>Q: Why should I create an Organization and transfer my plugins to it?</p>
         <p>A: Organizations increase the credibility of plugins and simplify the search process for end users, all while
             easing the plugin management process for you. Having an organization will also make it harder for anyone
