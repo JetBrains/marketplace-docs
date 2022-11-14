@@ -255,14 +255,14 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 <li>All related disputes, including refund requests, chargebacks, and cancellations will be handled by the respective plugin author and/or the respective third-party payment processing provider.</li>
 </list></p>
 
-<chapter title="How to add a Donation link">
-
-    <p>We provided adding Donation links in the Web application for Free plugins. For Paid, Freemium, and Externally Paid plugins, we provide this functionality by request via email. While we are working on adding this functionality for all plugins, we apologize for the temporary inconvenience.</p>
-<p><list>
-<li>If it’s a Free plugin, go to the “Monetization tab” in your backoffice.</li>
-<li>If it is a Paid, Freemium, or Externally Paid plugin, please write to us via <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>. <emphasis>Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to settle any potential financial and legal issues on your side.</emphasis></li>
-</list></p>
-
+<chapter title="How to add a Donation link" id="how-to-add-donation-links">
+    <p>It is possible to add donation links for free plugins listed on JetBrains Marketplace. We can also provide this functionality by request for paid and freemium plugins. Please contact us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> to set it up.</p>
+    <p>To add a donation link for a free plugin, go to the <control>Monetization</control> tab of the plugin admin panel and add a link and a title for the donation service you are using.</p>
+    <img src="donation-link.png" alt="Donation Links" width="716"/>
+    <p>That’s it. Now, if a user gives a plugin a 4 or 5 star rating, they will see a prompt suggesting they donate to it, as well.</p>
+    <img src="review-donate.png" alt="Donation Links under review" width="600"/>
+    <p>We are also working on making donation links prominent for users, both on the Marketplace website and in the IDE Plugin Manager.</p>
+    <p><emphasis>Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to address any potential financial or legal issues on your side.</emphasis></p>
 </chapter>
 
 </chapter>
