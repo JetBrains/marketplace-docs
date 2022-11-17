@@ -241,7 +241,54 @@
         </chapter>
     </chapter>
 
-    <chapter title="What's next">
+    <chapter title="Hotkeys" level="3" id="hotkeys">
+        <p>It's no secret that using hotkeys instead of the mouse allows you to work faster, thereby saving you time. Here you can find some basic hotkeys for JetBrains Marketplace.</p>
+        <p>For plugin authors:</p>
+        <table>
+            <tr>
+                <td>Hotkey</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td><code>Arrow keys</code></td>
+                <td><p>Navigate on the Versions tab (<code>Up</code> and <code>Down</code> to switch between updates, <code>Left</code> and <code>Right</code> to switch between release channels).</p></td>
+            </tr>
+            <tr>
+                <td><code>Tab</code></td>
+                <td>Switch between tabs to the right.</td>
+            </tr>
+            <tr>
+                <td><code>Shift+Tab</code></td>
+                <td>Switch between tabs to the left.</td>
+            </tr>
+            <tr>
+                <td><code>F</code></td>
+                <td>Focus on the Search field</td>
+            </tr>
+            <tr>
+                <td><code>P</code></td>
+                <td>Open the Preview mode</td>
+            </tr>
+        </table>
+
+        <p>For Marketplace users:</p>
+        <table>
+            <tr>
+                <td>Hotkey</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td><code>Ctrl/Cmd+K</code></td>
+                <td>Search field</td>
+            </tr>
+            <tr>
+                <td><code>Tab</code>/<code>Shift+Tab</code></td>
+                <td>Can be used for navigation (but should be improved in future).</td>
+            </tr>
+        </table>
+    </chapter>
+
+   <chapter title="What's next">
         <p>You can start generating income from your plugin by selling it on JetBrains Marketplace. Check out <a
                 href="https://plugins.jetbrains.com/docs/marketplace/paid-plugins-marketplace.html">this
             page
