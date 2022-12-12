@@ -39,7 +39,9 @@
         generators
     </a> that are not affiliated with JetBrains.
     </p>
-
+    <warning>
+        <p>If you select an open-source license, then you need to provide a link to the source code.</p>
+    </warning>
     <p>
         <control>Tags:</control>
         When you upload a new plugin, please make sure to choose the correct tags, as they are used as search
