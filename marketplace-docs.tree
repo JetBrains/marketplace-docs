@@ -15,10 +15,11 @@
         <toc-element id="intellij-plugin-recommendations.xml"/>
         <toc-element id="product-versions-in-use-statistics.xml"/>
         <toc-element id="plugin-stats.xml">
-            <toc-element id="analytics-tab.xml"/>
-            <toc-element id="download-statistics.xml" accepts-web-file-names="unique-downloads.html"/>
+            <toc-element id="reviews-policy.xml"/>
             <toc-element id="plugins-ranking.xml"/>
             <toc-element id="plugins-rating.xml"/>
+            <toc-element id="analytics-tab.xml"/>
+            <toc-element id="download-statistics.xml" accepts-web-file-names="unique-downloads.html"/>
             <toc-element id="identify-user-of-paid-plugin.xml"/>
         </toc-element>
         <toc-element id="organizations.xml"/>
