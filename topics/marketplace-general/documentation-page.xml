@@ -5,9 +5,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="documentation-page" title="Documentation Page">
 
     <p>If your plugin needs not only a landing page with a list of features but user-facing documentation,
-        the <b>Documentation</b> page is coming into play.
+        the <control>Documentation</control> page is coming into play.
     </p>
-    <p>Unlike <a href="custom-pages.xml">Custom pages</a>, the <b>Documentation</b> page is designed to host
+    <p>Unlike <a href="custom-pages.xml">Custom pages</a>, the <control>Documentation</control> page is designed to host
         documentation in a separate tab on the plugin's page.
     </p>
     <p>This is not a single page but a full-fledged help instance with a structure, a table of contents, in-topic
@@ -97,7 +97,7 @@
                 Register on Algolia and <a href="https://www.algolia.com/account/plan/create">create a new standalone application</a>.
             </step>
             <step>
-                Inside this application create a new index.
+                Inside the application create a new index.
             </step>
             <step>
                 <chunk id="specify-the-params-for-search">
