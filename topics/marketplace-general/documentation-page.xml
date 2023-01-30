@@ -1,14 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="documentation-page" title="Documentation Page">
-    <p>If your plugin needs not only a landing page with a features' overview but user-facing documentation,
-        the <b>Documentation</b> page is coming into play.
+
+    <p>If your plugin needs not only a landing page with a list of features but user-facing documentation,
+        the <control>Documentation</control> page is coming into play.
     </p>
-    <p>Unlike <a href="custom-pages.xml">Custom pages</a>, the <b>Documentation</b> page is designed to host
-        documentation
-        in a separate tab.
+    <p>Unlike <a href="custom-pages.xml">Custom pages</a>, the <control>Documentation</control> page is designed to host
+        documentation in a separate tab on the plugin's page.
     </p>
-    <p>This is not a single page but a full-fledged help instance with a structure, a table of contents, and in-topic
-        navigation.
+    <p>This is not a single page but a full-fledged help instance with a structure, a table of contents, in-topic
+        navigation, and an ability <a anchor="search-for-plugin-page">to set up search</a>.
         Like the one you're reading right now.
         You can check some more examples here: <a
                 href="https://plugins.jetbrains.com/plugin/16136-grazie-professional/docs">Grazie Professional</a>, <a
@@ -22,20 +25,19 @@
         <li>Documentation makes your solution discoverable and searchable. When product documentation is online,
             external search engines will bring it to everyone who types the keywords into the search query.
         </li>
-        <li>Documentation helps you to stand out and communicate features of a plugin better so that your customers get
+        <li>Documentation helps you to stand out and communicate the features of a plugin better so that your customers get
             the most out of it.
         </li>
         <li>Documentation makes your product look more professional and reliable and helps build trust in it.</li>
         <li>Documentation is a way to support your current users. If they find answers in documentation, this will
-            decrease the support load, which is crucial for a small team. Good documentation also often leads to higher
+            decrease the support load, which is crucial for a small team. Good documentation also often leads to a higher
             rating of a plugin.
         </li>
     </list>
     <chapter id="create-documentation-for-your-plugin" title="Create documentation for your plugin">
         <p>To add documentation for your plugin, install the <a
                 href="https://plugins.jetbrains.com/plugin/20158-writerside">Writerside plugin
-        </a> for IntelliJ IDEs
-            and start writing docs inside your development environment.
+        </a> for IntelliJ IDEs and start writing docs inside your development environment.
         </p>
         <p>You can use not only common Markdown but a variety of semantic markup elements and attributes tailored
             specifically to create documentation, like:
@@ -46,34 +48,148 @@
             <li>videos</li>
             <li>collapsible blocks</li>
             <li>smart code snippets</li>
-            <li>notes, tips, and warnings.</li>
+            <li>tips, notes, and warnings.</li>
         </list>
         <p>On top of that, it has a built-in live preview that displays the docs in the way they will appear on the web,
-            and a possibility to build docs locally so that you can review them without running a build on a CI/CD.
+            and a possibility to build docs locally.
+        </p>
+        <procedure id="create-plugin-docs">
+            <step>Download the plugin <a href="https://plugins.jetbrains.com/plugin/20158-writerside">here</a>.
+            </step>
+            <step>Create a documentation project alongside your plugins' code repository or in a separate docs repository.</step>
+            <step>Write the actual content with the help of templates, live preview, and assistance.</step>
+            <step>Commit and push the result.
+            </step>
+        </procedure>
+        <p>For more information, refer to the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs">
+            Writerside plugin help</a>.
         </p>
     </chapter>
     <chapter id="publish-documentation" title="Publish documentation">
-        <p>We will prepare run configurations on TeamCity, so you can run builds,
+        <p>We will prepare build configurations on TeamCity, so you can run builds,
             check docs on staging and then promote updates to your documentation pages.
         </p>
         <p>These run configurations include more than 100 automated tests that run during the build and check the
             integrity and quality
             of your content, and a detailed build log to let you know if something goes wrong.
         </p>
-        <procedure style="choices">
-            <p>So what you need to do to have documentation on the Documentation tab is:</p>
-            <step>download the plugin <a href="https://plugins.jetbrains.com/plugin/20158-writerside">here</a>;
+        <procedure id="publish-plugin-docs">
+            <step>Open your documentation project and build the necessary help instance locally to produce a ZIP archive. Read more about it <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">in Writerside documentation</a>.</step>
+            <step>Send us your plugin's ID (for example, here is the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/">link to Writerside plugin</a> and in this case the plugin ID is 20158),
+                a link to your public repository and a ZIP archive name to our team via email <path>writerside@jetbrains.com</path>.</step>
+            <step>Our team will create the TeamCity build configuration and send the link to you.</step>
+            <step>You will be able to build the documentation, then publish it to staging to check.</step>
+            <step><p>The documentation will appear in the <control>Custom Pages</control> section of the plugins' page.</p>
+                <img src="plugin-page.png" alt="Custom pages view" border-effect="line"/>
+                <p>Click <control>Preview</control> to see how users will see it.</p>
             </step>
-            <step>create a documentation folder alongside your plugins' code or a separate docs repository;</step>
-            <step>write the actual content with the help of templates, live preview, and assistance;</step>
-            <step>commit and push the result;</step>
-            <step>contact us via email <path>writerside@jetbrains.com</path> and ask to create a run configuration for
-                your plugin;
+            <step>Go back to the TeamCity build results and promote the docs to production.
             </step>
-            <step>promote a successful build to publish your content to the Documentation tab.</step>
         </procedure>
-        <p>For more information, refer to the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs">
-            Writerside plugin help</a>.
+    </chapter>
+
+    <chapter title="Add search to the Documentation page" id="search-for-plugin-page">
+        <p>
+            If you want to manage the search index yourself, do the following:
         </p>
+        <procedure>
+            <step>
+                Register on Algolia and <a href="https://www.algolia.com/account/plan/create">create a new standalone application</a>.
+            </step>
+            <step>
+                Inside the application create a new index.
+            </step>
+            <step>
+                <chunk id="specify-the-params-for-search">
+                    <p>Specify the following parameters in the <path>cfg/buildprofiles.xml</path> file in your project:</p>
+                </chunk>
+                <table>
+                    <tr>
+                        <td>
+                            Parameter
+                        </td>
+                        <td>
+                            Value
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            config-algolia-index
+                        </td>
+                        <td>
+                            Algolia index name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            config-algolia-id
+                        </td>
+                        <td>
+                            Algolia application ID
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            config-algolia-api-key
+                        </td>
+                        <td>
+                            Search-Only API Key
+                        </td>
+                    </tr>
+                </table>
+            </step>
+            <step>
+                Send us the Admin API key and Algolia index name via email <path>writerside@jetbrains.com</path>.
+                We will configure a TeamCity configuration to upload Algolia indexes to your account.
+            </step>
+        </procedure>
+        <p>
+            If you just want a working search, and don't want to manage the search index via a separate Algolia account, do the following:
+        </p>
+        <procedure>
+            <step>
+                Request an Algolia application ID, index name, and API key from us via email <path>writerside@jetbrains.com</path>.
+            </step>
+            <step>
+                <include src="documentation-page.xml" include-id="specify-the-params-for-search"/>
+                <table>
+                    <tr>
+                        <td>
+                            Parameter
+                        </td>
+                        <td>
+                            Value
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            config-algolia-index
+                        </td>
+                        <td>
+                            Algolia index name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            config-algolia-id
+                        </td>
+                        <td>
+                            Algolia application ID
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            config-algolia-api-key
+                        </td>
+                        <td>
+                            Search-Only API Key
+                        </td>
+                    </tr>
+                </table>
+            </step>
+            <step>
+                We will set up the TeamCity run configuration to upload Algolia indexes to our account.
+            </step>
+        </procedure>
     </chapter>
 </topic>
