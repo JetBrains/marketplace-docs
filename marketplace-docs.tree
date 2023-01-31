@@ -15,7 +15,6 @@
         <toc-element id="intellij-plugin-recommendations.xml"/>
         <toc-element id="product-versions-in-use-statistics.xml"/>
         <toc-element id="plugin-stats.xml">
-            <toc-element id="reviews-policy.xml"/>
             <toc-element id="plugins-ranking.xml"/>
             <toc-element id="plugins-rating.xml"/>
             <toc-element id="analytics-tab.xml"/>
@@ -29,6 +28,7 @@
             <toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
             <toc-element toc-title="JetBrains Plugin Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
             <toc-element toc-title="JetBrains Plugin Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
+            <toc-element id="reviews-policy.xml"/>
         </toc-element>
         <toc-element id="eula.xml"/>
         <toc-element id="sales-and-technical-support.xml"/>
