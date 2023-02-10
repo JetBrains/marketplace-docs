@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
+<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       title="Plugin Monetization"
+       id="plugin-monetization">
+
+    <p>Monetizing a plugin can be a great way to make a profit that will allow you to invest in the further development of your plugin. Please explore the following <control>business models</control> and select the one you'd like to proceed with:</p>
+    <list>
+        <li><control>Free model</control>
+        <p>If you want to keep offering your plugin for free, you can still earn some money by accepting <a href="plugin-overview-page.xml" anchor="how-to-add-donation-links">donations</a>.</p></li>
+        <li>
+            <control><a href="freemium.xml">Freemium model</a></control>
+            <p>If you don't want to go fully paid, you can offer some features at no cost in addition to paid features.</p>
+        </li>
+        <li>
+            <control><p>Paid model</p></control>
+            <p>If you are ready to go fully paid, there are 2 options for you:</p>
+            <list>
+                <li>
+                    <a href="step-by-step-guide-to-putting-plugin-up-for-sale.xml">Paid-via-JetBrains</a>
+                    (revenue sharing model) when the plugin is sold via JetBrains Marketplace. <emphasis>(Recommended)</emphasis>
+                </li>
+                <li>Paid-via-Vendor (no revenue sharing, third-party license keys) when the plugin is sold via Vendor.
+                </li>
+            </list>
+        </li>
+    </list>
+</topic>

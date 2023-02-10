@@ -33,10 +33,7 @@
 
     <img src="ide-freemium.png" alt="Freemium tag in IDE" width="1636"/>
 
-    <p>While they have the <code>Freemium</code> tag along with the <code>Paid</code> tag in the older IDE versions:
-    </p>
-
-    <img src="old-ide-freemium.png" alt="Freemium tag in old IDEs" width="1282"/>
+    <tip><p>In the older IDE versions freemium plugins have the <code>Freemium</code> tag along with the <code>Paid</code> tag.</p></tip>
 
     <chapter title="How to make your plugin freemium?"
              id="how-to-make-your-plugin-freemium"
@@ -59,69 +56,11 @@
                 <control>Prepare your plugin</control>
             </p>
             <p>Make the following changes to your code to prepare your plugin for publishing:</p>
-            <chapter title="Define additional parameters"
-                     id="define_additional_parameters"
-                     initial-collapse-state="collapsed"
-                     hide-from-structure="true"
-                     level="5">
-                <procedure>
-                    <p>You must define the following parameters in the plugin descriptor (<path>plugin.xml</path>):
-                    </p>
-                    <code style="block" lang="XML" title="Parameters">product-descriptor code="PPAIDPLUGIN"
-                        release-date="20201225" release-version="20201" optional="true"
-                    </code>
-                    <p>More information on these additional parameters can be found <a
-                            href="add-required-parameters.xml">here</a>.
-                    </p>
-                    <p>Make sure the <code lang="XML">optional</code> parameter in product-descriptor is set
-                        to <control>true</control>. Thanks to this optional attribute, the IDE will not check for a
-                        license on IDE startup, which allows us to install the plugin and start using it.
-                    </p>
-                    <warning>
-                        <p>The <code lang="XML">optional</code> parameter can be set only once, with
-                            the first uploaded plugin version containing this parameter. So, you need to choose between
-                            freemium and fully paid models <emphasis>before</emphasis> uploading the first paid plugin
-                            version, as it can't
-                            be changed later.
-                        </p>
-                    </warning>
-                </procedure>
-            </chapter>
-            <chapter title="Implement license method"
-                     id="implement_license_method"
-                     initial-collapse-state="collapsed"
-                     hide-from-structure="true"
-                     level="5">
-                <procedure>
-                    <p>It is up to the plugin developers to decide exactly what functionality will be available for free
-                        and what will require a license. To do that, please implement the <code>requestLicense</code> method
-                        that checks if a license has been obtained when the paid functionality is called.
-                    </p>
-                    <p>Please refer to this example <a
-                            href="https://github.com/JetBrains/marketplace-makemecoffee-plugin">plugin
-                    </a> with product parameter declarations, as well as a license check:
-                    </p>
-                    <p>
-                        <a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin/blob/master/src/main/java/com/company/license/CheckLicense.java">
-                            CheckLicense
-                        </a>
-                    </p>
-                    <p>
-                        <a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin/blob/master/src/main/java/actions/MakeCoffeeAction.java">
-                            Action
-                        </a>
-                    </p>
-                    <p>If a license is not activated, the <code lang="XML">requestLicense</code> method can open the
-                        Register dialog and prompt the user to activate the license. Alternatively, you can add a button
-                        in the menu to activate the plugin using this <code lang="XML">requestLicense</code> method or
-                        come up with your own way of using the method.
-                    </p>
-                    <p>You can see the usage of this method in our <a
-                            href="https://github.com/JetBrains/marketplace-makemecoffee-plugin/blob/51208c42e2692cee1843595f345a2319caa5660a/src/main/java/actions/MakeCoffeeAction.java#L81">
-                        demo plugin</a>.
-                    </p>
-                </procedure>
-            </chapter>
+            <list>
+                <li><a href="add-required-parameters.xml">Define addition parameters</a></li>
+                <li><a href="add-marketplace-license-verification-calls-to-the-plugin-code.xml">Implement license method</a></li>
+                <li><a href="obfuscate-the-plugin.xml">Obfuscate</a></li>
+            </list>
         </li>
         <li>
             <p>
