@@ -23,6 +23,7 @@
        <toc-element id="roles.xml"/>
        <toc-element id="how-to-buy-a-plugin.xml"/>
        <toc-element id="community-programs.xml"/>
+        <toc-element id="report-plugin.xml"/>
     </toc-element>
     <toc-element id="organizations.xml">
        <toc-element id="reserved-plugin-ids.xml"/>
