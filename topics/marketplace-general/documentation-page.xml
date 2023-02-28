@@ -99,45 +99,32 @@
             <step>
                 Inside the application create a new index.
             </step>
-            <step>
-                <chunk id="specify-the-params-for-search">
-                    <p>Specify the following parameters in the <path>cfg/buildprofiles.xml</path> file in your project:</p>
-                </chunk>
-                <table>
-                    <tr>
-                        <td>
-                            Parameter
-                        </td>
-                        <td>
-                            Value
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            config-algolia-index
-                        </td>
-                        <td>
-                            Algolia index name
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            config-algolia-id
-                        </td>
-                        <td>
-                            Algolia application ID
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            config-algolia-api-key
-                        </td>
-                        <td>
-                            Search-Only API Key
-                        </td>
-                    </tr>
-                </table>
-            </step>
+                <step>
+                    <chunk id="specify-the-params-for-search">
+                    <p>In your documentation project, create the <path>cfg/buildprofiles.xml</path> file and in the <code>&lt;variables&gt;</code> tag specify the following:</p>
+                    <deflist style="wide">
+                        <def title="&lt;algolia-id&gt;">Algolia Application ID</def>
+                        <def title="&lt;algolia-index&gt;">Algolia Index name</def>
+                        <def title="&lt;algolia-api-key&gt;">Algolia Search-Only API Key</def>
+                        <def title="&lt;search-scopes-provider&gt;">Use URL of your company or leave default <code>https://www.jetbrains.com/</code></def>
+                    </deflist>
+                    <p>For example:</p>
+                    <code style="block" lang="xml" disable-links="true">
+                        <![CDATA[
+                        <buildprofiles xsi:noNamespaceSchemaLocation="https://helpserver.labs.jb.gg/help/schemas/mvp/build-profiles.xsd"
+                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                            <variables>
+                                <algolia-id>TGW4GIW73X</algolia-id>
+                                <algolia-index>index_name</algolia-index>
+                                <algolia-api-key>29effd68f91893202311a653263f1fb8</algolia-api-key>
+                                <search-scopes-provider>https://www.jetbrains.com/</search-scopes-provider>
+                            </variables>
+                            <build-profile instance="instance_id"/>
+                        </buildprofiles>
+                        ]]>
+                    </code>
+                    </chunk>
+                </step>
             <step>
                 Send us the Admin API key and Algolia index name via email <path>writerside@jetbrains.com</path>.
                 We will configure a TeamCity configuration to upload Algolia indexes to your account.
@@ -152,40 +139,6 @@
             </step>
             <step>
                 <include src="documentation-page.xml" include-id="specify-the-params-for-search"/>
-                <table>
-                    <tr>
-                        <td>
-                            Parameter
-                        </td>
-                        <td>
-                            Value
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            config-algolia-index
-                        </td>
-                        <td>
-                            Algolia index name
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            config-algolia-id
-                        </td>
-                        <td>
-                            Algolia application ID
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            config-algolia-api-key
-                        </td>
-                        <td>
-                            Search-Only API Key
-                        </td>
-                    </tr>
-                </table>
             </step>
             <step>
                 We will set up the TeamCity run configuration to upload Algolia indexes to our account.
