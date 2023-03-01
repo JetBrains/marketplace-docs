@@ -102,14 +102,22 @@
                 <step>
                     <chunk id="specify-the-params-for-search">
                     <p>In your documentation project, create the <path>cfg/buildprofiles.xml</path> file and in the <code>&lt;variables&gt;</code> tag specify the following:</p>
-                    <deflist style="wide">
-                        <def title="&lt;algolia-id&gt;">Algolia Application ID</def>
-                        <def title="&lt;algolia-index&gt;">Algolia Index name</def>
-                        <def title="&lt;algolia-api-key&gt;">Algolia Search-Only API Key</def>
-                        <def title="&lt;search-scopes-provider&gt;">Use URL of your company or leave default <code>https://www.jetbrains.com/</code></def>
-                    </deflist>
+                        <deflist style="medium">
+                            <def title="algolia-id">
+                                Algolia Application ID
+                            </def>
+                            <def title="algolia-index">
+                                Algolia Index name
+                            </def>
+                            <def title="algolia-api-key">
+                                Algolia Search-Only API Key
+                            </def>
+                            <def title="search-scopes-provider">
+                                Use URL of your company or leave default <code>https://www.jetbrains.com/</code>
+                            </def>
+                        </deflist>
                     <p>For example:</p>
-                    <code style="block" lang="xml" disable-links="true">
+                    <code style="block" lang="xml" disable-links="true" >
                         <![CDATA[
                         <buildprofiles xsi:noNamespaceSchemaLocation="https://helpserver.labs.jb.gg/help/schemas/mvp/build-profiles.xsd"
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
