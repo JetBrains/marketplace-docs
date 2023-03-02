@@ -136,7 +136,7 @@ after uploading your plugin.</p>
 
 <chapter title="Screenshots" id="screenshots">
 
-<p>We recommend adding screenshots that display plugin features. You can use a <path>.gif</path> showing some action or add overlay text to clarify what a screenshot depicts. The recommended screenshot size is 1280 x 800 px (16:10 aspect ratio). You can also add informational slides in addition to screenshots.</p>
+<p>We recommend adding screenshots that display plugin features. You can use a <path>.gif</path> showing some action or add overlay text to clarify what a screenshot depicts. The recommended screenshot size is 1200 × 760 pixels. You can also add informational slides in addition to screenshots.</p>
 <note>
 <p>Theme plugins must have screenshots that display the visual style they provide.</p>
 </note>
