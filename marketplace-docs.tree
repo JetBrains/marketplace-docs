@@ -17,6 +17,7 @@
              <toc-element id="reviews-policy.xml"/>
              <toc-element id="eula.xml"/>
              <toc-element id="sales-and-technical-support.xml"/>
+             <toc-element id="trader-status.xml"/>
         </toc-element>
     </toc-element>
     <toc-element id="getting-started.xml">
