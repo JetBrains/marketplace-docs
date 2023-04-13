@@ -94,20 +94,23 @@
             <control>Resharper:</control>
         </p>
         <p>
-            <emphasis>For more details, please refer to <a
-                    href="https://www.jetbrains.com/help/resharper/sdk/CreateNuGetPackageForPlugin.html">this page</a>.
-            </emphasis>
-        </p>
-        <p>
             <code style="block" lang="xml">
         <![CDATA[
                 <id>OrganizationID.PluginName</id>
                 ]]>
     </code>
         </p>
+        <p>            <emphasis>For more details, please refer to <a
+                href="https://www.jetbrains.com/help/resharper/sdk/CreateNuGetPackageForPlugin.html">this page</a>.
+        </emphasis></p>
+        <p>
+            <control>Space:</control>
+        </p>
+        <p>Please specify the Organization ID on the plugin page:</p>
+        <img src="org-space.png" alt="Edit Vendor" width="780"/>
         <p>Once this has been done, you will have the option to transfer the plugin to the organization:</p>
 
-        <img src="transferorg.png" alt="Add Organization" width="850"/>
+        <img src="transferorg.png" alt="Add Organization" width="460"/>
 
         <warning>
             <p>If this button does not appear, please make sure that you specified the Organization ID correctly. Keep

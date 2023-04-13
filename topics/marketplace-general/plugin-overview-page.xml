@@ -190,6 +190,19 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 <p>Choose your tags wisely, as they will affect searchability. Don’t select categories that the plugin does not fit. If you feel that an appropriate tag is missing, please contact the Marketplace team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>, and we will consider adding it.</p>
 
 </chapter>
+<chapter title="License" id="license">
+    <p>The License field specifies the legal agreement between you, as the plugin owner, and those who wish to use your plugin. It outlines the terms and conditions for the usage and distribution of your plugin, and specifies the rights and responsibilities of both parties. Providing a license for your plugin is important because it legally protects your intellectual property rights and sets clear guidelines for how others can use and distribute your work.
+    </p>
+    <warning><p>
+        A license is mandatory to publish a Plugin on JetBrains Marketplace. Please refer to the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Plugin Marketplace Developer Agreement</a> (<emphasis>10. Licensing to Customers</emphasis>).
+    </p></warning>
+    <p>The choice of license depends on various factors, such as the type of software you are distributing, the level of control you want to maintain over its use, and the level of collaboration you want to encourage among users. It's important to research and understand the different types of licenses available and consult with a legal professional if necessary to make an informed decision that meets your specific needs.
+    </p>
+    <p>We cannot recommend any specific licenses, though we can point you either to <a href="https://opensource.org/licenses/">commonly used open-source licenses</a> or <a href="eula.xml">EULA</a>.</p>
+    <p>Keep in mind that when you choose to license your plugin under an open-source license, it means that you are making your software freely available to the public, allowing others to access, modify, and distribute your code.</p>
+    <img src="licensefield.png" alt="The License field" width="720"/>
+    <p>Providing a source code link is essential to uphold the principles of open source. While it's not always required by the license, it's best practice to include a source code link to ensure transparency and foster collaboration. We encourage developers to provide a source code link if they choose to license their Plugin under an open-source license.</p>
+</chapter>
 
 <chapter title="Getting started section" id="getting-started-section">
 
