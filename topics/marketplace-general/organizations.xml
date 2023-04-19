@@ -59,7 +59,7 @@
         </p>
     </chapter>
 
-    <chapter title="Associating plugins with an organization">
+    <chapter title="Associating plugins with an organization" id="associating-plugin-with-organization">
         <p>To associate plugins with an organization, the administrator or the plugin’s author should specify the
             Organization ID in the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">
                 plugin.xml
@@ -101,7 +101,7 @@
     </code>
         </p>
         <p>            <emphasis>For more details, please refer to <a
-                href="https://www.jetbrains.com/help/resharper/sdk/CreateNuGetPackageForPlugin.html">this page</a>.
+                href="https://www.jetbrains.com/help/resharper/sdk/Rider.html">this page</a>.
         </emphasis></p>
         <p>
             <control>Space:</control>
