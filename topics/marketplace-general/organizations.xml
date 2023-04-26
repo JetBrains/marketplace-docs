@@ -22,9 +22,6 @@
         <img src="AddOrganization.png" alt="Add Organization"
              width="406"/>
 
-        <note>
-            <p>Keep in mind that the user who creates an organization becomes its administrator.</p>
-        </note>
         <p>Each organization has a public name and a unique ID. Be sure to choose your Organization ID carefully,
             because you won’t be able to edit this parameter later on. You should also keep in mind that one
             organization cannot have multiple Organization IDs.
@@ -33,12 +30,18 @@
         <img src="CreateOrganization.png" alt="Create Organization"
              width="406"/>
 
+        <p>Additionally, you must declare whether your Organization can be considered a trader or non-trader according to the definition from the European Union. This will allow consumers from the EU to determine whether consumer protection regulations apply to them. Learn more about the requirements <a href="trader-status.xml">here</a>.</p>
+        <img src="trader-status.png" alt="Trader status"
+             width="456"/>
         <p>All the other information, including the Organization Name, email address, and website, can be updated at any
             time.
         </p>
     </chapter>
 
     <chapter title="Organization administrators" id="organization-administrators">
+        <note>
+            <p>The user who creates an organization becomes its administrator.</p>
+        </note>
         <p>As an administrator, you can:</p>
         <list>
             <li>Manage all the plugins under your organization.</li>
