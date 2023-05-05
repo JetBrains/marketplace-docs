@@ -16,11 +16,11 @@
     <p>
         <list type="decimal">
             <li>Log in to JetBrains Marketplace.</li>
-            <li>Open your user account menu, then select "Upload plugin":
-                <img src="upload-plugin-button.png" alt="Upload a new plugin button" width="828"/>
+            <li>Open your user account menu, then select <control>Upload plugin</control>:
+                <img src="upload-plugin-button.png" alt="Upload a new plugin button" width="743"/>
             </li>
             <li>Fill in the fields in the Plugin Upload form to upload your new plugin:
-                <img src="upload-plugin-form.png" alt="Upload a new plugin form" width="1128"/>
+                <img src="upload-new-plugin.png" alt="Upload a new plugin form" width="490"/>
             </li>
         </list>
     </p>
@@ -52,8 +52,12 @@
     <p>
         <control>Channels:</control>
         If you do not want your plugin to be generally available (e.g., it is an alpha/beta/EAP version), please
-        add a <a href="https://plugins.jetbrains.com/docs/marketplace/custom-release-channels.html">Custom
+        add a <a href="custom-release-channels.xml">Custom
         Release Channel</a>.
+    </p>
+
+    <p>
+        <control>Hidden flag:</control> lets you keep the plugin <a href="hidden-plugin.xml">hidden</a> even after the approval.
     </p>
 
 

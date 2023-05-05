@@ -39,7 +39,7 @@
                         href="https://plugins.jetbrains.com/">JetBrains
                     Marketplace</a>.
                 </p>
-                <img src="plugin_upload.png" alt="A button for plugin upload" width="1122"/>
+                <img src="upload-plugin-button.png" alt="A button for plugin upload" width="1122"/>
                 <p>If you are switching the model from being a free plugin to paid/freemium,  <a
                         href="plugin-updates.xml">upload an
                     update</a>.
@@ -73,7 +73,7 @@
                 </control> button to fill in the sales
                     details.
                 </p>
-                <img src="add-to-market.png" alt="Add to Marketplace" width="1306"/>
+                <img src="add-to-marketplace.png" alt="Add to Marketplace" width="1306"/>
                 <tip>
                     <p>
                         If you don’t see this button, please make sure you specified your banking information under the  <path>
