@@ -33,6 +33,7 @@
     <toc-element id="publishing-and-listing-your-plugin.xml">
         <toc-element id="plugin-overview-page.xml" accepts-web-file-names="quality-guidelines.html"/>
         <toc-element id="uploading-a-new-plugin.xml"/>
+        <toc-element id="hidden-plugin.xml"/>
         <toc-element id="plugin-updates.xml"/>
         <toc-element id="custom-release-channels.xml"/>
         <toc-element id="plugin-stats.xml">
