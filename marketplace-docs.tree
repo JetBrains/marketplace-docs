@@ -49,6 +49,7 @@
         <toc-element id="plugin-notification-settings.xml"/>
         <toc-element id="intellij-plugin-recommendations.xml"/>
         <toc-element id="embeddable-content.md"/>
+        <toc-element id="list-of-common-errors-and-warnings.xml"/>
     </toc-element>
     <toc-element id="plugin-monetization.xml" accepts-web-file-names="plugin-types.html">
         <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.xml" accepts-web-file-names="trying-out-the-marketplace.html">
