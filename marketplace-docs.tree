@@ -66,16 +66,16 @@
              <toc-element id="release-plugin.xml"/>
         </toc-element>
         <toc-element id="freemium.xml" accepts-web-file-names="free-functionality.html"/>
-        <toc-element id="marketplace-demo.xml" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
-             <toc-element id="demo-obtain-creds.xml"/>
-             <toc-element id="demo-prepare-ide.xml"/>
-             <toc-element id="demo-limitations.xml"/>
-             <toc-element id="demo-start-test.xml"/>
-             <toc-element id="marketplace-demo-plugin.xml"/>
-        </toc-element>
-        <toc-element id="coupon-offers.xml"/>
+        <toc-element id="coupon-offers.xml" accepts-web-file-names="discounts-and-offers.html"/>
         <toc-element id="sales-related-emails.xml" accepts-web-file-names="customer-information-access.html"/>
         <toc-element id="contributing-to-the-blog.xml"/>
+    </toc-element>
+    <toc-element id="marketplace-demo.xml" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
+        <toc-element id="demo-obtain-creds.xml"/>
+        <toc-element id="demo-prepare-ide.xml"/>
+        <toc-element id="demo-limitations.xml"/>
+        <toc-element id="demo-start-test.xml"/>
+        <toc-element id="marketplace-demo-plugin.xml"/>
     </toc-element>
         <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html">
             <toc-element id="payment-processing.xml" accepts-web-file-names="payments-accountancy-taxes-services.html"/>
