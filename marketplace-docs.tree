@@ -27,6 +27,7 @@
         <toc-element id="report-plugin.xml"/>
     </toc-element>
     <toc-element id="organizations.xml">
+       <toc-element id="verified-vendor-badge.xml"/>
        <toc-element id="reserved-plugin-ids.xml"/>
        <toc-element id="intellij-enterprise-plugin-repositories.xml"/>
     </toc-element>

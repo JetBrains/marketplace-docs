@@ -128,10 +128,8 @@
 
     </chapter>
 
-    <chapter title="Verifying organizations" id="verified-organizations">
-        <p>If an organization would like to be marked as "Verified", one of its members should contact JetBrains
-            Marketplace
-            support by sending an email to <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+    <chapter title="Verified Vendor Badge" id="verified-organizations">
+        <p>If you want your organization to be marked as "Verified", check that it meets the <a href="verified-vendor-badge.xml">criteria</a>.
         </p>
     </chapter>
 
