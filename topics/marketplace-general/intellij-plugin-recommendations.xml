@@ -15,7 +15,7 @@
                 available in the plugin repository.
             </li>
             <li>
-                If a project was created in n different IDE installation which had the plugin installed, and includes
+                If a project was created in different IDE installation which had the plugin installed, and includes
                 shared
                 settings (modules, facets, artifacts, or run configurations) configured using the plugin.
             </li>
