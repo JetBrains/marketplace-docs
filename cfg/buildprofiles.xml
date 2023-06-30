@@ -21,4 +21,14 @@
         <noindex-content-in-release>false</noindex-content-in-release>
     </variables>
     <build-profile product="marketplace-docs"/>
+    <footer>
+        <social type="twitter" href="https://twitter.com/JBPlatform/"/>
+        <social type="blog" href="https://blog.jetbrains.com/platform/category/jb-marketplace/"/>
+        <social type="youtube" href="https://www.youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY"/>
+
+        <link href="https://plugins.jetbrains.com/">JetBrains Marketplace</link>
+        <link href="https://plugins.jetbrains.com/slack/">JetBrains Platform Slack</link>
+        <link href="https://jb.gg/ipe">IntelliJ Platform Explorer</link>
+        <link href="https://plugins.jetbrains.com/plugin-ideas/">Plugin Ideas</link>
+    </footer>
 </buildprofiles>

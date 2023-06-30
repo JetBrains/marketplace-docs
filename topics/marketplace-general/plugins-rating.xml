@@ -6,9 +6,7 @@
        title="Plugins Rating"
        id="plugins-rating">
 
-    <p>We are using a <emphasis>Bayesian Rating</emphasis> to calculate the rating displayed for each plugin in the
-        plugin repository, as
-        well as within the product. The precise formula we are using is:
+    <p>We use a <emphasis>Bayesian Rating</emphasis> to calculate the rating displayed for each Marketplace plugin and within the product. The precise formula we are using is:
     </p>
 
     <p>
@@ -16,12 +14,9 @@
     </p>
 
     <p>
-        <code>meanVote</code>
-        is an average vote of all plugins in the plugin repository.
+        <code>meanVote</code> is an average vote of all plugins on the Marketplace.
     </p>
-    <p>It may be a bit confusing that the plugin rating is not five, while all votes are five stars. However, the reason
-        for using the Bayesian rating is to avoid the situation when the plugin with a few 5-star votes is rated higher
-        than the plugins having many diverse votes (and not all of them are five stars.)
+    <p>It may be confusing that the plugin rating is not 5, while all votes are five stars. However, we use the Bayesian rating to avoid the situation when the plugin with a few 5-star votes is rated higher than the plugins with many diverse votes (not all of them are five stars.)
     </p>
 
 </topic>
