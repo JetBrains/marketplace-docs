@@ -1,9 +1,8 @@
 # JetBrains Marketplace Documentation
 
-[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]
-[![Slack](https://img.shields.io/badge/Slack-%23intellij--platform-blue?style=flat-square&logo=Slack)][jb:slack]
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://github.com/JetBrains/.github/blob/main/profile/README.md)
 
-This is the repository for [JetBrains Marketplace Documentation](https://plugins.jetbrains.com/docs/marketplace/?from=GH-README) site.
+This is the repository for the [JetBrains Marketplace Documentation](https://plugins.jetbrains.com/docs/marketplace/?from=GH-README) site.
 
 ## Feedback
 
