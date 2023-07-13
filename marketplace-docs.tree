@@ -21,7 +21,7 @@
         </toc-element>
     </toc-element>
     <toc-element id="getting-started.xml">
-му        <toc-element id="vendor-profile.xml"/>
+       <toc-element id="vendor-profile.xml"/>
        <toc-element id="roles.xml"/>
        <toc-element id="how-to-buy-a-plugin.xml"/>
        <toc-element id="community-programs.xml"/>
