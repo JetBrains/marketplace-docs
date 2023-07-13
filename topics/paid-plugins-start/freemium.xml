@@ -57,7 +57,7 @@
             </p>
             <p>Make the following changes to your code to prepare your plugin for publishing:</p>
             <list>
-                <li><a href="add-required-parameters.xml">Define addition parameters</a></li>
+                <li><a href="add-required-parameters.xml">Define additional parameters</a></li>
                 <li><a href="add-marketplace-license-verification-calls-to-the-plugin-code.xml">Implement license method</a></li>
                 <li><a href="obfuscate-the-plugin.xml">Obfuscate</a></li>
             </list>

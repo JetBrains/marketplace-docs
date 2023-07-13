@@ -21,6 +21,7 @@
         </toc-element>
     </toc-element>
     <toc-element id="getting-started.xml">
+му        <toc-element id="vendor-profile.xml"/>
        <toc-element id="roles.xml"/>
        <toc-element id="how-to-buy-a-plugin.xml"/>
        <toc-element id="community-programs.xml"/>
@@ -78,7 +79,7 @@
         <toc-element id="demo-start-test.xml"/>
         <toc-element id="marketplace-demo-plugin.xml"/>
     </toc-element>
-        <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html">
+        <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html,business-models.html">
             <toc-element id="payment-processing.xml" accepts-web-file-names="payments-accountancy-taxes-services.html"/>
             <toc-element id="license-types-and-schemes.xml" accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html"/>
             <toc-element id="revenue-sharing-and-fees.xml"/>
