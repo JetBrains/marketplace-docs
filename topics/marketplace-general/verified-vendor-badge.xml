@@ -28,7 +28,8 @@
     <p>
         <list type="decimal">
             <li>
-                <emphasis>For paid plugin vendors</emphasis> – You have been selling at least one paid plugin through JetBrains Marketplace for more than six months and have reached gross sales of at least 500 USD/EUR. We verify the authenticity of paid plugin vendors based on their payment details and proven record with JetBrains Marketplace. If you have registered a business entity, we will verify that you are authorized to do business under that name by requesting you to provide supporting documentation (e.g., incorporation documentation, business or tax registration, or commercial register entries).
+                <p><emphasis>For paid plugin vendors</emphasis> – You have been selling at least one paid plugin through JetBrains Marketplace for more than six months and have reached gross sales of at least 500 USD/EUR. If you have registered a business entity, we will verify that you are authorized to do business under that name by requesting you to provide supporting documentation (e.g., incorporation documentation, business or tax registration, or commercial register entries).</p>
+                <p>If you are an individual vendor without a registered business entity, your organization name should match the name specified in the bank details. This allows us to verify the authenticity based on your payment details and proven record with JetBrains Marketplace.</p>
             </li>
             <li>
                 <emphasis>For free plugin vendors</emphasis> – You must have a registered business entity, verify that you are authorized to do business under that name by providing supporting documentation (e.g., incorporation documentation, business or tax registration, or commercial register entries), and have at least one plugin on JetBrains Marketplace. Your contact information must include an active email address under a domain associated with your registered business entity.
@@ -37,6 +38,9 @@
     </p>
     <p>
         JetBrains may request clarification or additional information and reserves the right to revoke an individual's or organization's Verified status at any time without notice.
+    </p>
+    <p>
+        To apply for the Verified Vendor badge, please send your request to <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> from the email address of your Organization or one of your Organization members, making sure to confirm your Organization's official name. Our Marketplace Support team will be happy to help you.
     </p>
     <p>
         To appeal a rejected application or raise any concerns, please contact JetBrains Marketplace support by emailing <a href="mailto:marketplace@jetbrains.com">
