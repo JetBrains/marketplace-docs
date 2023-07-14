@@ -7,7 +7,7 @@
        id="vendor-profile">
 
     <p>
-        A Vendor is an entity that publishes and represents plugins on JetBrains Marketplace. You can upload a plugin as an individual vendor or an organization.
+        A <emphasis>Vendor</emphasis> is an entity that publishes and represents plugins on JetBrains Marketplace. You can upload a plugin as an individual vendor or an organization.
     </p>
     <p>If you distribute plugins on behalf of an organization or plan to sell them as an individual, you should create an <a href="organizations.xml">Organization entity</a>.</p>
     <p>
