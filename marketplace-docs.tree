@@ -45,8 +45,10 @@
              <toc-element id="download-statistics.xml" accepts-web-file-names="unique-downloads.html"/>
              <toc-element id="identify-user-of-paid-plugin.xml"/>
         </toc-element>
-        <toc-element id="custom-pages.xml"/>
-        <toc-element id="documentation-page.xml"/>
+        <toc-element id="custom-pages.xml">
+            <toc-element id="how-to-add-custom-pages.xml"/>
+            <toc-element id="documentation-page.xml"/>
+        </toc-element>
         <toc-element id="semver.xml"/>
         <toc-element id="plugin-notification-settings.xml"/>
         <toc-element id="intellij-plugin-recommendations.xml"/>
