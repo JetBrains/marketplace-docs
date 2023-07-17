@@ -163,6 +163,9 @@
     </chapter>
 
     <chapter title="Dependency Support">
+        <warning>
+            <p>We do not accept any 3rd party dependency support features temporarily. We have a new kind of <code>dependencySupport</code> executable starting from 2023.2 which is still in testing.</p>
+        </warning>
         <p>To support a specific dependency you should declare a tag like
             <code style="block" lang="xml">
          <![CDATA[
