@@ -18,7 +18,7 @@
         </p>
         <p>
             <list>
-                <li>Read-only access to the Marketplace catalog (can see plugins pages, download available plugin
+                <li>Read-only access to JetBrains Marketplace (can see plugin pages, download available plugin
                     versions)
                 </li>
             </list>
@@ -62,7 +62,7 @@
                 <li>Apply their plugins to be <a
                         href="https://plugins.jetbrains.com/docs/marketplace/submit-a-request-to-sell-plugins-at-the-marketplace.html">
                     sold
-                </a> on the Marketplace
+                </a> on JetBrains Marketplace
                 </li>
                 <li>Subscribe to the new comments/reviews of their plugins</li>
                 <li>Subscribe to the verification results of their plugins (if available)</li>
@@ -120,7 +120,7 @@
     </chapter>
 
     <chapter title="Marketplace administrator" level="3" id="marketplace-administrator">
-        <p>The role with global rights for members of the JetBrains Marketplace team.</p>
+        <p>The role with global rights for members of JetBrains Marketplace team.</p>
         <p>
             <control>Permissions</control>
         </p>

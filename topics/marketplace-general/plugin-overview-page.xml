@@ -106,7 +106,7 @@
 </table>
 <control>Tips and Tricks:</control>
 <p><list>
-<li>The first line of the plugin description should contain a short plugin summary in English (up to 170 characters). This will be used for the plugin’s preview card on the  Marketplace site. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
+<li>The first line of the plugin description should contain a short plugin summary in English (up to 170 characters). This will be used for the plugin’s preview card on JetBrains Marketplace. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
 <li>Make sure that your description has been proofread and that it is formatted properly before you upload your plugin.</li>
 <li>Use bullet points to describe the plugin’s main benefits.</li>
 <li>Put some inline links to useful resources (issue tracker, forum, etc.) to the description. This way, the links will be available from the Plugin Manager inside IDEs.</li>
@@ -187,14 +187,14 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <img src="tags.png" alt="Fields for Tags" width="720"/>
 
-<p>Choose your tags wisely, as they will affect searchability. Don’t select categories that the plugin does not fit. If you feel that an appropriate tag is missing, please contact the Marketplace team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>, and we will consider adding it.</p>
+<p>Choose your tags wisely, as they will affect searchability. Don’t select categories that the plugin does not fit. If you feel that an appropriate tag is missing, please contact the JetBrains Marketplace team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>, and we will consider adding it.</p>
 
 </chapter>
 <chapter title="License" id="license">
     <p>The License field specifies the legal agreement between you, as the plugin owner, and those who wish to use your plugin. It outlines the terms and conditions for the usage and distribution of your plugin, and specifies the rights and responsibilities of both parties. Providing a license for your plugin is important because it legally protects your intellectual property rights and sets clear guidelines for how others can use and distribute your work.
     </p>
     <warning><p>
-        A license is mandatory to publish a Plugin on JetBrains Marketplace. Please refer to the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Plugin Marketplace Developer Agreement</a> (<emphasis>10. Licensing to Customers</emphasis>).
+        A license is mandatory to publish a Plugin on JetBrains Marketplace. Please refer to the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> (<emphasis>10. Licensing to Customers</emphasis>).
     </p></warning>
     <p>The choice of license depends on various factors, such as the type of software you are distributing, the level of control you want to maintain over its use, and the level of collaboration you want to encourage among users. It's important to research and understand the different types of licenses available and consult with a legal professional if necessary to make an informed decision that meets your specific needs.
     </p>
@@ -248,7 +248,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 ]]>
 </code></p>
 
-<p>Note that the <control>Plugin homepage</control> link in the plugin manager in IDEs links to your Marketplace plugin page, not the website you specified under the <code>idea-plugin</code> tag.</p>
+<p>Note that the <control>Plugin homepage</control> link in the plugin manager in IDEs links to your JetBrains Marketplace plugin page, not the website you specified under the <code>idea-plugin</code> tag.</p>
 
 <img src="homepage.png" alt="Plugin Homepage" width="460"/>
 
@@ -258,7 +258,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <p><list>
 <li>Adding or having a donation link is not mandatory for plugin authors.</li>
-<li>Donation links can be added for all of the types of plugins in the Marketplace: (i) Free, (ii) Paid, and (iii) Externally Paid.</li>
+<li>Donation links can be added for all of the types of plugins in JetBrains Marketplace: (i) Free, (ii) Paid, and (iii) Externally Paid.</li>
 <li>Donations do not replace license purchase for paid plugins.</li>
 <li>Donation links should not be included within the plugin description.</li>
 <li>JetBrains only provides a dedicated field to add a link for donations.</li>
@@ -275,7 +275,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
     <img src="donation-link.png" alt="Donation Links" width="716"/>
     <p>That’s it. Now, if a user gives a plugin a 4 or 5 star rating, they will see a prompt suggesting they donate to it, as well.</p>
     <img src="review-donate.png" alt="Donation Links under review" width="600"/>
-    <p>We are also working on making donation links prominent for users, both on the Marketplace website and in the IDE Plugin Manager.</p>
+    <p>We are also working on making donation links prominent for users, both on JetBrains Marketplace and in the IDE Plugin Manager.</p>
     <p><emphasis>Donations might fall under taxation laws in certain countries. It is advisable to consult a tax advisor to address any potential financial or legal issues on your side.</emphasis></p>
 </chapter>
 

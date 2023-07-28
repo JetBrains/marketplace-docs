@@ -16,7 +16,7 @@
 
     <p>A <emphasis>Product Code</emphasis> is registered in the JetBrains Sales System and serves as a unique ID for all
         plugin-related sales
-        operations. It also connects the Marketplace releases of the plugin to the Sales System.
+        operations. It also connects the JetBrains Marketplace releases of the plugin to the Sales System.
     </p>
     <p>
         Your Product Code must:

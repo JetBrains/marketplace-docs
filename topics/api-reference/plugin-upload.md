@@ -2,7 +2,7 @@
 
 Please note that the maximum allowed plugin size is *400 MB*.
 
-You should create a `permanentToken` in [My Tokens](https://plugins.jetbrains.com/author/me/tokens) tab within your Marketplace profile dashboard.
+You should create a `permanentToken` in [My Tokens](https://plugins.jetbrains.com/author/me/tokens) tab within your JetBrains Marketplace profile dashboard.
 
 Other parameters:
 

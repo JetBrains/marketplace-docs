@@ -50,7 +50,7 @@
             <li>Images should be of high quality and shouldn’t include any personal information.</li>
             <li>The post shouldn’t be published elsewhere.</li>
             <li>You can have no more than 3 self-serving links: one to your personal social media in the bio, one to
-                your plugin’s Marketplace listing page, and one additional link of your choice.
+                your plugin’s JetBrains Marketplace listing page, and one additional link of your choice.
             </li>
             <li>If you are linking to your plugin, the link should lead to its listing on JetBrains Marketplace, not
                 your site.
@@ -92,7 +92,7 @@
         <control>Here are a few past interview blog post examples:</control>
     </p>
     <p><list>
-        <li><a href="https://blog.jetbrains.com/blog/2019/07/23/an-interview-with-jakub-chrzanowski-ignore-plugin-author/">Interview with Jakub Chrzanowski</a> – IntelliJ SDK Developer Advocate and Product Team Lead at Marketplace. The interview was given before he joined JetBrains.</li>
+        <li><a href="https://blog.jetbrains.com/blog/2019/07/23/an-interview-with-jakub-chrzanowski-ignore-plugin-author/">Interview with Jakub Chrzanowski</a> – IntelliJ SDK Developer Advocate and Product Team Lead at JetBrains Marketplace. The interview was given before he joined JetBrains.</li>
         <li>A <a href="https://blog.jetbrains.com/idea/2018/02/salesforce-development-plugins-part-1-illuminated-cloud/">two-part blog post</a> about plugins for Salesforce development.</li>
         <li>Interview with <a href="https://blog.jetbrains.com/platform/2021/03/codota-ai-and-boosting-productivity/">Dror Weiss about Codota plugin</a>.</li>
         <li>Interview with <a href="https://blog.jetbrains.com/pycharm/2019/01/interview-joachim-ansorg-for-next-weeks-pycharm-plugins-webinar/">Joachim Ansorg about PyCharm plugins</a>.</li>

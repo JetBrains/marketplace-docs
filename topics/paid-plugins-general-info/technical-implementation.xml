@@ -64,12 +64,12 @@
             still
             take some time until the relevant changes arrive to third-party IDEs (depends on their release cycle), e.g.,
             Android
-            Studio will support paid Marketplace plugins after Android Studio 4.0 is released.
+            Studio will support paid JetBrains Marketplace plugins after Android Studio 4.0 is released.
         </p>
     </chapter>
 
     <chapter title="What should be supported on the plugin side?">
-        <p>First of all, a plugin has to identify itself as a paid marketplace plugin in the <path>plugin.xml</path> providing
+        <p>First of all, a plugin has to identify itself as a paid JetBrains Marketplace plugin in the <path>plugin.xml</path> providing
             <code>productCode</code>, <code>release-date</code>, <code>release-version</code> attributes (you can read
             more about them in <a href="prepare-your-plugin-for-publication.xml">a
                 dedicated
@@ -91,7 +91,7 @@
     </chapter>
 
     <chapter title="Obfuscation and Protection">
-        <p>We recommend you to obfuscate the paid plugin before uploading it to the Marketplace. Every
+        <p>We recommend you to obfuscate the paid plugin before uploading it to JetBrains Marketplace. Every
             application
             can
             be hacked, but proper obfuscation makes this job much harder.

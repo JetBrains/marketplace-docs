@@ -177,7 +177,7 @@
             </tr>
             <tr>
                 <td>DefaultChangeNotes</td>
-                <td>The changed-notes parameter contains the default value <emphasis>Add change notes here</emphasis> or <emphasis>most HTML</emphasis>. You can update it in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a> and upload it to the Marketplace again.</td>
+                <td>The changed-notes parameter contains the default value <emphasis>Add change notes here</emphasis> or <emphasis>most HTML</emphasis>. You can update it in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a> and upload it to JetBrains Marketplace again.</td>
             </tr>
             <tr>
                 <td>SuspiciousUntilBuild</td>

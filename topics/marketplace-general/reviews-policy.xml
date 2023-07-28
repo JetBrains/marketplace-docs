@@ -11,7 +11,7 @@
 
        <chapter title="General" id="general">
            <p>JetBrains Marketplace doesn't verify the authenticity of reviews and ratings. Though <control>only registered users</control> can write a review or rate a plugin. All reviews, replies to reviews, and reviewers’ and repliers’ names are public.</p>
-           <p>The Marketplace team may remove any added reviews or replies to reviews if they go against <a anchor="misuse-of-ratings-and-reviews">our policy</a>. When a review is deleted, both the rating and the text are removed, and the overall rating of the plugin is recalculated automatically.</p>
+           <p>The JetBrains Marketplace team may remove any added reviews or replies to reviews if they go against <a anchor="misuse-of-ratings-and-reviews">our policy</a>. When a review is deleted, both the rating and the text are removed, and the overall rating of the plugin is recalculated automatically.</p>
            <p>It is possible to leave a rating on a scale of one to five stars and add a verbal review. Users must add a review if they want to rate the plugin from 1 to 3 stars. Adding reviews for 4- and 5-star ratings is optional.</p>
            <img src="3stars.png" alt="Must add a review"
                 width="605"/>
@@ -26,12 +26,12 @@
            <p>You can use Markdown formatting when you write your review.</p>
        </chapter>
        <chapter title="Notifications" id="notifications">
-           <p>If you are a vendor, each new review of your plugin will trigger a notification sent to your Marketplace account email address. The email notification will include the review and some information about the reviewer. Review notifications are enabled by default, but you can turn them off by going to your Marketplace account:</p>
+           <p>If you are a vendor, each new review of your plugin will trigger a notification sent to your JetBrains Marketplace account email address. The email notification will include the review and some information about the reviewer. Review notifications are enabled by default, but you can turn them off by going to your Marketplace account:</p>
 
            <img src="review-notifications.png" alt="Notification Settings"
                 width="507"/>
 
-           <p>As a user, you will get a notification sent to your Marketplace account email address every time a reply is posted on a review you’ve submitted.</p>
+           <p>As a user, you will get a notification sent to your JetBrains Marketplace account email address every time a reply is posted on a review you’ve submitted.</p>
        </chapter>
        <chapter title="Guidelines for writing a good review" id="guidelines-for-review">
            <p>Any reviews on JetBrains Marketplace must be submitted in English and must meet <a anchor="misuse-of-ratings-and-reviews">our guidelines</a>.</p>
@@ -52,7 +52,7 @@
            <p>Please reply calmly and helpfully, even if you disagree with the review.</p>
        </chapter>
        <chapter title="Misuse of ratings and reviews" id="misuse-of-ratings-and-reviews">
-           <p>Every review posted on Marketplace must comply with the <a href="https://plugins.jetbrains.com/legal/terms-of-use">Terms of Use</a> as well as follow this policy. Anyone who violates this policy may be blocked from posting further reviews or replies to reviews on JetBrains Marketplace.</p>
+           <p>Every review posted on JetBrains Marketplace must comply with the <a href="https://plugins.jetbrains.com/legal/terms-of-use">Terms of Use</a> as well as follow this policy. Anyone who violates this policy may be blocked from posting further reviews or replies to reviews on JetBrains Marketplace.</p>
            <p>We will consider removing reviews for the following reasons:</p>
            <chapter title="Spam" level="3" id="spam">
                <p>This includes reviews containing related or unrelated advertisements, links to malicious websites, random comments, or copied material.</p>
@@ -80,7 +80,7 @@
            </chapter>
        </chapter>
        <chapter title="Reporting reviews" id="reportings-reviews">
-           <p>If you stumble on an inappropriate review, or a review that is no longer applicable because the plugin has undergone a significant update, please report it to the JetBrains Marketplace team.</p>
+           <p>If you stumble on an inappropriate review, or a review that is no longer applicable because the plugin has undergone a significant update, please report it to JetBrains Marketplace team.</p>
            <p>To do so, go to the review you'd like to report and select “Report as inappropriate”:</p>
            <img src="report-as-unappropriate.png" alt="Review example"
                 width="305"/>

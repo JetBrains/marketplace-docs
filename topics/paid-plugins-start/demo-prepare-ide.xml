@@ -6,11 +6,11 @@
        title="Preparing an IDE for tests with a Marketplace Demo environment"
        id="demo-prepare-ide">
 
-    <p>Marketplace Demo works with <a href="https://mp.jpf-demo.aws.intellij.net">Sales Systems Marketplace Demo</a> and
+    <p>JetBrains Marketplace Demo works with <a href="https://mp.jpf-demo.aws.intellij.net">Sales Systems Marketplace Demo</a> and
         runs on
         the <a href="https://master.demo.marketplace.intellij.net/">test server</a>. That is why the IDE has to be
         additionally
-        configured to work with it instead of the production JetBrains Account / Sales System and Marketplace.
+        configured to work with it instead of the production JetBrains Account / Sales System and JetBrains Marketplace.
     </p>
     <procedure>
         <step>
@@ -43,7 +43,7 @@
                 </code>
             </p>
             <note>
-                <p>To route the IDE requests to the Marketplace Demo instance, you are modifying the internal
+                <p>To route the IDE requests to the JetBrains Marketplace Demo instance, you are modifying the internal
                     parameters of the
                     IDE. Don't forget to remove these custom VM Options and Properties after testing. Otherwise,
                     your IDE

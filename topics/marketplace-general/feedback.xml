@@ -6,7 +6,7 @@
        title="Getting Help and Providing Feedback"
        id="feedback">
 
-    <p>Feel free to reach out to us with questions and comments about Marketplace features, terms and conditions, and
+    <p>Feel free to reach out to us with questions and comments about JetBrains Marketplace features, terms and conditions, and
         technical solutions. We are looking forward to hearing from you!
     </p>
     <chapter title="Getting Help with JetBrains Marketplace">
@@ -28,8 +28,8 @@
         <p>
             <img src="youtrack.svg" alt="YouTrack" width="24" type="joined"/>
             <control>Issue Tracker:</control>
-            To report a bug or request a feature, submit a new issue to the
-            <a href="https://youtrack.jetbrains.com/newIssue?project=MP">Marketplace YouTrack</a>
+            To report a bug or request a feature, submit a new issue to
+            <a href="https://youtrack.jetbrains.com/newIssue?project=MP">JetBrains Marketplace YouTrack</a>
             with the corresponding type.
         </p>
         <p>
@@ -41,8 +41,9 @@
             <control>Marketplace documentation feedback:</control>
             If you are having trouble with the guide itself, such as missing,
             incorrect,
-            or confusing content, please raise an issue in the
+            or confusing content, please raise an issue in
             <a href="https://youtrack.jetbrains.com/newIssue?project=MP&amp;c=Type%20Task&amp;c=Subsystem%20Docs">
+                JetBrains
                 Marketplace
                 YouTrack
             </a>
@@ -81,7 +82,7 @@
                     </list>
                 </li>
                 <li>
-                    Explore the JetBrains Marketplace section with <a href="https://plugins.jetbrains.com/plugin-ideas">
+                    Explore JetBrains Marketplace section with <a href="https://plugins.jetbrains.com/plugin-ideas">
                     ideas for future
                     plugins</a>. Pick a community-driven idea to implement or create your own.
                 </li>

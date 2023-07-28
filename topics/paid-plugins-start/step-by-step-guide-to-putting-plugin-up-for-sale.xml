@@ -6,7 +6,7 @@
        title="Paid Plugins"
        id="step-by-step-guide-to-putting-plugin-up-for-sale">
 
-    <p>This section of the Marketplace documentation describes the process of publishing a paid plugin to JetBrains
+    <p>This section of the JetBrains Marketplace documentation describes the process of publishing a paid plugin to JetBrains
         Marketplace.
     </p>
 
@@ -29,7 +29,7 @@
             <a href="release-plugin.xml">Release the Plugin</a>
         </step>
     </procedure>
-    <p>Keep in mind that you can test the plugin on our <a href="marketplace-demo.xml">Marketplace Demo</a>  instance
+    <p>Keep in mind that you can test the plugin on <a href="marketplace-demo.xml">JetBrains Marketplace Demo</a>  instance
         before
         uploading it. You will be able to go through the whole plugin release process and check how purchasing the
         plugin

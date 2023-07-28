@@ -38,8 +38,8 @@
     <chapter title="How to hide a plugin update" id="hide-a-plugin-update">
 
         <p>Once the update is approved, it will be publicly available for download. You can hide this update if there
-            are unexpected issues in the build or for any other reasons. Hidden updates are not available via the
-            Marketplace website or IDE search. Such updates can be reached via direct link only.
+            are unexpected issues in the build or for any other reasons. Hidden updates are not available via JetBrains
+            Marketplace or IDE search. Such updates can be reached via direct link only.
         </p>
 
         <img src="hide-update.png" alt="Hide Update button" width="630"/>

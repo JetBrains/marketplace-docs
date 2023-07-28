@@ -6,9 +6,9 @@
        title="Sales-related emails and in-product notifications to end users"
        id="sales-related-emails">
 
-    <p>For plugins sold via Marketplace, we take care of sales-related communications like order request confirmations,
+    <p>For plugins sold via JetBrains Marketplace, we take care of sales-related communications like order request confirmations,
         renewal reminders, invoicing, and refunds.
-        The users of paid plugins on Marketplace receive the same automated email campaigns as JetBrains product users,
+        The users of paid plugins on JetBrains Marketplace receive the same automated email campaigns as JetBrains product users,
         which provides a consistent experience across platforms.
     </p>
     <p>
@@ -49,7 +49,7 @@
     </chapter>
 
     <chapter title="Plugin nurturing emails">
-        <p>These are campaigns developed specifically for users of plugins paid via Marketplace:</p>
+        <p>These are campaigns developed specifically for users of plugins paid via JetBrains Marketplace:</p>
         <p>
             <list>
                 <li>
@@ -99,7 +99,7 @@
     </chapter>
 
     <chapter title="How can I contact the users of my plugin directly?">
-        <p>According to the <a href="https://plugins.jetbrains.com/legal/terms-of-use">JetBrains Plugin Marketplace
+        <p>According to the <a href="https://plugins.jetbrains.com/legal/terms-of-use">JetBrains Marketplace
             Agreement</a>,
             JetBrains can provide you with information about your plugin customers to enable communications related to
             plugin

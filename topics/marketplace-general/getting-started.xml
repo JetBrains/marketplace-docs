@@ -127,7 +127,7 @@
                 Guidelines
             </a> to improve the overall quality of your plugin and start preparing your plugin's page.
             </p>
-            <procedure title="Publish a plugin on the JetBrains Marketplace" style="steps" hide-from-structure="true"
+            <procedure title="Publish a plugin on JetBrains Marketplace" style="steps" hide-from-structure="true"
                        initial-collapse-state="collapsed">
                 <step>
                     Click the <control>Upload plugin</control> button.
@@ -151,11 +151,11 @@
             </procedure>
         </chapter>
         <chapter title="Plugin approval">
-            <p>Once a plugin has been submitted, the Marketplace Team checks it according to the <a
+            <p>Once a plugin has been submitted, the JetBrains Marketplace team checks it according to the <a
                     href="https://plugins.jetbrains.com/legal/approval-guidelines">Approval
                 Guidelines</a>. Please expect approval or a reply within two
                 business days and note that the answer will be sent to the email address associated with your
-                Marketplace account.
+                JetBrains Marketplace account.
             </p>
             <img src="email.png" alt="Email Address" width="1308"/>
         </chapter>
@@ -294,7 +294,7 @@
             page
         </a> for an overview and general information.
         </p>
-        <p>To try selling your plugin on Marketplace, please follow <a
+        <p>To try selling your plugin on JetBrains Marketplace, please follow <a
                 href="https://plugins.jetbrains.com/docs/marketplace/step-by-step-guide-to-putting-plugin-up-for-sale.html">
             this step-by-step
             guide</a>.
