@@ -6,7 +6,7 @@
        title="Marketplace Demo"
        id="marketplace-demo">
 
-    <p>JetBrains' Marketplace and Business Application Development teams have prepared a fully-functioning Marketplace
+    <p>JetBrains' Marketplace and Business Application Development teams have prepared a fully-functioning JetBrains Marketplace
         Demo
         instance for you, which can be used for testing the paid plugins marketplace in a safe and protected
         environment. It
@@ -16,27 +16,27 @@
     <procedure title="Steps to test your plugin:">
         <step>
             <a href="demo-obtain-creds.xml">Obtain the credentials</a>
-            to access the Marketplace Demo instance.
+            to access the JetBrains Marketplace Demo instance.
         </step>
         <step>
             <a href="demo-prepare-ide.xml">Prepare an IDE</a>
-            for tests with a Marketplace Demo environment.
+            for tests with a JetBrains Marketplace Demo environment.
         </step>
         <step>
-            Learn about <a href="demo-limitations.xml">Marketplace Demo instance limitations</a>.
+            Learn about <a href="demo-limitations.xml">JetBrains Marketplace Demo instance limitations</a>.
         </step>
         <step>
             <a href="demo-start-test.xml">Testing</a>
-            on the Marketplace Demo instance.
+            on the JetBrains Marketplace Demo instance.
         </step>
     </procedure>
 
 
-    <p>Useful Links Related to the Marketplace Demo Instance:</p>
+    <p>Useful Links Related to the JetBrains Marketplace Demo Instance:</p>
     <p>
         <list>
             <li>
-                <a href="https://master.demo.marketplace.intellij.net">Marketplace Demo</a>
+                <a href="https://master.demo.marketplace.intellij.net">JetBrains Marketplace Demo</a>
             </li>
             <li>
                 <a href="https://mp.jpf-demo.aws.intellij.net/login">JetBrains Account</a>

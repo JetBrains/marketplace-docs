@@ -69,7 +69,7 @@
                 </tip>
             </li>
             <li>
-                <p>Go to the <path>Sales Info</path> tab on the Plugin page and press the <control>Add to Marketplace
+                <p>Go to the <path>Sales Info</path> tab on the Plugin page and press the <control>Add to JetBrains Marketplace
                 </control> button to fill in the sales
                     details.
                 </p>
@@ -95,7 +95,7 @@
                     <p>Add an annual billing period if you're planning to support free community programs.</p>
                 </tip>
 
-                <p>If some fields need to be changed after submission, write to the Marketplace Team at
+                <p>If some fields need to be changed after submission, write to the JetBrains Marketplace team at
                     <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
                 </p>
             </li>

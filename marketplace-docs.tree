@@ -12,8 +12,8 @@
         <toc-element id="product-versions-in-use-statistics.xml"/>
         <toc-element id="legal-agreements.xml">
              <toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
-             <toc-element toc-title="JetBrains Plugin Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
-             <toc-element toc-title="JetBrains Plugin Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
+             <toc-element toc-title="JetBrains Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
+             <toc-element toc-title="JetBrains Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
              <toc-element id="reviews-policy.xml"/>
              <toc-element id="eula.xml"/>
              <toc-element id="sales-and-technical-support.xml"/>

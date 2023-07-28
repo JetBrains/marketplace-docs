@@ -1,6 +1,6 @@
 [//]: # (title: Embeddable Content)
 
-You can embed Marketplace content onto your website. Currently, the following embeddable content is available:
+You can embed JetBrains Marketplace content onto your website. Currently, the following embeddable content is available:
  - Plugin Card,
  - Install to IDE button.
 
@@ -17,7 +17,7 @@ There are two possible embeddable distributions:
  - `iframe`,
  - `script`.
  
-We recommend using the `script` distribution type because it handles the `Content Security Policy` limitations, such as redirecting to the Marketplace page.
+We recommend using the `script` distribution type because it handles the `Content Security Policy` limitations, such as redirecting to JetBrains Marketplace.
 
 ### Including script
 
@@ -55,4 +55,4 @@ In case you can't include the script on the page, you can also add an `iframe`. 
 
 **Limitations of the iframe option**
 
-Due to the `Content-Security-Policy`, we can't redirect the user to the Marketplace page. This case affects the situation when a user has no IDE available for the installation, and we show the link *Get From Marketplace*.
+Due to the `Content-Security-Policy`, we can't redirect the user to JetBrains Marketplace. This case affects the situation when a user has no IDE available for the installation, and we show the link *Get From Marketplace*.

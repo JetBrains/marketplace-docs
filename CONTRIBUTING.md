@@ -1,8 +1,8 @@
 <!-- Copyright 2000-2023 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
 
-# Contributing to the JetBrains Marketplace Documentation
+# Contributing to JetBrains Marketplace Documentation
 
-Contributions to the JetBrains Marketplace Documentation are welcome!
+Contributions to JetBrains Marketplace Documentation are welcome!
 
 Report minor typos and fixes using the feedback form at the bottom of each documentation page.
 

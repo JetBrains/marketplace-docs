@@ -158,7 +158,7 @@
                     Plugins
                 </emphasis> tab.
                 </li>
-                <li>Update the Organization ID in the plugin.xml file and upload this version to the marketplace.</li>
+                <li>Update the Organization ID in the plugin.xml file and upload this version to JetBrains Marketplace.</li>
                 <li>Transfer the plugin to the new organization on the plugin’s <emphasis>Overview</emphasis> page.
                 </li>
             </list>

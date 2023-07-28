@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Obtain the credentials to access the Marketplace Demo instance"
+       title="Obtain the credentials to access the JetBrains Marketplace Demo instance"
        id="demo-obtain-creds">
 
     <p>You should have already received the credentials after <a
@@ -11,7 +11,7 @@
         request
     </a> to start selling your plugin. Please check
         your
-        inbox for an email titled <emphasis>“You have been granted access to the JetBrains Marketplace
+        inbox for an email titled <emphasis>“You have been granted access to JetBrains Marketplace
             Sandbox"</emphasis>.
     </p>
 
@@ -26,7 +26,7 @@
     </warning>
 
     <p>You need your credentials to access both the
-        <a href="https://master.demo.marketplace.intellij.net">Marketplace Demo</a>
+        <a href="https://master.demo.marketplace.intellij.net">JetBrains Marketplace Demo</a>
         server
         and the <a href="https://mp.jpf-demo.aws.intellij.net/login">Sales Systems Marketplace Demo</a>. You will need
         to provide

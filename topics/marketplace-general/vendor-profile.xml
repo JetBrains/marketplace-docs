@@ -17,7 +17,7 @@
         Individual vendors and organizations each have their own dedicated vendor pages where their plugins are listed, providing users with a centralized view.
     </p>
     <note>
-        <p>The vendor name displayed in the Plugin Manager and web Marketplace is now obtained from your <a href="https://hub.jetbrains.com/users/c6d7fb22-8c47-45aa-aaaf-d056240e2f85">Hub account</a>. However, for installed plugins, the vendor name will continue to be extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml</a> file.
+        <p>The vendor name displayed in the Plugin Manager and JetBrains Marketplace is now obtained from your <a href="https://hub.jetbrains.com/users/c6d7fb22-8c47-45aa-aaaf-d056240e2f85">Hub account</a>. However, for installed plugins, the vendor name will continue to be extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml</a> file.
         </p>
     </note>
     <chapter title="Individual Vendor Profile" id="individual-vendor-profile">

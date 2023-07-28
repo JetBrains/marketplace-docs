@@ -2,7 +2,7 @@
 
 If you are the author of a paid plugin, you can check whether the user with the specified email address has a license or not.
 
-You should create a `permanentToken` in [My Tokens](https://plugins.jetbrains.com/author/me/tokens) tab within your Marketplace profile dashboard.
+You should create a `permanentToken` in [My Tokens](https://plugins.jetbrains.com/author/me/tokens) tab within your JetBrains Marketplace profile dashboard.
 
 CURL command template:
 ```Shell

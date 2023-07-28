@@ -48,8 +48,8 @@
     </p>
     <img src="semver_ui.png" alt="SemVer Only" width="983"/>
 
-    <p>If you tick this option, the Marketplace begins checking versions against SemVer rules with the next update
-        upload. If the version meets the rules, Marketplace compares the maximum version among existing updates with the
+    <p>If you tick this option, JetBrains Marketplace begins checking versions against SemVer rules with the next update
+        upload. If the version meets the rules, JetBrains Marketplace compares the maximum version among existing updates with the
         new update version. If the existing update has greater version than the new one, the update will be uploaded
         without changing the plugin page. Otherwise, the following fields will be extracted from the update
         <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">configuration file —

@@ -7,7 +7,7 @@
        id="moving-to-marketplace">
 
     <chapter title="When to switch to the Marketplace?">
-        <p>We generally recommend switching to the Marketplace solution with the plugin version update, so that the
+        <p>We generally recommend switching to JetBrains Marketplace solution with the plugin version update, so that the
             following
             workflow can be followed:
         </p>
@@ -24,7 +24,7 @@
                     with customers.)
                 </li>
                 <li>
-                    Version 2.0.0. is released with the Marketplace licensing, users migrate to it over time, version
+                    Version 2.0.0. is released with JetBrains Marketplace licensing, users migrate to it over time, version
                     1.9.1, and
                     previous are still available with the old licensing solutions.
                 </li>
@@ -79,13 +79,13 @@
                     </li>
                     <li>
                         JetBrains will generate licenses for those customers in a new format (so that you can switch
-                        them to the
+                        them to JetBrains
                         Marketplace.)
                     </li>
                     <li>
                         JetBrains will send out license keys and other information to the customers so that they switch
                         the license (as
-                        soon as your plugin is sold on the Marketplace.)
+                        soon as your plugin is sold on JetBrains Marketplace.)
                     </li>
                 </list>
             </p>
@@ -99,7 +99,7 @@
                         (everything required for
                         a license to be issued.) The form also contains a disclaimer of data shared with JetBrains (and
                         the following data
-                        sharing with the plugin developer is done as of the Marketplace Developer Agreement.)
+                        sharing with the plugin developer is done as of the JetBrains Marketplace Developer Agreement.)
                     </li>
                     <li>
                         Plugin Developer sends the link to the page to their customers (end-users of the plugin), asking

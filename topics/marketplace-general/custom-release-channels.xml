@@ -60,7 +60,7 @@
         </p>
 
         <p>As an option, you might add a custom repository specifying the Plugin ID (Plugin ID is a numeric ID of the
-            plugin, can be retrieved from the Marketplace URL, e.g.
+            plugin, can be retrieved from the JetBrains Marketplace URL, e.g.
             <a href="https://plugins.jetbrains.com/plugin/1347-scala">Scala</a>
             plugin ID is <code>1347</code>):
         </p>

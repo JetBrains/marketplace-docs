@@ -3,15 +3,15 @@
         SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
 <topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Testing on Marketplace Demo"
+       title="Testing on JetBrains Marketplace Demo"
        id="demo-start-test">
 
     <p>Once you have <a href="demo-obtain-creds.xml">obtained the credentials</a> and gotten familiar with the <a
-            href="demo-limitations.xml">Marketplace Demo
+            href="demo-limitations.xml">JetBrains Marketplace Demo
         limitations</a>, you’re ready to hop in and start your tests.
     </p>
     <note>
-        <p>Please note that information about the plugin you are testing might be exposed to other Marketplace program
+        <p>Please note that information about the plugin you are testing might be exposed to other JetBrains Marketplace program
             users who are using the same test stand.
         </p>
     </note>
@@ -68,7 +68,7 @@
     </chapter>
 
     <chapter title="Marketplace Demo plugin upload" id="demo-plugin-upload">
-        <p>Once you access the Marketplace Demo instance, you should log into the Marketplace application itself:</p>
+        <p>Once you access the JetBrains Marketplace Demo instance, you should log into the JetBrains Marketplace application itself:</p>
 
         <img src="hub-login.png" alt="Hub Login Window" width="406"/>
 
@@ -89,7 +89,7 @@
         <note>
             <p>You might notice plugins copied from the Production instance. Please keep in mind that it is NOT possible
                 to
-                download such plugins/updates. Only plugins/updates uploaded to this Marketplace Demo instance will be
+                download such plugins/updates. Only plugins/updates uploaded to this JetBrains Marketplace Demo instance will be
                 accessible.
             </p>
         </note>
@@ -213,14 +213,14 @@
         <p>Feel free to check all the emails you as a user might receive: sign up, license purchase, etc.</p>
         <p>Due to the sensitivity of the data produced during the testing (such as license keys, order information,
             etc.),
-            we don’t send out any emails from the Marketplace Demo Sales Systems.
+            we don’t send out any emails from the JetBrains Marketplace Demo Sales Systems.
         </p>
         <p>That is why all the outgoing emails can be viewed <control>at a special URL</control>:
             <a href="https://mp.jpf-demo.aws.intellij.net/emails">https://mp.jpf-demo.aws.intellij.net/emails</a>.
         </p>
 
         <note>
-            <p>Please note that outgoing emails sent by the Marketplace Demo sales stand are available to all testers.
+            <p>Please note that outgoing emails sent by the JetBrains Marketplace Demo sales stand are available to all testers.
             </p>
         </note>
         <p>Use responsibly and don't use any confidential names/information there. Please note that information about
@@ -233,5 +233,5 @@
         issues or require our assistance.
     </p>
     <p>Happy testing!</p>
-    <p>The Marketplace team</p>
+    <p>The JetBrains Marketplace team</p>
 </topic>

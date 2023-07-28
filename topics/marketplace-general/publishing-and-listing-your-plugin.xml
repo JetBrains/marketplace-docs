@@ -6,7 +6,7 @@
        title="Publishing and Listing your plugin"
        id="publishing-and-listing-your-plugin">
 
-    <p>The Marketplace plugin page is the webpage used for JetBrains Marketplace listings. It provides users with useful
+    <p>The JetBrains Marketplace plugin page is the webpage used for JetBrains Marketplace listings. It provides users with useful
         links and information about your plugin’s functionality, product compatibility, versions, and pricing (if
         applicable). When you upload a plugin to JetBrains Marketplace, it becomes available to over 10 million users of
         JetBrains products. They can download, evaluate, and buy your plugin from the plugin page, as well as rate and
@@ -14,16 +14,16 @@
     </p>
     <p>A high-quality page is essential to attracting and engaging new customers, which will result in a higher number
         of downloads. So, it is important to prepare appropriate, high-quality content for the plugin page before
-        uploading it to the Marketplace.
+        uploading it to JetBrains Marketplace.
     </p>
 
     <chapter title="Plugin page review">
-        <p>After uploading a plugin to Marketplace, it will be manually reviewed by the Marketplace team. You will be
+        <p>After uploading a plugin to JetBrains Marketplace, it will be manually reviewed by the JetBrains Marketplace team. You will be
             contacted and asked to make changes if we find anything that doesn’t fit our guidelines. To speed up the
             review
             process, make sure the information you provide is complete and correct. Note that the plugin page
             requirements
-            are subject to change, as the Marketplace is constantly evolving. Be prepared to adjust to new requirements
+            are subject to change, as JetBrains Marketplace is constantly evolving. Be prepared to adjust to new requirements
             as
             they come out.
         </p>

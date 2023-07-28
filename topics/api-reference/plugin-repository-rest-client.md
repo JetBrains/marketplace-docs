@@ -1,11 +1,11 @@
 [//]: # (title: Plugin Repository REST Client)
 
-JetBrains is maintaining an official client and CLI (command line interface) for [JetBrains Plugin Repository](https://plugins.jetbrains.com/).
+JetBrains is maintaining an official client and CLI (command line interface) for [JetBrains Marketplace](https://plugins.jetbrains.com/).
 
 You can find it in the [**plugin-repository-rest-client** GitHub repository](https://github.com/JetBrains/plugin-repository-rest-client).
 
 ## Examples
-The code snippet below will initiate the instance of the JetBrains Marketplace repository.
+The code snippet below will initiate the instance of JetBrains Marketplace.
 
 ```kotlin
 val instance = PluginRepositoryFactory.create("https://plugins.jetbrains.com", "authToken")
@@ -19,13 +19,13 @@ instance.downloader.download("org.jetbrains.plugins.go", version, into, channel)
 
 ### Upload update and new plugins
 
-The code snippet below will init the instance of the JetBrains Marketplace repository. You need to provide a [permanent hub token](https://www.jetbrains.com/help/youtrack/standalone/Manage-Permanent-Token.html) to authorize.
+The code snippet below will init the instance of JetBrains Marketplace. You need to provide a [permanent hub token](https://www.jetbrains.com/help/youtrack/standalone/Manage-Permanent-Token.html) to authorize.
 
 ```kotlin
-// upload update to existing plugin.
+// upload update to existing plugin
 instance.uploader.uploadPlugin("org.jetbrains.kotlin", file, channel, notes)
 
-// upload new plugin into Marketplace repository.
+// upload new plugin to JetBrains Marketplace
 instance.uploader.uploadNewPlugin(file, categoryId, licenseUrl)
 ```
 

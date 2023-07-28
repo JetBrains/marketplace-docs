@@ -6,7 +6,7 @@
        title="Obfuscate the plugin"
        id="obfuscate-the-plugin">
 
-    <p>We recommend obfuscating your paid plugin before uploading it to the Marketplace. Every application can be
+    <p>We recommend obfuscating your paid plugin before uploading it to JetBrains Marketplace. Every application can be
         hacked,
         but proper obfuscation makes doing so much harder.
     </p>
@@ -58,7 +58,7 @@
             we are sharing some information about how to configure it. Information about Zelix configuration and tips
             for
             regarding the features is provided by <emphasis>Eugene Zhuravlev</emphasis>, the IntelliJ IDEA developer who
-            implemented the licensing mechanism and Marketplace support in IntelliJ IDEA.
+            implemented the licensing mechanism and JetBrains Marketplace support in IntelliJ IDEA.
         </p>
 
         <p>You can find the full documentation <a href="https://www.zelix.com/klassmaster/docs/index.html">here</a>, and

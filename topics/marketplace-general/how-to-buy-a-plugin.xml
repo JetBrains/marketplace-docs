@@ -77,7 +77,7 @@
             <chapter title="Purchasing via JetBrains Marketplace (Plugin page)"
                      id="plugin_page">
                 <list type="decimal">
-                    <li>Find the plugin using the <a href="https://plugins.jetbrains.com/">JetBrains Marketplace</a> search
+                    <li>Find the plugin using <a href="https://plugins.jetbrains.com/">JetBrains Marketplace</a> search
                         window:
                         <img src="Search-window.png" alt="Search window on JetBrains Marketplace" width="706"/>
                     </li>

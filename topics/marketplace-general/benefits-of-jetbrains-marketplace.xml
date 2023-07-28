@@ -12,7 +12,7 @@
         <control>sell plugins</control>
         while taking advantage of licensing and billing solutions provided by JetBrains. Our goal is to develop an
         ecosystem of
-        high-quality extensions to JetBrains products and help you grow together with the Marketplace. If you don’t have
+        high-quality extensions to JetBrains products and help you grow together with JetBrains Marketplace. If you don’t have
         a clear
         idea of a plugin you want to develop, check the
         <a href="https://plugins.jetbrains.com/plugin-ideas">Plugin Ideas</a>
@@ -27,7 +27,7 @@
                     experience.
                 </li>
                 <li>Support throughout your journey as a plugin developer, from building plugins to publishing them on
-                    the Marketplace.
+                    JetBrains Marketplace.
                 </li>
                 <li>Documentation and tools like the <a
                         href="https://plugins.jetbrains.com/docs/intellij/github-template.html">IntelliJ Platform Plugin
@@ -47,7 +47,7 @@
         </p>
     </chapter>
 
-    <chapter title="Take advantage of selling your plugins on the JetBrains Marketplace:">
+    <chapter title="Take advantage of selling your plugins on JetBrains Marketplace:">
         <p>
             <control>Licensing and billing:</control>
             <list>
@@ -87,7 +87,7 @@
         <p>
             <control>Marketing benefits:</control>
             <list>
-                <li>Prioritized access to co-marketing opportunities via Marketplace and product blogs and webinars.
+                <li>Prioritized access to co-marketing opportunities via JetBrains Marketplace and product blogs and webinars.
                 </li>
                 <li>Possibility for additional promotion via featured listings (for plugins that deliver exceptional
                     quality and user experience)
@@ -101,7 +101,7 @@
                 <li>Access to some of the marketing instruments we use (e.g., sending newsletters to customers having a
                     plugin, lead nurturing, advertisement set up, etc.)
                 </li>
-                <li>Access to the Marketplace roadmap with the ability to impact it.</li>
+                <li>Access to JetBrains Marketplace roadmap with the ability to impact it.</li>
             </list>
         </p>
     </chapter>

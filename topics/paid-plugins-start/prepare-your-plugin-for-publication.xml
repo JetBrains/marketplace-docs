@@ -24,7 +24,7 @@
             plugin.xml</path>).
         </step>
         <step>
-            <a href="add-marketplace-license-verification-calls-to-the-plugin-code.xml">Add Marketplace license
+            <a href="add-marketplace-license-verification-calls-to-the-plugin-code.xml">Add JetBrains Marketplace license
                 verification
                 calls</a>.
         </step>
