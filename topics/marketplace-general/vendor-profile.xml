@@ -19,6 +19,8 @@
     <note>
         <p>The vendor name displayed in the Plugin Manager and JetBrains Marketplace is now obtained from your <a href="https://hub.jetbrains.com/users/c6d7fb22-8c47-45aa-aaaf-d056240e2f85">Hub account</a>. However, for installed plugins, the vendor name will continue to be extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml</a> file.
         </p>
+        <img src="vendor-in-the-IDE.png" alt="Vendor Name in the IDE"
+             height="545" border-effect="rounded"/>
     </note>
     <chapter title="Individual Vendor Profile" id="individual-vendor-profile">
         <p>
@@ -27,9 +29,17 @@
         <p>
             <a href="https://plugins.jetbrains.com/author/me">You can edit your vendor profile details here.</a>
         </p>
+        <p>If your plugin has several developers, we recommend <a href="organizations.xml" id="creating-an-organization">creating an organization</a>. This way, your plugin can be associated with an organization instead of an individual vendor.</p>
+        <p>However, if you prefer not to create an organization, you can still select a vendor from the list of developers. To do so, please go to the plugin page and select a new vendor under the Vendor Information section.</p>
+        <img src="select-vendor-from-the-list.png" alt="Select vendor from the list"
+             width="800" border-effect="rounded"/>
+        <warning>
+            <p>The plugin vendor can only be selected once from the developers' list. If you have assigned a vendor by mistake, please contact us at <a href="mailto:marketplace@jetbrains.com">
+                marketplace@jetbrains.com</a></p>
+        </warning>
+        <p>In your Vendor profile, you can update the following information:</p>
         <img src="individual-vendor-profile.png" alt="Individual Vendor Profile"
              width="800" border-effect="rounded"/>
-        <p>In your Vendor profile, you can update the following information:</p>
         <p><control>Vendor name:</control> The name is automatically fetched from your <a href="https://hub.jetbrains.com/">Hub</a> account. However, you can update this field manually if necessary.
         </p>
         <p><control>Email:</control> We recommend providing your email address. It will be publicly available and can serve as the primary contact for any communication related to your plugins.</p>
