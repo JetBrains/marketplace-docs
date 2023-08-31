@@ -14,7 +14,7 @@
         straightforward overview, we are publishing statistics that will help you decide which versions of products to
         support here.
     </p>
-    <p>The statistics here has been gathered in August 2021, but looking into the older statistics, it doesn't change
+    <p>The statistics here has been gathered in August 2023, but looking into the older statistics, it doesn't change
         much over time.
     </p>
     <table>
@@ -31,13 +31,79 @@
         </tr>
         <tr>
             <td>
+                232
+            </td>
+            <td>
+                2023.2
+            </td>
+            <td>
+                31.47%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                231
+            </td>
+            <td>
+                2023.1
+            </td>
+            <td>
+                30.18%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                223
+            </td>
+            <td>
+                2022.3
+            </td>
+            <td>
+                13.97%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                222
+            </td>
+            <td>
+                2022.2
+            </td>
+            <td>
+                12.06%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                221
+            </td>
+            <td>
+                2022.1
+            </td>
+            <td>
+                6.19%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                213
+            </td>
+            <td>
+                2021.3
+            </td>
+            <td>
+                5.83%
+            </td>
+        </tr>
+        <tr>
+            <td>
                 212
             </td>
             <td>
                 2021.2
             </td>
             <td>
-                35.37%
+                4.8%
             </td>
         </tr>
         <tr>
@@ -48,7 +114,7 @@
                 2021.1
             </td>
             <td>
-                36.10%
+                3.1%
             </td>
         </tr>
         <tr>
@@ -59,84 +125,18 @@
                 2020.3
             </td>
             <td>
-                13.38%
+                1.93%
             </td>
         </tr>
         <tr>
             <td>
-                202
+                Pre-202
             </td>
             <td>
-                2020.2
+                Pre-2020.2
             </td>
             <td>
-                7.69%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                201
-            </td>
-            <td>
-                2020.1
-            </td>
-            <td>
-                4.88%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                193
-            </td>
-            <td>
-                2019.3
-            </td>
-            <td>
-                4.02%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                192
-            </td>
-            <td>
-                2019.2
-            </td>
-            <td>
-                2.36%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                191
-            </td>
-            <td>
-                2019.1
-            </td>
-            <td>
-                1.66%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                183
-            </td>
-            <td>
-                2018.3
-            </td>
-            <td>
-                1.26%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Pre-182
-            </td>
-            <td>
-                Pre-2018.2
-            </td>
-            <td>
-                9.38%
+                5.37%
             </td>
         </tr>
     </table>
