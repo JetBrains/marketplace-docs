@@ -12,52 +12,48 @@
         </a> before you upload it.
         </p>
     </note>
-    <p>The process of uploading a new plugin is quite simple:</p>
+    <p>In order to upload a new plugin, you must first log in to JetBrains Marketplace. Then, navigate to your user account menu and select <emphasis>Upload plugin</emphasis>.</p>
+    <img src="upload-plugin.png" alt="Upload plugin"
+         width="800" border-effect="rounded"/>
+    <p>Uploading a new plugin is a two-step process:</p>
     <p>
         <list type="decimal">
-            <li>Log in to JetBrains Marketplace.</li>
-            <li>Open your user account menu, then select <control>Upload plugin</control>:
-                <img src="upload-plugin-button.png" alt="Upload a new plugin button" width="743"/>
+            <li><p>Select the <a href="vendor-profile.xml">Vendor profile</a> under which you’re publishing the plugin.</p>
+                <img src="select-vendor.png" alt="Select vendor from the list"
+                     width="567" border-effect="rounded"/>
+                <p>The plugin can be published under your Individual or Organization profile. If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="vendor-profile.xml">create your Vendor profile.</a></p>
             </li>
-            <li>Fill in the fields in the Plugin Upload form to upload your new plugin:
-                <img src="upload-new-plugin.png" alt="Upload a new plugin form" width="490"/>
+            <li><p>Submit plugin details.</p>
+                <img src="upload-plugin-details.png" alt="Select vendor from the list"
+                     height="719" border-effect="rounded"/>
             </li>
         </list>
     </p>
 
     <p>
         <control>File size:</control>
-        the maximum allowed plugin size is <control>400 MB</control>.
+        The maximum size allowed for a plugin is 400 MB.
     </p>
 
     <p>
         <control>License:</control>
-        You must provide your own end user license agreement with any Plugin via JetBrains Marketplace. We
-        cannot tell you what your Plugin Developer EULA should say, but we can point you to <a
-            href="https://opensource.org/licenses/alphabetical">Open Source licenses
-    </a> and various independent <a href="https://www.google.com/search?q=software+eula+generator">EULA
-        generators
-    </a> that are not affiliated with JetBrains.
+        You must provide your own end user license agreement with any plugin via JetBrains Marketplace. We cannot recommend any specific licenses, though we can point you either to commonly used <a href="https://opensource.org/licenses/">open-source licenses</a> or the <a href="eula.xml">EULA</a>.
     </p>
     <warning>
-        <p>If you select an open-source license, then you need to provide a link to the source code.</p>
+        <p>If you select an open-source license, you need to provide a link to the source code.</p>
     </warning>
     <p>
         <control>Tags:</control>
-        When you upload a new plugin, please make sure to choose the correct tags, as they are used as search
-        filters. Incorrect tags can lead to irrelevant search results and may impact the discoverability of your
-        plugin.
+        When you upload a new plugin, please make sure to choose the correct tags as they are used as search filters. Incorrect tags can lead to irrelevant search results and may impact the discoverability of your plugin.
     </p>
 
     <p>
         <control>Channels:</control>
-        If you do not want your plugin to be generally available (e.g., it is an alpha/beta/EAP version), please
-        add a <a href="custom-release-channels.xml">Custom
-        Release Channel</a>.
+        If you do not want your plugin to be generally available (like if it is an Alpha, Beta, or EAP version), please add a <a href="custom-release-channels.xml">Custom Release Channel</a>.
     </p>
 
     <p>
-        <control>Hidden flag:</control> lets you keep the plugin <a href="hidden-plugin.xml">hidden</a> even after the approval.
+        <control>Hidden flag:</control> This lets you keep the plugin <a href="hidden-plugin.xml">hidden</a>, even after approval.
     </p>
 
 
