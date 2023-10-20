@@ -6,25 +6,52 @@
        title="Plugin Monetization"
        id="plugin-monetization">
 
-    <p>Monetizing a plugin can be a great way to make a profit that will allow you to invest in the further development of your plugin. Please explore the following <control>business models</control> and select the one you'd like to proceed with:</p>
+    <p>Monetizing a plugin can be a great way to make a profit that will allow you to invest in the further development of your plugin.</p>
+    <chapter title="Business Models" id="business-models">
+        <p>Please explore the following business models and select the one you'd like to proceed with.</p>
     <list>
-        <li><control>Free model</control>
-        <p>If you want to keep offering your plugin for free, you can still earn some money by accepting <a href="plugin-overview-page.xml" anchor="how-to-add-donation-links">donations</a>.</p></li>
-        <li>
-            <control><a href="freemium.xml">Freemium model</a></control>
-            <p>If you don't want to go fully paid, you can offer some features at no cost in addition to paid features.</p>
+        <li><control>Free:</control>
+        <p>If you want to keep offering your plugin for free, you can still earn some money by accepting <a href="plugin-overview-page.xml" anchor="how-to-add-donation-links">donations</a>. This approach can help you build a user base and establish your plugin's reputation. Users who find value in your work may support you voluntarily.</p>
         </li>
         <li>
-            <control><p>Paid model</p></control>
-            <p>If you are ready to go fully paid, there are 2 options for you:</p>
-            <list>
-                <li>
-                    <a href="step-by-step-guide-to-putting-plugin-up-for-sale.xml">Paid-via-JetBrains</a>
-                    (revenue sharing model) when the plugin is sold via JetBrains Marketplace. <emphasis>(Recommended)</emphasis>
-                </li>
-                <li>Paid-via-Vendor (no revenue sharing, third-party license keys) when the plugin is sold via Vendor.
-                </li>
-            </list>
+            <control><a href="freemium.xml">Freemium:</a></control>
+            <p>You can offer some features for free and offer a license to access all of the features. Users will be able to evaluate paid features during a 30-day trial period.</p>
+        </li>
+        <li>
+            <control><a href="step-by-step-guide-to-putting-plugin-up-for-sale.xml">Paid:</a></control>
+            <p>All plugin features will be available for paid users only. This model is suitable when you want to offer features that are not available for free, providing only a 30-day trial period and allowing users to evaluate a plugin before purchasing.</p>
+        </li>
+        <li>
+            <p><control>Externally paid:</control></p>
+            <p>Access to plugin features is managed by the plugin vendor’s own licensing solution. This model is applicable when plugin authors prefer to manage subscriptions and purchases through their own system.</p>
         </li>
     </list>
+    </chapter>
+    <chapter title="Licensing Schemes" id="licensing-schemes">
+        <p>The following licensing schemes are available:</p>
+        <list>
+            <li>
+                <p>Yearly/Monthly Subscription <control>without</control> a Fallback License:</p>
+                <p>Users will be able to use your plugin only if they have an active subscription. This model ensures a steady revenue stream as long as users maintain their subscriptions.</p>
+            </li>
+            <li>
+                <p>Yearly/Monthly Subscription <control>with</control> a Fallback License:</p>
+                <p>Users will get access to a specific plugin version for a lifetime, but updates are available only if they have an active subscription. This can be a way to provide long-term value to users and maintain their satisfaction even if they decide to cancel their subscription(s).</p>
+            </li>
+            <li>
+                <p>Perpetual License:</p>
+                <p>Users will pay once and will get access to your plugin updates for a lifetime. This model can be attractive to users who prefer to make a single payment and use the plugin indefinitely.</p>
+            </li>
+        </list>
+    </chapter>
+    <chapter title="Licensing types" id="licensing-types">
+        <p>The following types of licenses can be provided to users:</p>
+        <list>
+            <li>Commercial licenses (business and organizations).</li>
+            <li>Personal licenses (individual customers).</li>
+            <li>Trial licenses (30-day trial).</li>
+            <li>Free licenses (as a part of the <a href="https://plugins.jetbrains.com/docs/marketplace/community-programs.html">community support program</a> or <a href="coupon-offers.html">custom offers</a>).</li>
+        </list>
+        <p>More information can be found <a href="https://www.jetbrains.com/store/comparison.html">here</a>.</p>
+    </chapter>
 </topic>

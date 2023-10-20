@@ -33,14 +33,11 @@
             <li>Yearly/monthly subscription without a fallback license (can use the product only when there is an active
                 subscription.)
             </li>
+            <li>
+                <p>Perpetual License:</p>
+                <p>Users will pay once and will get access to your plugin updates for a lifetime. This model can be attractive to users who prefer to make a single payment and use the plugin indefinitely.</p>
+            </li>
         </list>
-        <tip>
-            <p>JetBrains switched to a subscription model a few years back. Please refer to this <a
-                    href="https://blog.jetbrains.com/blog/2015/09/18/final-update-on-the-jetbrains-toolbox-announcement/?_ga=2.133520782.1832245587.1643619155-914620735.1643272691">
-                blog post
-            </a> for more information why we have switched to the subscription model.
-            </p>
-        </tip>
     </procedure>
 
 </topic>
