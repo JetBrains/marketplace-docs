@@ -50,7 +50,7 @@
             <li>Commercial licenses (business and organizations).</li>
             <li>Personal licenses (individual customers).</li>
             <li>Trial licenses (30-day trial).</li>
-            <li>Free licenses (as a part of the <a href="https://plugins.jetbrains.com/docs/marketplace/community-programs.html">community support program</a> or <a href="coupon-offers.html">custom offers</a>).</li>
+            <li>Free licenses (as a part of the <a href="https://plugins.jetbrains.com/docs/marketplace/community-programs.html">community support program</a> or <a href="coupon-offers.xml">custom offers</a>).</li>
         </list>
         <p>More information can be found <a href="https://www.jetbrains.com/store/comparison.html">here</a>.</p>
     </chapter>
