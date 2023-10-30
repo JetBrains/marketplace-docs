@@ -71,6 +71,7 @@
         </toc-element>
         <toc-element id="freemium.xml" accepts-web-file-names="free-functionality.html"/>
         <toc-element id="coupon-offers.xml" accepts-web-file-names="discounts-and-offers.html"/>
+        <toc-element id="volume-discount.xml"/>
         <toc-element id="sales-related-emails.xml" accepts-web-file-names="customer-information-access.html"/>
         <toc-element id="contributing-to-the-blog.xml"/>
     </toc-element>
