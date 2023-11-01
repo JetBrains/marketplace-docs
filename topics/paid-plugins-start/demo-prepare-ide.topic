@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Preparing an IDE for tests with a Marketplace Demo environment" id="demo-prepare-ide">
+
+    <p>JetBrains Marketplace Demo works with <a href="https://mp.jpf-demo.aws.intellij.net">Sales Systems Marketplace Demo</a> and
+        runs on
+        the <a href="https://master.demo.marketplace.intellij.net/">test server</a>. That is why the IDE has to be
+        additionally
+        configured to work with it instead of the production JetBrains Account / Sales System and JetBrains Marketplace.
+    </p>
+    <procedure>
+        <step>
+            <p>Please go to <ui-path>Help | Edit Custom Properties...</ui-path> to open the <path>
+                idea.properties
+            </path> file
+                in the editor and add:
+            </p>
+            <code-block>
+                    jb.service.configuration.url=https://mp.jpf-demo.aws.intellij.net/testservices/JetBrainsAccount.topic
+                </code-block>
+
+            <tip>
+                <p>Don't be surprised if you will be asked to purchase/activate your own plugin. You can easily <a href="demo-start-test.topic">purchase
+                </a> this license via Demo stand to get user experience.
+                </p>
+            </tip>
+        </step>
+        <step>
+            <p>Then use <ui-path>Help | Edit Custom VM Options...</ui-path> to open the IntelliJ IDEA
+                <path>2018.2.app.vmoptions</path>
+                file (or similar depending on your version) in the editor and add:
+            </p>
+            <code-block>
+                    -Didea.plugins.host=https://master.demo.marketplace.intellij.net/
+                </code-block>
+            <note>
+                <p>To route the IDE requests to the JetBrains Marketplace Demo instance, you are modifying the internal
+                    parameters of the
+                    IDE. Don't forget to remove these custom VM Options and Properties after testing. Otherwise,
+                    your IDE
+                    experience could be disrupted at any time.
+                </p>
+            </note>
+
+            <p>Instead of editing Custom VM Options, you can add plugins to the IDE from the disk as an
+                alternative:
+            </p>
+
+            <img src="installfromthedisk.png" alt="Plugin Manager" width="1806"/>
+        </step>
+    </procedure>
+
+</topic>

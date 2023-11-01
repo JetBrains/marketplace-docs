@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin Statistics" id="plugin-stats">
+
+    <p>In this section:</p>
+    <list>
+            <li>
+                <a href="analytics-tab.topic">Analytics tab</a>
+            </li>
+            <li>
+                <a href="download-statistics.topic">Download Statistics</a>
+            </li>
+            <li>
+                <a href="plugins-ranking.topic">Plugins Ranking</a>
+            </li>
+            <li>
+                <a href="plugins-rating.topic">Plugins Rating</a>
+            </li>
+            <li>
+                <a href="identify-user-of-paid-plugin.topic">How to anonymously and uniquely identify a user of a paid
+                    plugin?
+                </a>
+            </li>
+        </list>
+</topic>

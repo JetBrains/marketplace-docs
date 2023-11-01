@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Technical implementation of the marketplace in the product" id="technical-implementation">
+
+    <chapter title="Support for the Marketplace in the product">
+        <p>All the licensing-related communication with JetBrains licensing servers is done on the IntelliJ Platform
+            side,
+            not
+            on the plugin side, so that you don't need to bundle our licensing checks code with your plugin or
+            copy-paste
+            licensing-specific functionality.
+        </p>
+
+        <p>This approach lets us keep the licensing mechanism as a &quot;black box,&quot; which ensures higher protection against
+            piracy,
+            as well as decreases the amount of work to be done on the plugin vendor side.
+        </p>
+
+        <p>There are no private keys in the platform (otherwise, they can easily be extracted/leaked), so the IntelliJ
+            Platform
+            is getting a signed confirmation of the license from the server (online or on-premises) or the signed
+            offline
+            key.
+            The plugin licensing verification code is using JetBrains' public certificate, which helps us verify that
+            the
+            key is
+            a genuine one.
+        </p>
+
+        <p>If the key couldn't be verified at the start of the IDE, the plugin will be disabled, and IDE will be
+            re-started.
+            The user won't be able to work with the plugin unless they provide a valid license key.
+        </p>
+
+        <p>Another thing which we have supported on the IntelliJ Platform side is a way to provide multiple license keys
+            in
+            a
+            single instance of the IDE, as, otherwise, it would not be possible to support all the use cases, and now we
+            can
+            have a license key for a product, multiple plugins, and they even can be issued to multiple licensees.
+        </p>
+        <img src="multiple_licenses.png" alt="Multiple Licensing Dialog" width="976"/>
+
+        <p>The whole product part is already available since the 2018.2 release of IntelliJ IDEA-based IDEs, but there
+            have
+            been significant additions, so the paid plugins part is fully operational since 2019.1 version of IntelliJ
+            IDEA-based IDEs. <a href="https://plugins.jetbrains.com/plugin/10925-database-tools-and-sql">Database Tools
+                and SQL
+                plugin
+            </a> has been licensed via this mechanism since 2018.2.
+        </p>
+    </chapter>
+
+    <chapter title="How is it different for Community Edition / Educational Edition / other IDEs built on top of IntelliJ Platform?">
+        <p>The support for Community Edition (and other free and open-source editions) of IntelliJ IDEA-based IDEs, as
+            well
+            as
+            all IDEs built on top of open-source IntelliJ Platform, has been launched at the beginning of 2020. It might
+            still
+            take some time until the relevant changes arrive to third-party IDEs (depends on their release cycle), e.g.,
+            Android
+            Studio will support paid JetBrains Marketplace plugins after Android Studio 4.0 is released.
+        </p>
+    </chapter>
+
+    <chapter title="What should be supported on the plugin side?">
+        <p>First of all, a plugin has to identify itself as a paid JetBrains Marketplace plugin in the <path>plugin.topic</path> providing
+            <code>productCode</code>, <code>release-date</code>, <code>release-version</code> attributes (you can read
+            more about them in <a href="prepare-your-plugin-for-publication.topic">a
+                dedicated
+                article</a>.)
+        </p>
+
+        <p>As the next step, you need to add some calls from the plugin, and JetBrains is providing a standard licensing
+            code
+            to be added to the plugin distribution. All the licensing checks are done on the platform side, but the
+            plugin
+            has
+            to verify that the platform checked and verified that a user has a license for this particular plugin (and
+            specific
+            plugin version), and shut down its operations if the license is not there. To do so, a plugin has to <a href="add-marketplace-license-verification-calls-to-the-plugin-code.topic">include a
+                standard code provided by JetBrains
+            </a> which would be checking that your plugin is licensed.
+        </p>
+    </chapter>
+
+    <chapter title="Obfuscation and Protection">
+        <p>We recommend you to obfuscate the paid plugin before uploading it to JetBrains Marketplace. Every
+            application
+            can
+            be hacked, but proper obfuscation makes this job much harder.
+        </p>
+
+        <p>At JetBrains, we had a lot of experience with <a href="https://www.zelix.com/klassmaster/index.html">Zelix
+            Klassmaster</a>.
+        </p>
+
+        <p>Read more about the obfuscation <a href="obfuscate-the-plugin.topic">in the dedicated article</a>.
+        </p>
+    </chapter>
+
+</topic>

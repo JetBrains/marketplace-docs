@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Create a Product Code" id="obtain-a-product-code-from-jetbrains">
+
+    <p>After <a href="submit-a-request-to-sell-plugins-at-the-marketplace.topic">submitting a request</a> to sell plugins,
+        you will
+        be
+        contacted by our vendor success team via email with further steps. One of these steps is to create a Product
+        Code
+        and provide it in the reply.
+    </p>
+
+    <p>A <emphasis>Product Code</emphasis> is registered in the JetBrains Sales System and serves as a unique ID for all
+        plugin-related sales
+        operations. It also connects the JetBrains Marketplace releases of the plugin to the Sales System.
+    </p>
+    <p>
+        Your Product Code must:
+    </p>
+    <list>
+            <li>
+                Start with <b>P</b>.
+            </li>
+            <li>
+                Be no shorter than <b>4</b> characters.
+            </li>
+            <li>
+                Be no longer than <b>15</b> characters.
+            </li>
+            <li>
+                <b>NOT</b> contain any numbers or special symbols.
+            </li>
+            <li>
+                Contain only <b>CAPITAL LETTERS</b>.
+            </li>
+        </list>
+    <p>
+        For example, the Product Code for a plugin called “Make Me Coffee” should be <b>PMAKEMECOFFEE</b>.
+    </p>
+    <warning>
+        <p>
+            Please note that it is rather difficult to change a Product Code after it’s been created, as doing so
+            requires merging a lot of financial information and transactions, and additionally maintaining legacy
+            product code in our systems for reference and backward compatibility.
+        </p>
+    </warning>
+    <p>End-users will see the Product Code on the invoices, on the check-out page, and in their <a href="https://account.jetbrains.com/">JetBrains
+        Accounts</a>.
+    </p>
+
+</topic>

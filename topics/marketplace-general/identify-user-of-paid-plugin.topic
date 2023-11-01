@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="How to anonymously and uniquely identify a user of a paid plugin?" id="identify-user-of-paid-plugin">
+
+    <p>As a plugin developer, you may want to collect some usage statistics. You may also want to uniquely and
+        anonymously identify users in order to make said statistics more precise and insightful.
+    </p>
+
+    <p>First of all, you must explicitly get user's consent for doing this. After that, you can add this code to your
+        plugin:
+    </p>
+
+    <code-block lang="java">
+            final LicensingFacade instance=LicensingFacade.getInstance();
+                    return instance==null?null:instance.getLicensedToMessage();
+        </code-block>
+
+    <p>This code will return the <code>LicensedTo</code> value which is unique for a given user. It will be kept during
+        the
+        plugin's reinstallation and is also derived from the JetBrains Account. To make it anonymous you can hash the <code>
+            LicensedTo
+        </code> value and send only the hash.
+    </p>
+
+</topic>

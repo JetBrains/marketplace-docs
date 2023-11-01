@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Getting Help and Providing Feedback" id="feedback">
+
+    <p>Feel free to reach out to us with questions and comments about JetBrains Marketplace features, terms and conditions, and
+        technical solutions. We are looking forward to hearing from you!
+    </p>
+    <chapter title="Getting Help with JetBrains Marketplace">
+        <img src="slack.svg" alt="Slack" width="24" type="joined"/><p>
+            <control>Use the JetBrains Platform Slack:</control>
+            Post your questions to the
+            <a href="https://jetbrains-platform.slack.com/messages/C5U6ZNG20">#marketplace</a>
+            channel. Keep in mind that it’s not an official
+            support channel, but a community of plugin developers and JetBrains employees.
+        </p>
+        <note>
+            <p>
+                Please note that you have to be logged into the JetBrains Platform Slack workspace. Otherwise, you will
+                get an error. If you're not a member, request an invite <a href="https://plugins.jetbrains.com/slack">
+                here</a>.
+            </p>
+        </note>
+        <img src="youtrack.svg" alt="YouTrack" width="24" type="joined"/><p>
+            <control>Issue Tracker:</control>
+            To report a bug or request a feature, submit a new issue to
+            <a href="https://youtrack.jetbrains.com/newIssue?project=MP">JetBrains Marketplace YouTrack</a>
+            with the corresponding type.
+        </p>
+        <img src="email.svg" alt="Email" width="24" type="joined"/><p>
+            <control>Submit your request via email:</control>
+            <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>
+        </p>
+        <p>
+            <control>Marketplace documentation feedback:</control>
+            If you are having trouble with the guide itself, such as missing,
+            incorrect,
+            or confusing content, please raise an issue in
+            <a href="https://youtrack.jetbrains.com/newIssue?project=MP&amp;c=Type%20Task&amp;c=Subsystem%20Docs">
+                JetBrains
+                Marketplace
+                YouTrack
+            </a>
+        </p>
+        <p>If you want to report an issue for a specific page, use the <control>“Was this page helpful”</control> feedback
+            form at the bottom
+            of each
+            documentation page. To add feedback, click <control>No</control>, and the form will appear. Please try to be
+            as
+            specific as
+            possible and provide your email address in order to be notified about updates.
+        </p>
+    </chapter>
+
+    <chapter title="Learn and communicate">
+        <list>
+                <li>
+                    Explore plugin development documentation:
+                    <list>
+                        <li>
+                            <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html">IntelliJ Platform SDK</a>
+                        </li>
+                        <li>
+                            <a href="https://www.jetbrains.com/help/resharper/sdk/welcome.html">ReSharper DevGuide</a>
+                        </li>
+                        <li>
+                            <a href="https://plugins.jetbrains.com/docs/teamcity/">TeamCity Plugin Development</a>
+                        </li>
+                        <li>
+                            <a href="https://www.jetbrains.com/help/youtrack/devportal/building-custom-widgets.html">
+                                Developer Portal for YouTrack and
+                                Hub
+                            </a>
+                        </li>
+                    </list>
+                </li>
+                <li>
+                    Explore JetBrains Marketplace section with <a href="https://plugins.jetbrains.com/plugin-ideas">
+                    ideas for future
+                    plugins</a>. Pick a community-driven idea to implement or create your own.
+                </li>
+                <li>
+                    Watch the Busy Plugin Developers webinar series on
+                    <img src="youtube.svg" alt="YouTube" width="24" type="joined"/>
+                    <a href="https://youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY">YouTube</a>
+                </li>
+                <li>
+                    Follow JetBrains Platform on
+                    <img src="twitter.svg" alt="Twitter" width="24" type="joined"/>
+                    Twitter:
+                    <a href="https://twitter.com/jbplatform">@JBPlatform</a>
+                </li>
+                <li>
+                    Subscribe to the
+                    <img src="blog.svg" alt="Blog" width="24" type="joined"/>
+                    <a href="https://blog.jetbrains.com/platform/">JetBrains Platform
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    Join the
+                    <img src="slack.svg" alt="Slack" width="24" type="joined"/>
+                    <a href="https://plugins.jetbrains.com/slack">JetBrains Platform
+                        Slack
+                    </a>
+                </li>
+            </list>
+    </chapter>
+
+</topic>

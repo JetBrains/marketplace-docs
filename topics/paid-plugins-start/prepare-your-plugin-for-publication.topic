@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Preparing Your Plugin for Publication" id="prepare-your-plugin-for-publication">
+
+    <p>The process of plugin development can be challenging. For more detailed guidance about how to develop plugins
+        successfully, feel free to check out our <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html">
+            IntelliJ Platform Plugin
+            SDK
+        </a> documentation, which goes deeper into the plugin
+        creation process and covers the basics of working with the IntelliJ Platform.
+    </p>
+
+    <p>If your plugin is technically ready, you can begin working through the <control>required</control> steps to
+        prepare it for publishing:
+    </p>
+    <procedure>
+        <step>
+            <p><a href="add-required-parameters.topic">Define the required parameters</a>
+            in the plugin descriptor (<path>
+            plugin.topic</path>).
+        </p></step>
+        <step>
+            <p><a href="add-marketplace-license-verification-calls-to-the-plugin-code.topic">Add JetBrains Marketplace license
+                verification
+                calls</a>.
+        </p></step>
+        <step><p>
+            Make sure the plugin meets <a href="https://plugins.jetbrains.com/legal/approval-guidelines">the approval
+            criteria</a>.
+        </p></step>
+        <step><p>
+            Create an <a href="organizations.topic">Organization</a> and make sure the Organization ID is added to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin descriptor
+            (plugin.topic)</a>.
+        </p></step>
+    </procedure>
+
+    <p>As an <control>optional step</control> we recommend <a href="obfuscate-the-plugin.topic">obfuscating the plugin
+        code</a>.
+    </p>
+
+</topic>
