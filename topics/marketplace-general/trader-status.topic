@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Developer requirement to disclose trader or non-trader status" id="trader-status">
+
+    <p>
+        The European Commission adopted the New Deal for Consumers with the aim of supporting EU consumer protection rules. One of the requirements of the so-called <a href="https://eur-lex.europa.eu/eli/dir/2019/2161/oj">Omnibus Directive 2019/2161</a> is that online marketplaces must inform consumers about whether the third parties offering goods or services on them act as professional traders or not. This applies also to JetBrains Marketplace and the digital content (for example, plugins) uploaded there.
+    </p>
+    <p>
+        To comply with this requirement, we must ask every vendor on JetBrains Marketplace to declare whether they are a professional trader or not, so that consumers may be informed about whether they can benefit from consumer rights when dealing with them. This status must be assessed not merely based on whether the plugin is provided for free or for a fee, but rather based on other factors outlined below.
+    </p>
+    <p>
+        Please note that this information about the status of each plugin developer is mandatory, so we kindly ask for your support.
+    </p>
+    <chapter title="Trader and non-trader status" id="trader-and-non-trader-status">
+        <p>
+            <emphasis>“Non-trader (peer-consumer)” means any natural person who is acting for purposes which are outside his trade, business, craft or profession.</emphasis>
+        </p>
+        <p>
+            <emphasis>“Trader” means any natural person or any legal person, irrespective of whether privately or publicly owned, who is acting, including through any other person acting in his name or on his behalf, for purposes relating to his trade, business, craft or profession.</emphasis>
+        </p>
+        <p>– Directive 2005/29/EC, Art. 2</p>
+        <p>
+            Furthermore, the status of a trader can be determined based on indicative criteria, for example:
+        </p><list>
+            <li>
+                The vendor’s sales are intended to generate profit.
+            </li>
+            <li>
+                The vendor has a legal status which enables them to engage in commercial activities.
+            </li>
+            <li>
+                The vendor is subject to VAT.
+            </li>
+            <li>
+                The vendor, acting on their own behalf or on behalf another person, received remuneration.
+            </li>
+        </list>
+        <p>
+            The European Commission guidance on the further interpretation of the directive can be found <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021XC1229%2804%29&amp;qid=1674657310759">here</a>.
+        </p>
+    </chapter>
+    <chapter title="Examples" id="examples">
+        <p>
+            If you are a natural person acting outside your business (not an entrepreneur) and you offer plugins on JetBrains Marketplace for free, you may be qualified as a non-trader.
+        </p>
+        <p>
+            If you are a natural person (software developer) working for a company, but you develop plugins in your free time as a hobby and offer them for free and provide means for users to support your development on a voluntary basis (<emphasis>voluntary financial contribution</emphasis>), you may be qualified as a non-trader.
+        </p>
+        <p>
+            If you are a for-profit legal entity, regardless of whether you are a private or publicly held entity, you would be directly qualified as a trader.
+        </p>
+        <p>
+            If you are a natural person acting for professional purposes (relating to your trade, business, craft, or profession), you are a trader, and it is immaterial whether you offer some or all of your plugins for free.
+        </p>
+        <p>
+            If you create a plugin in cooperation with other individuals, you make the declaration as an individual vendor, i.e. the person uploading the plugin is the one making the declaration.
+        </p>
+
+    </chapter>
+    <chapter title="Information provided to consumers" id="information-provided-to-consumers">
+        <p>
+            Depending on your status, consumers will be informed that consumer protection laws will (if you are a trader) or will not (if you are not a trader) apply to any contracts concluded between you and them.
+        </p>
+    </chapter>
+    <warning>
+        <p>
+            Please note that it is your responsibility as a vendor to make the declaration of your trader or non-trader status! Please note that this document should serve as guidance. We do not provide further consultations on this topic, nor confirmations regarding your status.
+        </p>
+    </warning>
+
+
+
+</topic>

@@ -1,113 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE product-profile
-        SYSTEM "http://helpserver.labs.intellij.net/help/product-profile.dtd">
-
-<product-profile id="marketplace-docs"
-                 name="JetBrains Marketplace"
-                 status="release"
-                 start-page="about-marketplace.xml">
-
-    <toc-element id="about-marketplace.xml" accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html,paid-plugins-marketplace.html">
-        <toc-element id="benefits-of-jetbrains-marketplace.xml"/>
-        <toc-element id="product-versions-in-use-statistics.xml"/>
-        <toc-element id="legal-agreements.xml">
-             <toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
-             <toc-element toc-title="JetBrains Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
-             <toc-element toc-title="JetBrains Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
-             <toc-element id="reviews-policy.xml"/>
-             <toc-element id="eula.xml"/>
-             <toc-element id="sales-and-technical-support.xml"/>
-             <toc-element id="trader-status.xml"/>
-        </toc-element>
-    </toc-element>
-    <toc-element id="getting-started.xml">
-       <toc-element id="vendor-profile.xml"/>
-       <toc-element id="roles.xml"/>
-       <toc-element id="how-to-buy-a-plugin.xml"/>
-       <toc-element id="community-programs.xml"/>
-        <toc-element id="report-plugin.xml"/>
-    </toc-element>
-    <toc-element id="organizations.xml">
-       <toc-element id="verified-vendor-badge.xml"/>
-       <toc-element id="reserved-plugin-ids.xml"/>
-       <toc-element id="intellij-enterprise-plugin-repositories.xml"/>
-    </toc-element>
-    <toc-element id="publishing-and-listing-your-plugin.xml">
-        <toc-element id="plugin-overview-page.xml" accepts-web-file-names="quality-guidelines.html"/>
-        <toc-element id="uploading-a-new-plugin.xml"/>
-        <toc-element id="hidden-plugin.xml"/>
-        <toc-element id="plugin-updates.xml"/>
-        <toc-element id="custom-release-channels.xml"/>
-        <toc-element id="plugin-stats.xml">
-             <toc-element id="plugins-ranking.xml"/>
-             <toc-element id="plugins-rating.xml"/>
-             <toc-element id="analytics-tab.xml"/>
-             <toc-element id="download-statistics.xml" accepts-web-file-names="unique-downloads.html"/>
-             <toc-element id="identify-user-of-paid-plugin.xml"/>
-        </toc-element>
-        <toc-element id="custom-pages.xml">
-            <toc-element id="how-to-add-custom-pages.xml"/>
-            <toc-element id="documentation-page.xml"/>
-        </toc-element>
-        <toc-element id="semver.xml"/>
-        <toc-element id="plugin-notification-settings.xml"/>
-        <toc-element id="intellij-plugin-recommendations.xml"/>
-        <toc-element id="embeddable-content.md"/>
-        <toc-element id="list-of-common-errors-and-warnings.xml"/>
-    </toc-element>
-    <toc-element id="plugin-monetization.xml" accepts-web-file-names="plugin-types.html">
-        <toc-element id="step-by-step-guide-to-putting-plugin-up-for-sale.xml" accepts-web-file-names="trying-out-the-marketplace.html">
-             <toc-element id="submit-a-request-to-sell-plugins-at-the-marketplace.xml"/>
-             <toc-element id="obtain-a-product-code-from-jetbrains.xml"/>
-             <toc-element id="prepare-your-plugin-for-publication.xml" accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html">
-                 <toc-element id="add-required-parameters.xml"/>
-                 <toc-element id="technical-implementation.xml"/>
-                 <toc-element id="obfuscate-the-plugin.xml"/>
-                 <toc-element id="add-marketplace-license-verification-calls-to-the-plugin-code.xml"/>
-                 <toc-element id="versioning-of-paid-plugins.xml"/>
-                 <toc-element id="inform-your-users-in-advance.xml"/>
-             </toc-element>
-             <toc-element id="release-plugin.xml"/>
-        </toc-element>
-        <toc-element id="freemium.xml" accepts-web-file-names="free-functionality.html"/>
-        <toc-element id="coupon-offers.xml" accepts-web-file-names="discounts-and-offers.html"/>
-        <toc-element id="volume-discount.xml"/>
-        <toc-element id="sales-related-emails.xml" accepts-web-file-names="customer-information-access.html"/>
-        <toc-element id="contributing-to-the-blog.xml"/>
-    </toc-element>
-    <toc-element id="marketplace-demo.xml" accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html">
-        <toc-element id="demo-obtain-creds.xml"/>
-        <toc-element id="demo-prepare-ide.xml"/>
-        <toc-element id="demo-limitations.xml"/>
-        <toc-element id="demo-start-test.xml"/>
-        <toc-element id="marketplace-demo-plugin.xml"/>
-    </toc-element>
-        <toc-element id="billing-and-licensing.xml" accepts-web-file-names="jetbrains-sales-systems.html,business-models.html">
-            <toc-element id="payment-processing.xml" accepts-web-file-names="payments-accountancy-taxes-services.html"/>
-            <toc-element id="license-types-and-schemes.xml" accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html"/>
-            <toc-element id="revenue-sharing-and-fees.xml"/>
-            <toc-element id="getting-paid.xml"/>
-            <toc-element id="pricing-guidelines.xml">
-                <toc-element id="pricing-perception-highlights.xml"/>
-                <toc-element id="software-pricing-strategies.xml">
-                    <toc-element id="cost-plus-pricing.xml"/>
-                    <toc-element id="competitor-based-pricing.xml"/>
-                    <toc-element id="value-based-pricing.xml"/>
-                    <toc-element id="extra-metrics.xml"/>
-                    <toc-element id="pricing-constant-process.xml"/>
-                </toc-element>
-            </toc-element>
-        </toc-element>
-    <toc-element id="api-reference.md">
-        <toc-element id="plugin-upload.md"/>
-        <toc-element id="plugin-update-download.md"/>
-        <toc-element id="plugins-list.md"/>
-        <toc-element id="plugin-details.md"/>
-        <toc-element id="maven-interface.md"/>
-        <toc-element id="plugin-developers-list.md"/>
-        <toc-element id="plugin-repository-rest-client.md"/>
-        <toc-element id="check-license.md"/>
-        <toc-element id="product-codes.md"/>
-        </toc-element>
-        <toc-element id="feedback.xml"/>
-</product-profile>
+<!DOCTYPE instance-profile
+  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/product-profile.dtd'>
+<instance-profile id="marketplace-docs" name="JetBrains Marketplace" status="release" start-page="about-marketplace.topic">
+	<toc-element accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html,paid-plugins-marketplace.html" topic="about-marketplace.topic">
+		<toc-element topic="benefits-of-jetbrains-marketplace.topic"/>
+		<toc-element topic="product-versions-in-use-statistics.topic"/>
+		<toc-element topic="legal-agreements.topic">
+			<toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
+			<toc-element toc-title="JetBrains Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
+			<toc-element toc-title="JetBrains Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
+			<toc-element topic="reviews-policy.topic"/>
+			<toc-element topic="eula.topic"/>
+			<toc-element topic="sales-and-technical-support.topic"/>
+			<toc-element topic="trader-status.topic"/>
+		</toc-element>
+	</toc-element>
+	<toc-element topic="getting-started.topic">
+		<toc-element topic="vendor-profile.topic"/>
+		<toc-element topic="roles.topic"/>
+		<toc-element topic="how-to-buy-a-plugin.topic"/>
+		<toc-element topic="community-programs.topic"/>
+		<toc-element topic="report-plugin.topic"/>
+	</toc-element>
+	<toc-element topic="organizations.topic">
+		<toc-element topic="verified-vendor-badge.topic"/>
+		<toc-element topic="reserved-plugin-ids.topic"/>
+		<toc-element topic="intellij-enterprise-plugin-repositories.topic"/>
+	</toc-element>
+	<toc-element topic="publishing-and-listing-your-plugin.topic">
+		<toc-element accepts-web-file-names="quality-guidelines.html" topic="plugin-overview-page.topic"/>
+		<toc-element topic="uploading-a-new-plugin.topic"/>
+		<toc-element topic="hidden-plugin.topic"/>
+		<toc-element topic="plugin-updates.topic"/>
+		<toc-element topic="custom-release-channels.topic"/>
+		<toc-element topic="plugin-stats.topic">
+			<toc-element topic="plugins-ranking.topic"/>
+			<toc-element topic="plugins-rating.topic"/>
+			<toc-element topic="analytics-tab.topic"/>
+			<toc-element accepts-web-file-names="unique-downloads.html" topic="download-statistics.topic"/>
+			<toc-element topic="identify-user-of-paid-plugin.topic"/>
+		</toc-element>
+		<toc-element topic="custom-pages.topic">
+			<toc-element topic="how-to-add-custom-pages.topic"/>
+			<toc-element topic="documentation-page.topic"/>
+		</toc-element>
+		<toc-element topic="semver.topic"/>
+		<toc-element topic="plugin-notification-settings.topic"/>
+		<toc-element topic="intellij-plugin-recommendations.topic"/>
+		<toc-element topic="embeddable-content.md"/>
+		<toc-element topic="list-of-common-errors-and-warnings.topic"/>
+	</toc-element>
+	<toc-element accepts-web-file-names="plugin-types.html" topic="plugin-monetization.topic">
+		<toc-element accepts-web-file-names="trying-out-the-marketplace.html" topic="step-by-step-guide-to-putting-plugin-up-for-sale.topic">
+			<toc-element topic="submit-a-request-to-sell-plugins-at-the-marketplace.topic"/>
+			<toc-element topic="obtain-a-product-code-from-jetbrains.topic"/>
+			<toc-element accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html" topic="prepare-your-plugin-for-publication.topic">
+				<toc-element topic="add-required-parameters.topic"/>
+				<toc-element topic="technical-implementation.topic"/>
+				<toc-element topic="obfuscate-the-plugin.topic"/>
+				<toc-element topic="add-marketplace-license-verification-calls-to-the-plugin-code.topic"/>
+				<toc-element topic="versioning-of-paid-plugins.topic"/>
+				<toc-element topic="inform-your-users-in-advance.topic"/>
+			</toc-element>
+			<toc-element topic="release-plugin.topic"/>
+		</toc-element>
+		<toc-element accepts-web-file-names="free-functionality.html" topic="freemium.topic"/>
+		<toc-element accepts-web-file-names="discounts-and-offers.html" topic="coupon-offers.topic"/>
+		<toc-element topic="volume-discount.topic"/>
+		<toc-element accepts-web-file-names="customer-information-access.html" topic="sales-related-emails.topic"/>
+		<toc-element topic="contributing-to-the-blog.topic"/>
+	</toc-element>
+	<toc-element accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html" topic="marketplace-demo.topic">
+		<toc-element topic="demo-obtain-creds.topic"/>
+		<toc-element topic="demo-prepare-ide.topic"/>
+		<toc-element topic="demo-limitations.topic"/>
+		<toc-element topic="demo-start-test.topic"/>
+		<toc-element topic="marketplace-demo-plugin.topic"/>
+	</toc-element>
+	<toc-element accepts-web-file-names="jetbrains-sales-systems.html,business-models.html" topic="billing-and-licensing.topic">
+		<toc-element accepts-web-file-names="payments-accountancy-taxes-services.html" topic="payment-processing.topic"/>
+		<toc-element accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html" topic="license-types-and-schemes.topic"/>
+		<toc-element topic="revenue-sharing-and-fees.topic"/>
+		<toc-element topic="getting-paid.topic"/>
+		<toc-element topic="pricing-guidelines.topic">
+			<toc-element topic="pricing-perception-highlights.topic"/>
+			<toc-element topic="software-pricing-strategies.topic">
+				<toc-element topic="cost-plus-pricing.topic"/>
+				<toc-element topic="competitor-based-pricing.topic"/>
+				<toc-element topic="value-based-pricing.topic"/>
+				<toc-element topic="extra-metrics.topic"/>
+				<toc-element topic="pricing-constant-process.topic"/>
+			</toc-element>
+		</toc-element>
+	</toc-element>
+	<toc-element topic="api-reference.md">
+		<toc-element topic="plugin-upload.md"/>
+		<toc-element topic="plugin-update-download.md"/>
+		<toc-element topic="plugins-list.md"/>
+		<toc-element topic="plugin-details.md"/>
+		<toc-element topic="maven-interface.md"/>
+		<toc-element topic="plugin-developers-list.md"/>
+		<toc-element topic="plugin-repository-rest-client.md"/>
+		<toc-element topic="check-license.md"/>
+		<toc-element topic="product-codes.md"/>
+	</toc-element>
+	<toc-element topic="feedback.topic"/>
+</instance-profile>

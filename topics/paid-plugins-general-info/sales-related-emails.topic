@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Sales-related emails and in-product notifications to end users" id="sales-related-emails">
+
+    <p>For plugins sold via JetBrains Marketplace, we take care of sales-related communications like order request confirmations,
+        renewal reminders, invoicing, and refunds.
+        The users of paid plugins on JetBrains Marketplace receive the same automated email campaigns as JetBrains product users,
+        which provides a consistent experience across platforms.
+    </p>
+    <p>
+        We send the following emails to your evaluators and customers:
+    </p>
+    <list>
+            <li>
+                Quote request and quote expiration reminders.
+            </li>
+            <li>
+                License certificates.
+            </li>
+            <li>
+                License expiration messages (90, 45, and 14 days before license expiration for the Subscription Pack, as
+                well as
+                on the date of payment and 7 days after the subscription pack expires.
+            </li>
+        </list>
+    <p>The Subscription Pack serves as a way to co-term subscriptions expiring at different times to the same expiration
+        date. The notification includes information about all products a user is subscribed to, including paid plugins.
+    </p>
+    <p>
+        Here are examples of the emails we send:
+    </p>
+    <img src="email-example.png" alt="Example1" width="1600"/>
+    <img src="email-example-2.png" alt="Example2" width="1478"/>
+
+    <chapter title="In-product Notifications">
+        <p>Users receive notifications about new plugin versions and plugin license and trial expirations right inside
+            their
+            IDE. These messages prompt users to update plugins to the latest version, renew subscriptions, or buy and
+            activate
+            licenses.
+        </p>
+        <img src="email-in-product-notifications.png" alt="In-product Notifications" width="844"/>
+    </chapter>
+
+    <chapter title="Plugin nurturing emails">
+        <p>These are campaigns developed specifically for users of plugins paid via JetBrains Marketplace:</p>
+        <list>
+                <li>
+                    <p>
+                        <b>Welcome email</b>
+                    </p>
+                    <p>
+                        This is delivered to users when they first activate a trial license of a plugin.
+                        This email contains a link to your plugin page, documentation, and bug tracker (if present on
+                        the plugin page).
+                        Please populate the dedicated fields in the plugin page admin settings with the links to these
+                        resources.
+                    </p>
+                    <img src="email-links.png" alt="Links" width="1600"/>
+                </li>
+                <li>
+                    <p>
+                        <b>
+                            Trial expiration reminder
+                        </b>
+                    </p>
+                    <p>
+                        This email is sent at the end of the trial period and directs the user to the plugin pricing
+                        page.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <b>
+                            Rate and review the plugin
+                        </b>
+                    </p>
+                    <p>
+                        This email is sent to plugin users who purchased a plugin a month ago. It encourages them to
+                        rate and review the
+                        plugin.
+                    </p>
+                    <p>
+                        Here’s how the emails look:
+                    </p>
+                    <img src="email-thanks.png" alt="Thank you" width="1600"/>
+                    <img src="email-subscription.png" alt="Your Subscription" width="1600"/>
+                    <img src="email-feedback.png" alt="Your Feedback" width="1600"/>
+                </li>
+            </list>
+    </chapter>
+
+    <chapter title="How can I contact the users of my plugin directly?">
+        <p>According to the <a href="https://plugins.jetbrains.com/legal/terms-of-use">JetBrains Marketplace
+            Agreement</a>,
+            JetBrains can provide you with information about your plugin customers to enable communications related to
+            plugin
+            support, sales-related information like pricing changes, and other necessary emails to keep customers using
+            their
+            plugins. JetBrains applies the data minimization principle in these handovers to make sure only relevant
+            personal
+            data is handed over for these purposes.
+        </p>
+
+        <warning>
+            <p>Please note, that JetBrains doesn't provide you direct access to customer information unless they have
+                purchased the plugin.
+            </p>
+        </warning>
+
+        <p>In order to send product-related emails and marketing offers, you must explicitly get the user's consent.
+            Consider
+            adding a subscription form to your site, implementing an email collecting form in the product, or adding a
+            link
+            to
+            your subscription center on the plugin page.
+        </p>
+        <p>
+            <b>
+                You should also provide a link to your privacy policy. We recommend doing so as a custom link on your
+                plugin
+                page.
+            </b>
+        </p>
+        <img src="email-privacy.png" alt="Privacy Policy" width="1492"/>
+    </chapter>
+
+</topic>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" id="how-to-add-custom-pages" title="How to add Custom Pages">
+
+       <p>Custom pages can only be created for existing plugins. However, it’s still possible to create custom pages even if the plugin hasn’t yet been approved.</p>
+    <p>
+        You can add custom pages with a built-in WYSIWYG editor. Just navigate to the Custom Pages tab on the plugin page and click the <emphasis>Add Custom Page</emphasis> button.
+    </p>
+        <img src="no_custom_page.png" alt="Create a new Custom Page" width="800" border-effect="rounded"/>
+        <p>The following features are available for custom pages:</p>
+        <list>
+                <li>
+                    The Markdown editor
+                </li>
+                <li>
+                    Page previews
+                </li>
+                <li>
+                    The ability to upload images
+                </li>
+                <li>
+                    The ability to save the page as a draft before publishing
+                </li>
+            </list>
+
+        <p>The name and the address of a custom page can be up to 24 symbols long. By default, the address is the same as the page name, but they can be edited separately:</p>
+    <img src="new_custom_page.png" alt="Manage a Custom Page" width="800" border-effect="rounded"/>
+
+    <p>
+        The Markdown editor can be found under the Name field. Click <a href="https://www.markdownguide.org/basic-syntax/">here</a> to learn the basic syntax.
+    </p>
+    <img src="custom_page_functionality.png" alt="Manage a Custom Page" width="800" border-effect="rounded"/>
+
+    <p>You can do the following in this section:</p>
+    <list>
+        <li>Switch between the Markdown editor and preview by clicking the Markdown/Preview selector</li>
+        <li>Save, Publish/Unpublish, and Discard</li>
+        <li>Delete the page by clicking the Remove button with the trash bin icon</li>
+    </list>
+    <p>Once the custom page is saved and published, it will become available for users as a new plugin tab.</p>
+</topic>

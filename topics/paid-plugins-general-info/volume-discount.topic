@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Volume Discounts" id="volume-discount">
+    <p>Offering discounts for larger purchases motivates customers to buy more. It also shows appreciation to repeat or high-volume customers, encouraging them to continue purchasing plugin licenses. While providing a volume discount is entirely up to the vendor, we highly recommend at least considering this option for your plugin sales.
+    </p>
+
+    <note>
+        <p>
+            These discounts can apply to <control>organization</control> licenses only. Keep in mind that previous licenses that the organization bought will also be eligible for the discount.
+        </p>
+    </note>
+    <p>
+        To add volume discounts, navigate to the <emphasis>Sales</emphasis> tab on your plugin page, locate the <emphasis>Volume Discounts</emphasis> section, and click <emphasis>Add Volume Discounts</emphasis>:
+    </p>
+
+    <img src="add-volume-discounts.png" alt="Add Volume Discounts" width="782" border-effect="rounded"/>
+
+    <p>You can specify the range of licenses and the corresponding discount for that quantity. For example, for purchases of at least 10 licenses, apply a discount of 5%</p>
+    <p>Keep in mind that you can create up to three rules to offer different discounts for different license quantities:</p>
+
+    <img src="rules-volume-discount.png" alt="Add rules for volume discounts" width="782" border-effect="rounded"/>
+
+    <p>For organizations, the discount information will be shown on the <emphasis>Pricing</emphasis> tab:</p>
+    <img src="org-volume-discounts.png" alt="Banner about volume discounts" width="782" border-effect="rounded"/>
+</topic>

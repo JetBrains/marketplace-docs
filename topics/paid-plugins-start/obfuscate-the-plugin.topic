@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Obfuscate the plugin" id="obfuscate-the-plugin">
+
+    <p>We recommend obfuscating your paid plugin before uploading it to JetBrains Marketplace. Every application can be
+        hacked,
+        but proper obfuscation makes doing so much harder.
+    </p>
+    <tip>
+        <p>
+            Blog post <a href="https://blog.jetbrains.com/platform/2022/05/the-plugin-obfuscation-experience/">The
+            Plugin Obfuscation
+            Experience
+        </a> discusses using ProGuard.
+        </p>
+    </tip>
+
+    <p>Here are some of the most popular Java obfuscators:</p>
+    <list>
+            <li>
+                ProGuard
+            </li>
+            <li>
+                JODE
+            </li>
+            <li>
+                JavaGuard
+            </li>
+            <li>
+                RetroGuard
+            </li>
+            <li>
+                jarg
+            </li>
+            <li>
+                yGuard
+            </li>
+            <li>
+                ALLATORI
+            </li>
+            <li>
+                DashO
+            </li>
+            <li>
+                Zelix KlassMaster
+            </li>
+        </list>
+
+    <chapter title="Zelix Klassmaster">
+        <p>At JetBrains, we have a lot of experience with <a href="https://www.zelix.com/klassmaster/index.html">Zelix
+            Klassmaster</a>, so
+            we are sharing some information about how to configure it. Information about Zelix configuration and tips
+            for
+            regarding the features is provided by <emphasis>Eugene Zhuravlev</emphasis>, the IntelliJ IDEA developer who
+            implemented the licensing mechanism and JetBrains Marketplace support in IntelliJ IDEA.
+        </p>
+
+        <p>You can find the full documentation <a href="https://www.zelix.com/klassmaster/docs/index.html">here</a>, and
+            we have
+            been using the script file (not the UI tool.)
+        </p>
+
+        <p>This is the configuration for the obfuscator we use for IntelliJ IDEA based products:</p>
+
+        <code-block lang="java">
+                trim deleteSourceFileAttributes=false
+                        deleteDeprecatedAttributes=false
+                        deleteAnnotationAttributes=false
+                        deleteExceptionAttributes=false
+                        deleteDebugExtensionAttributes=true
+                        deleteUnknownAttributes=false
+                        ;
+
+                        obfuscate
+                        changeLogFileOut=&quot;ChangeLog.txt&quot;
+                        keepInnerClassInfo=ifNameNotObfuscated // should be true to allow use of OpenAPI inner classes
+                        keepGenericsInfo=true
+                        aggressiveMethodRenaming=true
+                        obfuscateFlow=aggressive
+                        exceptionObfuscation=heavy
+                        encryptStringLiterals=enhanced
+                        legalIdentifiers=true
+                        lineNumbers=keep
+                        hideFieldNames=false
+                        hideStaticMethodNames=false
+                        randomize=true
+                        methodParameters=keepVisibleIfNotObfuscated
+                        localVariables=keepMethodParametersIfNotObfuscated
+                        methodParameterChanges=flowObfuscate
+                        obfuscateReferences=normal
+                        ;
+            </code-block>
+
+        <p>And these are the most important features:</p>
+
+        <p>
+            <code>trim</code>
+            removes unused fields, methods, and classes. It’s a useful feature, but you should use it carefully.
+            Normally
+            we limit the scope to the licensing packages only. For example, <code>static final</code> constants are
+            normally
+            inlined by the
+            compiler, but the fields and their values are preserved in the code. It might give additional &quot;hints&quot; to
+            those analyzing the bytecode of your plugin.
+        </p>
+
+        <p>
+            <code>obfuscateFlow=aggressive</code>
+            can tangle the control flow in the method, which complicates the addition of
+            hacking code.
+        </p>
+
+        <p>
+            <code>encryptStringLiterals=enhanced</code>
+            is very important. It encrypts the string literals, which also masks
+            reflection calls, hardcoded signatures, and certificates.
+        </p>
+
+        <p>
+            <code>methodParameterChanges=flowObfuscate</code>
+            is an additional protection level that complicates the decryption of
+            scrambled string literals. It creates additional dependencies and connections between classes, which results
+            in
+            protection against getting classes from IntelliJ IDEA Community Edition (open source) and putting it in
+            IntelliJ IDEA Ultimate Edition, expecting them to work.
+        </p>
+
+        <p>
+            <code>obfuscateReferences=normal</code>
+            is important to configure for some packages and classes. If you are calling a
+            method of
+            an object from some package, let's say <code>javax.security.*</code>, the obfuscator will mask this call
+            changing it to
+            the
+            reflection with the encrypted name of the method. With this feature, you are hiding the places where some
+            important
+            libraries are called, and without this feature, it would be very easy to locate these pieces of code via
+            links to the libraries.
+        </p>
+
+        <p>We certainly recommend reading the full documentation to understand how obfuscation works. We believe that
+            the
+            plugins can use more aggressive obfuscation/scrambling than we do in IntelliJ IDEA, as we have a lot of APIs
+            that we
+            have to preserve on our side. Don't be shy about scrambling the code – it increases the protection a lot.
+        </p>
+    </chapter>
+
+    <chapter title="ProGuard">
+        <p>We have tried getting the same result with ProGuard (as it's free), and one of the major drawbacks was the
+            lack
+            of String Obfuscation support (Zelix option <code>encryptStringLiterals=enhanced</code>). Some users
+            complement
+            ProGuard
+            with an additional paid string obfuscator (e.g.<a href="https://jfxstore.com/stringer/"/>), see
+            <a href="https://medium.com/@anujjindal7/android-string-literals-obfuscation-in-code-6700a85d5cd1">this
+                article
+            </a>
+        </p>
+
+        <p>By default, ProGuard can <code>shrink</code>, <code>optimize</code>, <code>obfuscate</code>, and <code>
+            preverify</code>, and all four options are
+            recommended.
+        </p>
+        <p>We would also recommend using <code>-overloadaggressively</code> for more aggressive obfuscation and <code>
+            -applymapping
+            ChangeLog.txt
+        </code> to keep a log of changes. You can learn about more options <a href="https://www.guardsquare.com/en/products/proguard/manual/usage#obfuscationoptions">here</a>.
+        </p>
+    </chapter>
+
+    <chapter title="Other">
+        <p>Similar features surely exist in other Java obfuscators, including free/open-source ones.</p>
+
+        <p>As of now, we haven’t been able to find any Kotlin obfuscators or Java obfuscators with Kotlin support, so we
+            can't
+            recommend much here. We are looking into the situation, and we’ve started working with the Kotlin team to
+            make
+            sure
+            that support for Kotlin is provided on the obfuscator’s side.
+        </p>
+    </chapter>
+
+</topic>

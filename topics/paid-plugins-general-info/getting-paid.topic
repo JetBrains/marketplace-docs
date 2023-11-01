@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="How plugin developers are paid?" id="getting-paid">
+
+    <p>Plugin developers are paid following the rules defined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer
+        Agreement</a>:
+    </p>
+    <list>
+            <li>
+                Up to 30 days after the end-of-the-month (so that all credit cards/etc. settlement periods pass before
+                the payment.)
+            </li>
+            <li>
+                Paid to the bank account.
+            </li>
+            <li>
+                Paid only when it's more than 200$ (or 200€) to limit the number of transactions, paid on 31st December
+                of every year even if it's less than 200$.
+            </li>
+            <li>
+                Paid upon a self-billing invoice issued by JetBrains (so that you don't need to generate it yourself
+                every time, please see Developer Agreement for more information.)
+            </li>
+            <li>
+                Paid in US Dollar (USD) or EURO (EUR).
+            </li>
+        </list>
+
+</topic>

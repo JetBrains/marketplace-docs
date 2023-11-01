@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Cost-Plus Pricing" id="cost-plus-pricing">
+
+    <p>Cost-Plus pricing is a pricing method in which the selling price is set by evaluating all variable costs a
+        company or developer incurs, and then adding a markup percentage to establish the price.
+    </p>
+    <table>
+        <tr>
+            <td>
+                Pros
+            </td>
+            <td>
+                Cons
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Simple, easy to use
+            </td>
+            <td>
+                You won’t necessarily know all your costs
+            </td>
+        </tr>
+        <tr>
+            <td>
+                You will cover your costs
+            </td>
+            <td>
+                As you grow, your costs will increase
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                Costs fluctuate over time but you cannot change the price too frequently
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                The cost-plus price does not consider the demand or competition factors
+            </td>
+        </tr>
+    </table>
+    <p>To calculate a cost-plus price of a software product, it is necessary to take into consideration the following
+        metrics: <emphasis>Cost of Goods Sold</emphasis> (CoGS), <emphasis>Customer Acquisition Cost</emphasis> (CAC),
+        and <emphasis>
+            Desired Margin</emphasis>.
+    </p>
+    <code-block>
+            Cost-Plus Price = CAC per customer + CoGS per customer + Desired Margin
+        </code-block>
+    <p>For plugin developers that do not have any CAC, the formula will look like:</p>
+    <code-block>
+            Cost-Plus Price = CoGS per customer + Desired Margin
+        </code-block>
+
+    <chapter title="Cost of Goods Sold (CoGS)">
+        <p>Software developers might have CoGS such as product development and design, SaaS providers’ fees, cloud
+            infrastructure, customer support, and the costs of the development team. If your business requires physical
+            products, hardware, or custom development, the CoGS will likely be higher.
+        </p>
+        <p>
+            <b>For plugin developers</b>
+            the CoGS may mostly include the amount of development time multiplied by hourly or daily wage and the costs
+            of software used for development.
+        </p>
+        <p>CoGS is usually calculated per customer. For simpler calculations, we may accept that one customer purchases
+            one
+            plugin license. Thus, it is necessary to project the number of plugins sold (in other words, how many people
+            will buy a plugin) per some period of time. This is the trickiest part.
+        </p>
+        <p>To forecast CoGS, it is helpful to answer the following questions:</p>
+        <list>
+                <li>
+                    Who is my target audience?
+                </li>
+                <li>
+                    What is the size of my target audience?
+                </li>
+                <li>
+                    How many people from my target audience will probably buy my plugin?
+                </li>
+                <li>
+                    What is the average customer lifespan (approximate number of months or years that a customer will
+                    use my
+                    plugin)? Sometimes a <b>12-month period</b> is used as a rule of thumb.
+                </li>
+            </list>
+        <p>You can find updated statistics from the <a href="https://www.jetbrains.com/lp/devecosystem-2021/">JetBrains
+            Development
+            Ecosystem
+        </a> survey and <a href="https://insights.stackoverflow.com/survey/2021">StackOverflow</a> to answer some of
+            these questions.
+            For instance, there you can check how many software developers are in different countries, what tools they
+            use, and so on.
+        </p>
+    </chapter>
+
+    <chapter title="Customer Acquisition Cost (CAC)">
+        <p>Customer Acquisition Cost is the average amount of money you have to spend to gain a new paying customer. It
+            is
+            one
+            of the most critical metrics because it is usually higher than CoGS. However, for plugin developers, CAC can
+            be
+            zero
+            if they do not spend money on the plugin promotion. For instance, this may apply if a marketplace takes over
+            all
+            promotional costs.
+        </p>
+        <p>To calculate CAC:</p>
+        <list>
+                <li>
+                    Determine your target months to recover: the period of time that you’d like to recoup your CAC. For
+                    this period,
+                    you can consider the average customer lifespan of 12 months.
+                </li>
+                <li>
+                    Sum your total sales and marketing expenses during that period, including your staff (marketing and
+                    sales team),
+                    advertising expenses, and overhead.
+                </li>
+                <li>
+                    Divide that number by the number of customers you acquired during that time period.
+                </li>
+            </list>
+        <img src="cost-plus-pricing.png" alt="Cost-Plus Pricing" width="1650"/>
+        <p>
+            <b>
+                Source:
+                <a href="https://www.getcheddar.com/blog/cost-plus-pricing-for-saas/">Getcheddar</a>
+            </b>
+        </p>
+    </chapter>
+
+    <chapter title="Desired Margin">
+        <p>Unfortunately, there is no rule of thumb to estimate the net profit margin (residual earnings left after all
+            expenses have been deducted from revenues). It varies depending on the company / business size, region,
+            product
+            features, and so on.
+        </p>
+
+        <p>For example, the SaaS industry is known to have quite a high net profit margin of up to 80%, thanks to low
+            CoGS
+            in
+            comparison with other business models. However, if we look at these
+            <a href="https://medium.com/datadriveninvestor/saas-margins-are-terrible-29ededa27e55">
+                statistics
+            </a>
+            from 75 publicly
+            traded
+            SaaS companies, we can see that in reality their margins range from -62% up to 36%.
+        </p>
+        <p>
+            To decide on the desired net margin, take into consideration the following metrics:
+        </p>
+        <list>
+                <li>
+                    Your desired net profit: the amount of income that remains after accounting for all expenses.
+                </li>
+                <li>
+                    Projected number of plugins sold.
+                </li>
+                <li>
+                    The average customer lifespan.
+                </li>
+                <li>
+                    Competitor-based price.
+                </li>
+                <li>
+                    Value-based price.
+                </li>
+            </list>
+    </chapter>
+    <note>
+        <p>
+            It is not recommended to estimate the plugin price via only cost-based analysis. The time a developer
+            spends on creating a plugin can vary depending on many factors. Therefore, it is also important to pay
+            attention to
+            competitor-based and value-based pricing.
+        </p>
+    </note>
+</topic>

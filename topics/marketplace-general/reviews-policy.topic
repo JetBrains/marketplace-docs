@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Ratings and Reviews Policy" id="reviews-policy">
+
+    <p>We welcome reviews on JetBrains Marketplace. Our ratings and reviews policy aims to foster a positive experience for both vendors and users, so we expect reviews to be helpful, meaningful, and respectful.</p>
+
+       <chapter title="General" id="general">
+           <p>JetBrains Marketplace doesn't verify the authenticity of reviews and ratings. Though <control>only registered users</control> can write a review or rate a plugin. All reviews, replies to reviews, and reviewers’ and repliers’ names are public.</p>
+           <p>The JetBrains Marketplace team may remove any added reviews or replies to reviews if they go against <a anchor="misuse-of-ratings-and-reviews">our policy</a>. When a review is deleted, both the rating and the text are removed, and the overall rating of the plugin is recalculated automatically.</p>
+           <p>It is possible to leave a rating on a scale of one to five stars and add a verbal review. Users must add a review if they want to rate the plugin from 1 to 3 stars. Adding reviews for 4- and 5-star ratings is optional.</p>
+           <img src="3stars.png" alt="Must add a review" width="605"/>
+           <p>Keep in mind that ratings <a href="plugins-ranking.topic">affect</a> plugin rankings in search results.</p>
+
+           <p>A review or reply can be:</p>
+           <list>
+               <li>Upvoted or downvoted by any authorized user.</li>
+               <li><a anchor="reportings-reviews">Reported</a> as inappropriate.</li>
+               <li>Shared to Twitter or Facebook.</li>
+           </list>
+           <p>You can use Markdown formatting when you write your review.</p>
+       </chapter>
+       <chapter title="Notifications" id="notifications">
+           <p>If you are a vendor, each new review of your plugin will trigger a notification sent to your JetBrains Marketplace account email address. The email notification will include the review and some information about the reviewer. Review notifications are enabled by default, but you can turn them off by going to your Marketplace account:</p>
+
+           <img src="review-notifications.png" alt="Notification Settings" width="507"/>
+
+           <p>As a user, you will get a notification sent to your JetBrains Marketplace account email address every time a reply is posted on a review you’ve submitted.</p>
+       </chapter>
+       <chapter title="Guidelines for writing a good review" id="guidelines-for-review">
+           <p>Any reviews on JetBrains Marketplace must be submitted in English and must meet <a anchor="misuse-of-ratings-and-reviews">our guidelines</a>.</p>
+           <p>A good review describes your honest experience of using the plugin, such as what you liked or disliked about it, what you found most valuable, and where you think it can be improved. A good review helps the vendor improve their plugin, and it helps other users make a more informed decision about downloading or buying the plugin</p>
+           <img src="good-review.png" alt="Good review" width="507"/>
+           <p>We <a href="plugin-overview-page.topic" anchor="contacts-and-resources">recommend</a> all vendors add a bug tracker link on their plugin’s page. Many users tend to report technical issues in their reviews, though we ask them to report the issues to the bug tracker instead to get help more quickly. If no bug tracker link is available, we suggest users report their issues to the vendor’s email address.</p>
+           <img src="issue-tracker.png" alt="Report to issue tracker" width="507"/>
+           <p>Reporting a technical issue in the vendor’s bug tracker makes it more likely to be resolved. Once the issue is resolved it can be closed, whereas in the review section the report will still affect the overall rating of the plugin.</p>
+       </chapter>
+       <chapter title="Replying to reviews" id="replying-to-reviews">
+           <p>After someone adds a review for a plugin, the plugin vendor and other users can respond to it.</p>
+           <p>When you reply to reviews as a vendor, this can help potential users to gather more information about their plugin. It also shows your existing and potential users that you are willing to improve the plugin and provide support.</p>
+           <img src="upvote.png" alt="Review example" width="705"/>
+           <p>Not every review requires a reply, but we recommend responding to critical reviews (1 to 3 stars). This would show that you value your users' feedback and care about their experience, even if it was unsatisfactory</p>
+           <p>Please reply calmly and helpfully, even if you disagree with the review.</p>
+       </chapter>
+       <chapter title="Misuse of ratings and reviews" id="misuse-of-ratings-and-reviews">
+           <p>Every review posted on JetBrains Marketplace must comply with the <a href="https://plugins.jetbrains.com/legal/terms-of-use">Terms of Use</a> as well as follow this policy. Anyone who violates this policy may be blocked from posting further reviews or replies to reviews on JetBrains Marketplace.</p>
+           <p>We will consider removing reviews for the following reasons:</p>
+           <chapter title="Spam" id="spam">
+               <p>This includes reviews containing related or unrelated advertisements, links to malicious websites, random comments, or copied material.</p>
+               <p>Copy-and-paste comments will be also removed if they repeat points already made by the same commenter or if they appear to come from a group of users created for the sole purpose of adding fake comments.</p>
+           </chapter>
+
+           <chapter title="Offensive language" id="offensive-language">
+           <p>While constructive criticism is acceptable, offensive language (including profanity) is absolutely prohibited. Please keep your reviews and replies polite, and avoid excessive use of bold type or capital letters.</p>
+           </chapter>
+
+           <chapter title="Harassment" id="harassment">
+           <p>No personal attacks are permitted in reviews or replies. You may express your concerns or criticize constructively but not attack the plugin author or any other commenters.</p>
+           </chapter>
+
+           <chapter title="Violation of privacy" id="violation-of-privacy">
+           <p>Sharing anyone’s private or personally identifiable information is prohibited.</p>
+           </chapter>
+
+           <chapter title="Irrelevant" id="irrelevant">
+           <p>Off-topic comments may be removed. This includes reviews that do not address products, their features or qualities, or the vendor's performance when offering or selling those products. This also applies to reviews that assess the vendor’s qualities outside the business-to-consumer context, such as social responsibility, employment conditions, taxation, market leadership, ethical aspects, and, in specific cases, the business model of the plugin.</p>
+           </chapter>
+
+           <chapter title="Manipulation" id="manipulation">
+           <p>Any attempt to manipulate ratings or reviews is strictly prohibited. You, as a vendor, may request feedback from your users. However, review solicitations that ask for only 5-star ratings and positive reviews are not permitted.</p>
+           </chapter>
+       </chapter>
+       <chapter title="Reporting reviews" id="reportings-reviews">
+           <p>If you stumble on an inappropriate review, or a review that is no longer applicable because the plugin has undergone a significant update, please report it to JetBrains Marketplace team.</p>
+           <p>To do so, go to the review you'd like to report and select “Report as inappropriate”:</p>
+           <img src="report-as-unappropriate.png" alt="Review example" width="305"/>
+           <p>If a review you reported has not been removed within one week, this generally means that we’ve determined it does not violate this policy.</p>
+       </chapter>
+
+</topic>

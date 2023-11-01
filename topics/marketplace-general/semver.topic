@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Semantic Versioning" id="semver">
+
+    <p>
+        <control>SemVer</control>
+        (Semantic Versioning) is a scheme that defines the rules to name the subsequent versions of libraries,
+        projects, products, etc.
+    </p>
+
+    <p>The most straightforward usage case is the following version format:</p>
+    <code-block>MAJOR.MINOR.PATCH</code-block>
+
+    <p>There are also more rules and possibilities to distinguish some builds, like:</p>
+    <code-block>1.8.2-beta.1.10+somebuild</code-block>
+
+    <p>All the available rules that SemVer standard defines can be found in the official documentation at <a href="https://semver.org">https://semver.org</a>.
+    </p>
+
+    <p>To check if the given version number matches SemVer rules, you can use:</p>
+    <list>
+            <li>
+                <a href="https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string">
+                    Regex101 sandboxes
+                </a>
+            </li>
+            <li>An online checker,
+                <a href="https://jubianchi.github.io/semver-check">for example</a>
+            </li>
+        </list>
+
+    <p>SemVer is turned on by default for all new plugins. However, you can manually turn it on for your existing plugin
+        if its versions already match the rules.
+    </p>
+
+    <p>To turn on SemVer for your plugin, tick the <control>SemVer Only</control> option on the plugin page:
+    </p>
+    <img src="semver_ui.png" alt="SemVer Only" width="983"/>
+
+    <p>If you tick this option, JetBrains Marketplace begins checking versions against SemVer rules with the next update
+        upload. If the version meets the rules, JetBrains Marketplace compares the maximum version among existing updates with the
+        new update version. If the existing update has greater version than the new one, the update will be uploaded
+        without changing the plugin page. Otherwise, the following fields will be extracted from the update
+        <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">configuration file —
+            plugin.topic</a>:
+    </p>
+    <list>
+            <li>Plugin URL
+                <code lang="xml">
+                    <![CDATA[<idea-plugin url="">
+                    ]]>
+                </code>
+            </li>
+            <li>Name
+                <code lang="xml">
+                    <![CDATA[<name></name>
+                    ]]>
+                </code>
+            </li>
+            <li>
+                Vendor information
+                <code lang="xml">
+                    <![CDATA[<vendor url="" email=""></vendor>
+                    ]]>
+                </code>
+            </li>
+            <li>
+                Description
+                <code lang="xml">
+                    <![CDATA[<description></description>
+                ]]>
+                </code>
+            </li>
+        </list>
+
+
+    <p>If you try to upload a new update with the non-SemVer version you will receive the following error:</p>
+    <img src="semver_error.png" alt="SemVer Error" width="395"/>
+
+    <p>As of now, the main benefit to turn on the SemVer option is the ability to upload an update with minor fixes
+        without changing the information on the plugin page. In the nearest future we will start sorting updates of the
+        plugins with SemVer enabled by their version. As of now, the updates are sorted by upload timestamp.
+    </p>
+</topic>
