@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="IntelliJ Platform-based IDEs Enterprise Repositories" id="intellij-enterprise-plugin-repositories">
+
+    <p>You can set up your enterprise plugin repositories for IntelliJ Platform-based IDEs (also known as custom plugin
+        repositories.)
+    </p>
+
+    <p>For example, to store plugins that you want to reserve for your company's internal use only.</p>
+
+    <p>
+        <a href="https://www.jetbrains.com/help/idea/managing-enterprise-plugin-repositories.html">Read more</a>
+        about IntelliJ Platform-based IDEs enterprise repositories support.
+    </p>
+</topic>

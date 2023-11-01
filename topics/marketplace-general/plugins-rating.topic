@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugins Rating" id="plugins-rating">
+
+    <p>We use a <emphasis>Bayesian Rating</emphasis> to calculate the rating displayed for each JetBrains Marketplace plugin and within the product. The precise formula we are using is:
+    </p>
+
+    <code-block>bayesianRating = (sum(userRatings) + 2 * meanVote) / (count(userRatings) + 2)</code-block>
+
+    <p>
+        <code>meanVote</code> is an average vote of all plugins on JetBrains Marketplace.
+    </p>
+    <p>It may be confusing that the plugin rating is not 5, while all votes are five stars. However, we use the Bayesian rating to avoid the situation when the plugin with a few 5-star votes is rated higher than the plugins with many diverse votes (not all of them are five stars.)
+    </p>
+
+</topic>

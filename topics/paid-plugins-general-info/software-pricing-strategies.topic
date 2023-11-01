@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Software Pricing Strategies" id="software-pricing-strategies">
+
+    <p>Software pricing is a complex and tricky topic. The price of a software product depends on a variety of factors
+        such as development costs, competition, regional specifics, and others. There are 3 major pricing strategies
+        that can be used to estimate your plugin price. It is recommended to consider all 3 approaches:
+    </p>
+    <list>
+            <li>
+                <b>
+                    <a href="cost-plus-pricing.topic">Cost-plus pricing</a>
+                </b>
+                can be used as a benchmark to validate the lowest price that you can consider.
+            </li>
+            <li>
+                <b>
+                    <a href="competitor-based-pricing.topic">Competitor-based pricing</a>
+                </b>
+                allows you to find out what competitors are charging.
+            </li>
+            <li>
+                <b>
+                    <a href="value-based-pricing.topic">Value-based pricing</a>
+                </b>
+                helps understand the maximum price customers are ready to pay.
+            </li>
+        </list>
+
+</topic>

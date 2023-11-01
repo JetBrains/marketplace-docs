@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Freemium plugins" id="freemium">
+
+    <p>Freemium plugins offer some features at no cost in addition to paid features. The reasons for implementing this
+        model can be different, from helping you attract new users, or simply making some profit without going fully
+        paid.
+    </p>
+    <note>
+        <p>If you're switching the payment model from free to freemium, please <a href="inform-your-users-in-advance.topic">inform your users in advance</a>.
+        </p>
+    </note>
+
+    <chapter title="How does it look for users?" id="how-does-it-look"/>
+
+    <p>Users will see an explanatory note under the <control>Get</control> button that informs them about paid features.
+    </p>
+
+    <img src="free-paid-example.png" alt="An example of how the tag looks like" width="2108"/>
+
+    <p>Starting from 213.* version of IDE, such plugins are marked with the <code>Freemium</code> tag and the <emphasis>
+        “Install a
+        version with limited functionality for free or activate the 30-day trial for full access”
+    </emphasis> note:
+    </p>
+
+    <img src="ide-freemium.png" alt="Freemium tag in IDE" width="1636"/>
+
+    <tip><p>In the older IDE versions freemium plugins have the <code>Freemium</code> tag along with the <code>Paid</code> tag.</p></tip>
+
+    <chapter title="How to make your plugin freemium?" id="how-to-make-your-plugin-freemium"/>
+
+    <list type="decimal">
+        <li>
+            <control>Submit the request and create a product code</control>
+            <p>
+                <a href="submit-a-request-to-sell-plugins-at-the-marketplace.topic">Submit a request</a>
+                by using the <a href="https://plugins.jetbrains.com/build-and-market#form">Apply to JetBrains Marketplace
+            </a> form. After that, you will be contacted by our vendor success team via email with further steps. One of
+                these steps is to create a <a href="obtain-a-product-code-from-jetbrains.topic">Product Code</a> and
+                provide it in the reply.
+            </p>
+        </li>
+        <li>
+            <p>
+                <control>Prepare your plugin</control>
+            </p>
+            <p>Make the following changes to your code to prepare your plugin for publishing:</p>
+            <list>
+                <li><a href="add-required-parameters.topic">Define additional parameters</a></li>
+                <li><a href="add-marketplace-license-verification-calls-to-the-plugin-code.topic">Implement license method</a></li>
+                <li><a href="obfuscate-the-plugin.topic">Obfuscate</a></li>
+            </list>
+        </li>
+        <li>
+            <p>
+                <control>Upload and Release</control>
+            </p>
+            <p>The process of publishing is the same as for paid plugins. Please refer to this guide on <a href="uploading-a-new-plugin.topic">how to upload
+            </a> and <a href="release-plugin.topic">release your plugin</a>.
+            </p>
+        </li>
+    </list>
+
+
+</topic>

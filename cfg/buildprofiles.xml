@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/build-profiles.xsd">
-    <variables>
-        <web-root>https://plugins.jetbrains.com</web-root>
-        <web-community-path>Developer Community:http://www.jetbrains.net/devnet/community/idea/kb</web-community-path>
-        <download-page>https://plugins.jetbrains.com/build-and-market</download-page>
-        <config-download-title>Start Selling Plugins</config-download-title>
-        <config-showDownloadButton>true</config-showDownloadButton>
-        <images-prefix-override>images/</images-prefix-override>
-        <config-disqus-show>false</config-disqus-show>
-        <config-feedback-enabled>true</config-feedback-enabled>
-        <config-feedback-widget>true</config-feedback-widget>
-        <config-feedback-support>mailto:marketplace@jetbrains.com</config-feedback-support>
-        <config-feedback-url>https://data.services.jetbrains.com/feedback</config-feedback-url>
-        <config-webmaster>marketplace@jetbrains.com</config-webmaster>
-        <config-sideblocks>true</config-sideblocks>
-        <config-search-scopes-provider>https://www.jetbrains.com/search/json/</config-search-scopes-provider>
-        <product-web-url>https://plugins.jetbrains.com</product-web-url>
-        <noindex-content-in-release>false</noindex-content-in-release>
-    </variables>
-    <build-profile product="marketplace-docs"/>
-    <footer>
-        <social type="twitter" href="https://twitter.com/JBPlatform/"/>
-        <social type="blog" href="https://blog.jetbrains.com/platform/category/jb-marketplace/"/>
-        <social type="youtube" href="https://www.youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY"/>
-
-        <link href="https://plugins.jetbrains.com/">JetBrains Marketplace</link>
-        <link href="https://plugins.jetbrains.com/slack/">JetBrains Platform Slack</link>
-        <link href="https://jb.gg/ipe">IntelliJ Platform Explorer</link>
-        <link href="https://plugins.jetbrains.com/plugin-ideas/">Plugin Ideas</link>
-    </footer>
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+	<variables>
+		<web-root>https://plugins.jetbrains.com</web-root>
+		<web-community-path>Developer Community:http://www.jetbrains.net/devnet/community/idea/kb</web-community-path>
+		<download-page>https://plugins.jetbrains.com/build-and-market</download-page>
+		<download-title>Start Selling Plugins</download-title>
+		<showDownloadButton>true</showDownloadButton>
+		<images-prefix-override>images/</images-prefix-override>
+		<disqus-show>false</disqus-show>
+		<feedback-enabled>true</feedback-enabled>
+		<feedback-widget>true</feedback-widget>
+		<feedback-support>mailto:marketplace@jetbrains.com</feedback-support>
+		<feedback-url>https://data.services.jetbrains.com/feedback</feedback-url>
+		<webmaster>marketplace@jetbrains.com</webmaster>
+		<sideblocks>true</sideblocks>
+		<search-scopes-provider>https://www.jetbrains.com/search/json/</search-scopes-provider>
+		<product-web-url>https://plugins.jetbrains.com</product-web-url>
+		<noindex-content-in-release>false</noindex-content-in-release>
+	</variables>
+	<build-profile instance="marketplace-docs"/>
+	<footer>
+		<social type="twitter" href="https://twitter.com/JBPlatform/"/>
+		<social type="blog" href="https://blog.jetbrains.com/platform/category/jb-marketplace/"/>
+		<social type="youtube" href="https://www.youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY"/>
+		<link href="https://plugins.jetbrains.com/">JetBrains Marketplace</link>
+		<link href="https://plugins.jetbrains.com/slack/">JetBrains Platform Slack</link>
+		<link href="https://jb.gg/ipe">IntelliJ Platform Explorer</link>
+		<link href="https://plugins.jetbrains.com/plugin-ideas/">Plugin Ideas</link>
+	</footer>
 </buildprofiles>

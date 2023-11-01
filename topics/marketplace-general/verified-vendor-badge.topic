@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Verified Vendor Badge" id="verified-vendor-badge">
+    <p>
+        The <emphasis>Verified Vendor Badge</emphasis> means that JetBrains has confirmed that a profile is authentic and is associated with a particular plugin vendor (a real legal entity or individual). You’ll find the Verified vendor badge on vendor profiles and plugin pages on JetBrains Marketplace.
+    </p>
+    
+    <img src="verified-badge-plugin.png" alt="Kotlin plugin page" width="1260"/>
+    <img src="verified-badge-vendor.png" alt="JetBrains organization page" width="1260"/>
+
+
+
+    <p>
+        The verified vendor badge does not guarantee the quality of plugins, as JetBrains does not verify the quality of verified vendor plugins.
+    </p>
+
+    <p>
+        To become or remain a Verified vendor after July 1, 2023, your profile must include a contact email and information about your <a href="trader-status.topic">trader/non-trader</a> status and must meet the applicable criteria:
+    </p>
+    <list type="decimal">
+            <li>
+                <p><emphasis>For paid plugin vendors</emphasis> – You have been selling at least one paid plugin through JetBrains Marketplace for more than six months and have reached gross sales of at least 500 USD/EUR. If you have registered a business entity, we will verify that you are authorized to do business under that name by requesting you to provide supporting documentation (e.g., incorporation documentation, business or tax registration, or commercial register entries).</p>
+                <p>If you are an individual vendor without a registered business entity, your organization name should match the name specified in the bank details. This allows us to verify the authenticity based on your payment details and proven record with JetBrains Marketplace.</p>
+            </li>
+            <li>
+                <emphasis>For free plugin vendors</emphasis> – You must have a registered business entity, verify that you are authorized to do business under that name by providing supporting documentation (e.g., incorporation documentation, business or tax registration, or commercial register entries), and have at least one plugin on JetBrains Marketplace. Your contact information must include an active email address under a domain associated with your registered business entity.
+            </li>
+        </list>
+    <p>
+        JetBrains may request clarification or additional information and reserves the right to revoke an individual's or organization's Verified status at any time without notice.
+    </p>
+    <p>
+        To apply for the Verified Vendor badge, please send your request to <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> from the email address of your Organization or one of your Organization members, making sure to confirm your Organization's official name. Our Marketplace Support team will be happy to help you.
+    </p>
+    <p>
+        To appeal a rejected application or raise any concerns, please contact JetBrains Marketplace support by emailing <a href="mailto:marketplace@jetbrains.com">
+        marketplace@jetbrains.com</a>.
+    </p>
+
+</topic>
