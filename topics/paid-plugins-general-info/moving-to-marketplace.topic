@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
-<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Moving to the Marketplace from other licensing/billing solutions"
-       id="moving-to-marketplace">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Moving to the Marketplace from other licensing/billing solutions" id="moving-to-marketplace">
 
     <chapter title="When to switch to the Marketplace?">
         <p>We generally recommend switching to JetBrains Marketplace solution with the plugin version update, so that the
             following
             workflow can be followed:
         </p>
-        <p>
-            <list type="decimal">
+        <list type="decimal">
                 <li>
                     Users are using a legacy licensing solution (e.g., until version 1.9.1.)
                 </li>
@@ -29,7 +22,6 @@
                     previous are still available with the old licensing solutions.
                 </li>
             </list>
-        </p>
         <p>
             It might be technically possible to support both licensing mechanisms for some time in a single plugin, but
             it might
@@ -60,8 +52,7 @@
         <p>We have come up with three ways of migration:</p>
 
         <chapter title="GDPR-compliant customers list passed from Plugin Developer to JetBrains">
-            <p>
-                <list type="decimal">
+            <list type="decimal">
                     <li>
                         Plugin Developer reaches out to the customers and obtains explicit permission to transfer their
                         personal data to
@@ -88,12 +79,10 @@
                         soon as your plugin is sold on JetBrains Marketplace.)
                     </li>
                 </list>
-            </p>
         </chapter>
 
         <chapter title="End-user submitting the information directly to JetBrains (verified by Plugin Developer)">
-            <p>
-                <list type="decimal">
+            <list type="decimal">
                     <li>
                         JetBrains publishes a special Landing Page that has a form for personal data submission
                         (everything required for
@@ -117,13 +106,10 @@
                         JetBrains issues the license to the end-user.
                     </li>
                 </list>
-            </p>
         </chapter>
 
-        <chapter title="JetBrains generates special coupon codes to be provided at the check-out by end-user (distributed by Plugin
-    Developer)">
-            <p>
-                <list type="decimal">
+        <chapter title="JetBrains generates special coupon codes to be provided at the check-out by end-user (distributed by Plugin     Developer)">
+            <list type="decimal">
                     <li>
                         Plugin Developer informs JetBrains on the number of existing customers of various types
                         (personal, commercial,
@@ -139,7 +125,6 @@
                         Coupon codes are used by the plugin end-users (customers) to issue a license to their email.
                     </li>
                 </list>
-            </p>
         </chapter>
 
         <note>
@@ -151,8 +136,7 @@
 
     <chapter title="Required information">
         <chapter title="What information do we need to issue licenses for individual customers">
-            <p>
-                <list>
+            <list>
                     <li>
                         First Name
                     </li>
@@ -186,11 +170,9 @@
                         License validity (date from YYYY-MM-DD ... to YYYY-MM-DD)
                     </li>
                 </list>
-            </p>
         </chapter>
         <chapter title="What information will we need to issue licenses for commercial customers">
-            <p>
-                <list>
+            <list>
                     <li>
                         Company Name
                     </li>
@@ -230,7 +212,6 @@
                         Number of licenses (for a bunch of licenses of different validity)
                     </li>
                 </list>
-            </p>
         </chapter>
     </chapter>
     <p>
