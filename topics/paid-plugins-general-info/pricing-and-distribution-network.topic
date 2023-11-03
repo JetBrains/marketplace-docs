@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
-<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Pricing and Distribution Network"
-       id="pricing-and-distribution-network">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Pricing and Distribution Network" id="pricing-and-distribution-network">
 
     ## Pricing
 
-    Plugin vendor is setting the "standard price" aka "list price" (which is a monthly rate for a commercial license and
+    Plugin vendor is setting the &quot;standard price&quot; aka &quot;list price&quot; (which is a monthly rate for a commercial license and
     personal license.) JetBrains calculates yearly price (which is equal to 10 monthly prices), upgrade, bulk purchase,
-    personal license discount, etc. based on the "standard price" set by the vendor (in this case the pricing model is
+    personal license discount, etc. based on the &quot;standard price&quot; set by the vendor (in this case the pricing model is
     consistent across JetBrains products and all third-party plugins), but a vendor can request the prices to be
     calculated
     differently. An example of how the prices are

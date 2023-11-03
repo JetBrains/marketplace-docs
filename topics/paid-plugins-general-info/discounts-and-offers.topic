@@ -1,31 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic
-        SYSTEM "https://resources.jetbrains.com/stardust/html-entities.dtd">
-<topic xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/stardust/topic.v2.xsd"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       title="Discounts and Offers"
-       id="discounts-and-offers">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Discounts and Offers" id="discounts-and-offers">
 
     <p>Discounts and offers can help boost your plugin sales. It can attract more people to your plugin and encourage
         repeat customers. That’s why we’d like to draw your attention to these features and highlight the types of
         offers you can create:
     </p>
 
-    <chapter title="Special offers"
-             id="special-offers"
-             initial-collapse-state="collapsed"
-             hide-from-structure="true"
-             level="3">
-        <p>Custom offers and coupons that you can manage yourself. See <a href="coupon-offers.xml">this article</a> for
+    <chapter title="Special offers" id="special-offers" default-state="collapsed" collapsible="true">
+        <p>Custom offers and coupons that you can manage yourself. See <a href="coupon-offers.topic">this article</a> for
             more information.
         </p>
     </chapter>
 
-    <chapter title="Global offers"
-             id="global-offers"
-             initial-collapse-state="collapsed"
-             hide-from-structure="true"
-             level="3">
+    <chapter title="Global offers" id="global-offers" default-state="collapsed" collapsible="true">
         <p>A discount or special offer that will be available globally. To create such an offer, please send a request
             to <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
         </p>

@@ -38,7 +38,7 @@
                     Evaluate plugin functionality, <a href="check-license.md">license check</a>, etc.
                 </li>
                 <li>
-                    <a href="demo-start-test.topic" anchor="demo-emails">Emails</a>
+                    <a anchor="demo-emails">Emails</a>
                 </li>
             </list>
 
