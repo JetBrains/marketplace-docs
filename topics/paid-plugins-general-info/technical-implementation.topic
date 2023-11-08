@@ -62,7 +62,7 @@
     </chapter>
 
     <chapter title="What should be supported on the plugin side?">
-        <p>First of all, a plugin has to identify itself as a paid JetBrains Marketplace plugin in the <path>plugin.topic</path> providing
+        <p>First of all, a plugin has to identify itself as a paid JetBrains Marketplace plugin in the <path>plugin.xml</path> providing
             <code>productCode</code>, <code>release-date</code>, <code>release-version</code> attributes (you can read
             more about them in <a href="prepare-your-plugin-for-publication.topic">a
                 dedicated

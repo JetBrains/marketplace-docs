@@ -156,7 +156,7 @@
             <img src="description-usage.png" alt="Description" width="2067"/>
             <p>In the next two sections, you can check the <path>Description</path> extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">configuration file
                 —
-                plugin.topic</a>, and add <path>Getting Started</path> instructions.
+                plugin.xml</a>, and add <path>Getting Started</path> instructions.
             </p>
             <img src="embeddables.png" alt="Embeddables" width="2067"/>
             <p>In the <path>Embeddables</path> section, you can copy the code for

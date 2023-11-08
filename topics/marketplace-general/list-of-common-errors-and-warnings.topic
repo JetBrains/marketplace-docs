@@ -108,7 +108,7 @@
         <table style="none">
             <tr>
                 <td>DefaultProperty</td>
-                <td>One of the parameters matches the default value. Ensure that none of the parameters matches the default value in the plugin.topic file.</td>
+                <td>One of the parameters matches the default value. Ensure that none of the parameters matches the default value in the plugin.xml file.</td>
             </tr>
             <tr>
                 <td>TooLongPropertyValue</td>
@@ -132,7 +132,7 @@
             </tr>
             <tr>
                 <td>XIncludeResolutionErrors</td>
-                <td>Failed to resolve <code>xi:include</code> statement in the plugin.topic file. Ensure that the referenced XML file or resource exists and is accessible. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/additional-minor-features.html#file-includes">here</a>.</td>
+                <td>Failed to resolve <code>xi:include</code> statement in the plugin.xml file. Ensure that the referenced XML file or resource exists and is accessible. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/additional-minor-features.html#file-includes">here</a>.</td>
             </tr>
             <tr>
                 <td>InvalidDependencyId</td>
@@ -171,7 +171,7 @@
             </tr>
             <tr>
                 <td>DefaultChangeNotes</td>
-                <td>The changed-notes parameter contains the default value <emphasis>Add change notes here</emphasis> or <emphasis>most HTML</emphasis>. You can update it in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.topic file</a> and upload it to JetBrains Marketplace again.</td>
+                <td>The changed-notes parameter contains the default value <emphasis>Add change notes here</emphasis> or <emphasis>most HTML</emphasis>. You can update it in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a> and upload it to JetBrains Marketplace again.</td>
             </tr>
             <tr>
                 <td>SuspiciousUntilBuild</td>
@@ -183,11 +183,11 @@
             </tr>
             <tr>
                 <td>DuplicatedDependencyWarning</td>
-                <td>There is a duplicated dependency. Remove this dependency by updating the plugin.topic file.</td>
+                <td>There is a duplicated dependency. Remove this dependency by updating the plugin.xml file.</td>
             </tr>
             <tr>
                 <td>SuperfluousNonOptionalDependencyDeclaration</td>
-                <td>Dependency declaration is superfluous. Dependencies are mandatory by default. Update the plugin.topic file and remove <code>optional=\&quot;false\</code> attribute from the dependency parameters.</td>
+                <td>Dependency declaration is superfluous. Dependencies are mandatory by default. Update the <path>plugin.xml</path> file and remove <code>optional=\&quot;false\</code> attribute from the dependency parameters.</td>
             </tr>
             <tr>
                 <td>OptionalDependencyDescriptorResolutionProblem</td>
@@ -195,11 +195,11 @@
             </tr>
             <tr>
                 <td>OptionalDependencyConfigFileNotSpecified</td>
-                <td>Optional dependency declaration should specify <code>\&quot;config-file\&quot;</code>. Declare config-file attribute in addition to optional dependency in the plugin.topic file. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html#optional-plugin-dependencies">here</a>.</td>
+                <td>Optional dependency declaration should specify <code>\&quot;config-file\&quot;</code>. Declare config-file attribute in addition to optional dependency in the <path>plugin.xml</path> file. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html#optional-plugin-dependencies">here</a>.</td>
             </tr>
             <tr>
                 <td>ElementMissingAttribute</td>
-                <td>To define an application-level listener, add the <code>applicationListeners</code> section to your plugin.topic along with <code>topic</code> and <code>class</code> attributes. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-listeners.html#defining-application-level-listeners">here</a>.</td>
+                <td>To define an application-level listener, add the <code>applicationListeners</code> section to your <path>plugin.xml</path> along with <code>topic</code> and <code>class</code> attributes. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-listeners.html#defining-application-level-listeners">here</a>.</td>
             </tr>
         </table>
     </chapter>

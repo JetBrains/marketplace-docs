@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="How to add required parameters for paid plugins" id="add-required-parameters">
 
     <p>Every plugin sold via JetBrains Marketplace must define the following parameters in the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin descriptor
-        (plugin.topic)</a>, which can be found in the <code lang="xml"><![CDATA[<instance-descriptor>]]></code>:
+        (plugin.xml)</a>, which can be found in the <code lang="xml"><![CDATA[<instance-descriptor>]]></code>:
     </p>
     <list type="decimal">
             <li>
@@ -52,7 +52,7 @@
 
                 <p>The initial release of a new plugin will be the first major release. That is why the parameters will
                     look
-                    something like this in the <path>plugin.topic</path> file:
+                    something like this in the <path>plugin.xml</path> file:
                 </p>
                 <code-block lang="xml">
                 <![CDATA[
