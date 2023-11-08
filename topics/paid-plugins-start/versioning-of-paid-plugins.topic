@@ -40,7 +40,7 @@
                 ]]>
             </code-block>
         <note>
-            <p>Please keep in mind that the <code>version</code> parameter can be skipped in the source <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.topic
+            <p>Please keep in mind that the <code>version</code> parameter can be skipped in the source <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml
             </a> file if the Gradle <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-patchpluginxml-version">
                 patchPluginXml
             </a> task is enabled and configured.
@@ -86,7 +86,7 @@
                 to <control>
                     20211
                 </control> when compared/used by the IDE. You can enter it as <control>20211</control> in your
-                plugin.topic from
+                plugin.xml from
                 the very beginning.
             </p>
         </tip>

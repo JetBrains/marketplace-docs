@@ -164,7 +164,7 @@
                 ]]>
             </code-block>
         <p>in the
-            <path>plugin.topic</path>
+            <path>plugin.xml</path>
             file.
         </p>
     </chapter>

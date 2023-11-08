@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin Overview page" id="plugin-overview-page">
 
-<p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.topic</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.</p>
+<p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.xml</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.</p>
 
 <chapter title="Plugin name" id="plugin-name">
 
-<p>The plugin’s name is added in the <path>plugin.topic</path> file, under the <code>name</code> tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).  There is a limitation of max 60 characters, however we strongly recommend using a shorter name.</p>
+<p>The plugin’s name is added in the <path>plugin.xml</path> file, under the <code>name</code> tag. Use a short, relevant, memorable name that’s 1- 4 words long  (max 20 characters).  There is a limitation of max 60 characters, however we strongly recommend using a shorter name.</p>
 
 <table>
     <tr>
@@ -58,14 +58,14 @@
 
 <img src="compatibility.png" alt="Compatibility Overview Page" width="706"/>
 
-<p><a href="https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html">The product compatibility</a> is determined by the <path>plugin.topic</path> file. You can also manually reconfigure the list of compatible products in the admin panel under the General Information section.</p>
+<p><a href="https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html">The product compatibility</a> is determined by the <path>plugin.xml</path> file. You can also manually reconfigure the list of compatible products in the admin panel under the General Information section.</p>
 
 <img src="product-compatibility.png" alt="Compatibility Admin Page" width="706"/>
 </chapter>
 
 <chapter title="Plugin description" id="plugin-description">
 
-<p>The plugin description should be added to the <path>plugin.topic</path> file under the `description` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on <a href="https://plugins.jetbrains.com/">JetBrains Marketplace.</a></p>
+<p>The plugin description should be added to the <path>plugin.xml</path> file under the `description` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on <a href="https://plugins.jetbrains.com/">JetBrains Marketplace.</a></p>
 
 <p>Make sure your description is concise and offers a clear value proposition. It should be easy to understand at a glance what the product offers.</p>
 
@@ -212,7 +212,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <p>Change notes help you track the progress you’ve made on your plugin, introduce new features, announce changes, and recap bug fixes.</p>
 
-<p>To add change notes, write a short summary of the changes in a new plugin version inside the <code>change-notes</code> tag of the <path>plugin.topic</path> file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a <a href="custom-pages.topic">Custom page</a> and providing a link to it or to an external page in the change notes.</p>
+<p>To add change notes, write a short summary of the changes in a new plugin version inside the <code>change-notes</code> tag of the <path>plugin.xml</path> file. The latest change notes will be displayed in the What’s new section of a plugin page and in the Plugin Manager inside IDEs. If there are too many change notes, please consider adding them as a <a href="custom-pages.topic">Custom page</a> and providing a link to it or to an external page in the change notes.</p>
 
 </chapter>
 
@@ -224,7 +224,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <img src="contacts.png" alt="Additional Information" width="720"/>
 
-<p>In order to display your vendor site and email address on the Plugin page, you should fill in the optional <code>url</code> and <code>email</code> attributes in the <path>plugin.topic</path> file:</p>
+<p>In order to display your vendor site and email address on the Plugin page, you should fill in the optional <code>url</code> and <code>email</code> attributes in the <path>plugin.xml</path> file:</p>
 
 <p/><code-block lang="XML">
     <![CDATA[
@@ -234,7 +234,7 @@ that’s less than 5 minutes long. A video can help you improve user interaction
 
 <p>Note that if you have a plugin transferred to an <a href="organizations.topic">Organization</a>, the Vendor link will lead to an organization page. Links to the bug tracker, forum, and source code can be added in an admin panel under the Technical Information section. The license link should be added upon upload (in the Plugin Upload form) and can be edited in the General Information section.</p>
 
-<p>A vendor website can be added in the <path>plugin.topic</path> file:</p>
+<p>A vendor website can be added in the <path>plugin.xml</path> file:</p>
 
 <p/><code-block lang="XML">
 <![CDATA[

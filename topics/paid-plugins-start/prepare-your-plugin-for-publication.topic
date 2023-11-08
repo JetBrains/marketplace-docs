@@ -14,8 +14,7 @@
     <procedure>
         <step>
             <p><a href="add-required-parameters.topic">Define the required parameters</a>
-            in the plugin descriptor (<path>
-            plugin.topic</path>).
+            in the plugin descriptor (<path>plugin.xml</path>).
         </p></step>
         <step>
             <p><a href="add-marketplace-license-verification-calls-to-the-plugin-code.topic">Add JetBrains Marketplace license
@@ -28,7 +27,7 @@
         </p></step>
         <step><p>
             Create an <a href="organizations.topic">Organization</a> and make sure the Organization ID is added to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin descriptor
-            (plugin.topic)</a>.
+            (plugin.xml)</a>.
         </p></step>
     </procedure>
 
