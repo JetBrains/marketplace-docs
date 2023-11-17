@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin Updates" id="plugin-updates">
-
+    <note>
+        <p>Please verify your plugin update’s compatibility with IDEs by using the built-in <a href="https://blog.jetbrains.com/platform/2018/07/plugins-repository-now-integrates-with-the-plugin-verification-tool/?_ga=2.6528434.1031171388.1644822688-1317262229.1616053452">
+            Plugin Verifier
+        </a> as you upload them. To see all of the options for plugin verification, refer to the <a href="https://plugins.jetbrains.com/docs/intellij/api-changes-list.html#verifying-compatibility">
+            documentation</a>.
+        </p>
+    </note>
     <chapter title="How to upload an update" id="update-a-plugin">
-
         <p>In most cases, updates are uploaded automatically using Gradle tasks as described in <a href="https://plugins.jetbrains.com/docs/intellij/deployment.html">Publishing Plugins with Gradle</a>.
         </p>
-        <p>To upload an update manually, click on the <control>Upload Update</control> button in the top left corner:
+        <p>To upload an update manually, click on the <emphasis>Upload Update</emphasis> button in the top left corner:
         </p>
 
-        <img src="upload-update.png" alt="Upload Update button" width="908"/>
-
-        <note>
-            <p>Please verify your plugin update’s compatibility with IDEs by using the built-in <a href="https://blog.jetbrains.com/platform/2018/07/plugins-repository-now-integrates-with-the-plugin-verification-tool/?_ga=2.6528434.1031171388.1644822688-1317262229.1616053452">
-                Plugin Verifier
-            </a> as you upload them. To see all of the options for plugin verification, refer to the <a href="https://plugins.jetbrains.com/docs/intellij/api-changes-list.html#verifying-compatibility">
-                documentation</a>.
-            </p>
-        </note>
-
+        <img src="upload-update.png" alt="Upload Update button" width="800" border-effect="line"/>
+        <p>
+            Then select the prepared archive file:
+        </p>
+        <img src="upload-update-window.png" alt="Upload Update button" height="414" border-effect="line"/>
+        <p>
+            Additionally, you have the option to:
+        </p>
+        <list>
+            <li>Specify a <a href="custom-pages.topic">custom channel</a> or keep the default (Stable) one.</li>
+            <li>Make this update <a href="hidden-plugin.topic">hidden</a> to prevent public release after approval.</li>
+        </list>
         <p>Once the update is successfully uploaded, we will review it to make sure it meets the <a href="https://plugins.jetbrains.com/legal/approval-guidelines">approval criteria</a>. If you have not
             received a notification about the review status within 2 business days, please contact us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com
             </a> or <a href="https://jetbrains-platform.slack.com/messages/C5U6ZNG20">Slack channel</a>.
@@ -26,21 +33,23 @@
 
     <chapter title="How to hide a plugin update" id="hide-a-plugin-update">
 
-        <p>Once the update is approved, it will be publicly available for download. You can hide this update if there
-            are unexpected issues in the build or for any other reasons. Hidden updates are not available via JetBrains
+        <p>
+            Apart from <a href="hidden-plugin.topic" anchor="hide-plugin-update">hiding an update</a> during the upload, you can also hide an existing plugin version that had already been approved and publicly available for some time.
+        </p>
+        <img src="hide-version-icon.png" alt="Hide Version button" width="800" border-effect="line"/>
+        <p>
+            Hidden updates are not available via JetBrains
             Marketplace or IDE search. Such updates can be reached via direct link only.
         </p>
-
-        <img src="hide-update.png" alt="Hide Update button" width="630"/>
-
-        <p>To make the update publicly available just click on the eye icon again.</p>
+        <p>To make the update publicly available just select <emphasis>Unhide version</emphasis> or click on the eye icon again:</p>
+        <img src="unhide-version.png" alt="Unhide Version" width="800" border-effect="line"/>
     </chapter>
     <chapter title="How to remove a plugin update" id="remove-a-plugin-update">
 
-        <p>Plugin version can be easily removed by clicking on the <control>trash can</control> icon:
+        <p>Plugin versions can be easily removed by clicking on the <emphasis>trash can</emphasis> icon:
         </p>
 
-        <img src="remove-update.png" alt="Remove Update button" width="406"/>
+        <img src="remove-update.png" alt="Remove Update button" width="800" border-effect="line"/>
 
         <p>If this icon is not available for this plugin version, it is related to paid or freemium plugins only
             (specifically, to the <code>release-date</code> parameters). Most likely, there are no other updates with
@@ -53,7 +62,7 @@
 
         <p>There is no option to edit the update after submission except for the compatibility range:</p>
 
-        <img src="compatibility-range.png" alt="Edit compatibility range" width="767"/>
+        <img src="compatibility-range.png" alt="Edit compatibility range" width="800" border-effect="line"/>
 
         <p>Use <code>since-build</code> and <code>until-build</code> values to declare the product compatibility of
             specific version range.

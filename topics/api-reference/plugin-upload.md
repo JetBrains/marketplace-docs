@@ -11,6 +11,8 @@ Other parameters:
 * `pluginXmlId` is a unique identifier of the plugin specified as `<id>` in `plugin.xml`. It can be found as a `Plugin XML ID` parameter on the right of the plugin's individual update page and in the `plugin.xml`. (`pluginId` can be used instead, too.)
 
 * `channel` is a release channel the update is published to (empty channel means default `Stable` channel) (optional)
+* 
+* `isHidden` is an option [to make this update hidden](hidden-plugin.topic) to prevent public release after approval (e.g. `-F isHidden=true`). 
 
 ## POST
 
