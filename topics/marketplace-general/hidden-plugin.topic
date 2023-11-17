@@ -1,59 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Hidden Plugin Release" id="hidden-plugin">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Hidden Release" id="hidden-plugin">
 <p>
-    If you need to release a plugin on JetBrains Marketplace silently, without making it publicly available, you can mark it as <emphasis>Hidden</emphasis>. This feature can be beneficial if you want to:
+    If you need to release a plugin or plugin update on JetBrains Marketplace without making it publicly available, you can hide it.
 </p>
+    <p>
+        Hiding a plugin can be beneficial if you want to:
+    </p>
     <list>
             <li>
-                Conduct beta testing (in addition to the <a href="custom-release-channels.topic">custom release channels</a>),
+                Conduct Beta testing in addition to releasing the plugin on <a href="custom-release-channels.topic">custom release channels</a>.
             </li>
             <li>
-                <a href="plugin-overview-page.topic">Set the plugin page</a>, links, media, documentation,
+                <a href="plugin-overview-page.topic">Set up the plugin page</a>, links, media, and documentation before its release.
             </li>
             <li>
-                <a href="https://plugins.jetbrains.com/legal/approval-guidelines">Pass the approval process</a> before the planned public release,
+                <a href="https://plugins.jetbrains.com/legal/approval-guidelines">Pass the approval process</a> before the plugin’s planned public release.
             </li>
             <li>
-                Prepare the <a href="plugin-monetization.topic">monetization</a> of your plugin beforehand.
+                Prepare the <a href="plugin-monetization.topic">monetization</a> of your plugin before publishing it.
             </li>
         </list>
 
 <chapter id="hide-plugin" title="How to hide a plugin">
     <p>
-        To hide a plugin, you need to add Hidden flag during the <a href="uploading-a-new-plugin.topic">initial upload</a> of the plugin on JetBrains Marketplace. This flag will ensure that the plugin will not appear in the search results of JetBrains Marketplace, IDE plugin manager, and search engines.
+        To hide a plugin, you simply need to add the <emphasis>Hidden</emphasis> flag during the plugin’s <a href="uploading-a-new-plugin.topic">initial upload</a> process. This flag ensures that the plugin will not appear in the search results of JetBrains Marketplace, IDE plugin managers, and search engines.
     </p>
-    <img src="upload-new-plugin.png" alt="Upload a hidden plugin" width="490"/>
-    <warning>
+    <img src="upload-new-plugin.png" alt="Upload a hidden plugin" width="490" border-effect="line"/>
+    <note>
         <p>
-            Plugin can only be hidden on the initial upload. It is not possible to hide an existing plugin.
+            A plugin can be hidden only during the initial upload process. It’s not possible to hide an existing plugin.
         </p>
-    </warning>
+    </note>
     <p>
-        Users can still access and download the plugin if provided with a direct link. The plugin can be found on your author's page, on the Organization page if the plugin is added to it, or if other plugins use it as a dependency.
+        However, users can still access and download a hidden plugin with a direct link. The plugin can be found on your profile page, on the <a href="organizations.topic">Organization</a> page if the plugin has been added to your Organization, and on the pages of other plugins that use it as a <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html">dependency</a>.
     </p>
     <p>
-        The lifecycle of a hidden plugin is the same as that of a usual one. Once uploaded, it is reviewed and approved by the JetBrains Marketplace team. You can make your plugin a paid one, upload new updates, and manage other settings. Plugin approval or transition to a paid model won't unhide the plugin, so you can have a fully prepared plugin before the public release. You can also remove your plugin while still in a hidden state.
+        The lifecycle of a hidden plugin is the same as that of a publicly available one. Once uploaded, it is reviewed for approval by the JetBrains Marketplace team. As with publicly available plugins, you can choose a payment model for your hidden plugin, upload new updates, and manage other settings. Plugin approval or transition to a paid model won't unhide the plugin, so you can have a fully prepared plugin before its public release. You can also remove your plugin while it’s hidden.
     </p>
 </chapter>
 <chapter id="unhide-plugin" title="How to unhide a plugin">
-    <p>
-        To unhide your plugin, you need to remove the Hidden flag from the plugin's page on JetBrains Marketplace. After this, the plugin becomes available to the public, and users can easily find it in the plugin manager of the IDE and on the Marketplace website. It might take some time for third-party search engines to index the plugin page.
-    </p>
     <warning>
         <p>
-            It is important to note that unhiding a plugin cannot be reversed. Make sure your plugin is ready for public release.
+            Unhiding a plugin can’t be reversed, so make sure your plugin is ready for public release before unhiding it.
         </p>
     </warning>
     <p>
-        To unhide the plugin, click the <control>Publish Plugin</control> button:
+        To unhide your plugin, click the <emphasis>Publish Plugin</emphasis> link on the plugin’s page:
     </p>
-    <img src="plugin_hidden.png" alt="Hidden plugin" width="1267"/>
+    <img src="plugin_hidden.png" alt="Hidden plugin" width="867" border-effect="line"/>
     <p>
-        After that, confirm the action:
+        Then, click the <emphasis>Confirm</emphasis> link:
     </p>
-    <img src="plugin_hidden_confirm.png" alt="Confirm unhiding" width="1267"/>
+    <img src="plugin_hidden_confirm.png" alt="Confirm unhiding" width="867" border-effect="line"/>
     <p>
-        And then, your plugin becomes available:
+        Your plugin will now become available to the public, and users can easily find it in the IDE’s plugin manager and on Marketplace. It might take some time for third-party search engines to index the plugin page.
     </p>
-    <img src="pluign_unhidden.png" alt="Plugin released" width="1267"/>
 </chapter>
+
+    <chapter id="hide-plugin-update" title="How to hide a plugin update">
+        <p>
+            Since every plugin update is reviewed by our support team, plugin developers do not have control over their release schedule on JetBrains Marketplace. That’s why hiding the plugin update may help you release new plugin versions independent of approval from our team.
+        </p>
+        <p>
+            To hide an update, check the <emphasis>Make Hidden</emphasis> option on the upload form:
+        </p>
+        <img src="hidden-update.png" alt="Hidden update" height="422" border-effect="line"/>
+        <p>This will ensure that this plugin version won’t be released publicly after its approval.</p>
+        <p>
+            Additionally, there is an option to hide an already existing plugin version. Simply navigate to the <emphasis>Versions</emphasis> tab on the plugin’s page, select the plugin version in question, and click on the <emphasis>Hide version</emphasis> icon:
+        </p>
+        <img src="hide-version-icon.png" alt="Hide version" width="721" border-effect="line"/>
+        <p>
+            This won’t affect users who have already installed this version, but new users won't be able to download it unless you provide the direct link to this version.
+        </p>
+    </chapter>
+    <chapter id="unhide-plugin-update" title="How to unhide a plugin update">
+        <p>
+            To unhide a plugin update, go to the <emphasis>Versions</emphasis> tab on the plugin page, locate the update in question, and click the <emphasis>Unhide version</emphasis> link:
+        </p>
+        <img src="unhide-version.png" alt="Unhide version" width="721" border-effect="line"/>
+        <p>
+            This plugin version will then become available to the public, and users will see an update suggestion in the IDE.
+        </p>
+        <note>
+            <p>
+                You can hide and unhide plugin versions at any time. However, you can’t hide a paid or freemium plugin’s only available version.
+            </p>
+        </note>
+    </chapter>
 </topic>
