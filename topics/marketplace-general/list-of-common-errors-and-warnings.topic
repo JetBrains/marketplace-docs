@@ -1,208 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="List of common errors and warnings" id="list-of-common-errors-and-warnings">
-        <p>If you encounter any issues during the plugin upload, there's no need to worry. Our documentation provides clear and helpful steps to promptly resolve these issues.</p>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Common errors and warnings" id="list-of-common-errors-and-warnings">
+        <p>If you encounter any issues during the plugin upload, there's no need to worry. Our error messages include concise and actionable steps for resolution, but if something remains unclear, feel free to reach out to us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a></p>
     <chapter title="Errors with compatibility range:" id="errors-with-compatibility-range">
-        <table style="none">
-            <tr>
-                <td>
-                    SinceBuildNotSpecified
-                </td>
-                <td>
-                    The <code>since-build</code> parameter is not specified. Follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify it correctly.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    InvalidSinceBuild
-                </td>
-                <td>
-                    The <code>since-build</code> parameter format is invalid. Ensure it is greater than <code>130</code>, it does not end with a dot star suffix <code>.*</code> and represents <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">the actual build numbers</a>.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    InvalidUntilBuild
-                </td>
-                <td>
-                    The <code>until-build</code> parameter format is invalid. Ensure it represents the actual build numbers and follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify the build number ranges correctly.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    SinceBuildGreaterThanUntilBuild
-                </td>
-                <td>
-                    The <code>since-build</code> parameter is greater than the <code>until-build</code> parameter. Ensure that you follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify the build number ranges correctly.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    ErroneousSinceBuild
-                </td>
-                <td>
-                    The <code>since-build</code> parameter does not match the multi-part build number format: <code>branch.build_number.version</code>, for example, '182.4132.789'. For detailed info refer <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a>.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    ErroneousUntilBuild
-                </td>
-                <td>
-                    The <code>until-build</code> parameter does not match the multi-part build number format: <code>branch.build_number.version</code>, for example, '182.4132.789'. For detailed info refer <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a>.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    ProductCodePrefixInBuild
-                </td>
-                <td>
-                    The <code>since-build</code> and <code>until-build</code> parameters must not contain product code prefix. Follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify the build number ranges correctly.
-                </td>
-            </tr>
-        </table>
+        <deflist style="full" sorted="desc">
+            <def title="SinceBuildNotSpecified" id="SinceBuildNotSpecified">
+                The <code>since-build</code> parameter is not specified. Follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify it correctly.
+            </def>
+            <def title="InvalidSinceBuild" id="InvalidSinceBuild">
+                The <code>since-build</code> parameter format is invalid. Ensure it is greater than <code>130</code>, it does not end with a dot star suffix <code>.*</code> and represents <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">the actual build numbers</a>.
+            </def>
+            <def title="InvalidUntilBuild" id="InvalidUntilBuild">
+                The <code>until-build</code> parameter format is invalid. Ensure it represents the actual build numbers and follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify the build number ranges correctly.
+            </def>
+            <def title="SinceBuildGreaterThanUntilBuild" id="SinceBuildGreaterThanUntilBuild">
+                The <code>since-build</code> parameter is greater than the <code>until-build</code> parameter. Ensure that you follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify the build number ranges correctly.
+            </def>
+            <def title="ErroneousSinceBuild" id="ErroneousSinceBuild">
+                The <code>since-build</code> parameter does not match the multi-part build number format: <code>branch.build_number.version</code>, for example, '182.4132.789'. For detailed info refer <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a>.
+            </def>
+            <def title="ErroneousUntilBuild" id="ErroneousUntilBuild">
+                The <code>until-build</code> parameter does not match the multi-part build number format: <code>branch.build_number.version</code>, for example, '182.4132.789'. For detailed info refer <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a>.
+            </def>
+            <def title="ProductCodePrefixInBuild" id="ProductCodePrefixInBuild">
+                The <code>since-build</code> and <code>until-build</code> parameters must not contain product code prefix. Follow the requirements described <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">here</a> to specify the build number ranges correctly.
+            </def>
+        </deflist>
     </chapter>
+
     <chapter title="Errors with the plugin archive file:" id="errors-with-plugin-archive">
-        <table style="none">
-            <tr>
-                <td>UnableToExtractZip</td>
-                <td>The plugin archive file cannot be extracted. Ensure it has been <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">assembled correctly</a>. If the error persists, please contact our support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.</td>
-            </tr>
-            <tr>
-                <td>UnableToReadPluginFile</td>
-                <td>The system was unable to read the archive file. Ensure it has been <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">assembled correctly</a>.If the error persists, please contact our support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.</td>
-            </tr>
-            <tr>
-                <td>PluginFileSizeIsTooLarge</td>
-                <td>The plugin file size exceeds the maximum limit of 400MB. Ensure that the plugin file is compressed and meets the maximum size limit. </td>
-            </tr>
-            <tr>
-                <td>PluginZipIsEmpty</td>
-                <td>The plugin file is empty. Ensure that the plugin file is not corrupted or incomplete. If the issue persists, please contact our support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.</td>
-            </tr>
-            <tr>
-                <td>PluginLibDirectoryIsEmpty</td>
-                <td>The <code>lib</code> directory must not be empty. Ensure that the libraries are defined correctly. You may refer to <a href="https://plugins.jetbrains.com/docs/intellij/library.html">the documentation</a> for guidance.</td>
-            </tr>
-            <tr>
-                <td>PluginZipContainsUnknownFile</td>
-                <td>The plugin archive file contains an unexpected file. It must contain a directory. Please use <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">Gradle</a> or <a href="https://plugins.jetbrains.com/docs/intellij/deploying-theme.html">Plugin DevKit</a> to build the plugin distribution. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.</td>
-            </tr>
-            <tr>
-                <td>PluginZipContainsSingleJarInRoot</td>
-                <td>The plugin archive file contains a single .jar file in the root folder. The plugin .jar file should be placed in the <code>/lib</code> folder within the plugin's root directory, along with all the required bundled libraries. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.</td>
-            </tr>
-            <tr>
-                <td>UnexpectedPluginZipStructure</td>
-                <td>Unexpected plugin archive file structure. The plugin .jar file should be placed in the <code>/lib</code> folder within the plugin's root directory, along with all the required bundled libraries. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.</td>
-            </tr>
-            <tr>
-                <td>PluginZipContainsMultipleFiles</td>
-                <td>The plugin root directory must not contain multiple files. The plugin .jar file should be placed in the <code>/lib</code> folder within the plugin's root directory, along with all the required bundled libraries. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>. </td>
-            </tr>
-            <tr>
-                <td>IncorrectPluginFile</td>
-                <td>The plugin archive contains an unexpected file. Please use <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">Gradle</a> or <a href="https://plugins.jetbrains.com/docs/intellij/deploying-theme.html">Plugin DevKit</a> to build the plugin distribution. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.</td>
-            </tr>
-        </table>
+        <deflist style="full" sorted="desc">
+            <def title="UnableToExtractZip" id="UnableToExtractZip">
+                The plugin archive file cannot be extracted. Ensure it has been <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">assembled correctly</a>. If the error persists, please contact our support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+            </def>
+            <def title="UnableToReadPluginFile" id="UnableToReadPluginFile">
+                The system was unable to read the archive file. Ensure it has been <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">assembled correctly</a>. If the error persists, please contact our support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+            </def>
+            <def title="PluginFileSizeIsTooLarge" id="PluginFileSizeIsTooLarge">
+                The plugin file size exceeds the maximum limit of 400MB. Ensure that the plugin file is compressed and meets the maximum size limit.
+            </def>
+            <def title="PluginZipIsEmpty" id="PluginZipIsEmpty">
+                The plugin file is empty. Ensure that the plugin file is not corrupted or incomplete. If the issue persists, please contact our support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+            </def>
+            <def title="PluginLibDirectoryIsEmpty" id="PluginLibDirectoryIsEmpty">
+                The <code>lib</code> directory must not be empty. Ensure that the libraries are defined correctly. You may refer to <a href="https://plugins.jetbrains.com/docs/intellij/library.html">the documentation</a> for guidance.
+            </def>
+            <def title="PluginZipContainsUnknownFile" id="PluginZipContainsUnknownFile">
+                The plugin archive file contains an unexpected file. It must contain a directory. Please use <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">Gradle</a> or <a href="https://plugins.jetbrains.com/docs/intellij/deploying-theme.html">Plugin DevKit</a> to build the plugin distribution. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.
+            </def>
+            <def title="PluginZipContainsSingleJarInRoot" id="PluginZipContainsSingleJarInRoot">
+                The plugin archive file contains a single .jar file in the root folder. The plugin .jar file should be placed in the <code>/lib</code> folder within the plugin's root directory, along with all the required bundled libraries. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.
+            </def>
+            <def title="UnexpectedPluginZipStructure" id="UnexpectedPluginZipStructure">
+                Unexpected plugin archive file structure. The plugin .jar file should be placed in the <code>/lib</code> folder within the plugin's root directory, along with all the required bundled libraries. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.
+            </def>
+            <def title="PluginZipContainsMultipleFiles" id="PluginZipContainsMultipleFiles">
+                The plugin root directory must not contain multiple files. The plugin .jar file should be placed in the <code>/lib</code> folder within the plugin's root directory, along with all the required bundled libraries. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.
+            </def>
+            <def title="IncorrectPluginFile" id="IncorrectPluginFile">
+                The plugin archive contains an unexpected file. Please use <a href="https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html#tasks-buildplugin">Gradle</a> or <a href="https://plugins.jetbrains.com/docs/intellij/deploying-theme.html">Plugin DevKit</a> to build the plugin distribution. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-content.html">here</a>.
+            </def>
+        </deflist>
     </chapter>
     <chapter title="Errors with the plugin configuration file:" id="errors-with-plugin-config-file">
-        <table style="none">
-            <tr>
-                <td>DefaultProperty</td>
-                <td>One of the parameters matches the default value. Ensure that none of the parameters matches the default value in the plugin.xml file.</td>
-            </tr>
-            <tr>
-                <td>TooLongPropertyValue</td>
-                <td>One of the parameters is too long and exceeds the maximum allowed character limit.</td>
-            </tr>
-            <tr>
-                <td>ShortDescription</td>
-                <td>The plugin description is shorter than 40 characters. Please provide a more detailed description of the plugin along with usage instructions. You may refer to our recommendations <a href="https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description">here</a>. </td>
-            </tr>
-            <tr>
-                <td>NonLatinDescription</td>
-                <td>The plugin description contains non-Latin characters. If you'd like to keep the description in any other language, then the one in English must be the first one and in the first line. You may refer to our recommendations <a href="https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description">here</a>.</td>
-            </tr>
-            <tr>
-                <td>HttpLinkInDescription</td>
-                <td>The plugin description contains a full HTTP link, which can cause issues with display or functionality. Ensure all links in description are provided in HTTPS.</td>
-            </tr>
-            <tr>
-                <td>ReleaseDateWrongFormat</td>
-                <td>The <code>release-date</code> parameter must be of YYYYMMDD format (type: integer). Keep in mind that this is required for paid/freemium plugins only. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/marketplace/add-required-parameters.html">here</a>.</td>
-            </tr>
-            <tr>
-                <td>XIncludeResolutionErrors</td>
-                <td>Failed to resolve <code>xi:include</code> statement in the plugin.xml file. Ensure that the referenced XML file or resource exists and is accessible. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/additional-minor-features.html#file-includes">here</a>.</td>
-            </tr>
-            <tr>
-                <td>InvalidDependencyId</td>
-                <td>The dependency ID is invalid. It cannot be empty and must not contain newline characters. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html#idea-plugin__depends">here</a>.</td>
-            </tr>
-            <tr>
-                <td>OptionalDependencyDescriptorCycleProblem</td>
-                <td>The declared optional dependencies configuration files contain cycle. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html#optional-plugin-dependencies">here</a>.</td>
-            </tr>
-            <tr>
-                <td>InvalidModuleBean</td>
-                <td>The <code>module value</code> parameter is empty. It must be specified as <code>module value=\&quot;my.module\&quot;/</code>. </td>
-            </tr>
-            <tr>
-                <td>UnableToFindTheme</td>
-                <td>The <a href="https://plugins.jetbrains.com/docs/intellij/themes-customize.html#introduction-to-theme-description-file-syntax">theme description file</a> cannot be found. Ensure the theme description file is present and follows the JSON open-standard file format of key-value pairs. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/marketplace/add-required-parameters.html">here</a>.</td>
-            </tr>
-            <tr>
-                <td>UnableToReadTheme</td>
-                <td>The theme description file cannot be read. Ensure the theme description file is present and follows the JSON open-standard file format of key-value pairs. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/marketplace/add-required-parameters.html">here</a>.</td>
-            </tr>
-        </table>
+        <deflist style="full" sorted="desc">
+            <def title="DefaultProperty" id="DefaultProperty">
+                One of the parameters matches the default value. Ensure that none of the parameters matches the default value in the plugin.xml file.
+            </def>
+            <def title="TooLongPropertyValue" id="TooLongPropertyValue">
+                One of the parameters is too long and exceeds the maximum allowed character limit.
+            </def>
+            <def title="ShortDescription" id="ShortDescription">
+                The plugin description is shorter than 40 characters. Please provide a more detailed description of the plugin along with usage instructions. You may refer to our recommendations <a href="https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description">here</a>.
+            </def>
+            <def title="NonLatinDescription" id="NonLatinDescription">
+                The plugin description contains non-Latin characters. If you'd like to keep the description in any other language, then the one in English must be the first one and in the first line. You may refer to our recommendations <a href="https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description">here</a>.
+            </def>
+            <def title="HttpLinkInDescription" id="HttpLinkInDescription">
+                The plugin description contains a full HTTP link, which can cause issues with display or functionality. Ensure all links in description are provided in HTTPS.
+            </def>
+            <def title="ReleaseDateWrongFormat" id="ReleaseDateWrongFormat">
+                The <code>release-date</code> parameter must be of YYYYMMDD format (type: integer). Keep in mind that this is required for paid/freemium plugins only. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/marketplace/add-required-parameters.html">here</a>.
+            </def>
+            <def title="XIncludeResolutionErrors" id="XIncludeResolutionErrors">
+                Failed to resolve <code>xi:include</code> statement in the plugin.xml file. Ensure that the referenced XML file or resource exists and is accessible. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/additional-minor-features.html#file-includes">here</a>.
+            </def>
+            <def title="InvalidDependencyId" id="InvalidDependencyId">
+                The dependency ID is invalid. It cannot be empty and must not contain newline characters. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html#idea-plugin__depends">here</a>.
+            </def>
+            <def title="OptionalDependencyDescriptorCycleProblem" id="OptionalDependencyDescriptorCycleProblem">
+                The declared optional dependencies configuration files contain cycle. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html#optional-plugin-dependencies">here</a>.
+            </def>
+            <def title="InvalidModuleBean" id="InvalidModuleBean">
+                The <code>module value</code> parameter is empty. It must be specified as <code>module value=\&quot;my.module\&quot;/</code>.
+            </def>
+            <def title="UnableToFindTheme" id="UnableToFindTheme">
+                The <a href="https://plugins.jetbrains.com/docs/intellij/themes-customize.html#introduction-to-theme-description-file-syntax">theme description file</a> cannot be found. Ensure the theme description file is present and follows the JSON open-standard file format of key-value pairs. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/marketplace/add-required-parameters.html">here</a>.
+            </def>
+            <def title="UnableToReadTheme" id="UnableToReadTheme">
+                The theme description file cannot be read. Ensure the theme description file is present and follows the JSON open-standard file format of key-value pairs. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/marketplace/add-required-parameters.html">here</a>.
+            </def>
+        </deflist>
     </chapter>
     <chapter title="Warnings" id="warnings">
         <note>
             <p>While it is allowed to upload a plugin with such warnings, we highly recommend addressing them in the next updates.</p>
         </note>
-        <table style="none">
-            <tr>
-                <td>TemplateWordInPluginName</td>
-                <td> The plugin name contains the template word. Ensure the plugin name meets the <a href="https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name">following requirements</a>.</td>
-            </tr>
-            <tr>
-                <td>NoModuleDependencies</td>
-                <td>The plugin configuration file does not include any module dependency tags. So, the plugin is assumed to be a legacy plugin and is loaded only in IntelliJ IDEA. Please note that plugins should declare a dependency on <code>com.intellij.modules.platform</code> to indicate dependence on shared functionality, refer to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html">the documentation on plugin compatibility</a>.</td>
-            </tr>
-            <tr>
-                <td>DefaultChangeNotes</td>
-                <td>The changed-notes parameter contains the default value <emphasis>Add change notes here</emphasis> or <emphasis>most HTML</emphasis>. You can update it in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a> and upload it to JetBrains Marketplace again.</td>
-            </tr>
-            <tr>
-                <td>SuspiciousUntilBuild</td>
-                <td>The <code>until-build</code> does not represent the actual build number. If you want your plugin to be compatible with all future IDEs, you can leave this field empty.  However, we highly <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">recommend</a> setting it to the latest available IDE version. </td>
-            </tr>
-            <tr>
-                <td>ElementAvailableOnlySinceNewerVersion</td>
-                <td>The specified element is available starting from specific IDEs versions but the plugin can be installed in earlier versions.</td>
-            </tr>
-            <tr>
-                <td>DuplicatedDependencyWarning</td>
-                <td>There is a duplicated dependency. Remove this dependency by updating the plugin.xml file.</td>
-            </tr>
-            <tr>
-                <td>SuperfluousNonOptionalDependencyDeclaration</td>
-                <td>Dependency declaration is superfluous. Dependencies are mandatory by default. Update the <path>plugin.xml</path> file and remove <code>optional=\&quot;false\</code> attribute from the dependency parameters.</td>
-            </tr>
-            <tr>
-                <td>OptionalDependencyDescriptorResolutionProblem</td>
-                <td>The configuration file for optional dependency prefix failed to be resolved and is invalid. Double-check the declared optional dependency to avoid any issues with the plugin functionality.</td>
-            </tr>
-            <tr>
-                <td>OptionalDependencyConfigFileNotSpecified</td>
-                <td>Optional dependency declaration should specify <code>\&quot;config-file\&quot;</code>. Declare config-file attribute in addition to optional dependency in the <path>plugin.xml</path> file. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html#optional-plugin-dependencies">here</a>.</td>
-            </tr>
-            <tr>
-                <td>ElementMissingAttribute</td>
-                <td>To define an application-level listener, add the <code>applicationListeners</code> section to your <path>plugin.xml</path> along with <code>topic</code> and <code>class</code> attributes. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-listeners.html#defining-application-level-listeners">here</a>.</td>
-            </tr>
-        </table>
+        <deflist style="full" sorted="desc">
+            <def title="TemplateWordInPluginName" id="TemplateWordInPluginName">
+                The plugin name contains the template word. Ensure the plugin name meets the <a href="https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name">following requirements</a>.
+            </def>
+            <def title="NoModuleDependencies" id="NoModuleDependencies">
+                The plugin configuration file does not include any module dependency tags. So, the plugin is assumed to be a legacy plugin and is loaded only in IntelliJ IDEA. Please note that plugins should declare a dependency on <code>com.intellij.modules.platform</code> to indicate dependence on shared functionality, refer to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html">the documentation on plugin compatibility</a>.
+            </def>
+            <def title="DefaultChangeNotes" id="DefaultChangeNotes">
+                The changed-notes parameter contains the default value <emphasis>Add change notes here</emphasis> or <emphasis>most HTML</emphasis>. You can update it in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a> and upload it to JetBrains Marketplace again.
+            </def>
+            <def title="SuspiciousUntilBuild" id="SuspiciousUntilBuild">
+                The <code>until-build</code> does not represent the actual build number. If you want your plugin to be compatible with all future IDEs, you can leave this field empty.  However, we highly <a href="https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html">recommend</a> setting it to the latest available IDE version.
+            </def>
+            <def title="ElementAvailableOnlySinceNewerVersion" id="ElementAvailableOnlySinceNewerVersion">
+                The specified element is available starting from specific IDEs versions but the plugin can be installed in earlier versions.
+            </def>
+            <def title="DuplicatedDependencyWarning" id="DuplicatedDependencyWarning">
+                There is a duplicated dependency. Remove this dependency by updating the plugin.xml file.
+            </def>
+            <def title="SuperfluousNonOptionalDependencyDeclaration" id="SuperfluousNonOptionalDependencyDeclaration">
+                Dependency declaration is superfluous. Dependencies are mandatory by default. Update the <path>plugin.xml</path> file and remove <code>optional=\&quot;false\</code> attribute from the dependency parameters.
+            </def>
+            <def title="OptionalDependencyDescriptorResolutionProblem" id="OptionalDependencyDescriptorResolutionProblem">
+                The configuration file for optional dependency prefix failed to be resolved and is invalid. Double-check the declared optional dependency to avoid any issues with the plugin functionality.
+            </def>
+            <def title="OptionalDependencyConfigFileNotSpecified" id="OptionalDependencyConfigFileNotSpecified">
+                Optional dependency declaration should specify <code>\&quot;config-file\&quot;</code>. Declare config-file attribute in addition to optional dependency in the <path>plugin.xml</path> file. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html#optional-plugin-dependencies">here</a>.
+            </def>
+            <def title="ElementMissingAttribute" id="ElementMissingAttribute">
+                To define an application-level listener, add the <code>applicationListeners</code> section to your <path>plugin.xml</path> along with <code>topic</code> and <code>class</code> attributes. For more details, please refer to the documentation provided <a href="https://plugins.jetbrains.com/docs/intellij/plugin-listeners.html#defining-application-level-listeners">here</a>.
+            </def>
+        </deflist>
     </chapter>
-    <p>If anything remains unclear or if you encounter an error that is not described above, please reach out to us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a></p>
-
 </topic>
