@@ -4,7 +4,7 @@
 
     <note>
         <p>
-            These discounts can apply to <control>organization</control> licenses only. Keep in mind that previous licenses that the organization bought will also be eligible for the discount.
+            These discounts can apply to <control>organization</control> licenses only. Keep in mind that previous <control>active</control> licenses that the organization bought will also be eligible for the discount.
         </p>
     </note>
     <p>
