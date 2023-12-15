@@ -68,10 +68,7 @@
 
         <p>After that, feel free to upload a new plugin following the steps described in the <a href="release-plugin.topic">Release the
             Plugin
-        </a> section. Once all the steps are completed, please reach out to the JetBrains team
-            via <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> or
-            <a href="https://plugins.jetbrains.com/slack">Slack</a>
-            asking us to approve the plugin. We’ll review it within 1-2 business days and send you a confirmation.
+        </a> section. Once all the steps are completed, your plugin will be automatically approved, unlike in production where it has to undergo our review process.
         </p>
 
         <note>
