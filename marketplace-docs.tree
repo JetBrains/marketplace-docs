@@ -36,8 +36,7 @@
 		<toc-element topic="plugin-stats.topic">
 			<toc-element topic="plugins-ranking.topic"/>
 			<toc-element topic="plugins-rating.topic"/>
-			<toc-element topic="analytics-tab.topic"/>
-			<toc-element accepts-web-file-names="unique-downloads.html" topic="download-statistics.topic"/>
+			<toc-element accepts-web-file-names="unique-downloads.html, download-statistics.html" topic="analytics-tab.topic"/>
 			<toc-element topic="identify-user-of-paid-plugin.topic"/>
 		</toc-element>
 		<toc-element topic="custom-pages.topic">

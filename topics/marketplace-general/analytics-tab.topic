@@ -4,6 +4,8 @@
 
 <chapter title="Download summary" id="download-summary">
     <p>Total number of downloads and the dynamics of downloads by month.</p>
+    <img src="download-summary.png" alt="Downloads Summery" width="720"/>
+    <p>The total number of downloads is also displayed in the plugin card preview and IDE search.</p>
 </chapter>
 
 <chapter title="Sales summary" id="sales-summary">
@@ -12,18 +14,35 @@
     <img src="sales-stat.png" alt="Sales Summery" width="720"/>
 </chapter>
 
-<chapter title="Plugin page visitors" id="plugin-page-visitors">
+    <chapter title="Plugin Downloads" id="plugin-downloads">
+        <p>
+            You can filter downloads by product or period (all time, past year, past month). By default, we show unique download statistics.
+        </p>
+        <img src="download-main.png" alt="Main Download Window" width="720"/>
+        <p>The uniqueness is based on the unique user ID (UUID) which is bound to the computer OS. The UUID is shared
+            among all IntelliJ-based IDEs on this computer and does not change during IDE updates.However, the UUID will
+            be different if an IDE with one license is installed on various computers.
+        </p>
+        <note>
+            <p>
+                The processing latency for download statistics is 24 hours.
+            </p>
+        </note>
+        <p>If there are several downloads by one UUID within one month, this will be counted as one unique download in
+            the monthly views.
+        </p>
+    </chapter>
+    <chapter title="Downloads by product:">
+        <p>
+            Here, we display downloads filtered out by a specific IDE throughout all time.
+        </p>
+        <img src="downloads-per-product.png" alt="Downloads filtered by product" width="720"/>
+    </chapter>
+
+    <chapter title="Plugin page visitors" id="plugin-page-visitors">
     <p>Monthly unique page users. This can be viewed for different periods (all time, past year, past month) and displays the count and trend of plugin page users during the selected period.</p>
 
     <img src="page-visitors.png" alt="Plugin page visitors" width="720"/>
-</chapter>
-
-<chapter title="Plugin Downloads" id="plugin-downloads">
-    <p>Number of unique plugin downloads. The uniqueness is based on the unique user ID (UUID)  which is bound to the computer OS.</p>
-
-    <img src="download-stat-monthly.png" alt="Plugin downloads" width="720"/>
-
-
     <table>
         <tr>
             <td>
