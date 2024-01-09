@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Download statistics" id="download-statistics">
 
+    <p>Download growth serves as a key performance indicator for your plugin. Access your plugin's download statistics on the <emphasis>Analytics</emphasis> page, where you can filter downloads by product or period (all time, past year, past month).
+    </p>
+    <p>
+        Plugin download statistics may also include downloads of removed updates.
+    </p>
     <note>
-        <p>Recently, the procedure to count downloads has been reworked, so you might see some differences between your
-            previous download number and the new one. The old processing considered any connection to CDN as a full
-            download, even if the user never actually received anything (errors, for example), while this new algorithm
-            counts only successful downloads.
+        <p>
+            The processing latency for download statistics is 24 hours.
         </p>
     </note>
-    <p>Download growth is a key performance indicator for your plugin. You can view the plugin downloads statistics on
-        the Overview page of your plugin. Filter out downloads by the specific plugin version or view the overall
-        statistics for all stable versions released.
-    </p>
-    <p>Additionally, you can view downloads divided by period (month, week, day) or specific IDE (without a time
-        reference). You can download the graph in various formats (image, CSV, etc.)
-    </p>
-    <p>Plugin download statistics for all versions may also include downloads of removed updates. Keep in mind that the
-        processing latency for download statistics is 24 hours.
-    </p>
-
     <chapter title="Total Downloads:">
-        <warning>
-            <p>We have stopped counting the total number of unique downloads, at least for now. However, you can still
-                check the number of unique downloads per day, per week, or per month. We may start displaying the total
-                again if we can identify the best way to measure it.
-            </p>
-        </warning>
 
-        <p>We show the total number of downloads right above the graph. This number is also displayed in the plugin card
-            preview and IDE search.
+        <p>
+            We show the total number of downloads right above the graph. This number is also displayed in the plugin card preview and IDE search.
         </p>
 
         <img src="download-main.png" alt="Main Download Window" width="720"/>
@@ -39,20 +25,16 @@
             among all IntelliJ-based IDEs on this computer and does not change during IDE updates.However, the UUID will
             be different if an IDE with one license is installed on various computers.
         </p>
-    </chapter>
-
-    <chapter title="Downloads by version:">
-        <p>When <code>All Versions</code> mode is selected, the plugin version is ignored during calculation.
-        </p>
-        <p>For example, downloads of version 1.1 and version 1.2 with the same UUID will be non-unique.</p>
-    </chapter>
-
-    <chapter title="Downloads by timeframes:">
         <p>If there are several downloads by one UUID within one week, this will be counted as one unique download in
-            the weekly and monthly views.
+            the monthly views.
         </p>
+    </chapter>
 
-        <img src="unique-download.png" alt="Downloads filtered by timeframes" width="720"/>
+    <chapter title="Downloads by product:">
+        <p>
+            Here, we display downloads filtered out by a specific IDE throughout all time.
+        </p>
+        <img src="downloads-per-product.png" alt="Downloads filtered by product" width="720"/>
     </chapter>
 
 </topic>
