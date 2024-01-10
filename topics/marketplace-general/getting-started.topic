@@ -143,9 +143,6 @@
         <chapter title="Plugin page overview">
             <p>While you are waiting for approval, you can familiarize yourself with your plugin's page.</p>
             <img src="plugin-ui.png" alt="Plugin Page" width="2067"/>
-            <p>On the <path>Overview</path> tab you can check the plugin's <a href="download-statistics.topic">download
-                statistics</a>.
-            </p>
             <p>In the <path>Media</path> section, you can upload screenshots and add a video.
             </p>
             <img src="general-information.png" alt="General Information" width="2067"/>
