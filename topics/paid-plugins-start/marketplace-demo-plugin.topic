@@ -7,10 +7,12 @@
     <p>Additional demo plugin source code is also available on GitHub: <a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin">
         JetBrains/marketplace-makemecoffee-plugin</a>.
     </p>
-    <p>
-        <res resource-id="plugin-sample-devkit"/>
-    </p>
-    <p>
-        <res resource-id="plugin-sample-gradle"/>
-    </p>
+    <list>
+        <li>
+            <res resource-id="plugin-sample-devkit"/>
+        </li>
+        <li>
+            <res resource-id="plugin-sample-gradle"/>
+        </li>
+    </list>
 </topic>
