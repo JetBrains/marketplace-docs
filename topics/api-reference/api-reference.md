@@ -1,4 +1,4 @@
-[//]: # (title: API Reference)
+[//]: # (title: API reference)
 
 This documentation section provides an overview of the [JetBrains Marketplace](https://plugins.jetbrains.com) API. 
 

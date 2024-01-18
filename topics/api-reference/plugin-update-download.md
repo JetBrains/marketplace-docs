@@ -1,4 +1,4 @@
-[//]: # (title: Plugin Update Download API)
+[//]: # (title: Plugin update download API)
 
 There are two ways to download the plugin version programmatically:
 

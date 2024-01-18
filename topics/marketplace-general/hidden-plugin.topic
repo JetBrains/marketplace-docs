@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Hidden Release" id="hidden-plugin">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Hidden release" id="hidden-plugin">
 <p>
     If you need to release a plugin or plugin update on JetBrains Marketplace without making it publicly available, you can hide it.
 </p>
@@ -10,7 +10,7 @@
                 Conduct Beta testing in addition to releasing the plugin on <a href="custom-release-channels.topic">custom release channels</a>.
             </li>
             <li>
-                <a href="plugin-overview-page.topic">Set up the plugin page</a>, links, media, and documentation before its release.
+                <a href="best-practices-for-listing.topic">Set up the plugin page</a>, links, media, and documentation before its release.
             </li>
             <li>
                 <a href="https://plugins.jetbrains.com/legal/approval-guidelines">Pass the approval process</a> before the plugin’s planned public release.

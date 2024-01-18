@@ -1,4 +1,4 @@
-[//]: # (title: Plugin Details API)
+[//]: # (title: Plugin details API)
 
 This API endpoint provides individual plugin details by specified `pluginId` or `pluginXmlId`:
  

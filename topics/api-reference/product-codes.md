@@ -1,4 +1,4 @@
-[//]: # (title: Product Codes)
+[//]: # (title: Product codes)
 
 We are using the following IDE product codes in the JetBrains Marketplace API Reference:
 

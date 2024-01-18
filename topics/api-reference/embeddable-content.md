@@ -1,4 +1,4 @@
-[//]: # (title: Embeddable Content)
+[//]: # (title: Embeddable content)
 
 You can embed JetBrains Marketplace content onto your website. Currently, the following embeddable content is available:
  - Plugin Card,

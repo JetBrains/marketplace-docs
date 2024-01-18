@@ -1,4 +1,4 @@
-[//]: # (title: Check License API)
+[//]: # (title: Check license API)
 
 If you are the author of a paid plugin, you can check whether the user with the specified email address has a license or not.
 

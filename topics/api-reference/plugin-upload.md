@@ -1,4 +1,4 @@
-[//]: # (title: Plugin Upload API)
+[//]: # (title: Plugin upload API)
 
 Please note that the maximum allowed plugin size is *400 MB*.
 

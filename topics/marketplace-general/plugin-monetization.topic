@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin Monetization" id="plugin-monetization">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin monetization" id="plugin-monetization">
 
     <p>Monetizing a plugin can be a great way to make a profit that will allow you to invest in the further development of your plugin.</p>
     <chapter title="Business Models" id="business-models">
         <p>Please explore the following business models and select the one you'd like to proceed with.</p>
     <list>
         <li><control>Free:</control>
-        <p>If you want to keep offering your plugin for free, you can still earn some money by accepting <a href="plugin-overview-page.topic" anchor="how-to-add-donation-links">donations</a>. This approach can help you build a user base and establish your plugin's reputation. Users who find value in your work may support you voluntarily.</p>
+        <p>If you want to keep offering your plugin for free, you can still earn some money by accepting <a href="best-practices-for-listing.topic" anchor="how-to-add-donation-links">donations</a>. This approach can help you build a user base and establish your plugin's reputation. Users who find value in your work may support you voluntarily.</p>
         </li>
         <li>
             <control><a href="freemium.topic">Freemium:</a></control>

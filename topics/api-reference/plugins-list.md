@@ -1,4 +1,4 @@
-[//]: # (title: Plugins List API)
+[//]: # (title: Plugins list API)
 
 <warning>
     <p>
