@@ -1,4 +1,4 @@
-[//]: # (title: Plugin Repository REST Client)
+[//]: # (title: Plugin repository REST client)
 
 JetBrains is maintaining an official client and CLI (command line interface) for [JetBrains Marketplace](https://plugins.jetbrains.com/).
 

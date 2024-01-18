@@ -28,7 +28,7 @@
 		<toc-element topic="intellij-enterprise-plugin-repositories.topic"/>
 	</toc-element>
 	<toc-element topic="publishing-and-listing-your-plugin.topic">
-		<toc-element accepts-web-file-names="quality-guidelines.html" topic="plugin-overview-page.topic"/>
+		<toc-element accepts-web-file-names="quality-guidelines.html, plugin-overview-page.html" topic="best-practices-for-listing.topic"/>
 		<toc-element topic="uploading-a-new-plugin.topic"/>
 		<toc-element topic="hidden-plugin.topic"/>
 		<toc-element topic="plugin-updates.topic"/>

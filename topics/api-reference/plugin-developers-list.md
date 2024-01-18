@@ -1,4 +1,4 @@
-[//]: # (title: Plugin Developers List API)
+[//]: # (title: Plugin developers list API)
 
 This API endpoint provides a list of all plugin developers for a plugin by specified `pluginId` or `pluginXmlId`:
 

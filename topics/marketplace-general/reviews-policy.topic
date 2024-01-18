@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Ratings and Reviews Policy" id="reviews-policy">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Ratings and reviews policy" id="reviews-policy">
 
     <p>We welcome reviews on JetBrains Marketplace. Our ratings and reviews policy aims to foster a positive experience for both vendors and users, so we expect reviews to be helpful, meaningful, and respectful.</p>
 
@@ -28,7 +28,7 @@
            <p>Any reviews on JetBrains Marketplace must be submitted in English and must meet <a anchor="misuse-of-ratings-and-reviews">our guidelines</a>.</p>
            <p>A good review describes your honest experience of using the plugin, such as what you liked or disliked about it, what you found most valuable, and where you think it can be improved. A good review helps the vendor improve their plugin, and it helps other users make a more informed decision about downloading or buying the plugin</p>
            <img src="good-review.png" alt="Good review" width="507"/>
-           <p>We <a href="plugin-overview-page.topic" anchor="contacts-and-resources">recommend</a> all vendors add a bug tracker link on their plugin’s page. Many users tend to report technical issues in their reviews, though we ask them to report the issues to the bug tracker instead to get help more quickly. If no bug tracker link is available, we suggest users report their issues to the vendor’s email address.</p>
+           <p>We <a href="best-practices-for-listing.topic" anchor="contacts-and-resources">recommend</a> all vendors add a bug tracker link on their plugin’s page. Many users tend to report technical issues in their reviews, though we ask them to report the issues to the bug tracker instead to get help more quickly. If no bug tracker link is available, we suggest users report their issues to the vendor’s email address.</p>
            <img src="issue-tracker.png" alt="Report to issue tracker" width="507"/>
            <p>Reporting a technical issue in the vendor’s bug tracker makes it more likely to be resolved. Once the issue is resolved it can be closed, whereas in the review section the report will still affect the overall rating of the plugin.</p>
        </chapter>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Publishing and Listing your plugin" id="publishing-and-listing-your-plugin">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Publishing and listing your plugin" id="publishing-and-listing-your-plugin">
 
     <p>The JetBrains Marketplace plugin page is the webpage used for JetBrains Marketplace listings. It provides users with useful
         links and information about your plugin’s functionality, product compatibility, versions, and pricing (if
@@ -28,9 +28,7 @@
             </p>
         </note>
 
-        <p>You can find the key requirements and tips for creating a plugin page in the <a href="plugin-overview-page.topic">Plugin Overview
-            page
-        </a> section.
+        <p>You can find the key requirements and tips for creating a plugin page in the <a href="best-practices-for-listing.topic">Best practices for listing your plugin</a> section.
         </p>
     </chapter>
 
