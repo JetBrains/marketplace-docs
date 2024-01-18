@@ -1,67 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugins Ranking" id="plugins-ranking">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin search results and rankings on JetBrains Marketplace" id="plugins-ranking">
 
-    <p>JetBrains wants to create a fair and transparent marketplace for all – Developers (vendors and customers coming
-        to JetBrains Marketplace). To do so, we hereby outline how Plugins on JetBrains Marketplace are ranked when you
-        either merely visit or search within JetBrains Marketplace.
+    <p>Users have multiple ways to discover plugins on JetBrains Marketplace: keyword search, plugin categories, and in-IDE <a href="intellij-plugin-recommendations.topic">recommendations</a>. In this article, we’ll outline how plugins are ranked when you search for them on the JetBrains Marketplace website or in-product Marketplace.
     </p>
 
-    <p>When you are searching for a particular Plugin, we take the following 5 steps to provide you with a search
-        result:
-    </p>
-    <list type="decimal">
-            <li>Firstly, we determine whether the Plugin's text fields inputted by the vendor match the customer’s
-                request. We account for declensions, conjugations, articles, different ways of spelling, etc. The result
-                of this step is a ranked list of Plugins — for every matching Plugin, we compute a numerical initial
-                score that shows how relevant this Plugin is to a Customer’s search query. This initial score depends on
-                the search engine settings (e.g. matches in different fields are scored differently). Only text fields
-                (Pugin’s ID, name, description, tags, developer’s, or organization name) and Customer’s query are taken
-                into account securing fair and equal treatment for all Plugins.
-            </li>
-            <li>If the list of Plugins from step 1 contains featured Plugins, then we add to their initial score a
-                coefficient to boost featured Plugins in the search results.
-            </li>
-            <li>Subsequently, we take into account the popularity of each Plugin as we multiply the score from step 2 by
-                the coefficient that is derived from the Plugin’s downloads. The coefficient is calculated as <code>
-                    log10(1 + 5 * downloads_count))</code>.
-            </li>
-            <li>To also take into account the Plugin’s quality, we multiply the score from step 3 by the coefficient
-                that depends on the Plugin’s rating. The coefficient is calculated as <code>
-                    sqrt(rating)
-                </code> (square root of the Plugin’s rating) and the rating formula is outlined <a href="https://plugins.jetbrains.com/docs/marketplace/plugins-rating.html">here</a>.
-            </li>
-            <li>Finally, we are applying Customer sorting. If the Relevance sorting is selected, then we show results
-                ranked by the score from step 4, from highest to lowest. If some other sorting is selected (by name,
-                downloads, update date, rating), then we rank results by this field and then by the score.
-            </li>
-        </list>
-
-    <p>When you merely visit JetBrains Marketplace, you see several preselected Plugin categories for your easier
-        navigation. The respective Groups contain Plugins based on the below principles:
-    </p>
-    <list>
-            <li>“Featured” Plugins are preselected by JetBrains’s product team based on current trends and preferences
-                of the users. Featured Plugins are product specific and unique for each product line (IDEs, .NET, Team
-                Tools, etc).
-            </li>
-            <li>“New and Updated” Plugins are ranked by the date when the last Plugin update was uploaded to JetBrains
-                servers, starting from the most recent date on top of the list.
-            </li>
-            <li>“Top Downloads” Plugins are ranked by the number of downloads per each Plugin, starting from the Plugin
-                with the greatest number of downloads on top of the list.
-            </li>
-            <li>“Top Rated” Plugins are ranked by the Plugins’ rating, starting from the Plugin with the highest rating
-                on top of the list.
-            </li>
-        </list>
-
-    <note>
+    <chapter title="Plugin Categories" id="plugin-categories">
         <p>
-            ‘New and Updated’, ‘Top Downloads’, and ‘Top Rated’ categories display top search results for empty Customer
-            queries and sorting (by update date, downloads, and rating respectively). Thereby we rank Plugins by this
-            field and then by the score (see step 5 in the above algorithm for search queries).
+            When you visit JetBrains Marketplace, you can see several pre-selected plugin categories. You can use the product selection filter to search the homepage for a specific product. By default, when no product is selected on the website, you’ll see a list of plugins for all supported IDEs.
         </p>
-    </note>
+        <chapter title="Staff-picked plugins" id="staff-picked-plugins">
+            <p>
+                Plugins are selected by the product teams of each IDE based on a combination of factors, primarily the plugin’s general usefulness and popularity, as determined by plugin downloads and ratings, among other factors.
+            </p>
+        </chapter>
+        <chapter title="Top downloaded plugins" id="top-downloaded-plugins">
+            <p>
+                Plugins are ranked by the number of downloads for each plugin, starting from the plugin with the greatest number of overall downloads.
+            </p>
+        </chapter>
+        <chapter title="New plugins" id="new-plugins">
+            <p>
+                Plugins are ranked by the date when the last plugin update was uploaded to JetBrains servers, with the most recent date at the top of the list.
+            </p>
+        </chapter>
+        <chapter title="Top-rated plugins" id="top-rated-plugins">
+            <p>
+                Plugins are ranked by rating, starting with the plugin with the highest rating.
+            </p>
+        </chapter>
+    </chapter>
 
-    <p>All of the above work the same for IDE Plugins, .NET Plugins, Team Tools Plugins, etc.</p>
+    <chapter title="Search results" id="search-results">
+        <p>
+            When you search for a particular plugin, we take the following factors into consideration:
+        </p>
+        <list type="decimal">
+            <li><p>
+                <control>Relevance of the search term:</control>
+            </p>
+                <p>
+                    Firstly, we determine whether the plugin's text fields that have been input by the vendor match the user’s request. These text fields include the plugin ID, name, description, tags, and the plugin’s vendor name. Matches in different fields are scored differently. We account for declensions, conjugations, articles, different spellings, etc.
+                    For every matching plugin, we compute an initial numerical score that shows how relevant this plugin is to a search query.
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    <control>Staff picks:</control>
+                </p>
+                <p>
+                    If the list of plugins contains staff-picked plugins, then we add a coefficient to their initial score to boost those plugins in the search results.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <control>Popularity of the plugin:</control>
+                </p>
+                <p>
+                    Subsequently, we take into account the popularity of each plugin by multiplying the score from point 2 by a coefficient derived from the plugin’s downloads. The coefficient is calculated as <code>log10(1 + 5 * downloads_count))</code>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <control>Plugin rating:</control>
+                </p>
+                <p>
+                    We multiply the score from point 3 by a coefficient that depends on the plugin’s rating. The coefficient is calculated as <code>sqrt(rating)</code>, and the rating formula is outlined <a href="plugins-rating.topic">here</a>. You can also choose to sort the search results by downloads, update date, publish date, name, and rating. In this case, we rank the results by this field and then by the score.
+                    You can apply additional filters to your search results, such as paid, free, plugins with source code, etc.
+                </p>
+                <img src="search-filters.png" alt="Search filters"/>
+            </li>
+        </list>
+    </chapter>
 
 </topic>
