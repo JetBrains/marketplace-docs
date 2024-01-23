@@ -2,7 +2,7 @@
 
     <p>To support JetBrains Marketplace operations from the legal side, JetBrains has the following agreements in place:</p>
 
-    <chapter title="1. JetBrains Marketplace Developer Agreement">
+    <chapter title="1. JetBrains Marketplace Developer Agreement" id="JetBrains-Marketplace-Developer-Agreement">
         <p>It is an agreement between a plugin developer (or plugin vendor) and JetBrains covering all aspects of
             publishing the plugin to JetBrains Marketplace and (optionally) selling it via JetBrains. This document includes
             all terms and conditions related to business between the vendor (developer) and JetBrains.
@@ -19,7 +19,7 @@
         </p>
     </chapter>
 
-    <chapter title="2. JetBrains Marketplace Approval Guidelines">
+    <chapter title="2. JetBrains Marketplace Approval Guidelines" id="JetBrains-Marketplace-Approval-Guidelines">
         <p>It is a guideline for approval of the plugins, updates, and related assets. It's referenced from the
             JetBrains Marketplace Developer Agreement and is applied towards all plugins (both paid and free.)
         </p>
@@ -34,7 +34,7 @@
         </p>
     </chapter>
 
-    <chapter title="3. JetBrains Plugin Marketplace Agreement">
+    <chapter title="3. JetBrains Plugin Marketplace Agreement" id="JetBrains-Plugin-Marketplace-Agreement">
         <p>It is a general document covering everything that happens on JetBrains Marketplace resources (the main
             resource is a plugin repository: <a href="https://plugins.jetbrains.com/">https://plugins.jetbrains.com/</a>).
             It's provided in addition to JetBrains general
@@ -65,7 +65,7 @@
         </p>
     </chapter>
 
-    <chapter title="4. Privacy Policy">
+    <chapter title="4. Privacy Policy" id="Privacy-Policy">
         <p>It is a unified document for all JetBrains web resources, it applies to JetBrains Marketplace, too: <a href="https://www.jetbrains.com/company/privacy.html">https://www.jetbrains.com/company/privacy.html</a>.
         </p>
     </chapter>
@@ -79,7 +79,7 @@
         </p>
     </chapter>
 
-    <chapter title="Attachments">
+    <chapter title="Attachments" id="Attachments">
         <res resource-id="jetbrains-plugin-marketplace-agreement-docx"/>
 
         <res resource-id="jetbrains-plugin-marketplace-agreement-pdf"/>
