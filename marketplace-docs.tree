@@ -28,7 +28,7 @@
 		<toc-element topic="intellij-enterprise-plugin-repositories.topic"/>
 	</toc-element>
 	<toc-element topic="publishing-and-listing-your-plugin.topic">
-		<toc-element accepts-web-file-names="quality-guidelines.html, plugin-overview-page.html" topic="best-practices-for-listing.topic"/>
+		<toc-element accepts-web-file-names="quality-guidelines.html,plugin-overview-page.html" topic="best-practices-for-listing.topic"/>
 		<toc-element topic="uploading-a-new-plugin.topic"/>
 		<toc-element topic="hidden-plugin.topic"/>
 		<toc-element topic="plugin-updates.topic"/>
@@ -36,7 +36,7 @@
 		<toc-element topic="plugin-stats.topic">
 			<toc-element topic="plugins-ranking.topic"/>
 			<toc-element topic="plugins-rating.topic"/>
-			<toc-element accepts-web-file-names="unique-downloads.html, download-statistics.topic" topic="analytics-tab.topic"/>
+			<toc-element accepts-web-file-names="unique-downloads.html,download-statistics.topic" topic="analytics-tab.topic"/>
 			<toc-element topic="identify-user-of-paid-plugin.topic"/>
 		</toc-element>
 		<toc-element topic="custom-pages.topic">

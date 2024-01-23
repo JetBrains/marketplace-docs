@@ -20,7 +20,7 @@
         </li>
     </list>
 
-    <chapter title="Release-version vs. Version">
+    <chapter title="Release-version vs. Version" id="release-version-vs-version">
         <p>We use the <code>version</code> parameter to identify the latest update of the plugin that is compatible with
             your IDE, which allows us to suggest installing the appropriate version. Keep in mind that SemVer (Semantic
             Versioning) is turned on by default for all new plugins. For more information see <a href="semver.topic">
@@ -60,7 +60,7 @@
 
     </chapter>
 
-    <chapter title="Release-version constraints">
+    <chapter title="Release-version constraints" id="release-version-constraints">
         <p>Your <code>release-version</code> must meet the following conditions:
         </p>
         <list>

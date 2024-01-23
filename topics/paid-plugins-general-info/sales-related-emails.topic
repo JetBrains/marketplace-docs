@@ -30,7 +30,7 @@
     <img src="email-example.png" alt="Example1" width="1600"/>
     <img src="email-example-2.png" alt="Example2" width="1478"/>
 
-    <chapter title="In-product Notifications">
+    <chapter title="In-product Notifications" id="in-product-notifications">
         <p>Users receive notifications about new plugin versions and plugin license and trial expirations right inside
             their
             IDE. These messages prompt users to update plugins to the latest version, renew subscriptions, or buy and
@@ -40,7 +40,7 @@
         <img src="email-in-product-notifications.png" alt="In-product Notifications" width="844"/>
     </chapter>
 
-    <chapter title="Plugin nurturing emails">
+    <chapter title="Plugin nurturing emails" id="plugin-nurturing-emails">
         <p>These are campaigns developed specifically for users of plugins paid via JetBrains Marketplace:</p>
         <list>
                 <li>
@@ -88,7 +88,7 @@
             </list>
     </chapter>
 
-    <chapter title="How can I contact the users of my plugin directly?">
+    <chapter title="How can I contact the users of my plugin directly?" id="how-to-contact-users-directly">
         <p>According to the <a href="https://plugins.jetbrains.com/legal/terms-of-use">JetBrains Marketplace
             Agreement</a>,
             JetBrains can provide you with information about your plugin customers to enable communications related to

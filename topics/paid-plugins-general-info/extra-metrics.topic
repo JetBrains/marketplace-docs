@@ -5,7 +5,7 @@
         price and to double-check the product quality.
     </p>
 
-    <chapter title="Customer Lifetime Value (LTV)">
+    <chapter title="Customer Lifetime Value (LTV)" id="LTV">
         <p>
             <emphasis>LTV</emphasis>
             is how much you will earn from each customer over the time they spend with your product:
@@ -20,7 +20,7 @@
         </p>
     </chapter>
 
-    <chapter title="Churn Rate">
+    <chapter title="Churn Rate" id="churn-rate">
         <p>The Churn Rate Formula can be calculated as the number of churned customers divided by the total number of
             customers, where the number of churned customers is how many people have left your service / product over
             the

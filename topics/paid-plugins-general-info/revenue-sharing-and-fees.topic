@@ -15,7 +15,7 @@
         Marketplace.
     </p>
 
-    <chapter title="Share calculation in regards to taxes and distribution channels">
+    <chapter title="Share calculation in regards to taxes and distribution channels" id="share-calculation">
         <p>We calculate the plugin developer’s share from the price set by the vendor. If there are any additional taxes
             (such as VAT or WHT) involved in the sale to the end user (either personal or commercial), then these taxes
             are
@@ -135,7 +135,7 @@
         </table>
     </chapter>
 
-    <chapter title="Terms">
+    <chapter title="Terms" id="terms">
         <p>
             <code>List price</code>
             – the price set by the vendor.
@@ -162,7 +162,7 @@
         </p>
     </chapter>
 
-    <chapter title="Payouts for plugin vendors">
+    <chapter title="Payouts for plugin vendors" id="payouts-for-plugin-vendors">
         <p>Plugin vendors are paid in accordance with the rules defined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer Agreement</a>.
         </p>
         <p>Among other things, this agreement stipulates that plugin vendors are paid:</p>

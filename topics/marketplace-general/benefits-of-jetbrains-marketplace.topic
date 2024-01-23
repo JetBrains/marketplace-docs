@@ -13,7 +13,7 @@
         list and choose from the most requested features.
     </p>
 
-    <chapter title="As a plugin developer you get the following benefits:">
+    <chapter title="As a plugin developer you get the following benefits:" id="plugin-developer-benefits">
         <list>
                 <li>The ability to reach more customers by having your plugin listed on JetBrains Marketplace.</li>
                 <li>Your plugin can be installed and updated right from the IDE, providing an uninterrupted user
@@ -38,7 +38,7 @@
             </list>
     </chapter>
 
-    <chapter title="Take advantage of selling your plugins on JetBrains Marketplace:">
+    <chapter title="Take advantage of selling your plugins on JetBrains Marketplace:" id="take-advantage-of-selling-your-plugin">
         <p>
             <control>Licensing and billing:</control>
             </p><list>
