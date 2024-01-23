@@ -44,7 +44,7 @@
             </li>
         </list>
 
-    <chapter title="Zelix Klassmaster">
+    <chapter title="Zelix Klassmaster" id="zelix-klassmaster">
         <p>At JetBrains, we have a lot of experience with <a href="https://www.zelix.com/klassmaster/index.html">Zelix
             Klassmaster</a>, so
             we are sharing some information about how to configure it. Information about Zelix configuration and tips
@@ -144,7 +144,7 @@
         </p>
     </chapter>
 
-    <chapter title="ProGuard">
+    <chapter title="ProGuard" id="proguard">
         <p>We have tried getting the same result with ProGuard (as it's free), and one of the major drawbacks was the
             lack
             of String Obfuscation support (Zelix option <code>encryptStringLiterals=enhanced</code>). Some users
@@ -167,7 +167,7 @@
         </p>
     </chapter>
 
-    <chapter title="Other">
+    <chapter title="Other" id="other">
         <p>Similar features surely exist in other Java obfuscators, including free/open-source ones.</p>
 
         <p>As of now, we haven’t been able to find any Kotlin obfuscators or Java obfuscators with Kotlin support, so we

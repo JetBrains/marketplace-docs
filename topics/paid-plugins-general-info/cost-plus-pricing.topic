@@ -58,7 +58,7 @@
             Cost-Plus Price = CoGS per customer + Desired Margin
         </code-block>
 
-    <chapter title="Cost of Goods Sold (CoGS)">
+    <chapter title="Cost of Goods Sold (CoGS)" id="CoGS">
         <p>Software developers might have CoGS such as product development and design, SaaS providers’ fees, cloud
             infrastructure, customer support, and the costs of the development team. If your business requires physical
             products, hardware, or custom development, the CoGS will likely be higher.
@@ -100,7 +100,7 @@
         </p>
     </chapter>
 
-    <chapter title="Customer Acquisition Cost (CAC)">
+    <chapter title="Customer Acquisition Cost (CAC)" id="CAC">
         <p>Customer Acquisition Cost is the average amount of money you have to spend to gain a new paying customer. It
             is
             one
@@ -136,7 +136,7 @@
         </p>
     </chapter>
 
-    <chapter title="Desired Margin">
+    <chapter title="Desired Margin" id="desired-margin">
         <p>Unfortunately, there is no rule of thumb to estimate the net profit margin (residual earnings left after all
             expenses have been deducted from revenues). It varies depending on the company / business size, region,
             product

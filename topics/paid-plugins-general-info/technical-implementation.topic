@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Technical implementation of the marketplace in the product" id="technical-implementation">
 
-    <chapter title="Support for the Marketplace in the product">
+    <chapter title="Support for the Marketplace in the product" id="support-for-the-marketplace-in-the-product">
         <p>All the licensing-related communication with JetBrains licensing servers is done on the IntelliJ Platform
             side,
             not
@@ -49,7 +49,7 @@
         </p>
     </chapter>
 
-    <chapter title="How is it different for Community Edition / Educational Edition / other IDEs built on top of IntelliJ Platform?">
+    <chapter title="How is it different for Community Edition / Educational Edition / other IDEs built on top of IntelliJ Platform?" id="difference-from-other-IDEs">
         <p>The support for Community Edition (and other free and open-source editions) of IntelliJ IDEA-based IDEs, as
             well
             as
@@ -61,7 +61,7 @@
         </p>
     </chapter>
 
-    <chapter title="What should be supported on the plugin side?">
+    <chapter title="What should be supported on the plugin side?" id="what-should-be-supported-on-the-plugin-side">
         <p>First of all, a plugin has to identify itself as a paid JetBrains Marketplace plugin in the <path>plugin.xml</path> providing
             <code>productCode</code>, <code>release-date</code>, <code>release-version</code> attributes (you can read
             more about them in <a href="prepare-your-plugin-for-publication.topic">a
@@ -82,7 +82,7 @@
         </p>
     </chapter>
 
-    <chapter title="Obfuscation and Protection">
+    <chapter title="Obfuscation and Protection" id="obfuscation-and-protection">
         <p>We recommend you to obfuscate the paid plugin before uploading it to JetBrains Marketplace. Every
             application
             can

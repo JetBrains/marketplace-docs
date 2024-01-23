@@ -11,7 +11,7 @@
         uploading it to JetBrains Marketplace.
     </p>
 
-    <chapter title="Plugin page review">
+    <chapter title="Plugin page review" id="plugin-page-review">
         <p>After uploading a plugin to JetBrains Marketplace, it will be manually reviewed by the JetBrains Marketplace team. You will be
             contacted and asked to make changes if we find anything that doesn’t fit our guidelines. To speed up the
             review

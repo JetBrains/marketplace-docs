@@ -25,7 +25,7 @@
     <p>The current version of the Standard EULA from the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer
         Agreement</a>:
     </p>
-    <chapter title="Appendix 1">
+    <chapter title="Appendix 1" id="appendix-1">
         <p>The Standard EULA (End User License Agreement) displayed below is primarily intended as an example of an EULA to accompany your Plugin. It cannot be used without the necessary modifications. Using your own EULA or a similar license agreement granting rights to users of your Plugin is recommended. Provision of this Standard EULA does not constitute legal advice; advice from a qualified attorney is required. If you use the wording presented below in the Standard EULA, you acknowledge that JetBrains is not liable for its use by you in any way and that you have to modify it to suit your individual needs.</p>
     </chapter>
     <chapter title="Standard EULA" id="standard-eula">

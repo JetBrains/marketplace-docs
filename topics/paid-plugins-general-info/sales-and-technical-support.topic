@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Who is providing sales and technical support?" id="sales-and-technical-support">
 
-    <chapter title="Sales Support">
+    <chapter title="Sales Support" id="sales-support">
         <p>JetBrains or JetBrains' resellers and distributors provide sales support to end-users of the third-party
             plugins.
         </p>
     </chapter>
 
-    <chapter title="Technical Support">
+    <chapter title="Technical Support" id="technical-support">
         <p>Plugin vendor provides technical assistance, and tentative SLAs are a part of the <a href="https://plugins.jetbrains.com/legal/developer-agreement">Developer
             Agreement</a>:
         </p>

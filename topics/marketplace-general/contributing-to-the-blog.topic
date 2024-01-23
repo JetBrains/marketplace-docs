@@ -15,7 +15,7 @@
             or other platforms</control>. Instead, you can create a supporting post and provide a link to your guest post.
     </p>
 
-<chapter title="Guest posts">
+<chapter title="Guest posts" id="guest-post">
     <p>We accept any type of educational and inspiring expert content including:</p>
     <p/><list>
         <li>Instructions and tutorials for end-users on how to achieve a specific outcome (how-tos, tips &amp; tricks).</li>
@@ -28,7 +28,7 @@
     </list><p/>
 </chapter>
 
-<chapter title="Requirements:">
+<chapter title="Requirements:" id="requirments">
 
 </chapter>
     <list>
@@ -60,7 +60,7 @@
     </p>
 </note>
 
-<chapter title="Guest post publishing process:">
+<chapter title="Guest post publishing process:" id="guest-post-publishing-process">
     <list type="decimal">
             <li>Submit a <a href="https://forms.gle/BxNCJenjWp1jemsq9">form</a> with the preliminary information.</li>
             <li>We will let you know if the suggested topic is a good fit for JetBrains (please expect an answer in 2
@@ -75,7 +75,7 @@
         </list>
 </chapter>
 
-<chapter title="Interviews">
+<chapter title="Interviews" id="interviews">
     <p>A plugin developer can apply to do an interview the results of which will be shared via blog post. You'll be asked to fill in the <a href="https://docs.google.com/document/d/1Chl92hY0NQ_uyVOXnGxofEIUhmA2dWC-sUvF8ZTbiXI/">Interview Outline</a> and tell us more about your company, your professional responsibilities, your plugin, and your experience with JetBrains Marketplace. The outline has extensive writing prompts to help with writing. Not all sections and topics are required for the blog post. You can pick and choose the ones that you feel are most important for you to convey to the readers. If you have any other questions in mind that you would like to cover, feel free to add them.</p>
 
     <p>
@@ -89,7 +89,7 @@
     </list><p/>
 </chapter>
 
-<chapter title="Interview process:">
+<chapter title="Interview process:" id="interview-process">
     <list>
             <li>Please make a copy of this <a href="https://docs.google.com/document/d/1s9r34cEtaSVG6pQduBPc1ubCe7nVFYhK2jBk1TlStK0/">document</a> and fill
                 out the outline.

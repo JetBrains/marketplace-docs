@@ -45,14 +45,14 @@
     </p>
     <img src="update-available.png" alt="Updates Available" width="1241"/>
 
-    <chapter title="Plugin development">
+    <chapter title="Plugin development" id="plugin-development">
         <p>Technology evolves quickly, and authors upload dozens of new plugins (and updates to existing ones) every
             day. If
             you cannot find the plugin you need, you can ask the community to create one for you, or you can even create
             it
             yourself.
         </p>
-        <chapter title="If you want someone to create a plugin for you">
+        <chapter title="If you want someone to create a plugin for you" id="someone-to-create-a-plugin">
             <list>
                     <li>
                         Check if there is already such a request on the <a href="https://plugins.jetbrains.com/plugin-ideas">Plugin
@@ -69,7 +69,7 @@
                 </list>
             <img src="plugin-ideas.png" alt="Plugin Ideas" width="1308"/>
         </chapter>
-        <chapter title="If you want to develop a plugin">
+        <chapter title="If you want to develop a plugin" id="you-want-to-develop-a-plugin">
             <list>
                     <li>
                         Consider checking the <a href="https://plugins.jetbrains.com/plugin-ideas">Plugin Ideas</a> list
@@ -104,8 +104,8 @@
         </chapter>
     </chapter>
 
-    <chapter title="Publish plugin">
-        <chapter title="Submitting a plugin">
+    <chapter title="Publish plugin" id="publish-plugin">
+        <chapter title="Submitting a plugin" id="submitting-a-plugin">
             <p>Before you submit your plugin, please check the <a href="best-practices-for-listing.topic">Quality
                 Guidelines
             </a> to improve the overall quality of your plugin and start preparing your plugin's page.
@@ -132,7 +132,7 @@
                 <img src="upload-new-plugin.gif" alt="Upload New Plugin" width="1298"/>
             </procedure>
         </chapter>
-        <chapter title="Plugin approval">
+        <chapter title="Plugin approval" id="plugin-approval">
             <p>Once a plugin has been submitted, the JetBrains Marketplace team checks it according to the <a href="https://plugins.jetbrains.com/legal/approval-guidelines">Approval
                 Guidelines</a>. Please expect approval or a reply within two
                 business days and note that the answer will be sent to the email address associated with your
@@ -140,7 +140,7 @@
             </p>
             <img src="email.png" alt="Email Address" width="1308"/>
         </chapter>
-        <chapter title="Plugin page overview">
+        <chapter title="Plugin page overview" id="plugin-page-overview">
             <p>While you are waiting for approval, you can familiarize yourself with your plugin's page.</p>
             <img src="plugin-ui.png" alt="Plugin Page" width="2067"/>
             <p>In the <path>Media</path> section, you can upload screenshots and add a video.
@@ -262,7 +262,7 @@
         </table>
     </chapter>
 
-   <chapter title="What's next">
+   <chapter title="What's next" id="whats-next">
         <p>You can start generating income from your plugin by selling it on JetBrains Marketplace. Check out <a href="https://plugins.jetbrains.com/docs/marketplace/paid-plugins-marketplace.html">this
             page
         </a> for an overview and general information.

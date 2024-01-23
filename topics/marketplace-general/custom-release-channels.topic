@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Custom release channels" id="custom-release-channels">
 
-    <chapter title="Uploading a Plugin Update to the Custom Release Channel">
+    <chapter title="Uploading a Plugin Update to the Custom Release Channel" id="uploading-a-plugin-update-to-the-custom-channel">
         <p>You may deploy plugins to a specific channel of your choosing via the plugin repository web interface, <a href="https://plugins.jetbrains.com/docs/intellij/deployment.html">Gradle plugin
         </a> or the <a href="plugin-upload.md">API
         </a>.
@@ -20,7 +20,7 @@
         <img src="plugin_repository_add_custom_channel.png" alt="Add Channels" width="568"/>
     </chapter>
 
-    <chapter title="Configuring a Custom Channel in IntelliJ Platform Based IDEs">
+    <chapter title="Configuring a Custom Channel in IntelliJ Platform Based IDEs" id="configure-a-custom-channel">
         <p>When using a non-default release channel, IntelliJ Platform Based IDEs users will need to add a new <a href="https://www.jetbrains.com/idea/help/managing-enterprise-plugin-repositories.html">custom plugin
             repository
         </a> to install
@@ -74,7 +74,7 @@
 
     </chapter>
 
-    <chapter title="Channel Priority Notice">
+    <chapter title="Channel Priority Notice" id="channel-priority-notice">
         <p>Please note that custom repositories take precedence over the default channel. The update is uploaded to the
             default channel when the custom channel name is not provided, and a default channel is also known as a
             stable or

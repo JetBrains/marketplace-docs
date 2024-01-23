@@ -7,7 +7,7 @@
             marketplace@jetbrains.com</a>.
     </p>
 
-    <chapter title="What is JetBrains Marketplace?">
+    <chapter title="What is JetBrains Marketplace?" id="what-is-jetbrains-marketplace">
         <p>JetBrains Marketplace is a moderated digital catalog that hosts more than 6000 extensions for JetBrains
             products
             provided by JetBrains and third-party plugin developers.
@@ -36,8 +36,7 @@
             website.
         </p>
     </chapter>
-
-    <chapter title="What types of extensions can be built and found on JetBrains Marketplace?">
+    <chapter title="What types of plugins can be built and found on JetBrains Marketplace?" id="what-types-of-plugins-can-be-build">
         <p>On JetBrains Marketplace you can find:</p>
         <list>
                 <li>IDE plugins to provide integrations (e.g. with VCS, issue trackers, build management servers, and
@@ -50,7 +49,7 @@
             </list>
     </chapter>
 
-    <chapter title="What are the benefits of using JetBrains Marketplace extensions?">
+    <chapter title="What are the benefits of using JetBrains Marketplace extensions?" id="what-are-the-benefits">
         <p>By using JetBrains Marketplace, end-users get:</p>
         <list>
                 <li>Additional functionality, thanks to plugins from third-party developers.</li>
