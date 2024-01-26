@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Staff-picked Plugins on JetBrains Marketplace" id="staff-picks">
+    <p>
+        JetBrains product teams hand-pick plugins to be featured as Staff Picks to make it easier for users to discover noteworthy plugins and acknowledge developers who consistently deliver high-quality plugins.
+    </p>
+    <p>
+        We look for plugins that offer a best-in-class user experience and functionality, as well as align with the diverse needs of the JetBrains user base. The selection process involves evaluating several factors, with a focus on a plugin’s overall usefulness and popularity.
+    </p>
+    <chapter title="Key criteria include:" id="key-criteria">
+        <list>
+            <li><control>Compliance with Marketplace requirements:</control> The plugin adheres to all <a href="legal-agreements.topic">Marketplace policies</a> and doesn’t have any active violations.</li>
+            <li>
+                <control>Plugin quality and user experience:</control> The plugin is thoroughly tested, utilizes the latest APIs, and its UI is aligned with <a href="https://jetbrains.design/intellij/">IntelliJ Platform UI Guidelines</a> for a robust and user-friendly experience.
+            </li>
+            <li>
+                <control>Accurate plugin listing information:</control> The plugin description is high quality,  sets correct user expectations, and doesn’t have any deceptive information.
+            </li>
+            <li>
+                <control>General utility:</control> How does the plugin enhance the overall user experience?
+            </li>
+            <li>
+                <control>Popularity and community impact:</control> The primary factor is download metrics, with additional consideration for industry trends. Priority is given to plugins that provide value to a broader audience.
+            </li>
+            <li>
+                <control>User satisfaction:</control> Positive ratings and reviews serve as an indicator of high plugin quality.
+            </li>
+            <li>
+                <control>Uniqueness:</control> Plugins that offer unique functionality or solve problems in novel ways are more likely to be chosen.
+            </li>
+            <li>
+                <control>Alignment with IDE Goals:</control> How well does the plugin align with the platform's vision?
+            </li>
+            <li>
+                <control>Regular updates and maintenance:</control> Plugins that are actively maintained and demonstrate commitment from developers are more likely to be prioritized.
+            </li>
+        </list>
+    </chapter>
+    <chapter title="Application process:" id="application-process">
+        <p>
+            To apply to become featured in the Staff Picks category, please submit a <a href="https://youtrack.jetbrains.com/newIssue?project=MP&amp;c=Type+Staff+Picks">YouTrack ticket</a>. Please review the ticket carefully and provide all relevant information. Although there are various best practices to keep in mind, there is no specific checklist of requirements to guarantee that a plugin will be featured. You can indicate specific IDEs you wish to be featured in, and we’ll take this into consideration during the review process. However, the final decision rests with us. Plugins eligible for the Staff Picks category on Marketplace include both free and paid-via-Marketplace plugins. Plugins requiring external payments have a lower chance of being promoted.
+        </p>
+        <p>
+            The Staff Picks list is updated with each IDE release cycle, which take place in April, July, and November. If your application was previously rejected, you can reapply, highlighting any improvements made since the last submission. No form of paid placement is accepted, and we reserve the right to remove a plugin from Staff Picks or deny requests at any time.
+        </p>
+    </chapter>
+</topic>

@@ -45,6 +45,7 @@
 		</toc-element>
 		<toc-element topic="semver.topic"/>
 		<toc-element topic="plugin-notification-settings.topic"/>
+		<toc-element topic="staff-picks.topic"/>
 		<toc-element topic="intellij-plugin-recommendations.topic"/>
 		<toc-element topic="embeddable-content.md"/>
 		<toc-element topic="list-of-common-errors-and-warnings.topic"/>
