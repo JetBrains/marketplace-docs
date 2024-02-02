@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Exception analyzer" id="Exception-analyzer">
+
+    <p>An easy way to report plugin exceptions from IntelliJ Platform-based products to plugin developers right on JetBrains Marketplace is to use JetBrains Exception Analyzer (EA) as a backend service.
+    </p>
+    <p>Before this, developers could only implement a <a href="https://plugins.jetbrains.com/docs/intellij/ide-infrastructure.html#error-reporting">custom error handler</a>.
+    </p>
+    <chapter title="How does it work?" id="how-does-it-work">
+        <p>
+            On the user’s side:
+        </p>
+        <list>
+            <li>
+                An exception occurs, and the user is informed about it in the IDE via a modal window.
+            </li>
+            <li>
+                The modal window contains all of the exception’s technical data and the consent to send the exception, which can then be shared with the plugin developer.
+            </li>
+            <li>
+                The user clicks on <emphasis>Report to the third-party plugin</emphasis>, which sends this exception report to the plugin developer.
+            </li>
+        </list>
+        <img src="ide-internal-errors.png" alt="IDE Internal Errors" width="800"/>
+        <p>
+            On the developer’s side:
+        </p>
+        <list>
+            <li>
+                The developer can review the exception on the plugin page under the Exceptions tab. In the current version, all exceptions are listed in two groups: Unresolved Issues and Resolved Issues.
+            </li>
+            <li>
+                The developer has all of the necessary information about the exception (OS, IDE versions, stack trace, etc).
+            </li>
+            <li>
+                The developer investigates the issue and marks it as “Resolved” once it’s fixed.
+            </li>
+        </list>
+        <img src="exceptions-tab.png" alt="Exceptions tab" width="800"/>
+    </chapter>
+    <chapter title="How do I opt in?" id="how-do-I-opt-in">
+        <p>
+            To start getting exception reports from users, it is necessary to opt-in to this feature by adding the following entry that provides the JetBrains Marketplace error handler implementation to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a>:
+        </p>
+        <code-block lang="xml">
+            <![CDATA[
+            <idea-plugin>
+                <!--  ...  -->
+
+                <extensions defaultExtensionNs="com.intellij">
+                    <errorHandler implementation="com.intellij.diagnostic.JetBrainsMarketplaceErrorReportSubmitter"/>
+                </extensions>
+            </idea-plugin>
+             ]]>
+        </code-block>
+        <p>
+            The <code>JetBrainsMarketplaceErrorReportSubmitter</code> helper class has been available since the 2023.3 release cycle.
+        </p>
+    </chapter>
+</topic>

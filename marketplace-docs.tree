@@ -50,6 +50,7 @@
 		<toc-element topic="embeddable-content.md"/>
 		<toc-element topic="list-of-common-errors-and-warnings.topic"/>
 	</toc-element>
+
 	<toc-element accepts-web-file-names="plugin-types.html" topic="plugin-monetization.topic">
 		<toc-element accepts-web-file-names="trying-out-the-marketplace.html" topic="step-by-step-guide-to-putting-plugin-up-for-sale.topic">
 			<toc-element topic="submit-a-request-to-sell-plugins-at-the-marketplace.topic"/>
