@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="JetBrains Marketplace Approval Guidelines" id="JetBrains-Marketplace-Approval-Guidelines">
+
+    <p>
+        <control>Version 1.2, effective as of August 22, 2023</control>
+    </p>
+    <p>
+        The capitalized terms used in this document have the same meaning as those defined in the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a>.
+    </p>
+    <chapter title="Approval Process" id="approval-process">
+        <p>
+            Every new Plugin and all new Plugin versions (also known as updates), are subject to a verification and approval process performed by and at the sole discretion of the JetBrains Marketplace team.
+        </p>
+        <p>
+            All new Plugins and their subsequent updates are reviewed according to JetBrains' availability at the time the Plugin or its update is uploaded, but JetBrains doesn't guarantee the time frame for the review as it can take longer due to various factors.
+        </p>
+        <p>
+            Along with automated checks, we manually review each Plugin and Plugin update one-by-one, before it becomes publicly available on JetBrains Marketplace. The Plugin Developer will receive a notification as soon as the status of the review changes, or if there are any questions regarding the Plugin or Plugin update.
+        </p>
+        <p>
+            If you haven't heard from us within the next 3–4 working days after the Plugin upload, please reach out to us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+        </p>
+        <p>
+            JetBrains reserves the right to repeat the review of Plugins and Plugin updates from time to time and withdraw approval for a Plugin or Plugin update if new information on their conformity with the approval criteria comes to JetBrains' attention after such a review.
+        </p>
+    </chapter>
+    <chapter title="Plugin Approval Criteria" id="plugin-approval-criteria">
+        <p>
+            All Plugins for JetBrains Marketplace must meet these general approval criteria:
+        </p>
+        <chapter title="1. Plugin content" id="plugin-content">
+            <chapter title="1.1. The Plugin logo" id="plugin-logo">
+                <list type="none">
+                    <li>a. Must be different from the <a href="https://github.com/JetBrains/intellij-platform-plugin-template/blob/main/src/main/resources/META-INF/pluginIcon.svg">default logo</a> for the <a href="https://github.com/JetBrains/intellij-platform-plugin-template">ntelliJ Platform Plugin Template</a>I.</li>
+                    <li>b. Must not resemble any JetBrains product logos.</li>
+                    <li>c. Must be provided in one size: 40 px by 40 px.</li>
+                    <li>d. Must be in SVG format.</li>
+                </list>
+            </chapter>
+            <chapter title="1.2. The Plugin name" id="plugin-name">
+                <list type="none">
+                    <li>a. Must be an original and unique name.</li>
+                    <li>b. Must include keywords or concepts that accurately describe the Plugin.</li>
+                    <li>c. Must not use famous or trademarked names of third parties without their authorization.</li>
+                    <li>d. Must not contain pricing information, unless approved by JetBrains.</li>
+                    <li>e. Must be limited to 30 characters.</li>
+                    <li>f. Must not abuse the letter "A" or the period as the initial character with the intent of securing a better listing position or search results.</li>
+                    <li>g. Must be in Latin characters/symbols, including numbers, and general or special symbols if needed (e.g., period, hyphen, parentheses).</li>
+                    <li>h. Must not contain the word “Plugin” or “IntelliJ”, or include “JetBrains” or the name of any JetBrains product.
+                    </li>
+                </list>
+            </chapter>
+           <chapter title="1.3. The Plugin vendor" id="plugin-vendor">
+               <list type="none">
+                   <li>a. The Vendor's website and email address are provided, valid, and functional.</li>
+                   <li>b. The Vendor's name can be light-hearted but must remain somewhat professional.</li>
+                   <li>c. The Vendor must not misrepresent themselves or their right to use the Plugin, or act or use the Plugin or its content in a fraudulent or deceptive manner. This includes misrepresenting their rights (e.g. impersonating an “admin” user) or impersonating another person.</li>
+               </list>
+           </chapter>
+            <chapter title="1.4. The Plugin description" id="plugin-description">
+                <list type="none">
+                    <li>a. Must be provided in English as the primary language. If you decide to include localized descriptions, the English description must come first.</li>
+                    <li>b. Must be formatted properly and use correct spelling/grammar.</li>
+                    <li>c. The first line of the plugin description must contain a short plugin summary.</li>
+                </list>
+            </chapter>
+            <chapter title="1.5. The Plugin change notes" id="change-notes">
+                <list type="none">
+                    <li>a. Must not have “Add change notes here” or “most HTML tags may be used”.</li>
+                    <li>b. Must contain only relevant information.</li>
+                </list>
+            </chapter>
+            <chapter title="1.6. Color scheme and Theme Plugins" id="theme-plugins">
+                <list type="none">
+                    <li>a. Must have screenshots to represent the visual style they provide.</li>
+                    <li>b. The screenshots should be of high quality. The recommended screenshot size is 1280 x 800 px (16:10 aspect ratio).</li>
+                    <li>c. The screenshots must not contain device images (e.g. a photo of your screen) or small text that will be illegible.</li>
+                    <li>d. None of the Plugin screenshots must contain advertising or content unrelated to the Plugin functionality.</li>
+                    <li>e. The screenshots must not misrepresent your Plugin.</li>
+                </list>
+            </chapter>
+            <chapter title="1.7. The Plugin links" id="plugin-links">
+                <list type="none">
+                    <li>a. All of the external links on your Plugin page must be valid and reachable from the internet.</li>
+                    <li>b. All of the external links on your Plugin page must relate to the Plugin or Plugin author.</li>
+                </list>
+            </chapter>
+            <chapter title="1.8. The Plugin and/or marketing assets" id="plugin-marketing-assets">
+                <list type="none">
+                    <li>a. Plugin marketing assets do not infringe on JetBrains Brand Assets (see the <a href="https://www.jetbrains.com/company/brand/?_gl=1*1lzmcth*_ga*NDAyMzA0NjgyLjE3MDU0ODQyNDU.*_ga_9J976DJZ68*MTcwNzI5MjA1Ni41Ny4xLjE3MDcyOTMzNjIuNTkuMC4w&amp;_ga=2.113354887.1625359879.1707140822-402304682.1705484245">JetBrains Brand Assets Guidelines</a> for more information).</li>
+                    <li>b. The Plugin and/or marketing assets do not infringe on any copyright or third-party trademarks.</li>
+                    <li>c. The Plugin do not contain, share, or distribute data or content that you do not own or have permission to use.</li>
+                </list>
+            </chapter>
+            <chapter title="1.9. Non-Incitement/Non-Discrimination" id="non-incitement">
+                <list type="none">
+                    <li>a. The Plugin, description, documentation, or any other material associated with the Plugin does not incite, engage in, or encourage, abuse, violence, hatred, or discrimination, or use language that is deemed by JetBrains to be malicious.</li>
+                </list>
+            </chapter>
+        </chapter>
+        <chapter title="2. The Plugin functionality" id="plugin-functionality">
+            <chapter title="2.1. The Plugin compatibility" id="plugin-compatibility">
+                <list type="none">
+                    <li>a. The Plugin is compatible with at least one JetBrains product.</li>
+                    <li>b. The Plugin can be installed on top of defined compatible products and compatible versions of the products.</li>
+                    <li>c. During each upload of a Plugin (or new version of such Plugin), compatibility must be verified by using the <a href="https://plugins.jetbrains.com/docs/intellij/api-changes-list.html#verifying-compatibility">Plugin Verifier</a> to ensure binary compatibility. </li>
+                    <li>d. The Plugin does not violate JetBrains' <a href="https://plugins.jetbrains.com/docs/intellij/api-internal.html">internal API usage</a>.</li>
+                </list>
+            </chapter>
+            <chapter title="2.2. The Plugin technical requirements" id="technical-requirements">
+                <list type="none">
+                    <li>a. The Plugin does not introduce any security vulnerabilities or privacy issues to JetBrains products or services.</li>
+                    <li>b. The Plugin does not negatively affect the performance of JetBrains products in a significant way (e.g. slowing the product down).</li>
+                    <li>c. In case of processing (e.g. collection, transfer, etc.) of any personal, statistical, or telemetric data, the Plugin asks for explicit permission from the user.</li>
+                    <li>d. The Plugin does not transfer statistics and/or telemetric data when the Plugin is not being used by the user.</li>
+                    <li>e. Plugin metadata and marketing assets do not include any content for additional promotion that would give it an unfair advantage or cause JetBrains Marketplace to malfunction (such as trying to manipulate search results, adding irrelevant keywords, breaking HTML formatting of the page, etc.).</li>
+                </list>
+            </chapter>
+        </chapter>
+        <chapter title="3. Legal Agreements and Privacy" id="agreements-and-privacy">
+            <list type="none">
+                <li>3.1. The Plugin Developer must accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> before submitting the Plugin.
+                </li>
+                <li>3.2. The Plugin Developer must provide their own end user license agreement (known as a Developer EULA) with any Plugin.</li>
+                <li>3.3. Plugin Developers need to provide a link to the source code if the Plugins are licensed under an open-source license.
+                </li>
+                <li>3.4. The Plugin Developer must provide Privacy Policy agreements if they collect any personal data.</li>
+                <li>3.5. Plugin Developer must declare if their account is considered a trader or non-trader with respect to European Economic Area (EEA) consumer protection laws.</li>
+            </list>
+        </chapter>
+        <note>
+            <p>
+                JetBrains may establish additional criteria on a case-by-case basis. JetBrains reserves the right to remove any Plugin from JetBrains Marketplace at any time and at its sole discretion.
+            </p>
+        </note>
+    </chapter>
+    <chapter title="Approval Criteria for Features Implemented by Plugins" id="approval-criteria-for-features">
+        <p>JetBrains Marketplace uses a Feature Extractor (aka <a href="https://github.com/JetBrains/intellij-plugin-verifier/tree/master/intellij-feature-extractor">intellij-feature-extractor</a>) to determine additional features supported by the Plugin. Based on the features determined, the Plugin is advertised in JetBrains products and services:</p>
+        <img src="plugin-recommendation-approval.png" alt="Plugin Recommendation" width="668"/>
+        <p>
+            The features are specified in the Plugin classes using the IntelliJ Platform API. Features may belong to the following categories:
+        </p>
+        <list>
+            <li>Configuration types</li>
+            <li>Facet types</li>
+            <li>File extensions</li>
+            <li>Artifact types</li>
+            <li>Module type</li>
+        </list>
+        <p>
+            Features implemented by the Plugin are subject to review and approval by JetBrains, and must conform to the following criteria:
+        </p>
+        <list>
+            <li>The Plugin does not implement features which are not related to its major functionality.</li>
+            <li>The Plugin does not implement any malicious features or features for additional promotion that would give it an unfair advantage.
+            </li>
+        </list>
+        <note>
+            <p>
+                JetBrains may establish additional criteria on a case-by-case basis.
+            </p>
+        </note>
+    </chapter>
+    <p>
+        If you have any questions about the approval process, please email us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+    </p>
+</topic>

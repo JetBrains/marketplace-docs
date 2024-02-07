@@ -6,8 +6,8 @@
 		<toc-element topic="benefits-of-jetbrains-marketplace.topic"/>
 		<toc-element topic="product-versions-in-use-statistics.topic"/>
 		<toc-element topic="legal-agreements.topic">
+			<toc-element topic="JetBrains-Marketplace-Approval-Guidelines.topic"/>
 			<toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
-			<toc-element toc-title="JetBrains Marketplace Approval Guidelines" href="https://plugins.jetbrains.com/legal/approval-guidelines"/>
 			<toc-element toc-title="JetBrains Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
 			<toc-element topic="reviews-policy.topic"/>
 			<toc-element topic="eula.topic"/>
