@@ -85,7 +85,7 @@
             channel
             (so they won't be able to see new updates in the default channel).
         </p>
-        <p>Therefore, it is recommended to add updates to the custom channel when you add them to the default (stable)
+        <p>Therefore, it is required to add updates to the custom channel when you add them to the default (stable)
             channel if you want a user to get this update.
         </p>
         <p>This behavior is temporary and going to be significantly reworked in the future.</p>
