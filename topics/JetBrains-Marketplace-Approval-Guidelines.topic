@@ -35,7 +35,7 @@
         <chapter title="1. Plugin content" id="plugin-content">
             <chapter title="1.1. The Plugin logo" id="plugin-logo">
                 <list type="none">
-                    <li>a. Must be different from the <a href="https://github.com/JetBrains/intellij-platform-plugin-template/blob/main/src/main/resources/META-INF/pluginIcon.svg">default logo</a> for the <a href="https://github.com/JetBrains/intellij-platform-plugin-template">ntelliJ Platform Plugin Template</a>I.</li>
+                    <li>a. Must be different from the <a href="https://github.com/JetBrains/intellij-platform-plugin-template/blob/main/src/main/resources/META-INF/pluginIcon.svg">default logo</a> for the <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a>.</li>
                     <li>b. Must not resemble any JetBrains product logos.</li>
                     <li>c. Must be provided in one size: 40 px by 40 px.</li>
                     <li>d. Must be in SVG format.</li>
