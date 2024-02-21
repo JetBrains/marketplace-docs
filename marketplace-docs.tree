@@ -71,8 +71,7 @@
 		<toc-element accepts-web-file-names="customer-information-access.html" topic="sales-related-emails.topic"/>
 		<toc-element topic="contributing-to-the-blog.topic"/>
 	</toc-element>
-	<toc-element accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html" topic="marketplace-demo.topic">
-		<toc-element topic="demo-obtain-creds.topic"/>
+	<toc-element accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html,demo-obtain-creds.html" topic="marketplace-demo.topic">
 		<toc-element topic="demo-prepare-ide.topic"/>
 		<toc-element topic="demo-limitations.topic"/>
 		<toc-element topic="demo-start-test.topic"/>

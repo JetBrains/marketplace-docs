@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Obtain the credentials to access the JetBrains Marketplace demo instance" id="demo-obtain-creds">
 
-    <p>You should have already received the credentials after <a href="submit-a-request-to-sell-plugins-at-the-marketplace.topic">submitting a
-        request
-    </a> to start selling your plugin. Please check
-        your
-        inbox for an email titled <emphasis>“You have been granted access to JetBrains Marketplace
-            Sandbox&quot;</emphasis>.
-    </p>
-
-    <p>If you don’t have it, feel free to reach out to JetBrains via
-        <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>
-        or <a href="https://plugins.jetbrains.com/slack">Slack</a>.
-        You will get a separate email with username/password details.
+    <p> We provide access to our demo by request only. To gain access, simply reach out to us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>, and we will promptly send you the credentials you need.
     </p>
 
     <warning>
         <p>Make sure to change the password when you first sign in.</p>
     </warning>
 
-    <p>You need your credentials to access both the
+    <p>You need to get these credentials to access
         <a href="https://master.demo.marketplace.intellij.net">JetBrains Marketplace Demo</a>
-        server
-        and the <a href="https://mp.jpf-demo.aws.intellij.net/login">Sales Systems Marketplace Demo</a>. You will need
-        to provide
-        your
-        credentials separately for both of these applications (it is normal if you are asked to re-provide your
-        credentials
-        when going from the plugins repository to the shop.)
+        server only. To access the <a href="https://mp.jpf-demo.aws.intellij.net/login">Sales Systems Marketplace Demo</a>, please follow <a href="demo-start-test.topic" id="jb-demo-account">these steps</a>.
     </p>
 
     <tip>
-        <p>Endpoints necessary for the IDE to function are open and don't require credentials to be accessed.</p>
+        <p><a href="demo-prepare-ide.topic">Endpoints</a> necessary for the IDE to function are open and don't require credentials to be accessed.</p>
     </tip>
 </topic>
