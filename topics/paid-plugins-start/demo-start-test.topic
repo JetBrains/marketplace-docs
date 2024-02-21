@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Testing on JetBrains Marketplace Demo" id="demo-start-test">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Testing on JetBrains Marketplace demo" id="demo-start-test">
 
-    <p>Once you have <a href="demo-obtain-creds.topic">obtained the credentials</a> and gotten familiar with the <a href="demo-limitations.topic">JetBrains Marketplace Demo
+    <p>Once you have <a href="marketplace-demo.topic">obtained the credentials</a> and gotten familiar with the <a href="demo-limitations.topic">JetBrains Marketplace demo
         limitations</a>, you’re ready to hop in and start your tests.
     </p>
     <note>
@@ -42,34 +42,39 @@
                 </li>
             </list>
 
-    <chapter title="Marketplace Sign In" id="demo-sign-in">
-        <p>Access the <a href="https://master.demo.marketplace.intellij.net/">Marketplace Demo instance</a> and use the
-            credentials
-            you have <a href="demo-obtain-creds.topic">obtained</a> from JetBrains. Unfortunately, you can't use the &quot;sign
-            in via Google
-            Account&quot; option, as we can't connect it to non-JetBrains emails (the JetBrains team should use the &quot;sign in
-            via
-            Google Account&quot; option exclusively). Use the username/password option.
-        </p>
+    <chapter title="Sign In" id="demo-sign-in">
+        <p>Access the <a href="https://master.demo.marketplace.intellij.net/">Marketplace Demo instance</a> and use the credentials you have <a href="marketplace-demo.topic">obtained</a> from JetBrains.</p>
+        <img src="signindemo.png" alt="Sign in to the demo" width="741"/>
+        <p>Unfortunately, you can't use the &quot;sign in via Google Account&quot; option, as we can't connect it to non-JetBrains emails. Use <control>username/password</control> that you get from the email titled “<emphasis>You have been granted access to JetBrains Marketplace Sandbox</emphasis>".</p>
         <warning>
             <p>Make sure to change the password on the first sign in.</p>
         </warning>
     </chapter>
 
-    <chapter title="Marketplace Demo plugin upload" id="demo-plugin-upload">
-        <p>Once you access the JetBrains Marketplace Demo instance, you should log into the JetBrains Marketplace application itself:</p>
+    <chapter title="Plugin upload" id="demo-plugin-upload">
+        <p>Once you access the JetBrains Marketplace demo instance, you should log into the JetBrains Marketplace application itself.</p>
+        <p>Please use your normal <a href="https://hub.jetbrains.com">Hub</a> account, the same as you would use on the production instance.</p>
 
         <img src="hub-login.png" alt="Hub Login Window" width="406"/>
 
-        <p>Please use your normal <a href="https://hub.jetbrains.com">Hub</a> account, the same as you would use on the
-            production
-            instance.
+        <p>After that, feel free to upload a new plugin following the steps described <a href="uploading-a-new-plugin.topic">here</a>. Your plugin will be automatically approved, unlike in production where it has to undergo our review process.
         </p>
-
-        <p>After that, feel free to upload a new plugin following the steps described in the <a href="release-plugin.topic">Release the
-            Plugin
-        </a> section. Once all the steps are completed, your plugin will be automatically approved, unlike in production where it has to undergo our review process.
-        </p>
+        
+        <chapter title="Paid plugin release process" id="paid-plugin-release-demo">
+            <p>If you're testing a paid plugin, please make sure you completed the following steps:</p>
+            <list>
+                <li><a href="organizations.topic" id="associating-plugin-with-organization">Associate</a> the plugin with the organization.</li>
+                <li><a href="organizations.topic" id="submitting-vendor-information">Submit the bank details</a> (use fake details on demo!).</li>
+                <li>
+                    <a href="release-plugin.topic">Set the pricing details</a> on the <emphasis>Sales</emphasis> tab.
+                    <img src="submitpricing.png" alt="Submit pricing" width="789"/>
+                </li>
+                <li>
+                    Change the status from "<emphasis>Draft</emphasis>" to "<emphasis>In-stock</emphasis>" on the <emphasis>Sales</emphasis> tab.
+                    <img src="in_stock.png" alt="Set In_Stock status" width="789"/>
+                </li>
+            </list>
+        </chapter>
 
         <note>
             <p>You might notice plugins copied from the Production instance. Please keep in mind that it is NOT possible
