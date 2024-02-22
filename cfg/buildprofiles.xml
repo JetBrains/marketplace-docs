@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+	<sitemap priority="0.35" change-frequency="monthly"/>
 	<variables>
+		<include-in-head>thirdparty/dpk-gtm-analytics.html</include-in-head>
 		<web-root>https://plugins.jetbrains.com</web-root>
 		<!--<web-community-path>Developer Community:http://www.jetbrains.net/devnet/community/idea/kb</web-community-path>-->
 		<download-page>https://plugins.jetbrains.com/build-and-market</download-page>
@@ -20,6 +22,7 @@
 		<algolia-id>JWPLKSKZVF</algolia-id>
 		<algolia-index>prod_MARKETPLACE_HELP</algolia-index>
 		<algolia-api-key>bce9ba6ce7419efe813d671244d3bf6a</algolia-api-key>
+		<website-title>%instance% Documentation</website-title>
 	</variables>
 	<build-profile instance="marketplace-docs"/>
 	<footer>
