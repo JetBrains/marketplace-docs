@@ -35,7 +35,7 @@
         </p>
         <code-block lang="xml">
                 <![CDATA[
-                <instance-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
+                <product-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
                 <version>2021.1.1</version>
                 ]]>
             </code-block>
@@ -53,7 +53,7 @@
         </p>
         <code-block lang="xml">
                 <![CDATA[
-                <instance-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
+                <product-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
                 <version>2021.1.2</version>
                 ]]>
             </code-block>

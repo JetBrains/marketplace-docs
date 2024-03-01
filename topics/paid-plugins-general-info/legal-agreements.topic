@@ -13,10 +13,6 @@
         <p>This agreement must be signed (on the website, no physical copy) before the plugin is uploaded. It includes
             terms and conditions for non-marketplace developer-related matters as well.
         </p>
-        <p>The document is attached to the article. Alternatively, you can leave comments in the <a href="https://docs.google.com/document/d/1twHbfMfJXgT10LsHbsl8jKMd_esfNTsSQYo0nhKI2kI/edit">Google
-            Document version of the document</a>. Your comments are going to be visible to other viewers and JetBrains
-            employees, feel free to create a copy and send it to us if you want to keep comments in secret.
-        </p>
     </chapter>
 
     <chapter title="2. JetBrains Marketplace Approval Guidelines" id="JetBrains-Marketplace-Approval-Guidelines">
@@ -24,13 +20,8 @@
             JetBrains Marketplace Developer Agreement and is applied towards all plugins (both paid and free.)
         </p>
 
-        <p>You can find a document here: <a href="https://plugins.jetbrains.com/legal/approval-guidelines">
+        <p>You can find a document here: <a href="JetBrains-Marketplace-Approval-Guidelines.topic">
             https://plugins.jetbrains.com/legal/approval-guidelines</a>.
-        </p>
-
-        <p>The document is attached to the article. Alternatively, you can leave comments in the <a href="https://docs.google.com/document/d/11ls1qpMbUTLVjwLq5RHu6RVHrQ9vvLwSOeE-g88eJJs/edit">Google
-            Document version of the document</a>. Your comments are going to be visible to other viewers and JetBrains
-            employees, feel free to create a copy and send it to us if you want to keep comments in secret.
         </p>
     </chapter>
 
@@ -52,17 +43,6 @@
             s.r.o.)
         </a> apply instead of the standard Terms of Use.
         </p>
-
-        <p>The documents are attached to the article. Alternatively, you can leave comments in the Google Document
-            versions
-            of the documents (<a href="https://docs.google.com/document/d/1xw24DYnDunbxm3lDZjB7F0ZgjPDDhyWMA4be8d41V0I/edit">
-                JetBrains Plugin Marketplace
-                Agreement</a>, <a href="https://docs.google.com/document/d/1SvgcnBGVI7fN0SgIMLYk5uXmnKSrUg5HXoP-hgO-Ry8/edit">
-                JetBrains
-                Plugin Marketplace Agreement (JetBrains Distributions
-                s.r.o.)</a>). Your comments are going to be visible to other viewers and JetBrains employees,
-            feel free to create a copy and send it to us if you want to keep comments in secret.
-        </p>
     </chapter>
 
     <chapter title="4. Privacy Policy" id="Privacy-Policy">
@@ -70,7 +50,7 @@
         </p>
     </chapter>
 
-    <chapter title="5. Purchasing Terms">
+    <chapter title="5. Purchasing Terms" id="purchasing-terms">
         <p>This document includes payment terms, ways of product delivery, order placement and acceptance, how we manage
             personal data during the purchase, etc., and it covers products sold via JetBrains Marketplace, too:
             <a href="https://www.jetbrains.com/store/terms/">https://www.jetbrains.com/store/terms/</a>
@@ -79,22 +59,10 @@
         </p>
     </chapter>
 
-    <chapter title="Attachments" id="Attachments">
-        <res resource-id="jetbrains-plugin-marketplace-agreement-docx"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-agreement-pdf"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-agreement-jbd-docx"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-agreement-jbd-pdf"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-approval-guidelines-docx"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-approval-guidelines-pdf"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-developer-agreement-docx"/>
-
-        <res resource-id="jetbrains-plugin-marketplace-developer-agreement-pdf"/>
+    <chapter title="6. JetBrains Marketplace Content Moderation Policy" id="content-moderation-policy">
+        <p>
+            This policy defines inappropriate content and establishes the procedures through which JetBrains moderates the inappropriate content: <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/">https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/</a>.
+        </p>
     </chapter>
 
 </topic>
