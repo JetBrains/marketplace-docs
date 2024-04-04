@@ -49,6 +49,7 @@
 		<toc-element topic="intellij-plugin-recommendations.topic"/>
 		<toc-element topic="embeddable-content.md"/>
 		<toc-element topic="list-of-common-errors-and-warnings.topic"/>
+		<toc-element topic="exception-analyzer.topic"/>
 	</toc-element>
 
 	<toc-element accepts-web-file-names="plugin-types.html" topic="plugin-monetization.topic">

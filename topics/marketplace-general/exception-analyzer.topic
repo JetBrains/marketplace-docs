@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Exception analyzer" id="Exception-analyzer">
+       title="Exception analyzer" id="exception-analyzer" help-id="Exception-analyzer">
 
     <p>An easy way to report plugin exceptions from IntelliJ Platform-based products to plugin developers right on JetBrains Marketplace is to use JetBrains Exception Analyzer (EA) as a backend service.
     </p>
@@ -39,6 +39,20 @@
                 The developer investigates the issue and marks it as “Resolved” once it’s fixed.
             </li>
         </list>
+        <chapter title="What metadata is sent" id="what-metadata-is-sent" collapsible="true" default-state="collapsed">
+            <p>
+                The information that report could include is:
+            </p>
+            <code-block>
+                "appInfo", "update.channel.status", "update.ignored.builds", "plugin.id", "plugin.name", "plugin.version", "last.action", "previous.exception", "error.message", "error.stacktrace", "error.description", "error.redacted", "attachment.name", "attachment.value", "assignee.id", "assignee.list.visible", "assignee.list.timestamp"
+            </code-block>
+            <p>
+                <code>"appInfo"</code> could also include:
+            </p>
+            <code-block>
+                "protocol.version", "os.name", "java.version", "java.vm.vendor", "app.name", "app.name.full", "app.name.version", "app.eap", "app.internal", "app.build", "app.version.major", "app.version.minor", "app.build.date", "app.build.date.release", "app.product.code", "app.build.number"
+            </code-block>
+        </chapter>
         <img src="exceptions-tab.png" alt="Exceptions tab" width="800"/>
     </chapter>
     <chapter title="How do I opt in?" id="how-do-I-opt-in">
@@ -58,6 +72,9 @@
         </code-block>
         <p>
             The <code>JetBrainsMarketplaceErrorReportSubmitter</code> helper class has been available since the 2023.3 release cycle.
+        </p>
+        <p>
+            Once the error handler implementation is added, contact <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> and JetBrains Marketplace team will enable the feature for you.
         </p>
     </chapter>
 </topic>

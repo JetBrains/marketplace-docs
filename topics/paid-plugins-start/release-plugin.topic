@@ -100,6 +100,17 @@
             </li>
             <li>
                 <p>
+                    Optionally, you can adjust the trial period or disable it. The default trial period is 30 days. To
+                    edit it click the <control>Edit Section</control> button near the <path>Trial Period</path> section:
+                </p>
+                <img src="trial-period.png" alt="Trial Period section" width="1308"/>
+                <p>
+                    You can then select the 7, 10, 14, 30 days periods or disable it:
+                </p>
+                <img src="trial-period-edit.png" alt="Trial Period edit" width="1294"/>
+            </li>
+            <li>
+                <p>
                     Once these steps have been performed, we will review your plugin within two business days. You will
                     receive a
                     notification as soon as the status of the review changes or if there are any questions regarding the
