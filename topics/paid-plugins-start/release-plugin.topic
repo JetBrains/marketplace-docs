@@ -108,6 +108,16 @@
                     You can then select the 7, 10, 14, 30 days periods or disable it:
                 </p>
                 <img src="trial-period-edit.png" alt="Trial Period edit" width="1294"/>
+                <p>
+                    You can change the trial period at any time after the plugin is reviewed.
+                </p>
+                <note>
+                    <p>
+                        Users always get the number of trial days they requested. For example, if the trial period was 30
+                        days, a user started it, but the next day you lower it to 7 days, that user will still have the 30 days of trial.
+                    </p>
+                </note>
+
             </li>
             <li>
                 <p>
