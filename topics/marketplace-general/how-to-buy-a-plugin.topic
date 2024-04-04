@@ -76,19 +76,33 @@
                     </li>
                     <li>From the plugin’s <control>Overview</control> page, go to the <control>Pricing</control> tab.
                     </li>
-                    <li>Select the required subscription and click <control>Buy</control>.
-                        <note>Keep in mind that you can apply for a discount or get a free license if you have a JetBrains
-                            Account that is eligible for the offer. You can learn more about such offers <a href="community-programs.topic">here</a>.</note>
+                    <li>
+                        <p>
+                            Select the required subscription and click <control>Buy</control>.
+                        </p>
+                        <note><p>
+                            Keep in mind that you can apply for a discount or get a free license if you have a JetBrains
+                            Account that is eligible for the offer. You can learn more about such offers <a href="community-programs.topic">here</a>.
+                        </p></note>
                     </li>
-                    <li>If you don’t have an active <a href="https://sales.jetbrains.com/hc/en-gb/articles/208459005-What-is-a-JetBrains-Account-">
-                        JetBrains Account</a>, you will need to provide an email address. Otherwise, please sign in
-                        using your JetBrains Account.
+                    <li>
+                        <p>
+                            If you don’t have an active <a href="https://sales.jetbrains.com/hc/en-gb/articles/208459005-What-is-a-JetBrains-Account-">
+                            JetBrains Account</a>, you will need to provide an email address. Otherwise, please sign in
+                            using your JetBrains Account.
+                        </p>
                     </li>
-                    <li>Double-check that the product you have selected is the correct one and that all the required
-                        information has been filled in correctly before completing the purchase.
+                    <li>
+                        <p>
+                            Double-check that the product you have selected is the correct one and that all the required
+                            information has been filled in correctly before completing the purchase.
+                        </p>
                     </li>
-                    <li>Once the payment has successfully been completed, please check your inbox for an email with
-                        purchase information.
+                    <li>
+                        <p>
+                            Once the payment has successfully been completed, please check your inbox for an email with
+                            purchase information.
+                        </p>
                     </li>
                 </list>
             </chapter>
