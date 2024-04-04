@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="How to buy a plugin" id="how-to-buy-a-plugin">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="How to buy a plugin license" id="how-to-buy-a-plugin">
 
-    <p>Buying a plugin license is easy! Read on this step-by-step guide to go through the process as smoothly as
+    <p>Buying a plugin license is easy! This step-by-step guide will help you to go through the process as smoothly as
         possible.
     </p>
 
     <procedure title="Evaluate for free" default-state="collapsed" type="steps" collapsible="true">
-        <p>All plugins come with a 30-day trial period, so you can test them out before buying a license:</p>
+        <p>Most of the plugins come with a trial period, so you can test them out before buying a license:</p>
         <step><p>
             Use the “Search” field in the <control>Plugin Manager</control> to find the plugin you want.
         </p></step>
@@ -22,8 +22,8 @@
         </p></step>
     </procedure>
 
-    <p>You can make the purchase directly from your IDE (Plugin Manager) or through the Plugin page on JetBrains
-        Marketplace:
+    <p>You can make the purchase directly from your IDE (<control>Plugin Manager</control>) or through the Plugin page
+        on JetBrains Marketplace:
     </p>
     <tabs>
         <tab title="Plugin Manager">
@@ -43,8 +43,11 @@
                         in the top-right corner to start the purchase process:
                         <img src="License-Activation-window.png" alt="License Activation window" width="1598"/>
                     </li>
-                    <li>You will be redirected to the plugin’s <control>Pricing</control> page, where you can select the
-                        desired subscription.
+                    <li>
+                        <p>
+                            You will be redirected to the plugin’s <control>Pricing</control> tab, where you can select the
+                            desired subscription.
+                        </p>
                         <note>
                             <p>Keep in mind that you can apply for a discount or get a free license if you have a JetBrains
                                 Account that is eligible for the offer. You can learn more about such offers <a href="community-programs.topic">here</a>.
@@ -92,9 +95,9 @@
         </tab>
     </tabs>
 
-    <chapter title="Purchasing 100 licenses in one click">
-        <p>To purchase more than 1 license, just select the necessary number of licenses under the Pricing tab and
-            click <control>Buy</control>:
+    <chapter title="Purchase more than 1 license">
+        <p>To purchase more than 1 license, just select the necessary number of licenses (1–100) under the
+            <path>Pricing</path> tab and click <control>Buy</control>:
         </p>
         <img src="100licenses.png" alt="Select 100 licenses" width="2010"/>
     </chapter>
