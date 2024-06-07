@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Organizations" id="organizations">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM
+        'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'>
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Organizations"
+       id="organizations">
 
     <p>Organizations simply let you gather all the plugins and plugin authors associated with your company on a single
         page that also provides information such as a link to your company’s website and an email address. Personal
@@ -8,9 +12,11 @@
     </p>
 
     <chapter title="Creating an organization" id="creating-an-organization">
-        <p>To create an organization, navigate to your profile on JetBrains Marketplace, switch to the <emphasis>My
-            Organizations
-        </emphasis> tab, and click the <a href="https://plugins.jetbrains.com/organizations/new">Add Organization</a> button:
+        <p>To create an organization, navigate to your profile on JetBrains Marketplace, switch to the
+            <emphasis>My
+                Organizations
+            </emphasis>
+            tab, and click the <a href="https://plugins.jetbrains.com/organizations/new">Add Organization</a> button:
         </p>
 
         <img src="AddOrganization.png" alt="Add Organization" width="406"/>
@@ -22,7 +28,10 @@
 
         <img src="CreateOrganization.png" alt="Create Organization" width="406"/>
 
-        <p>Additionally, you must declare whether your Organization can be considered a trader or non-trader according to the definition from the European Union. This will allow consumers from the EU to determine whether consumer protection regulations apply to them. Learn more about the requirements <a href="trader-status.topic">here</a>.</p>
+        <p>Additionally, you must declare whether your Organization can be considered a trader or non-trader according
+            to the definition from the European Union. This will allow consumers from the EU to determine whether
+            consumer protection regulations apply to them. Learn more about the requirements <a
+                    href="trader-status.topic">here</a>.</p>
         <img src="trader-status.png" alt="Trader status" width="456"/>
         <p>All the other information, including the Organization Name, email address, and website, can be updated at any
             time.
@@ -47,65 +56,26 @@
     </chapter>
 
     <chapter title="Adding members" id="adding-members">
-        <p>To add more members, you just need to open the <control>Edit Organization</control> page, switch to the <control>
-            People &amp; Plugins
-        </control> tab, and enter the plugin author's ID in the <control>Add User</control> field.
+        <p>To add more members, you just need to open the
+            <control>Edit Organization</control>
+            page, switch to the
+            <control>
+                People &amp; Plugins
+            </control>
+            tab, and enter the plugin author's ID in the
+            <control>Add User</control>
+            field.
         </p>
     </chapter>
 
     <chapter title="Associating plugins with an organization" id="associating-plugin-with-organization">
-        <p>To associate plugins with an organization, the administrator or the plugin’s author should specify the
-            Organization ID in the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">
-                plugin.xml
-            </a> file:
+        <p>To associate a plugin with an organization, the plugin’s author should be a member of that organization and
+            select it as Vendor on the plugin <emphasis>Overview</emphasis> page.
         </p>
+        <img src="transferorg.png" alt="Transfer a plugin" width="955"/>
 
-        <p>
-            <control>IntelliJ IDEA-based IDEs:</control>
-        </p>
-        <code-block lang="xml">
-        <![CDATA[
-                <vendor>OrganizationID</vendor>
-                ]]>
-    </code-block>
 
-        <p>
-            <control>TeamCity:</control>
-        </p>
-        <code-block lang="xml">
-            <![CDATA[
-                <vendor>
-                    <name>OrganizationID</name>
-                </vendor>
-                ]]>
-        </code-block>
-
-        <p>
-            <control>Resharper:</control>
-        </p>
-        <code-block lang="xml">
-        <![CDATA[
-                <id>OrganizationID.PluginName</id>
-                ]]>
-    </code-block>
-        <p>            <emphasis>For more details, please refer to <a href="https://www.jetbrains.com/help/resharper/sdk/Rider.html">this page</a>.
-        </emphasis></p>
-        <p>
-            <control>Space:</control>
-        </p>
-        <p>Please specify the Organization ID on the plugin page:</p>
-        <img src="org-space.png" alt="Edit Vendor" width="780"/>
-        <p>Once this has been done, you will have the option to transfer the plugin to the organization:</p>
-
-        <img src="transferorg.png" alt="Add Organization" width="460"/>
-
-        <warning>
-            <p>If this button does not appear, please make sure that you specified the Organization ID correctly. Keep
-                in mind that the Organization ID may differ from the Organization Name.
-            </p>
-        </warning>
-
-        <p>Once the plugin has been transferred, the plugin authors will retain the right to manage their plugins, even
+        <p>Once the plugin has been transferred, the plugin authors will retain the right to manage the plugin, even
             if some of them do not belong to the organization. At this point, the plugin may also be managed by the
             organization's administrators.
         </p>
@@ -113,7 +83,8 @@
     </chapter>
 
     <chapter title="Verified Vendor Badge" id="verified-organizations">
-        <p>If you want your organization to be marked as &quot;Verified&quot;, check that it meets the <a href="verified-vendor-badge.topic">criteria</a>.
+        <p>If you want your organization to be marked as &quot;Verified&quot;, check that it meets the <a
+                href="verified-vendor-badge.topic">criteria</a>.
         </p>
     </chapter>
 
@@ -132,21 +103,26 @@
         </warning>
     </chapter>
 
-    <chapter title="Transferring plugins from one organization to another" id="transferring-plugins-from-one-organization-to-another">
+    <chapter title="Transferring plugins from one organization to another"
+             id="transferring-plugins-from-one-organization-to-another">
         <p>You can easily move free plugins to another organization by following these steps:</p>
 
         <list type="decimal">
-                <li>De-associate the plugin from its current organization by removing it in the <emphasis>Users &amp;
+            <li>De-associate the plugin from its current organization by removing it in the
+                <emphasis>Users &amp;
                     Plugins
-                </emphasis> tab.
-                </li>
-                <li>Update the Organization ID in the <path>plugin.xml</path> file and upload this version to JetBrains Marketplace.</li>
-                <li>Transfer the plugin to the new organization on the plugin’s <emphasis>Overview</emphasis> page.
-                </li>
-            </list>
+                </emphasis>
+                tab.
+            </li>
+            <li>Transfer the plugin to the new organization on the plugin’s
+                <emphasis>Overview</emphasis>
+                page.
+            </li>
+        </list>
 
         <p>For freemium or paid plugins, the procedure is not so simple, and it requires the involvement of the
-            Marketplace Support team. If you wish to transfer a freemium or paid plugin, please contact us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+            Marketplace Support team. If you wish to transfer a freemium or paid plugin, please contact us at <a
+                    href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
         </p>
 
     </chapter>
