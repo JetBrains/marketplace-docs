@@ -117,6 +117,11 @@
                         days, a user started it, but the next day you lower it to 7 days, that user will still have the 30 days of trial.
                     </p>
                 </note>
+                <note>
+                    <p>
+                        Take into account that trial period is shown correctly only in 2024.1 and later IDE versions.
+                    </p>
+                </note>
 
             </li>
             <li>
