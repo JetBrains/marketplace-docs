@@ -12,19 +12,15 @@
     <list type="decimal">
             <li>
                 <p>Make sure that you have an <a href="organizations.topic">Organization</a> and that you have submitted
-                    your banking
-                    information
-                    under the <path>Vendor Information</path> tab.
+                    your banking information under the <ui-path>Banking Information</ui-path> tab.
                 </p>
-
-                <img src="test_org.png" alt="My Organizations tab" width="1500"/>
-                <img src="VendorInfo.png" alt="Vendor Information tab" width="1522"/>
-
-
-                <tip>
-                    <p>If you don’t see the tab for banking information, contact our Support Team <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+                <img src="test-organization.png" alt="Organizations tab" width="395"/>
+                <img src="banking-information.png" alt="Vendor Information tab" width="519"/>
+                <note>
+                    <p>By default, this tab is not available. If you don’t see this tab, contact us at
+                        <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
                     </p>
-                </tip>
+                </note>
             </li>
             <li>
                 <p>If this is your initial release, upload the plugin to <a href="https://plugins.jetbrains.com/">JetBrains
@@ -45,20 +41,12 @@
             </li>
             <li>
                 <p>If you have not already done so, transfer the plugin to your Organization by going to the plugin
-                    overview
-                    page and clicking the <control>Transfer to Organization</control> button:
+                    Overview page and selecting your organization under <ui-path>Vendor</ui-path>:
                 </p>
-                <img src="transfer-button.png" alt="Add to Organization" width="1884"/>
-                <tip>
-                    <p>
-                        If this button is not available, make sure that you specified the <a href="organizations.topic">
-                        Organization ID
-                    </a> correctly. Keep in mind that your Organization ID may differ from your Organization Name.
-                    </p>
-                </tip>
+                <img src="transfer-to-organization.png" alt="Add to Organization" width="966"/>
             </li>
             <li>
-                <p>Go to the <path>Sales Info</path> tab on the Plugin page and press the <control>Add to JetBrains Marketplace
+                <p>Go to the <ui-path>Sales Info</ui-path> tab on the Plugin page and press the <control>Add to Marketplace
                 </control> button to fill in the sales
                     details.
                 </p>
@@ -66,7 +54,7 @@
                 <tip>
                     <p>
                         If you don’t see this button, please make sure you specified your banking information under the  <path>
-                        Vendor Information
+                        Banking Information
                     </path> tab for your <a href="organizations.topic">Organization</a>.
                     </p>
                 </tip>
