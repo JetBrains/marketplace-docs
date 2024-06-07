@@ -4,38 +4,35 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Organizations"
        id="organizations">
 
-    <p>Organizations simply let you gather all the plugins and plugin authors associated with your company on a single
-        page that also provides information such as a link to your company’s website and an email address. Personal
-        plugins do not belong to an organization and do not need to be transferred. We recommend creating an
-        organization for companies or individual users who are planning to sell plugins or provide services such as
-        bespoke plugin development, plugin training, and plugin translation.
+    <p><control>Organizations</control> let you gather all the plugins and plugin authors associated with your company
+        on a single page. There you can also add company contact details, description, or list services you provide.
+        Personal plugins don't have to be transferred to organizations. However, we recommend creating an organization
+        for companies or if you plan to sell plugins.
     </p>
-
     <chapter title="Creating an organization" id="creating-an-organization">
-        <p>To create an organization, navigate to your profile on JetBrains Marketplace, switch to the
-            <emphasis>My
-                Organizations
-            </emphasis>
-            tab, and click the <a href="https://plugins.jetbrains.com/organizations/new">Add Organization</a> button:
+        <p>
+            The easiest way to create an organization is during the initial plugin upload.
         </p>
+        <img src="create-organization.png" alt="Create Organization" width="564"/>
 
-        <img src="AddOrganization.png" alt="Add Organization" width="406"/>
-
-        <p>Each organization has a public name and a unique ID. Be sure to choose your Organization ID carefully,
-            because you won’t be able to edit this parameter later on. You should also keep in mind that one
-            organization cannot have multiple Organization IDs.
+        <warning>
+            <p>
+                Be sure to choose your Organization ID carefully, because you won’t be able to edit this parameter
+                later on. Also keep in mind that one organization cannot have multiple Organization IDs.
+            </p>
+        </warning>
+        <p>Other fields such as Organization name, Email, and Website can be updated at any time.
         </p>
-
-        <img src="CreateOrganization.png" alt="Create Organization" width="406"/>
-
-        <p>Additionally, you must declare whether your Organization can be considered a trader or non-trader according
-            to the definition from the European Union. This will allow consumers from the EU to determine whether
-            consumer protection regulations apply to them. Learn more about the requirements <a
+        <p>During the organization creation, you must also declare whether your Organization can be considered a trader
+            or non-trader according to the definition from the European Union. This will allow consumers from the EU
+            to determine whether consumer protection regulations apply to them. Learn more about the requirements <a
                     href="trader-status.topic">here</a>.</p>
-        <img src="trader-status.png" alt="Trader status" width="456"/>
-        <p>All the other information, including the Organization Name, email address, and website, can be updated at any
-            time.
+        <img src="trader-status.png" alt="Trader status" width="663"/>
+        <p>If you have already uploaded a plugin you can still create an organization. To create it click the
+            <a href="https://plugins.jetbrains.com/organizations/new">Add Organization</a> button under
+            <ui-path>Organizations</ui-path> on your profile page:
         </p>
+        <img src="add-organization.png" alt="Add Organization" width="360"/>
     </chapter>
 
     <chapter title="Organization administrators" id="organization-administrators">
@@ -72,7 +69,7 @@
         <p>To associate a plugin with an organization, the plugin’s author should be a member of that organization and
             select it as Vendor on the plugin <emphasis>Overview</emphasis> page.
         </p>
-        <img src="transferorg.png" alt="Transfer a plugin" width="955"/>
+        <img src="transfer-to-organization.png" alt="Transfer a plugin" width="955"/>
 
 
         <p>Once the plugin has been transferred, the plugin authors will retain the right to manage the plugin, even
@@ -92,15 +89,16 @@
         <p>Paid and freemium plugins must belong to an organization and must be associated with the name, either the
             Company Name or the full legal name of the plugin’s author, that is used in the Sales System.
         </p>
-        <p>You can submit your banking information in the Vendor Information tab:</p>
+        <p>You can submit these details on the <ui-path>Banking Information</ui-path> tab:</p>
 
-        <img src="VendorInfo.png" alt="Vendor Information tab" width="354"/>
+        <img src="banking-information.png" alt="Vendor Information tab" width="519"/>
 
-        <warning>
-            <p>If you don’t see this tab, please contact us at <a href="mailto:marketplace@jetbrains.com">
-                marketplace@jetbrains.com</a>.
+        <note>
+            <p>By default, this tab is not available. If you are in the process of
+                <a href="step-by-step-guide-to-putting-plugin-up-for-sale.topic">making your plugin paid</a> and don’t see
+                this tab, please contact us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
             </p>
-        </warning>
+        </note>
     </chapter>
 
     <chapter title="Transferring plugins from one organization to another"
@@ -141,14 +139,11 @@
             plugins or
             selling them. A single (and free) personal plugin doesn’t really need to be transferred to an organization.
             Furthermore, if you’re an author who belongs to an organization, you can still keep your own plugins as
-            personal
-            ones.
+            personal ones.
         </p>
         <p>Q: What will happen to my plugins if I transfer them to an organization?</p>
         <p>A: Plugins that you move will have a note added to them that says they belong to the organization. They will
-            also
-            be listed on the organization’s page. Make sure that the value in the Vendor field is the same as the
-            Organization ID. Please see the documentation for further details.
+            also be listed on the organization’s page.
         </p>
 
     </chapter>
