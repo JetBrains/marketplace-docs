@@ -20,6 +20,7 @@
                 well as
                 on the date of payment and 7 days after the subscription pack expires.
             </li>
+            <li>Price increase notifications.</li>
         </list>
     <p>The Subscription Pack serves as a way to co-term subscriptions expiring at different times to the same expiration
         date. The notification includes information about all products a user is subscribed to, including paid plugins.
@@ -27,8 +28,9 @@
     <p>
         Here are examples of the emails we send:
     </p>
-    <img src="email-example.png" alt="Example1" width="1600"/>
-    <img src="email-example-2.png" alt="Example2" width="1478"/>
+    <img src="email-example.png" alt="Example1" width="800"/>
+    <img src="email-example-2.png" alt="Example2" width="739"/>
+    <img src="email-example-3.png" alt="Example3" width="621"/>
 
     <chapter title="In-product Notifications" id="in-product-notifications">
         <p>Users receive notifications about new plugin versions and plugin license and trial expirations right inside
@@ -37,7 +39,7 @@
             activate
             licenses.
         </p>
-        <img src="email-in-product-notifications.png" alt="In-product Notifications" width="844"/>
+        <img src="email-in-product-notifications.png" alt="In-product Notifications" width="422"/>
     </chapter>
 
     <chapter title="Plugin nurturing emails" id="plugin-nurturing-emails">
@@ -54,7 +56,7 @@
                         Please populate the dedicated fields in the plugin page admin settings with the links to these
                         resources.
                     </p>
-                    <img src="email-links.png" alt="Links" width="1600"/>
+                    <img src="email-links.png" alt="Links" width="800"/>
                 </li>
                 <li>
                     <p>
@@ -81,9 +83,9 @@
                     <p>
                         Here’s how the emails look:
                     </p>
-                    <img src="email-thanks.png" alt="Thank you" width="1600"/>
-                    <img src="email-subscription.png" alt="Your Subscription" width="1600"/>
-                    <img src="email-feedback.png" alt="Your Feedback" width="1600"/>
+                    <img src="email-thanks.png" alt="Thank you" width="800"/>
+                    <img src="email-subscription.png" alt="Your Subscription" width="800"/>
+                    <img src="email-feedback.png" alt="Your Feedback" width="800"/>
                 </li>
             </list>
     </chapter>
@@ -120,7 +122,7 @@
                 page.
             </b>
         </p>
-        <img src="email-privacy.png" alt="Privacy Policy" width="1492"/>
+        <img src="email-privacy.png" alt="Privacy Policy" width="746"/>
     </chapter>
 
 </topic>
