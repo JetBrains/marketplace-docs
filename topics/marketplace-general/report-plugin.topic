@@ -1,34 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Report plugin" id="report-plugin">
 
-    <p>If you believe a plugin violates our <a href="https://plugins.jetbrains.com/legal">Legal Agreements &amp;
-        Policies</a>, you can report it to us. Just click <control>Report Plugin</control> on the plugin page and select the type of
+    <p>If you believe a plugin violates <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/">JetBrains
+        Marketplace Content Moderation Policy</a>, you can report it to us. To report a plugin click <control>Report Plugin</control> on the plugin page and select the type of
         violation.
     </p>
 
-    <img src="reportplugin.gif" alt="Report Plugin" width="638"/>
+    <img src="reportplugin.gif" alt="Report Plugin" width="836"/>
 
-    <p>We distinguish the following types of violations:
+    <p>You can find the detailed explanation of violation types in the list of
+        <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/#unacceptable-content-on-jetbrains-marketplace">
+            Unacceptable Content on JetBrains Marketplace</a>.
     </p>
-    <list>
-        <li><control> Inappropriate content</control>
-            <p>We do not allow offensive language, sexual or hateful content, spam, or related or unrelated advertisements.
-            </p>
-        </li>
-        <li><control>Legal violations</control>
-        <p>
-            Any privacy violations, trademark infringements, and end-user license agreement violations are strictly prohibited.
-        </p>
-        </li>
-        <li><control>Quality issue</control>
-            <p>The plugin does not function as it is described, breaks the IDE, or affects the IDE’s performance.
-            </p>
-            <note>
-                Technical issues, like plugin bugs or support for a new IDE version, should be reported to the plugin’s bug tracker or plugin developer directly.
-            </note>
-        </li>
-        <li><control>Other</control><p>
-            If none of the categories above apply to the violation, please provide the details here.
-        </p></li>
-    </list>
-    <tip>If you see a plugin review that does not follow the <a href="reviews-policy.topic">Ratings and Reviews Policy</a>, please report it to us following <a href="reviews-policy.topic" anchor="reportings-reviews"> this guide</a>.</tip>
+    <p>
+        Once you've reported a plugin, you can find an issue created in <a href="https://youtrack.jetbrains.com/issues/MR">YouTrack</a>.
+        Log in with the same Hub account you used to report the plugin to see the report.
+    </p>
+
+    <tip>If you see a plugin review that does not follow the <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/">JetBrains
+        Marketplace Content Moderation Policy</a>, please report it to us following <a href="reviews-policy.topic" anchor="reportings-reviews"> this guide</a>.</tip>
 </topic>
