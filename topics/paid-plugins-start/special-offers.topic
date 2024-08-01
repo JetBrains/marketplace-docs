@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Special Offers" id="special-offers">
+
+    <p>Offering time-limited discounts, such as on Black Friday, can significantly boost sales and attract new
+        customers. These discounts create a sense of urgency, encouraging potential users to act quickly and purchase
+        your plugin licenses. While implementing discounts is entirely up to you, we highly recommend considering this
+        strategy to enhance your plugin sales and customer engagement.
+    </p>
+    <p>To add a discount, reach out to the Marketplace Support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>
+        and provide key information about the discount, including the audience
+        (individuals or organizations), country (if applicable), the discount range, and the period the discount will be
+        active.</p>
+    <warning>
+        <p>We cannot enable discounts if you have increased the plugin's price within 30 days of the intended start date
+            of the discount. This ensures fair pricing practices and prevents any potential price manipulation.</p>
+    </warning>
+    <p>The discount information will be displayed on the
+        <path>Pricing</path>
+        tab, with the previous price crossed out. See the image below for an example of how this will look:
+    </p>
+    <img src="special-offers.png" alt="Special Offers" width="833"/>
+</topic>

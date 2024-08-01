@@ -68,6 +68,7 @@
 		</toc-element>
 		<toc-element accepts-web-file-names="free-functionality.html" topic="freemium.topic"/>
 		<toc-element accepts-web-file-names="discounts-and-offers.html" topic="coupon-offers.topic"/>
+		<toc-element topic="special-offers.topic"/>
 		<toc-element topic="volume-discount.topic"/>
 		<toc-element accepts-web-file-names="customer-information-access.html" topic="sales-related-emails.topic"/>
 		<toc-element topic="contributing-to-the-blog.topic"/>
