@@ -19,4 +19,6 @@ We are using the following IDE product codes in the JetBrains Marketplace API Re
 <tr><td>DB</td><td>DataGrip</td></tr>
 <tr><td>RD</td><td>Rider</td></tr>
 <tr><td>AI</td><td>Android Studio</td></tr>
+<tr><td>RR</td><td>RustRover</td></tr>
+<tr><td>QA</td><td>Aqua</td></tr>
 </table>
