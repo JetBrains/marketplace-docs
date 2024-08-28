@@ -19,6 +19,7 @@
 		<search-scopes-provider>https://www.jetbrains.com/search/json/</search-scopes-provider>
 		<product-web-url>https://plugins.jetbrains.com</product-web-url>
 		<!--<noindex-content-in-release>false</noindex-content-in-release>-->
+		<noindex-content>false</noindex-content>
 		<algolia-id>JWPLKSKZVF</algolia-id>
 		<algolia-index>prod_MARKETPLACE_HELP</algolia-index>
 		<algolia-api-key>bce9ba6ce7419efe813d671244d3bf6a</algolia-api-key>
