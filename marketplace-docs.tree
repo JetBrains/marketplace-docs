@@ -101,7 +101,6 @@
 		<toc-element topic="plugins-list.md"/>
 		<toc-element topic="plugin-details.md"/>
 		<toc-element topic="maven-interface.md"/>
-		<toc-element topic="plugin-developers-list.md"/>
 		<toc-element topic="plugin-repository-rest-client.md"/>
 		<toc-element topic="check-license.md"/>
 		<toc-element topic="product-codes.md"/>
