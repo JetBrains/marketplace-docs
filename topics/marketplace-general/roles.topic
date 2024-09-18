@@ -77,37 +77,4 @@
                 </li>
             </list>
     </chapter>
-
-    <chapter title="Moderator" id="moderator">
-        <p>This role is needed for specific JetBrains team members to provide an ability to manage plugins in the scope
-            of a family. As of now, we have the following moderator types:
-        </p>
-        <list>
-                <li>IntelliJ-based IDEs</li>
-                <li>TeamCity</li>
-                <li>Hub</li>
-                <li>.Net</li>
-                <li>Educational Courses</li>
-                <li>Space</li>
-            </list>
-        <p>
-            <control>Permissions</control>
-        </p>
-        <list>
-                <li>Manage all plugins of a specific type (edit the information of these plugins, approve/unapprove
-                    these plugins and/or their updates, remove them).
-                </li>
-            </list>
-    </chapter>
-
-    <chapter title="Marketplace administrator" id="marketplace-administrator">
-        <p>The role with global rights for members of JetBrains Marketplace team.</p>
-        <p>
-            <control>Permissions</control>
-        </p>
-        <list>
-                <li>All</li>
-            </list>
-    </chapter>
-
 </topic>
