@@ -17,8 +17,6 @@ This section covers:
 
 * [Maven Interface](maven-interface.md)
 
-* [Plugin Developers List API](plugin-developers-list.md)
-
 * [Plugin Repository REST Client](plugin-repository-rest-client.md)
 
 * [Check License API](check-license.md)
