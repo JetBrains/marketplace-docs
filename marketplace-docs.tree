@@ -2,7 +2,8 @@
 <!DOCTYPE instance-profile
   SYSTEM 'https://resources.jetbrains.com/writerside/1.0/product-profile.dtd'>
 <instance-profile id="marketplace-docs" name="JetBrains Marketplace" status="release" start-page="about-marketplace.topic">
-	<toc-element accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html,paid-plugins-marketplace.html" topic="about-marketplace.topic">
+	<toc-element accepts-web-file-names="current-status-of-the-marketplace-project.html,other-ides-support.html,what-is-jetbrains-marketplace.html,benefits.html,paid-plugins-marketplace.html" topic="discover-jetBrains-marketplace.topic">
+	    <toc-element topic="about-marketplace.topic"/>
 		<toc-element topic="benefits-of-jetbrains-marketplace.topic"/>
 		<toc-element topic="product-versions-in-use-statistics.topic"/>
 		<toc-element topic="legal-agreements.topic">

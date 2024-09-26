@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Discover JetBrains Marketplace " id="discover-jetBrains-marketplace">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Discover JetBrains Marketplace</title>
+        <description>
+            Find everything you need to publish, manage, and monetize your plugins.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="best-practices-for-listing.topic" type="start" summary="Explore best practices for successfully listing your plugin.">Best practices</a>
+            <a href="uploading-a-new-plugin.topic" type="turn-on" summary="Follow a step-by-step guide to the plugin upload process.">Upload your first plugin</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>Plugin monetization</title>
+            <a href="freemium.topic" summary="Offer some features for free in addition to paid features.">Freemium plugin</a>
+            <a href="getting-paid.topic" summary="Sell your plugin as a fully paid product.">Paid plugin</a>
+            <a href="billing-and-licensing.topic" summary="Learn about supported license types, payment processing, etc.">Billing</a>
+            <a href="release-plugin.topic" summary="Follow a step-by-step guide on the release process.">Release process</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Account management</title>
+            <a href="vendor-profile.topic" type="account" summary="Select the Vendor profile that will publish and represent your plugins."/>
+            <a href="organizations.topic" type="academy" summary="Create an organization to allow multiple members to distribute the plugin."/>
+        </secondary>
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+        <misc>
+            <cards narrow="true">
+                <title>Plugin management</title>
+                <a href="hidden-plugin.topic"/>
+                <a href="custom-release-channels.topic"/>
+                <a href="intellij-plugin-recommendations.topic"/>
+                <a href="plugin-updates.topic" />
+                <a href="custom-pages.topic"/>
+                <a href="product-versions-in-use-statistics.topic"/>
+            </cards>
+
+            <links>
+                <group>
+                    <title>For plugin developers:</title>
+                    <a href="trader-status.topic">How to declare trader/non-trader status?</a>
+                    <a href="verified-vendor-badge.topic">How to get a verified badge for your organization?</a>
+                    <a href="marketplace-demo-plugin.topic">How to test your plugin in a demo environment?</a>
+                    <a href="plugin-stats.topic">How to get statistics on your plugin?</a>
+                </group>
+                <group>
+                    <title>For end-users:</title>
+                    <a href="how-to-buy-a-plugin.topic">How to buy a plugin?</a>
+                    <a href="community-programs.topic">How to get a license for free/with a discount?</a>
+                    <a href="report-plugin.topic">How to report a plugin?</a>
+                    <a href="payment-processing.topic" anchor="refunds" >How to get a refund?</a>
+                </group>
+            </links>
+        </misc>
+    </section-starting-page>
+
+</topic>
