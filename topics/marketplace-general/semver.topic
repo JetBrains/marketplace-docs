@@ -27,7 +27,7 @@
             </li>
         </list>
 
-    <p>SemVer is turned on by default for all new plugins. However, you can manually turn it on for your existing plugin
+    <p><control>SemVer is turned on by default</control> for all new plugins. However, you can manually turn it on for your existing plugin
         if its versions already match the rules.
     </p>
 
