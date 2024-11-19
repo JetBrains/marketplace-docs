@@ -54,11 +54,9 @@
 	</toc-element>
 
 	<toc-element accepts-web-file-names="plugin-types.html" topic="plugin-monetization.topic">
-		<toc-element accepts-web-file-names="trying-out-the-marketplace.html" topic="step-by-step-guide-to-putting-plugin-up-for-sale.topic">
-			<toc-element topic="submit-a-request-to-sell-plugins-at-the-marketplace.topic"/>
-			<toc-element topic="obtain-a-product-code-from-jetbrains.topic"/>
+		<toc-element accepts-web-file-names="trying-out-the-marketplace.html,step-by-step-guide-to-putting-plugin-up-for-sale.html,submit-a-request-to-sell-plugins-at-the-marketplace.html" topic="paid-plugins.topic">
 			<toc-element accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html" topic="prepare-your-plugin-for-publication.topic">
-				<toc-element topic="add-required-parameters.topic"/>
+				<toc-element accepts-web-file-names="obtain-a-product-code-from-jetbrains.html" topic="add-required-parameters.topic"/>
 				<toc-element topic="technical-implementation.topic"/>
 				<toc-element topic="obfuscate-the-plugin.topic"/>
 				<toc-element topic="add-marketplace-license-verification-calls-to-the-plugin-code.topic"/>

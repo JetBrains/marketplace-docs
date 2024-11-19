@@ -6,20 +6,54 @@
 
     <p>Every plugin sold via JetBrains Marketplace must define the following parameters in the <a
             href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin descriptor
-        (plugin.xml)</a>, which can be found in the <code>product-descriptor></code>:
+        (plugin.xml)</a>, which can be found in the <code>&#60;product-descriptor&#62;</code>:
     </p>
     <list type="decimal">
         <li>
-            <code>code</code>
-            — a <a href="obtain-a-product-code-from-jetbrains.topic">Plugin Product Code</a> that you agreed on with
-            the
-            JetBrains team (type: <code>varchar</code>, 15 characters max.).
-            This is used to connect a particular plugin to a product in the JetBrains Sales system.
+            <p><code>code</code>
+                — a plugin <b>Product Code</b> (type: <code>varchar</code>, 15 characters max).
+                It is registered in the JetBrains Sales System and serves as a unique ID for all
+                plugin-related sales
+                operations. It also connects the JetBrains Marketplace releases of the plugin to the Sales System.
+            </p>
+            <p>
+                Your Product Code must:
+            </p>
+            <list>
+                <li>
+                    Start with the letter <b>P</b>.
+                </li>
+                <li>
+                    Be no shorter than <b>4</b> characters.
+                </li>
+                <li>
+                    Be no longer than <b>15</b> characters.
+                </li>
+                <li>
+                    <b>NOT</b> contain any numbers or special symbols.
+                </li>
+                <li>
+                    Contain only <b>CAPITAL LETTERS</b>.
+                </li>
+            </list>
+            <p>
+                For example, the Product Code for a plugin called “Make Me Coffee” should be <b>PMAKEMECOFFEE</b>.
+            </p>
+            <warning>
+                <p>
+                    Please note that it is rather difficult to change a Product Code after it’s been created, as doing so
+                    requires merging a lot of financial information and transactions, and additionally maintaining legacy
+                    product code in our systems for reference and backward compatibility.
+                </p>
+            </warning>
+            <p>End-users will see the Product Code on the invoices, on the check-out page, and in their <a href="https://account.jetbrains.com/">JetBrains
+                Accounts</a>.
+            </p>
         </li>
         <li>
             <p>
                 <code>release-date</code>
-                — date of the major version release, written in the ‘YYYYMMDD’ format (type:
+                — date of the major version release, written in the <code>YYYYMMDD</code> format (type:
                 <code>integer</code>).
             </p>
 
@@ -37,8 +71,8 @@
             </p>
             <p>The number should contain at least 2 digits, as it will be split into 2 numbers, the second of which
                 will
-                contain only one digit. Take, for example, <code>release-version=20201</code>. The first number
-                would be <code>2020</code> and the second one <code>1</code>.
+                contain only one digit. Take, for example, <code>release-version=20241</code>. The first number
+                would be <code>2024</code> and the second one <code>1</code>.
             </p>
             <p>
                 This is different from the <a href="versioning-of-paid-plugins.topic">version</a> of the plugin, as
@@ -50,8 +84,8 @@
                 <p>Please make sure the <code>release-version</code> and the <code>version</code> parameters match.
                     They should have
                     similar
-                    integers at the beginning, like <code>release-version=20201</code> and <code>
-                        version=2020.1.1</code>.
+                    integers at the beginning, like <code>release-version=20241</code> and <code>
+                        version=2024.1.1</code>.
                 </p>
             </note>
 
@@ -65,8 +99,8 @@
             </p>
             <code-block lang="xml">
                 <![CDATA[
-                            <product-descriptor code="PTESTPLUGIN" release-date="20210818" release-version="20211"/>
-                            <version>2021.1.1</version>
+                            <product-descriptor code="PMAKEMECOFFEE" release-date="20240818" release-version="20241"/>
+                            <version>2024.1.1</version>
                             ]]>
             </code-block>
             <note>
@@ -80,8 +114,8 @@
 
             <p>According to the <code>release-date</code> parameter, this plugin can be purchased starting
                 from <code>August 18,
-                    2021</code>. Its
-                major version release is <code>2021.1</code>, and that number should not be changed in your further
+                    2024</code>. Its
+                major version release is <code>2024.1</code>, and that number should not be changed in your further
                 minor
                 updates. As for
                 the <code>version</code> parameter, it matches the <code>release-version</code> initially. When you
@@ -94,14 +128,14 @@
             <p>Here is an example of a minor update:</p>
             <code-block lang="xml">
                 <![CDATA[
-                            <product-descriptor code="PPAIDPLUGIN" release-date="20210818" release-version="20211"/>
-                            <version>2021.1.2</version>
+                            <product-descriptor code="PMAKEMECOFFEE" release-date="20240818" release-version="20241"/>
+                            <version>2024.1.2</version>
                             ]]>
             </code-block>
             <p>As you can see, only the <code>version</code> parameter has been changed. Subsequent minor updates
                 (e.g.
-                <code>2021.1.1</code>,
-                <code>2021.1.2</code>, <code>2021.1.x</code>) should have the same <code>release-date
+                <code>2024.1.1</code>,
+                <code>2024.1.2</code>, <code>2024.1.x</code>) should have the same <code>release-date
                 </code> and <code>release-version</code>. This will allow
                 your users
                 who have a perpetual fallback license to get the latest minor update of the major version they have
@@ -117,12 +151,9 @@
         <li>
             <code>optional</code>
             — not a required parameter (type: <code>boolean</code>). This should be set to <code>true</code> if you
-            would like
-            to
+            would like to
             add the free functionality to your plugin. Please see <a href="freemium.topic">this article</a> for more
-            information
-            about
-            free functionality. The default value of this parameter is <code>false</code>.
+            information about free functionality. The default value of this parameter is <code>false</code>.
         </li>
     </list>
 

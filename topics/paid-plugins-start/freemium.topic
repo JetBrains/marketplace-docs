@@ -30,13 +30,11 @@
 
     <list type="decimal">
         <li>
-            <control>Submit the request and create a product code</control>
+            <control>Submit the request</control>
             <p>
-                <a href="submit-a-request-to-sell-plugins-at-the-marketplace.topic">Submit a request</a>
+                Submit a request
                 by using the <a href="https://plugins.jetbrains.com/build-and-market#form">Apply to JetBrains Marketplace
-            </a> form. After that, you will be contacted by our vendor success team via email with further steps. One of
-                these steps is to create a <a href="obtain-a-product-code-from-jetbrains.topic">Product Code</a> and
-                provide it in the reply.
+            </a> form. After that, you might be contacted by our vendor success team. However, you don't need to wait for their reply and can proceed with the next steps.
             </p>
         </li>
         <li>
@@ -45,7 +43,7 @@
             </p>
             <p>Make the following changes to your code to prepare your plugin for publishing:</p>
             <list>
-                <li><a href="add-required-parameters.topic">Define additional parameters</a></li>
+                <li><a href="add-required-parameters.topic">Define additional parameters and create a Product Code</a></li>
                 <li><a href="add-marketplace-license-verification-calls-to-the-plugin-code.topic">Implement license method</a></li>
                 <li><a href="obfuscate-the-plugin.topic">Obfuscate</a></li>
             </list>
