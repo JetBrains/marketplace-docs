@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Paid plugins" id="step-by-step-guide-to-putting-plugin-up-for-sale">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Paid plugins" id="paid-plugins">
 
-    <p>This section of the JetBrains Marketplace documentation describes the process of publishing a paid plugin to JetBrains
-        Marketplace.
+    <p>This section of the documentation describes the process of publishing a paid plugin to JetBrains Marketplace.
     </p>
 
     <note>
@@ -9,18 +8,16 @@
             inform your users in advance</a>.
         </p>
     </note>
+
+    <p>First, please submit a request via the <a href="https://plugins.jetbrains.com/build-and-market#form">Apply to
+        JetBrains Marketplace form</a>. Our vendor success team might get in touch with you. You don't need to wait for
+        their reply and can proceed with the next steps.
+    </p>
+
     <procedure title="Follow these steps to start selling a plugin">
         <step>
-            
-        <p><a href="submit-a-request-to-sell-plugins-at-the-marketplace.topic">Submit a request</a></p></step>
-        <step>
-            
-        <p><a href="obtain-a-product-code-from-jetbrains.topic">Create a Product Code</a></p></step>
-        <step>
-            
         <p><a href="prepare-your-plugin-for-publication.topic">Prepare your plugin for publication</a></p></step>
         <step>
-            
         <p><a href="release-plugin.topic">Release the Plugin</a></p></step>
     </procedure>
     <p>Keep in mind that you can test the plugin on <a href="marketplace-demo.topic">JetBrains Marketplace Demo</a>  instance
@@ -29,6 +26,9 @@
         plugin
         works. Moreover, you can make sure the plugin functions as intended and play around with plugin updates. If your
         plugin contains <a href="freemium.topic">free functionality</a>, you can test the logic behind licensing checks.
+    </p>
+    <p>
+        If you encounter any issues with the paid plugin publication, feel free to contact us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
     </p>
 
 </topic>

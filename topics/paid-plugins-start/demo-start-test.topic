@@ -100,7 +100,7 @@
         </p>
         <img src="pricing-admin.png" alt="Pricing page for a vendor" width="1606"/>
 
-        <p>Alternatively, you can use a direct link accordingly where <code>{ID}</code> = <a href="obtain-a-product-code-from-jetbrains.topic">PRODUCT CODE</a>:
+        <p>Alternatively, you can use a direct link accordingly where <code>{ID}</code> = <a href="add-required-parameters.topic">PRODUCT CODE</a>:
         </p>
         <chapter title="Personal license" default-state="collapsed" collapsible="true">
             <p>
