@@ -43,15 +43,18 @@
         Here you will find an example <a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin">plugin</a> with
         product parameter declarations, as well as a license check:
     </p>
-    <list>
+    <list type="bullet">
             <li>
                 <a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin/blob/master/src/main/java/com/company/license/CheckLicense.java">
-                    CheckLicense
+                    <control>CheckLicense </control> (2024.3+)
                 </a>
+                <list type="bullet">
+                    <li><a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin/blob/51b4a4b086d3bd87d81520f02012a02a957a9058/src/main/java/com/company/license/CheckLicense.java">CheckLicense (2024.2 or older)</a></li>
+                </list>
             </li>
             <li>
                 <a href="https://github.com/JetBrains/marketplace-makemecoffee-plugin/blob/master/src/main/java/actions/MakeCoffeeAction.java">
-                    Action
+                    <control>Action</control>
                 </a>
             </li>
         </list>
