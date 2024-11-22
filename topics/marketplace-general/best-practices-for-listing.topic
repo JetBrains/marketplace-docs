@@ -94,8 +94,8 @@
                <li>Reference brands that you’re not affiliated with.</li>
                <li>Make unverifiable claims.</li>
                <li>Include inappropriate content, such as the promotion of third-party services,  profane or offensive language, etc.</li>
-               <li>Use non-standard capitalization, unless it’s a part of a brand name.</li> 
-            </list><p/>
+               <li>Use non-standard capitalization, unless it’s a part of a brand name.</li>
+        </list><p/>
         </td>
     </tr>
 </table>
@@ -103,6 +103,9 @@
 <p/><list>
 <li>The first line of the plugin description should contain a short plugin summary in English (up to 170 characters). This will be used for the plugin’s preview card on JetBrains Marketplace. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
 <li>Make sure that your description has been proofread and that it is formatted properly before you upload your plugin.</li>
+    <li><p>Use the <a href="best-practices-for-listing.topic#media"><control>Media</control></a> section to add images that illustrate your plugin’s functionality, rather than embedding them directly in the plugin description.</p>
+        <p>If you include media in the description, ensure the images are optimized for both the JetBrains Marketplace website and the IDE. Remember that images in the description cannot be zoomed in, so clarity is crucial. While the recommended width is between 600 and 800 pixels, verify that your images are clear, relevant, and enhance the description without adding unnecessary complexity for users.</p>
+    </li>
 <li>Use bullet points to describe the plugin’s main benefits.</li>
 <li>Put some inline links to useful resources (issue tracker, forum, etc.) to the description. This way, the links will be available from the Plugin Manager inside IDEs.</li>
 <li>Draft the description with SEO keywords in mind, but please avoid keyword stuffing.</li>

@@ -66,6 +66,8 @@
                     <li>a. Must be provided in English as the primary language. If you decide to include localized descriptions, the English description must come first.</li>
                     <li>b. Must be formatted properly and use correct spelling/grammar.</li>
                     <li>c. The first line of the plugin description must contain a short plugin summary.</li>
+                    <li>d. Any media used (images, screenshots, GIFs) must be relevant to the content they accompany and visually support the description.</li>
+                    <li>e. All media must display correctly without any errors or broken links.</li>
                 </list>
             </chapter>
             <chapter title="1.5. The Plugin change notes" id="change-notes">
