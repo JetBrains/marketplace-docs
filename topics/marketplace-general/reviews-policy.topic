@@ -25,6 +25,18 @@
         <p>Any authorized user can upvote, downvote, or <a anchor="reportings-reviews">report</a> reviews and replies.</p>
         <p>You can use Markdown formatting when you write your review.</p>
     </chapter>
+    <chapter title="Detailed Ratings" id="detailed-ratings">
+        <p>In addition to the general star rating, users can optionally rate separate plugin features:</p>
+            <list>
+                <li>Integration with IDE</li>
+                <li>Performance</li>
+                <li>Available Features</li>
+                <li>User Interface</li>
+                <li>Documentation Quality</li>
+            </list>
+            The ratings for each feature is shown to the plugin authors in an aggregated form on the <path>Reviews</path> tab.
+
+    </chapter>
     <chapter title="Notifications" id="notifications">
         <p>If you are a vendor, each new review of your plugin will trigger a notification sent to your JetBrains
             Marketplace account email address. The email notification will include the review and some information about
