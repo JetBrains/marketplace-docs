@@ -16,13 +16,13 @@
         </p>
         <p>The JetBrains Marketplace team may remove any added reviews or replies to reviews if they are considered
             <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/#unacceptable-content-on-jetbrains-marketplace">unacceptable
-                content</a>. When a review is deleted, both the rating and the
-            text are removed, and the overall rating of the plugin is recalculated automatically. The user who
+                content</a>. When a review is deleted, both the ratings and the
+            text are removed, and the overall and detailed ratings of the plugin are recalculated automatically. The user who
             originally posted that review will be notified about the removal.</p>
         <p>It is possible to leave a rating on a scale of one to five stars and add a verbal review. Users must add a
             review if they want to rate the plugin from 1 to 3 stars. Adding reviews for 4- and 5-star ratings is
             optional. Ratings <a href="plugins-ranking.topic">affect</a> plugin rankings in search results.</p>
-        <p>Any authorized user can upvote, downvote, or <a anchor="reportings-reviews">report</a> reviews and replies.</p>
+        <p>Any authorized user can upvote, downvote, or <a anchor="reporting-reviews">report</a> reviews and replies.</p>
         <p>You can use Markdown formatting when you write your review.</p>
     </chapter>
     <chapter title="Detailed Ratings" id="detailed-ratings">
@@ -34,8 +34,10 @@
                 <li>User Interface</li>
                 <li>Documentation Quality</li>
             </list>
-            The ratings for each feature is shown to the plugin authors in an aggregated form on the <path>Reviews</path> tab.
-
+        <p>If you have ideas for other plugin features that could be added to this list, please send them to us via email:
+            <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.</p>
+        <p>The ratings for each feature are shown to the plugin vendor in an aggregated form on the <path>Reviews</path> tab.</p>
+        <img src="detailed-ratings.png" alt="Detailed Ratings" width="398"/>
     </chapter>
     <chapter title="Notifications" id="notifications">
         <p>If you are a vendor, each new review of your plugin will trigger a notification sent to your JetBrains
@@ -81,7 +83,7 @@
                 Marketplace
                 Content Moderation Policy</a>.</p>
     </chapter>
-    <chapter title="Reporting reviews" id="reportings-reviews">
+    <chapter title="Reporting reviews" id="reporting-reviews">
         <p>If you stumble on an inappropriate review, or a review that is no longer applicable because the plugin has
             undergone a significant update, please report it to JetBrains Marketplace team.</p>
         <p>To do so, go to the review you'd like to report and click <control>Report</control>.</p>
