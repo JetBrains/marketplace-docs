@@ -1,43 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" id="documentation-page" title="Documentation page">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'>
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       id="documentation-page" title="Documentation page">
 
-    <p>If your plugin requires more than just a landing page with a list of features, add user-facing documentation as a help instance.</p>
-    <p>Unlike <a href="custom-pages.topic">Custom pages</a>, the Documentation page is not a single page but a full-fledged help instance with a structure, table of contents, in-topic navigation, and the ability to <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/configure-search.html">set up a search feature</a> like the one you're reading right now. You can see some more examples here: <a href="https://plugins.jetbrains.com/plugin/16136-grazie-professional/docs">Grazie Professional</a>, <a href="https://plugins.jetbrains.com/plugin/8182-rust/docs">Rust</a>, and <a href="https://plugins.jetbrains.com/plugin/10081-edutools/docs">Edu Tools</a>.</p>
-
-
-    <p>If you’re questioning why you should invest effort into writing documentation for your plugin, here are a few arguments for doing so:</p>
+    <p>
+        If your plugin requires more than just a landing page with a list of features,
+        publish user-facing documentation either as a separate website
+        or under the <control>Documentation</control> tab of your plugin's page.</p>
+    <p>
+        Unlike <a href="custom-pages.topic"/>,
+        the <control>Documentation</control> tab is not a single page, but a full-fledged help instance
+        with a structure, table of contents, and in-topic navigation.
+        Here are examples of plugins with a <control>Documentation</control> tab:
+        <a href="https://plugins.jetbrains.com/plugin/16136-grazie-professional/docs">Grazie Professional</a>,
+        <a href="https://plugins.jetbrains.com/plugin/8182-rust/docs">Rust</a>,
+        and <a href="https://plugins.jetbrains.com/plugin/10081-edutools/docs">Edu Tools</a>.</p>
+    <p>
+        Why you should consider investing in writing documentation for your plugin:</p>
     <list>
-        <li>Documentation makes your plugin more discoverable and searchable. When product documentation is online, external search engines will bring it to everyone who types the keywords into the search query.</li>
-        <li>Documentation helps you effectively communicate the features of a plugin, allowing your users to understand how it works from the start.</li>
-        <li>Documentation is a good way to support your current users. If they find answers in the documentation, this will decrease your support load, which is crucial for smaller teams. Good documentation also often translates to a higher rating for the plugin.</li>
+        <li>
+            Documentation makes your plugin more discoverable and searchable.
+            When product documentation is online,
+            external search engines will bring it to everyone
+            who types the keywords into the search query.</li>
+        <li>
+            Documentation helps you effectively communicate the features of a plugin,
+            allowing your users to understand how it works from the start.</li>
+        <li>
+            Documentation is a good way to support your current users.
+            If they find answers in the documentation, this will decrease your support load,
+            which is crucial for smaller teams.</li>
+        <li>
+            Comprehensive and well-structured documentation often translates to a higher rating for the plugin.</li>
     </list>
 
     <chapter id="create-documentation-for-your-plugin" title="Create documentation for your plugin">
-        <p>To create documentation for your plugin, install the <a href="https://plugins.jetbrains.com/plugin/20158-writerside">Writerside</a> plugin for IntelliJ IDEs and start writing inside your development environment.</p>
-        <p>You can combine the simplicity of Markdown with fully structured semantic markup like collapsible chapters, code blocks, snippets with filters, tabs, and much more. On top of all that, it has a built-in live preview that displays the docs in the way they’ll appear on the web, while also offering the ability to build docs locally.</p>
-
-        <p>For more detailed information about the installation and documentation creation process, please refer to the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs">Writerside plugin help</a>.</p>
-        <p>Alternatively, you can use this quick step-by-step guide:</p>
+        <p>
+            To create documentation for your plugin,
+            install the <a href="https://plugins.jetbrains.com/plugin/20158-writerside">Writerside</a> plugin for IntelliJ IDEs
+            and start writing inside your development environment.</p>
+        <p>
+            You can combine the simplicity of Markdown with fully structured semantic markup
+            like collapsible chapters, code blocks, snippets with filters, tabs, and much more.
+            Writerside has a built-in live preview
+            that displays the docs exactly as they will appear on the web,
+            while also offering the ability to build docs locally.</p>
+        <p>
+            For more information,
+            see the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs">Writerside plugin help</a>.</p>
+        <p>
+            Alternatively, you can use this quick step-by-step guide:</p>
         <procedure id="create-plugin-docs">
-            <step><p>Install the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs">Writerside plugin</a>.</p></step>
-            <step><p><a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs?preview=true#set-up-new-project">Create a documentation project</a> alongside your plugins' code repository or in a separate docs repository.</p></step>
-            <step><p>Write the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/custom-pages/docs/topics.html">content</a> with the help of <a href="https://plugins.jetbrains.com/plugin/20158-writerside/custom-pages/docs/use-live-templates-for-markup-elements.html">templates</a>, <a href="https://plugins.jetbrains.com/plugin/20158-writerside/custom-pages/docs/getting-started.html#preview_topic">live preview</a>, and writing assistance.</p></step>
-            <step><p><a href="https://plugins.jetbrains.com/plugin/20158-writerside/custom-pages/docs/deploy-docs-to-github-pages.html">Build and publish</a> the result.</p></step>
+            <step>
+                Install the <a href="https://plugins.jetbrains.com/plugin/20158-writerside">Writerside</a> plugin.</step>
+            <step>
+                Create a new <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/projects.html">documentation project</a>
+                alongside your plugin's code repository or in a separate docs repository.</step>
+            <step>
+                Add <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/topics.html">topics</a> with content,
+                use the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/preview-topics.html">live preview</a>,
+                and various writing assistance features.</step>
+            <step>
+                <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/build-and-publish.html">Build and publish</a> the result.</step>
+
+            <p>
+                You can build the documentation website <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">locally</a>
+                and publish it to a server yourself
+                or automate the process via
+                <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/deploy-docs-to-github-pages.html">GitHub</a>,
+                <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/deploy-docs-to-gitlab-pages.html">GitLab</a>,
+                or <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/build-on-teamcity.html">TeamCity Cloud</a>.
+                JetBrains also provides a dedicated TeamCity cloud instance
+                that you can use to build and publish your plugin docs
+                under the <control>Documentation</control> tab
+                on your plugin's page in Marketplace.</p>
         </procedure>
     </chapter>
-    <chapter id="publish-documentation" title="Publish documentation via TeamCity Cloud">
-        <p>There are a few ways to build and publish your documentation with Writerside: locally, on GitHub/GitLab, or using TeamCity Cloud.</p>
-        <p>We recommend using <a href="https://www.jetbrains.com/teamcity/cloud/">TeamCity Cloud</a>  to build a documentation instance. TeamCity run configurations include more than 100 automated tests that run during the build to check the integrity and quality of your content, as well as a detailed build log to let you know if something goes wrong.
-        </p>
+    <chapter id="publish-documentation" title="Publish plugin documentation to Marketplace">
+        <p>
+            The <a href="https://marketplace.teamcity.com">Marketplace TeamCity Cloud instance</a>
+            enables you to build your plugin's documentation
+            and publish it to your plugin's page in Marketplace.
+            You need to register there
+            and request configurations for building and publishing your documentation.
+            We will grant you access for running the configurations.</p>
         <procedure id="publish-plugin-docs">
-            <step><p>When your content is ready for publication, <a href="https://plugins.jetbrains.com/plugin/20158-writerside/custom-pages/docs/local-build.html">build an instance locally</a> to generate a ZIP archive.</p></step>
-            <step><p>Send us your plugin's ID (for example, here is the link to <a href="https://plugins.jetbrains.com/plugin/20158-writerside/">Writerside</a> plugin and, in this case, the plugin ID is 20158), a link to your public repository, and a ZIP archive name to our team via email <a href="mailto:writerside@jetbrains.com">writerside@jetbrains.com</a>.</p></step>
-            <step><p>Our team will create the TeamCity build configuration and send the link to you.</p></step>
-            <step><p>You will be able to <a href="https://plugins.jetbrains.com/plugin/20158-writerside/custom-pages/docs/build-on-teamcity.html">build the documentation</a>, then publish it to staging.</p></step>
-            <step><p>The documentation will appear in the Custom Pages section of the plugins' page.</p>
-                <img src="documentation_page.png" alt="Documentation pages view" width="800" border-effect="line"/>
-                <p>Click <emphasis>Preview</emphasis> to see how users will see it.</p>
+            <step id="step_one_create_account">
+                Create a user account on <a href="https://marketplace.teamcity.com">marketplace.teamcity.com</a>.</step>
+            <step>
+                <a href="https://jb.gg/writerside-mp">Submit a ticket</a>
+                for the Writerside team to create the necessary configurations for you.
+                Provide the following information:
+                <list>
+                    <li>
+                        Your plugin’s ID.
+                        <tip>
+                            You can find it in the URL of your plugin's page in Marketplace.
+                            For example the <a href="https://plugins.jetbrains.com/plugin/20158-writerside/">Writerside</a> plugin ID is 20158.</tip></li>
+                    <li>
+                        A link to the repository with your documentation sources.
+                        <tip>
+                            It must be a public repository for our build configuration to be able to clone it.</tip></li>
+                    <li>
+                        The name of the ZIP archive with the website artifact.
+                        <tip>
+                            You can run a <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">local build</a>
+                            and see the name of the produced archive.
+                            For example, the archive with the Writerside help is <path>webHelpWRS2.zip</path>,
+                            where <code>WRS</code> is the instance name <code>wrs</code> in capital letters.
+                            In your case, replace <code>WRS</code> with your instance name in capital letters.</tip></li>
+                    <li>
+                        Your Marketplace TeamCity instance user account name from <a anchor="step_one_create_account">step 1</a>
+                        and an email of the contact person responsible for your documentation
+                        if it is different from the account name.</li>
+                </list>
             </step>
-            <step><p>Go back to the TeamCity build results and promote the docs to production.</p></step>
+            <p>
+                The Writerside team will create the necessary configurations:
+                build your documentation, deploy to Marketplace staging, and deploy to Marketplace production.
+                They will grant permissions for the provided account to run those configurations.</p>
+            <p>
+                Once you publish the documentation, it will appear in the <control>Documentation</control> tab
+                of your plugin's page in Marketplace.</p>
+            <img src="documentation_page.png" alt="Documentation pages view" width="700" border-effect="line"/>
         </procedure>
     </chapter>
 </topic>
