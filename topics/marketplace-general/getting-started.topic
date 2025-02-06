@@ -60,11 +60,7 @@
                     </a> list and vote for it or submit your idea.
                     </li>
                     <li>
-                        Join the <a href="https://plugins.jetbrains.com/slack">JetBrains Platform Slack</a> or the <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/200366979-IntelliJ-IDEA-Open-API-and-Plugin-Development">
-                        Plugin
-                        Development
-                        forums
-                    </a> and discuss the idea with the community.
+                        Join the <a href="https://platform.jetbrains.com/">JetBrains Platform community</a> and discuss the idea with the community.
                     </li>
                 </list>
             <img src="plugin-ideas.png" alt="Plugin Ideas" width="1308"/>
@@ -77,15 +73,11 @@
                         features to life.
                     </li>
                     <li>
-                        Check the <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html">IntelliJ Platform
+                        Check the <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html">IntelliJ Platform Plugin
                         SDK docs</a>.
                     </li>
                     <li>
-                        Join the <a href="https://plugins.jetbrains.com/slack">JetBrains Platform Slack</a> or the <a href="https://intellij-support.jetbrains.com/hc/en-us/community/topics/200366979-IntelliJ-IDEA-Open-API-and-Plugin-Development">
-                        Plugin
-                        Development
-                        forums
-                    </a> to discuss any questions related to plugin development with the community.
+                        Join the <a href="https://platform.jetbrains.com">JetBrains Platform community</a> to discuss any questions related to plugin development with the community.
                     </li>
                     <li>
                         Check the <a href="https://jetbrains.design/intellij/">IntelliJ Platform UI Guidelines</a> to
