@@ -7,9 +7,6 @@
 		<toc-element topic="benefits-of-jetbrains-marketplace.topic"/>
 		<toc-element topic="product-versions-in-use-statistics.topic"/>
 		<toc-element topic="legal-agreements.topic">
-			<toc-element toc-title="DSA Transparency Reports">
-				<toc-element toc-title="2024" topic="2024-dsa-transparency-report.topic"/>
-			</toc-element>
 			<toc-element topic="JetBrains-Marketplace-Approval-Guidelines.topic"/>
 			<toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
 			<toc-element toc-title="JetBrains Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
@@ -17,6 +14,9 @@
 			<toc-element topic="eula.topic"/>
 			<toc-element topic="sales-and-technical-support.topic"/>
 			<toc-element topic="trader-status.topic"/>
+			<toc-element toc-title="DSA Transparency Reports">
+				<toc-element toc-title="17/02/2024 - 31/12/2024" topic="2024-dsa-transparency-report.topic"/>
+			</toc-element>
 		</toc-element>
 	</toc-element>
 	<toc-element topic="getting-started.topic">
