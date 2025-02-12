@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="2024" id="2024-dsa-transparency-report" help-id="2024;2024-dsa-transparency-report">
+    <title>JetBrains Marketplace Digital Services Act Transparency Report
+</title>
+<p><control>Date of publishing the report:</control> 12 February 2025</p>
+<p><control>Version:</control> 1.0</p>
+
+<p><control>Reporting period:</control> 17 February 2024 - 31 December 2024</p>
+
+<p>As required under the Regulation (EU) 2022/2065 (Digital Services Act (DSA)), this report provides insights into the content moderation activities on JetBrains Marketplace that JetBrains s.r.o. (“JetBrains”, “we”) engaged in during the reporting period, including the volume and nature of content removed from JetBrains Marketplace and notices received from its users.
+</p>
+
+<p><control>1. DSA Article 15(1)(a): Government Orders from Member States</control></p>
+<p>During the reporting period the number of orders received from EU Member States Authorities is <control>0</control>.</p>
+
+<p><control>2. DSA Article 15(1)(b): Notice and Action mechanism</control></p>
+<p>This section describes the amount and nature of notices received by JetBrains in accordance with Article 16 of the DSA and how JetBrains handled them.</p>
+<list type="none">
+    <li><u>Total number of notices:</u> <control>670</control></li>
+    <li><u>Notices submitted by trusted flaggers:</u> <control>0</control></li>
+    <li><u>Median time:</u> <control>5.951</control> days</li>
+</list>
+<table style="header-row" column-width="fixed">
+    <tr>
+        <td width="200">Type of the content</td>
+        <td>Number of the reports</td>
+        <td>Actions taken</td>
+        <td>Disabling of the access</td>
+        <td>Demotion (hidden from search)</td>
+        <td>Removal</td>
+        <td>Processed by using automated means</td>
+        <td>Basis for the action</td>
+    </tr>
+    <tr>
+        <td width="200">Data protection and privacy violations</td>
+        <td><control>3</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Illegal or harmful speech (harassment, vulgarity, and hate speech)</td>
+        <td><control>277</control></td>
+        <td><control>98</control></td>
+        <td><control>98</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Intellectual property infringements</td>
+        <td><control>4</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Protection of minors</td>
+        <td><control>5</control></td>
+        <td><control>2</control></td>
+        <td><control>2</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Scams and/or fraud (fraudulent or deceptive content)</td>
+        <td><control>27</control></td>
+        <td><control>11</control></td>
+        <td><control>10</control></td>
+        <td>0</td>
+        <td><control>1</control></td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Spam</td>
+        <td><control>56</control></td>
+        <td><control>41</control></td>
+        <td><control>41</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Harmful Content</td>
+        <td><control>25</control></td>
+        <td><control>22</control></td>
+        <td><control>22</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Violation of Law – CSAM</td>
+        <td><control>10</control></td>
+        <td><control>4</control></td>
+        <td><control>4</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Manipulation</td>
+        <td><control>43</control></td>
+        <td><control>24</control></td>
+        <td><control>24</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Scope of platform service (other)</td>
+        <td><control>146</control></td>
+        <td><control>95</control></td>
+        <td><control>93</control></td>
+        <td><control>2</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Technical issues</td>
+        <td><control>74</control></td>
+        <td><control>3</control></td>
+        <td>0</td>
+        <td><control>2</control></td>
+        <td><control>1</control></td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+</table>
+
+<p><control>3. DSA Article 15(1)(c) and (e): Own-Initiative Content Moderation</control></p>
+<p>This section describes activities JetBrains undertakes to detect and address illegal content or information in violation of the <a href="https://plugins.jetbrains.com/legal">JetBrains Marketplace documentation</a> which include:</p>
+<list type="bullet">
+    <li>Allocation of human resources for moderation activities;</li>
+    <li>Creation of the <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/">JetBrains Marketplace Content Moderation Policy</a>;</li>
+    <li>Creation of internal guidelines for moderation standardization;</li>
+    <li>Ongoing internal support and discussions on controversial topics in dedicated internal channels of communication with the team responsible for content moderation.</li>
+</list>
+
+<p>JetBrains does not use any automated tools for moderation. All of the below actions were taken based on the manual detection method.</p>
+
+<table style="header-row" column-width="fixed">
+    <tr>
+        <td width="200"><control>Type of the content</control></td>
+        <td><control>Actions taken</control></td>
+        <td><control>Disabling of the access</control></td>
+        <td><control>Demotion (hidden from search)</control></td>
+        <td><control>Removal</control></td>
+        <td><control>Basis for the action </control></td>
+    </tr>
+
+    <tr>
+        <td width="200">Illegal or harmful speech (harassment, vulgarity, and hate speech)</td>
+        <td><control>8</control></td>
+        <td><control>8</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Intellectual property infringements</td>
+        <td><control>11</control></td>
+        <td><control>11</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Spam</td>
+        <td><control>4</control></td>
+        <td><control>4</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Harmful Content</td>
+        <td><control>1</control></td>
+        <td><control>1</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Scope of platform service (other)</td>
+        <td><control>27</control></td>
+        <td><control>27</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+    <tr>
+        <td width="200">Manipulation</td>
+        <td><control>1</control></td>
+        <td><control>1</control></td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="https://plugins.jetbrains.com/legal">Terms and conditions</a></td>
+    </tr>
+</table>
+
+<p><control>4. DSA Article 15(1)(d): Internal complaint-handling system</control></p>
+<p>During the reported period we received <control>10</control> complaints through the internal complaint-handling system. Below is the number and types of decisions made with regards to these complaints:
+</p>
+<list type="none">
+    <li><u>Decisions upheld:</u> 7</li>
+    <li><u>Decisions reversed:</u> 1</li>
+    <li><u>Still under consideration:</u> 2</li>
+</list>
+
+<p>The <u>median time</u> for resolved complaints is <control>2</control> days.</p>
+<p>These complaints were submitted in response to the actions taken by JetBrains with regards to the following types of the content:</p>
+<list type="none">
+    <li>Intellectual property infringements - <control>2</control></li>
+    <li>Scope of platform service (other) - <control>6</control></li>
+    <li>Harmful Content - <control>1</control></li>
+    <li>Violation of Law – CSAM - <control>1</control>.</li>
+</list>
+<p>The basis for initial decisions was the <a href="https://plugins.jetbrains.com/legal">Terms and conditions</a>.</p>
+
+<p><control>5. DSA Article 24(1)(a): Out of court dispute settlement bodies</control></p>
+<p>The number of disputes submitted to the out-of-court dispute settlement bodies is <control>0</control>. </p>
+
+<p><control>6. DSA Article 24(1)(b): Measures and protection against misuse</control></p>
+<p>The number of suspensions imposed pursuant to Article 23 of the DSA is <control>0</control>.</p>
+</topic>
