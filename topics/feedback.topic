@@ -77,9 +77,13 @@
                     <a href="https://youtube.com/playlist?list=PLQ176FUIyIUZRWGCFY7G9V5zaM00THymY">YouTube</a>
                 </li>
                 <li>
-                    Follow JetBrains Platform on
-                    <img src="x.svg" alt="X" width="24" type="joined"/>
-                    <a href="https://x.com/MarketplaceFeed">X</a>, <img src="linkedin.svg" alt="LinkedIn" width="24" type="joined"/> <a href="https://www.linkedin.com/showcase/jetbrains-marketplace">LinkedIn</a>,  <a href="https://x.com/JBPlatform">@JBPlatform</a> and <a href="https://bsky.app/profile/platform.jetbrains.com">Bluesky</a>
+                    Follow JetBrains Platform social media:
+                    <list>
+                        <li><img src="x.svg" alt="X" width="24" type="joined"/> <a href="https://x.com/JBPlatform">JetBrains Platform</a></li>
+                        <li><img src="x.svg" alt="X" width="24" type="joined"/> <a href="https://x.com/MarketplaceFeed">JetBrains Marketplace Feed</a></li>
+                        <li><img src="linkedin.svg" alt="LinkedIn" width="24" type="joined"/> <a href="https://www.linkedin.com/showcase/jetbrains-marketplace">LinkedIn</a></li>
+                        <li><img src="bluesky.svg" alt="Bluesky" width="24" type="joined"/> <a href="https://bsky.app/profile/platform.jetbrains.com">Bluesky</a></li>
+                    </list>
                 </li>
                 <li>
                     Subscribe to the
