@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Developer requirement to disclose trader or non-trader status" id="trader-status">
 
+   <p>
+       The European Commission adopted the New Deal for Consumers with the aim of supporting EU consumer protection rules. One of the requirements of the so-called <a href="https://eur-lex.europa.eu/eli/dir/2019/2161/oj">Omnibus Directive 2019/2161</a>  is that online marketplaces must inform consumers about whether the third parties offering goods or services on them act as professional traders or not. This applies also to JetBrains Marketplace and the digital content (for example, plugins) uploaded there.
+   </p>
+    <p>To comply with this requirement, we must ask every vendor on JetBrains Marketplace to declare whether they are a professional trader or not, so that consumers may be informed about whether they can benefit from consumer rights when dealing with them. This status must be assessed not merely based on whether the plugin is provided for free or for a fee, but rather based on other factors outlined below.</p>
     <p>
-        The European Commission adopted the New Deal for Consumers with the aim of supporting EU consumer protection rules. One of the requirements of the so-called <a href="https://eur-lex.europa.eu/eli/dir/2019/2161/oj">Omnibus Directive 2019/2161</a> is that online marketplaces must inform consumers about whether the third parties offering goods or services on them act as professional traders or not. This applies also to JetBrains Marketplace and the digital content (for example, plugins) uploaded there.
-    </p>
-    <p>
-        To comply with this requirement, we must ask every vendor on JetBrains Marketplace to declare whether they are a professional trader or not, so that consumers may be informed about whether they can benefit from consumer rights when dealing with them. This status must be assessed not merely based on whether the plugin is provided for free or for a fee, but rather based on other factors outlined below.
-    </p>
-    <p>
-        Please note that this information about the status of each plugin developer is mandatory, so we kindly ask for your support.
-    </p>
+       This information about the status of each plugin developer is <control>mandatory</control>, so we kindly ask for your support.
+   </p>
+
     <chapter title="Trader and non-trader status" id="trader-and-non-trader-status">
         <p>
             <emphasis>“Non-trader (peer-consumer)” means any natural person who is acting for purposes which are outside his trade, business, craft or profession.</emphasis>
@@ -55,17 +54,33 @@
         </p>
 
     </chapter>
-    <chapter title="Information provided to consumers" id="information-provided-to-consumers">
+    <chapter title="Information you need to provide if you're a trader" id="information-you-need-to-provide">
         <p>
-            Depending on your status, consumers will be informed that consumer protection laws will (if you are a trader) or will not (if you are not a trader) apply to any contracts concluded between you and them.
+            The law requires us to collect and verify certain information about traders offering their plugins on JetBrains Marketplace. The specific information required depends on whether the trader is an individual or a legal entity.
+        </p>
+        <p><control>Legal Entities:</control></p>
+        <p>If you represent a legal entity, JetBrains will require you to provide the entity’s name, registration number, email, phone number, and address.</p>
+        <p><control>Individuals:</control></p>
+        <p>If you are an individual, you will be asked to provide your full name, phone number, address, email, and a copy of your identification document.</p>
+        <p><control>All Traders:</control></p>
+        <p>In addition to the above, all traders will be required to provide to JetBrains their banking details for processing future payments from plugin sales.</p>
+        <p>
+            You will be also required to certify that all offered products or services comply with applicable EU laws.
+        </p>
+        <p>
+            In some cases, additional documents may be requested, if the initially provided information is insufficient for verification.
         </p>
     </chapter>
-    <warning>
+    <chapter title="Information provided to consumers" id="information-provided-to-consumers">
         <p>
-            Please note that it is your responsibility as a vendor to make the declaration of your trader or non-trader status! Please note that this document should serve as guidance. We do not provide further consultations on this topic, nor confirmations regarding your status.
+            Depending on your status, end-users of the plugins will be informed that consumer protection laws will (if you are a trader) or will not (if you are not a trader) apply to any contracts concluded between you and them. Additionally, some of the information provided, such as your name, email, address, and phone number, will be displayed to end-users.
         </p>
-    </warning>
-
-
+        <p>
+            Please note that it is your responsibility as a vendor to make the declaration of your trader or non-trader status!
+        </p>
+        <p>
+            This document serves as guidance only. We do not provide further consultations on this topic or on determining your trader or non-trader status.
+        </p>
+    </chapter>
 
 </topic>

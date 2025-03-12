@@ -44,7 +44,6 @@
             <chapter title="1.2. The Plugin name" id="plugin-name">
                 <list type="none">
                     <li>a. Must be an original and unique name.</li>
-                    <li>b. Must include keywords or concepts that accurately describe the Plugin.</li>
                     <li>c. Must not use famous or trademarked names of third parties without their authorization.</li>
                     <li>d. Must not contain pricing information, unless approved by JetBrains.</li>
                     <li>e. Must be limited to 30 characters.</li>
@@ -57,7 +56,6 @@
            <chapter title="1.3. The Plugin vendor" id="plugin-vendor">
                <list type="none">
                    <li>a. The Vendor's website and email address are provided, valid, and functional.</li>
-                   <li>b. The Vendor's name can be light-hearted but must remain somewhat professional.</li>
                    <li>c. The Vendor must not misrepresent themselves or their right to use the Plugin, or act or use the Plugin or its content in a fraudulent or deceptive manner. This includes misrepresenting their rights (e.g. impersonating an “admin” user) or impersonating another person.</li>
                </list>
            </chapter>
@@ -65,8 +63,6 @@
                 <list type="none">
                     <li>a. Must be provided in English as the primary language. If you decide to include localized descriptions, the English description must come first.</li>
                     <li>b. Must be formatted properly and use correct spelling/grammar.</li>
-                    <li>c. The first line of the plugin description must contain a short plugin summary.</li>
-                    <li>d. Any media used (images, screenshots, GIFs) must be relevant to the content they accompany and visually support the description.</li>
                     <li>e. All media must display correctly without any errors or broken links.</li>
                 </list>
             </chapter>
