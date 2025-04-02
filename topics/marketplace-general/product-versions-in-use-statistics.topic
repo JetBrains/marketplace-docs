@@ -1,139 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Statistics: product versions in use" id="product-versions-in-use-statistics">
 
-    <p>We are often asked by plugin developers which product versions should be supported by the plugin. It is logical
-        not to release plugin updates for all the product versions released to the market, but rather focus on the
-        latest / the most used versions of the product.
+    <p>Rather than releasing plugin updates for every product version available, it makes more sense to focus on the latest/the most used versions.
     </p>
-    <p>Previously, plugin developers would have to analyze their plugins downloads by the IDE version. For a more
-        straightforward overview, we are publishing statistics that will help you decide which versions of products to
-        support here.
+    <p>Here, you can find statistics showing which IDE versions are mostly in use:
     </p>
-    <p>The statistics here has been gathered in August 2023, but looking into the older statistics, it doesn't change
-        much over time.
-    </p>
-    <table>
-        <tr>
-            <td>
-                Branch Number
-            </td>
-            <td>
-                IntelliJ Platform Version
-            </td>
-            <td>
-                Distribution
-            </td>
-        </tr>
-        <tr>
-            <td>
-                232
-            </td>
-            <td>
-                2023.2
-            </td>
-            <td>
-                31.47%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                231
-            </td>
-            <td>
-                2023.1
-            </td>
-            <td>
-                30.18%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                223
-            </td>
-            <td>
-                2022.3
-            </td>
-            <td>
-                13.97%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                222
-            </td>
-            <td>
-                2022.2
-            </td>
-            <td>
-                12.06%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                221
-            </td>
-            <td>
-                2022.1
-            </td>
-            <td>
-                6.19%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                213
-            </td>
-            <td>
-                2021.3
-            </td>
-            <td>
-                5.83%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                212
-            </td>
-            <td>
-                2021.2
-            </td>
-            <td>
-                4.8%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                211
-            </td>
-            <td>
-                2021.1
-            </td>
-            <td>
-                3.1%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                203
-            </td>
-            <td>
-                2020.3
-            </td>
-            <td>
-                1.93%
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Pre-202
-            </td>
-            <td>
-                Pre-2020.2
-            </td>
-            <td>
-                5.37%
-            </td>
-        </tr>
-    </table>
+    <chapter title="IntelliJ IDEA Ultimate" id="intellij-idea-ultimate">
+        <table>
+            <tr>
+                <td>
+                    Branch Number
+                </td>
+                <td>
+                    IntelliJ Platform Version
+                </td>
+                <td>
+                    Distribution
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    243
+                </td>
+                <td>
+                    2024.3
+                </td>
+                <td>
+                    31.2%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    242
+                </td>
+                <td>
+                    2024.2
+                </td>
+                <td>
+                    11.6%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    241
+                </td>
+                <td>
+                    2024.1
+                </td>
+                <td>
+                    15.7%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    233
+                </td>
+                <td>
+                    2023.3
+                </td>
+                <td>
+                    8%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    232
+                </td>
+                <td>
+                    2023.2
+                </td>
+                <td>
+                    6.5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    231
+                </td>
+                <td>
+                    2023.1
+                </td>
+                <td>
+                    4.4%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    223
+                </td>
+                <td>
+                    2022.3
+                </td>
+                <td>
+                    2.9%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    222
+                </td>
+                <td>
+                    2022.2
+                </td>
+                <td>
+                    3.6%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    221
+                </td>
+                <td>
+                    2022.1
+                </td>
+                <td>
+                    2.8%
+                </td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="Rider" id="rider">
+        <table>
+            <tr>
+                <td>
+                    Branch Number
+                </td>
+                <td>
+                    IntelliJ Platform Version
+                </td>
+                <td>
+                    Distribution
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    243
+                </td>
+                <td>
+                    2024.3
+                </td>
+                <td>
+                    59.2%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    242
+                </td>
+                <td>
+                    2024.2
+                </td>
+                <td>
+                    12.1%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    241
+                </td>
+                <td>
+                    2024.1
+                </td>
+                <td>
+                    13%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    233
+                </td>
+                <td>
+                    2023.3
+                </td>
+                <td>
+                    5.6%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    232
+                </td>
+                <td>
+                    2023.2
+                </td>
+                <td>
+                    2.8%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    231
+                </td>
+                <td>
+                    2023.1
+                </td>
+                <td>
+                    1.6%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    223
+                </td>
+                <td>
+                    2022.3
+                </td>
+                <td>
+                    1.3%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    222
+                </td>
+                <td>
+                    2022.2
+                </td>
+                <td>
+                    1.2%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    221
+                </td>
+                <td>
+                    2022.1
+                </td>
+                <td>
+                    0.6%
+                </td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="PhpStorm" id="phpstorm">
+        <table>
+            <tr>
+                <td>
+                    Branch Number
+                </td>
+                <td>
+                    IntelliJ Platform Version
+                </td>
+                <td>
+                    Distribution
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    243
+                </td>
+                <td>
+                    2024.3
+                </td>
+                <td>
+                    43.6%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    242
+                </td>
+                <td>
+                    2024.2
+                </td>
+                <td>
+                    10.2%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    241
+                </td>
+                <td>
+                    2024.1
+                </td>
+                <td>
+                    13.4%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    233
+                </td>
+                <td>
+                    2023.3
+                </td>
+                <td>
+                    5.7%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    232
+                </td>
+                <td>
+                    2023.2
+                </td>
+                <td>
+                    3.8%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    231
+                </td>
+                <td>
+                    2023.1
+                </td>
+                <td>
+                    3.1%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    223
+                </td>
+                <td>
+                    2022.3
+                </td>
+                <td>
+                    2.1%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    222
+                </td>
+                <td>
+                    2022.2
+                </td>
+                <td>
+                    4.8%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    221
+                </td>
+                <td>
+                    2022.1
+                </td>
+                <td>
+                    2.8%
+                </td>
+            </tr>
+        </table>
+    </chapter>
 
     <note>
         <p>Please note, that the sum is more than 100%. It is because some users either used several IDE versions or
@@ -144,20 +358,20 @@
 
     <p>In general, statistics show the following trends:</p>
     <list>
-            <li>
-                It makes sense to support the latest major release, as well as at least two previous major releases (in
-                this case, you are covering the majority of the users — on average, it's somewhat 80%). This % doesn't
-                change from product to product much.
-            </li>
-            <li>
-                The latest version of the product is used by roughly 50% of the users (and it does take some time to
-                upgrade to the newest version, especially in the companies, so it may be a bit lower at the moment).
-            </li>
-            <li>
-                The longer the product is on the market, the more significant is the portion of &quot;Other versions&quot; =
-                versions older than &quot;Latest major release −3&quot; (which is logical, given that we used to have perpetual
-                licenses and provide fallback licenses with our subscription offer).
-            </li>
-        </list>
+        <li>
+            It makes sense to support the latest major release, as well as at least two previous major releases (in
+            this case, you are covering the majority of the users — on average, it's somewhat 80%). This % doesn't
+            change from product to product much.
+        </li>
+        <li>
+            The latest version of the product is used by roughly 50% of the users (and it does take some time to
+            upgrade to the newest version, especially in the companies, so it may be a bit lower at the moment).
+        </li>
+        <li>
+            The longer the product is on the market, the more significant is the portion of &quot;Other versions&quot; =
+            versions older than &quot;Latest major release −3&quot; (which is logical, given that we used to have perpetual
+            licenses and provide fallback licenses with our subscription offer).
+        </li>
+    </list>
 
 </topic>
