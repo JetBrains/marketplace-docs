@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Sales report" id="Sales-report">
+
+    <p>This report provides detailed insights into your plugin transactions, including new purchases, renewals, applied discounts, and more. It may help you to track the usage, revenue, and license activity.</p>
+    <p>Navigate to the <emphasis>Sales</emphasis> tab on your plugin page and use the calendar picker to select the desired month and year.</p>
+
+    <img alt="sales-report.png" src="sales-report.png" width="850"/>
+
+    <p>Each entry in the table represents a transaction related to your plugin sales:</p>
+    <list>
+        <li><p><control>Date</control></p>
+            <p>The date of the transaction.</p></li>
+        <li><p><control>Amount</control></p>
+        <p>Total revenue from the transaction in the customer's currency, including the JetBrains <a href="revenue-sharing-and-fees.topic">commission</a>.</p></li>
+        <li><p><control>Customer Code</control></p>
+        <p>A unique customer ID which can be useful for identifying returning users.</p></li>
+        <li><p><control>Country or Region</control></p>
+        <p>The customer’s location which also may be helpful for your analytics.</p></li>
+        <li><p><control>Name</control></p>
+        <p>Only organization names are visible publicly—personal names remain private.</p></li>
+        <li><p><control>Period</control></p>
+        <p>License type, such as Monthly or Annual.</p></li>
+        <li><p><control>Reseller</control></p>
+        <p><a href="billing-and-licensing.topic" id="resellers">Reseller</a> information, if applicable.</p></li>
+        <li><p><control>Ref Num</control></p>
+        <p> Reference number associated with the transaction, which you can refer to if you have any questions about the purchase.</p></li>
+    </list>
+    <tip><p>To download the full dataset, click "Full report (.csv)" in the top-right corner.</p></tip>
+    <img alt="sales-report-extend.png" src="sales-report-extend.png" width="850"/>
+<p>Clicking the arrow next to a row will reveal additional transaction details:</p>
+    <list>
+        <li>Type of transaction (e.g., NEW or RENEW)</li>
+        <li>Number of licenses purchased</li>
+        <li>License start and end dates</li>
+        <li>Any applied discounts (e.g., "20% continuity discount" or student offers)</li>
+    </list>
+<p>If you have questions about any trasnaction, don't hesitate to contact us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.</p>
+    <seealso style="cards">
+        <category ref="related">
+            <a href="getting-paid.topic">Getting paid</a>
+            <a href="payment-processing.topic"/>
+            <a href="license-types-and-schemes.topic"/>
+        </category>
+    </seealso>
+</topic>
