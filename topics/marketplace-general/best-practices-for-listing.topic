@@ -22,20 +22,27 @@
 <li>Write the name in the Latin alphabet (Exception: language packs).</li>
 <li>Write the name in title case.</li>
 <li>Use an original name. (Check whether the name you want is already in use on JetBrains Marketplace).</li>
+            <li>Use clear, concise wording that reflects the plugin’s core purpose.</li>
+            <li>Prefer descriptive names over marketing-style terms or technical jargon.</li>
+            <li>Keep names short and memorable (1–4 words).</li>
 </list><p/>
 <control>Example:</control>
-<p>✅ &quot;Plain Text Support&quot;</p>
+<p>✅ &quot;Plain Text&quot;</p>
 <p>❌ &quot;Free Plain Text Support Plus Platinum Maximum Edition”</p>
+            <p>✅ "Docker"</p>
+            <p>❌ &quot;Docker Plugin Support for IntelliJ IDEA”</p>
         </td>
         <td>
 <p/><list>
 <li>Use the word “Plugin” in the name.</li>
 <li>Use Emoji or symbols in the name.</li>
+            <li>Use the generic terms like "Support" and "Integration" as they are usually implied by the context.</li>
 <li>Include “JetBrains” or supported JetBrains products in the name. (Compatible products are displayed separately on the plugin page).</li>
 </list><p/>
 <control>Example:</control>
 <p>❌ &quot;XYZ CLion Plugin”</p>
 <p>❌ &quot;IntelliJer&quot;</p>
+            <p>❌ &quot;Markdown Editor Support&quot;</p>
 <p/><list>
 <li>Infringe on any third-party trademarks.</li>
 <li>Use punctuation marks when not explicitly needed or as a separator instead of spaces. (Some punctuation marks are permitted but discouraged).</li>

@@ -33,6 +33,12 @@
     <p>
         However, users can still access and download a hidden plugin with a direct link. The plugin can be found on your profile page, on the <a href="organizations.topic">Organization</a> page if the plugin has been added to your Organization, and on the pages of other plugins that use it as a <a href="https://plugins.jetbrains.com/docs/intellij/plugin-dependencies.html">dependency</a>.
     </p>
+    <p>Additionally, you can provide access to the hidden plugin via a <a href="custom-release-channels.topic">custom repository channel</a>, which users can manually add to their IDEs:</p>
+    <code-block lang="xml">
+            <![CDATA[
+                https://plugins.jetbrains.com/plugins/`<channel>`/`<pluginId>`
+                ]]>
+        </code-block>
     <p>
         The lifecycle of a hidden plugin is the same as that of a publicly available one. Once uploaded, it is reviewed for approval by the JetBrains Marketplace team. As with publicly available plugins, you can choose a payment model for your hidden plugin, upload new updates, and manage other settings. Plugin approval or transition to a paid model won't unhide the plugin, so you can have a fully prepared plugin before its public release. You can also remove your plugin while it’s hidden.
     </p>

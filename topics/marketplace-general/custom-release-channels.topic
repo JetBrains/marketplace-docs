@@ -37,9 +37,9 @@
 
         <p>Popular channel names include:</p>
         <list>
-                <li>`eap`: https://plugins.jetbrains.com/plugins/eap/list</li>
-                <li>`alpha`: https://plugins.jetbrains.com/plugins/alpha/list</li>
-                <li>`beta`: https://plugins.jetbrains.com/plugins/beta/list</li>
+                <li>`eap`: <a href="https://plugins.jetbrains.com/plugins/eap/list">https://plugins.jetbrains.com/plugins/eap/list</a></li>
+                <li>`alpha`: <a href="https://plugins.jetbrains.com/plugins/alpha/list">https://plugins.jetbrains.com/plugins/alpha/list</a></li>
+                <li>`beta`: <a href="https://plugins.jetbrains.com/plugins/beta/list">https://plugins.jetbrains.com/plugins/beta/list</a></li>
             </list>
 
         <p>It is also possible to host an <a href="https://www.jetbrains.com/idea/help/adding-plugins-to-enterprise-repositories.html">Enterprise
@@ -54,9 +54,7 @@
         </p>
         <code-block lang="xml">
             <![CDATA[
-                https://plugins.jetbrains.com/plugins/`
-                <channel>`/`
-                    <pluginId>`
+                https://plugins.jetbrains.com/plugins/`<channel>`/`<pluginId>`
                 ]]>
         </code-block>
         <p>(For example, <a href="https://plugins.jetbrains.com/plugins/eap/1347">
