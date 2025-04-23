@@ -44,26 +44,26 @@
             <chapter title="1.2. The Plugin name" id="plugin-name">
                 <list type="none">
                     <li>a. Must be an original and unique name.</li>
+                    <li>b. Words like “Support” and “Integration” are not recommended, as their meaning is generally implied and adds little value</li>
                     <li>c. Must not use famous or trademarked names of third parties without their authorization.</li>
                     <li>d. Must not contain pricing information, unless approved by JetBrains.</li>
                     <li>e. Must be limited to 30 characters.</li>
                     <li>f. Must not abuse the letter "A" or the period as the initial character with the intent of securing a better listing position or search results.</li>
                     <li>g. Must be in Latin characters/symbols, including numbers, and general or special symbols if needed (e.g., period, hyphen, parentheses).</li>
-                    <li>h. Must not contain the word “Plugin” or “IntelliJ”, or include “JetBrains” or the name of any JetBrains product.
-                    </li>
+                    <li>h. Must not contain the word “Plugin” or “IntelliJ”, or include “JetBrains” or the name of any JetBrains product.</li>
                 </list>
             </chapter>
            <chapter title="1.3. The Plugin vendor" id="plugin-vendor">
                <list type="none">
                    <li>a. The Vendor's website and email address are provided, valid, and functional.</li>
-                   <li>c. The Vendor must not misrepresent themselves or their right to use the Plugin, or act or use the Plugin or its content in a fraudulent or deceptive manner. This includes misrepresenting their rights (e.g. impersonating an “admin” user) or impersonating another person.</li>
+                   <li>b. The Vendor must not misrepresent themselves or their right to use the Plugin, or act or use the Plugin or its content in a fraudulent or deceptive manner. This includes misrepresenting their rights (e.g. impersonating an “admin” user) or impersonating another person.</li>
                </list>
            </chapter>
             <chapter title="1.4. The Plugin description" id="plugin-description">
                 <list type="none">
                     <li>a. Must be provided in English as the primary language. If you decide to include localized descriptions, the English description must come first.</li>
                     <li>b. Must be formatted properly and use correct spelling/grammar.</li>
-                    <li>e. All media must display correctly without any errors or broken links.</li>
+                    <li>c. All media must display correctly without any errors or broken links.</li>
                 </list>
             </chapter>
             <chapter title="1.5. The Plugin change notes" id="change-notes">
