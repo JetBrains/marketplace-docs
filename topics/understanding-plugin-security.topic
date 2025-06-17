@@ -73,7 +73,7 @@
     </chapter>
     <chapter title="Enterprise users" id="enterprise-users">
         <p>
-            Organizations seeking centralized control over plugin use may refer to the <a href="https://www.jetbrains.com/ide-services/#ide-provisioner">JetBrains IDE Services</a> for enterprise solutions related to plugin management.
+            Organizations seeking centralized control over plugin use may refer to <a href="https://www.jetbrains.com/ide-services/ide-provisioner/">IDE Provisioner</a> (part of JetBrains IDE Services) for enterprise solutions related to plugin management.
         </p>
     </chapter>
 </topic>
