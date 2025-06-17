@@ -32,10 +32,10 @@
             <li><control>Review:</control> All new plugins and updates are reviewed by the JetBrains Marketplace team to ensure compliance with our <a href="https://plugins.jetbrains.com/docs/marketplace/jetbrains-marketplace-approval-guidelines.html">guidelines</a>. This includes manual checks, <a href="https://github.com/JetBrains/intellij-plugin-verifier">Plugin Verifier</a> execution, and user interface (UI) integration tests.</li>
             <li><control>Post-approval review:</control> If a plugin is later found to violate policies or cause harm, it may be unpublished or removed from JetBrains Marketplace.</li>
         </list>
-        <p><control>Security note:</control></p>
-        <p>
+        <warning> <p>
             If you encounter a plugin that appears to behave suspiciously or poses a risk, please report it via the <a href="https://plugins.jetbrains.com/docs/marketplace/report-plugin.html">Report Plugin</a> button on its JetBrains Marketplace page. User vigilance and feedback are essential for keeping the ecosystem safe.
-        </p>
+        </p></warning>
+
     </chapter>
 
     <chapter title="Actions with problematic plugins" id="actions-with-problematic-plugins">
