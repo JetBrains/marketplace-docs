@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Understanding plugin security " id="understanding-plugin-security">
+
+    <p>
+        JetBrains IDEs allow users to enhance functionality through plugins. While plugins unlock powerful customization, installing them introduces potential security risks. We want to outline what you need to know about plugin security so you can use JetBrains IDEs safely and with confidence.
+    </p>
+    <chapter title="How plugins work: full access architecture" id="plugin-full-access">
+        <p>
+            Plugins in JetBrains IDEs run as part of the IDE and <control>have the same access rights as the IDE itself</control>. This means that plugins can:
+        </p>
+        <list>
+            <li>Read, modify, or delete any files and data that the IDE user can access.</li>
+            <li>Connect to the internet or a local network without additional user prompts or restrictions.</li>
+            <li>Execute code, interact with the operating system, and integrate deeply with the IDE’s core features.</li>
+        </list>
+        <p>
+            When you install a plugin, you are granting it a high level of trust, similar to installing any application on your computer. The IDE does not restrict plugins using fine-grained permissions, nor does it isolate (sandbox) them.
+        </p>
+    </chapter>
+
+    <chapter title="Plugin moderation" id="plugin-moderation">
+        <p>
+            Every plugin published on <a href="https://plugins.jetbrains.com">JetBrains Marketplace</a> is subject to a moderation process, which includes:
+        </p>
+        <list>
+            <li><control>Initial automatic checks:</control> As soon as a plugin archive is submitted for upload, real-time checks evaluate the uploaded files. Plugins may be automatically rejected or flagged if files fail to meet specified criteria, like invalid parameters, incorrect archive structure, dependency issues, or suspicious activities. We are also working on introducing additional automated security checks for plugin uploads in the future.
+            </li>
+            <li><control>Review:</control> All new plugins and updates are reviewed by the JetBrains Marketplace team to ensure compliance with our <a href="https://plugins.jetbrains.com/docs/marketplace/jetbrains-marketplace-approval-guidelines.html">guidelines</a>. This includes manual checks, <a href="https://github.com/JetBrains/intellij-plugin-verifier">Plugin Verifier</a> execution, and user interface (UI) integration tests.</li>
+            <li><control>Post-approval review:</control> If a plugin is later found to violate policies or cause harm, it may be unpublished or removed from JetBrains Marketplace.</li>
+        </list>
+        <p><control>Security note:</control></p>
+        <p>
+            If you encounter a plugin that appears to behave suspiciously or poses a risk, please report it via the <a href="https://plugins.jetbrains.com/docs/marketplace/report-plugin.html">Report Plugin</a> button on its JetBrains Marketplace page. User vigilance and feedback are essential for keeping the ecosystem safe.
+        </p>
+    </chapter>
+
+    <chapter title="Actions with problematic plugins" id="actions-with-problematic-plugins">
+        <p>If you see any unexpected plugin actions like network requests, access to files, or anything else:</p>
+        <list type="decimal">
+            <li>
+                <p><control>Disable and/or uninstall:</control></p>
+                <p>Go to <emphasis>Settings/Preferences | Plugins | Installed</emphasis>, locate the plugin, and disable or uninstall it. Restart the IDE to fully remove its code and prevent it from running.</p>
+            </li>
+            <li>
+                <p><control>Review your environment:</control></p>
+                <p>Since plugins can modify files or IDE settings, some changes may remain even after removal. Uninstalling a plugin <control>does not guarantee</control> that all its effects are undone.</p>
+            </li>
+            <li>
+                <p><control>Report the plugin:</control></p>
+                <p>Click <a href="https://plugins.jetbrains.com/docs/marketplace/report-plugin.html">Report Plugin</a> on the plugin’s page to notify the JetBrains Marketplace team.</p>
+                <p>We investigate such reports with great care and take appropriate action based on our findings.</p>
+            </li>
+        </list>
+    </chapter>
+    <chapter title="Plugin installation considerations" id="plugin-installation-considerations">
+        <p>While JetBrains Marketplace moderates plugins, users should still make informed choices.</p>
+        <p>Before installing a plugin, you may consider:</p>
+        <list>
+            <li><control>Download numbers and user reviews:</control> High download numbers and positive reviews can indicate reliability, though they are not a firm guarantee of safety.</li>
+            <li><control>Frequency of updates:</control> Regular updates typically indicate that plugin developers are actively maintaining and improving their plugins.</li>
+            <li><control>Vendor transparency:</control> Many trusted vendors provide open documentation, a bug tracker, or a support email address, as these are essential for reporting issues and requesting help.</li>
+            <li><control>The vendor’s status:</control> The presence of <a href="https://plugins.jetbrains.com/docs/marketplace/verified-vendor-badge.html">a Verified Vendor badge</a> indicates that JetBrains has confirmed the identity of the plugin vendor as a legitimate individual or registered business. While it doesn’t guarantee plugin quality, it adds a level of trust by confirming that the vendor is authentic and accountable.</li>
+        </list>
+    </chapter>
+    <chapter title="Continuous security improvements" id="security-improvements">
+        <p>
+            The JetBrains team is dedicated to embedding security into all aspects of our development tools and plugin ecosystem. We are continuously working on security enhancements to deliver trusted plugins to our community.
+        </p>
+    </chapter>
+    <chapter title="Enterprise users" id="enterprise-users">
+        <p>
+            Organizations seeking centralized control over plugin use may refer to the <a href="https://www.jetbrains.com/ide-services/#ide-provisioner">JetBrains IDE Services</a> for enterprise solutions related to plugin management.
+        </p>
+    </chapter>
+</topic>
