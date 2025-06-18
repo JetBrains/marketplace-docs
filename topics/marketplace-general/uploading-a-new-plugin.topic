@@ -9,14 +9,14 @@
     <img src="upload-plugin.png" alt="Upload plugin" width="800" border-effect="rounded"/>
     <p>Uploading a new plugin is a two-step process:</p>
     <list type="decimal">
-            <li><p>Select the <a href="vendor-profile.topic">Vendor profile</a> under which you’re publishing the plugin.</p>
-                <img src="select-vendor.png" alt="Select vendor from the list" width="567" border-effect="rounded"/>
-                <p>The plugin can be published under your Individual or Organization profile. If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="vendor-profile.topic">create your Vendor profile.</a></p>
-            </li>
-            <li><p>Submit plugin details.</p>
-                <img src="upload-plugin-details.png" alt="Select vendor from the list" height="719" border-effect="rounded"/>
-            </li>
-        </list>
+        <li><p>Select the <a href="vendor-profile.topic">Vendor profile</a> under which you’re publishing the plugin.</p>
+            <img src="select-vendor.png" alt="Select vendor from the list" width="567" border-effect="rounded"/>
+            <p>The plugin can be published under your Individual or Organization profile. If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="vendor-profile.topic">create your Vendor profile.</a></p>
+        </li>
+        <li id="plugin-details"><p>Submit plugin details.</p>
+            <img src="upload-plugin-details.png" alt="Select vendor from the list" height="719" border-effect="rounded"/>
+        </li>
+    </list>
 
     <p>
         <control>File size:</control>
@@ -50,4 +50,56 @@
             <emphasis>marketplace@jetbrains.com</emphasis>
         </p>
     </tip>
+
+
+    <chapter title="Uploading TeamCity Recipes" id="upload-teamcity-recipes" help-id="upload-teamcity-recipes">
+
+        <p>
+            <a href="https://www.jetbrains.com/help/teamcity/working-with-meta-runner.html">TeamCity Recipes</a> are custom build steps that can be added to TeamCity build configurations. TeamCity supports two types of recipes:
+        </p>
+
+        <list>
+            <li><b>Private recipes</b> — recipes that are not uploaded to JetBrains Marketplace. Typically, these are extracted from existing build configurations on a TeamCity server, and only used on the same server.</li>
+            <li><b>Public recipes</b> — JetBrains Marketplace recipes authored by JetBrains or 3rd-party vendors. If a TeamCity project allows public recipes (<b>Project Settings | Recipes</b>), these recipes are shown next to built-in TeamCity steps.
+
+                <img src="mp-recipes-in-tc-ui.png" width="706" alt="Marketplace recipes in TeamCity UI"/>
+            </li>
+        </list>
+
+        <p>
+            When uploading new TeamCity recipes to JetBrains Marketplace, make sure you select <b>TeamCity Recipes</b> in the <b>Plugin For</b> drop-down menu, and select a YAML recipe definition to upload.
+        </p>
+
+        <img src="mp-upload-tc-recipe.png" width="706" alt="Upload new TeamCity recipes"/>
+
+        <p>
+            Since public recipes can appear together in the TeamCity UI, they must have unique IDs. A recipe ID combines a vendor namespace and a recipe name. For example, the following recipe has the <code>jetbrains/pin-build</code> ID, where <code>jetbrains</code> is the namespace and <code>pin-build</code> is the recipe name.
+        </p>
+
+        <code-block lang="yaml">
+            name: jetbrains/pin-build
+            version: 1.0.0
+            description: |
+                Pins the specific build to prevent it from being removed during a scheduled clean-up.
+                ...
+        </code-block>
+
+        <p>
+            When uploading your first recipe, enter a namespace in the corresponding field to create it. All future recipes you upload should use the same namespace in their YAML files.
+        </p>
+
+        <tip>
+            To remove a namespace, edit your <a href="vendor-profile.topic">vendor page</a> and switch to the <b>Plugins</b> tab. Note that you should first delete all recipes associated with a namespace to remove it.
+
+            <img src="mp-delete-namespace.png" width="706" alt="Delete TeamCity recipe namespace"/>
+        </tip>
+
+        <p>
+            Other settings (vendor details, license type, source code URL, and so on) are specified <a href="#plugin-details">identically to regular plugins</a>.
+        </p>
+
+    </chapter>
+
+
+
 </topic>
