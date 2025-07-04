@@ -10,7 +10,6 @@
 			<toc-element topic="JetBrains-Marketplace-Approval-Guidelines.topic"/>
 			<toc-element toc-title="JetBrains Marketplace Developer Agreement" href="https://plugins.jetbrains.com/legal/developer-agreement"/>
 			<toc-element toc-title="JetBrains Marketplace Agreement" href="https://plugins.jetbrains.com/legal/terms-of-use"/>
-			<toc-element topic="reviews-policy.topic"/>
 			<toc-element topic="eula.topic"/>
 			<toc-element topic="sales-and-technical-support.topic"/>
 			<toc-element topic="trader-status.topic"/>
@@ -25,6 +24,7 @@
 		<toc-element topic="how-to-buy-a-plugin.topic"/>
 		<toc-element topic="community-programs.topic"/>
 		<toc-element topic="understanding-plugin-security.topic"/>
+		<toc-element topic="reviews-policy.topic"/>
 		<toc-element topic="report-plugin.topic"/>
 	</toc-element>
     <toc-element topic="organizations.topic">

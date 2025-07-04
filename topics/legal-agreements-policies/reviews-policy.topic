@@ -17,26 +17,32 @@
         <p>The JetBrains Marketplace team may remove any added reviews or replies to reviews if they are considered
             <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/#unacceptable-content-on-jetbrains-marketplace">unacceptable
                 content</a>. When a review is deleted, both the ratings and the
-            text are removed, and the overall and detailed ratings of the plugin are recalculated automatically. The user who
+            text are removed, and the overall and detailed ratings of the plugin are recalculated automatically. The
+            user who
             originally posted that review will be notified about the removal.</p>
         <p>It is possible to leave a rating on a scale of one to five stars and add a verbal review. Users must add a
             review if they want to rate the plugin from 1 to 3 stars. Adding reviews for 4- and 5-star ratings is
             optional. Ratings <a href="plugins-ranking.topic">affect</a> plugin rankings in search results.</p>
-        <p>Any authorized user can upvote, downvote, or <a anchor="reporting-reviews">report</a> reviews and replies.</p>
+        <p>Any authorized user can upvote, downvote, or <a anchor="reporting-reviews">report</a> reviews and replies.
+        </p>
         <p>You can use Markdown formatting when you write your review.</p>
     </chapter>
     <chapter title="Detailed Ratings" id="detailed-ratings">
         <p>In addition to the general star rating, users can optionally rate separate plugin features:</p>
-            <list>
-                <li>Integration with IDE</li>
-                <li>Performance</li>
-                <li>Available Features</li>
-                <li>User Interface</li>
-                <li>Documentation Quality</li>
-            </list>
-        <p>If you have ideas for other plugin features that could be added to this list, please send them to us via email:
+        <list>
+            <li>Integration with IDE</li>
+            <li>Performance</li>
+            <li>Available Features</li>
+            <li>User Interface</li>
+            <li>Documentation Quality</li>
+        </list>
+        <p>If you have ideas for other plugin features that could be added to this list, please send them to us via
+            email:
             <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.</p>
-        <p>The ratings for each feature are shown to the plugin vendor in an aggregated form on the <path>Reviews</path> tab.</p>
+        <p>The ratings for each feature are shown to the plugin vendor in an aggregated form on the
+            <path>Reviews</path>
+            tab.
+        </p>
         <img src="detailed-ratings.png" alt="Detailed Ratings" width="398"/>
     </chapter>
     <chapter title="Notifications" id="notifications">
@@ -60,10 +66,8 @@
         <p>We <a href="best-practices-for-listing.topic" anchor="contacts-and-resources">recommend</a> all vendors add a
             bug tracker link on their plugin’s page. Many users tend to report technical issues in their reviews, though
             we ask them to report the issues to the bug tracker instead to get help more quickly. If no bug tracker link
-            is available, we suggest users report their issues to the vendor’s email address.</p>
-        <p>Reporting a technical issue in the vendor’s bug tracker makes it more likely to be resolved. Once the issue
-            is resolved it can be closed, whereas in the review section the report will still affect the overall rating
-            of the plugin.</p>
+            is available, we suggest users report their issues to the vendor’s email address. Reporting a technical
+            issue in the vendor’s bug tracker makes it more likely to be resolved.</p>
     </chapter>
     <chapter title="Replying to reviews" id="replying-to-reviews">
         <p>After someone adds a review for a plugin, the plugin vendor and other users can respond to it.</p>
@@ -72,8 +76,21 @@
             provide support.</p>
         <img src="upvote.png" alt="Review example" width="717"/>
         <p>Not every review requires a reply, but we recommend responding to critical reviews (1 to 3 stars). This would
-            show that you value your users' feedback and care about their experience, even if it was unsatisfactory</p>
+            show that you value your users' feedback and care about their experience, even if it was unsatisfactory.</p>
         <p>Please reply calmly and helpfully, even if you disagree with the review.</p>
+
+    </chapter>
+    <chapter title="Marking reviews as resolved" id="marking-reviews-as-resolved">
+        <p>Plugins evolve and update over time, so some reviews can become irrelevant or no longer applicable while
+            still affecting the overall plugin rating. To help keep the reviews section helpful and relevant, if a review is about a problem that has since been fixed, plugin authors can mark such reviews <control>as resolved</control>.</p>
+        <p>To mark a review as resolved, you must first leave a reply with details why the review can be considered resolved. After that, click the <control>Request to mark as resolved</control> button.</p>
+        <img src="request-review-resolve.png" alt="Request to mark as resolved" width="841"/>
+        <p>This will create a request for the JetBrains Marketplace team. We will either confirm that it can be resolved or contact you back for additional details.</p>
+        <p>A resolved review is still visible, but it no longer affects plugin rating.</p>
+        <img src="resolved-review.png" alt="Resolved review" width="646"/>
+        <p>If your review has been marked as resolved, but you disagree with that, please leave a reply and click the <control>Mark as unresolved</control> button.</p>
+        <img src="unresolved-review.png" alt="Unresolved review" width="841"/>
+        <p>A user can also mark their own review as resolved without the involvement of plugin authors or JetBrains Marketplace team.</p>
     </chapter>
     <chapter title="Misuse of ratings and reviews" id="misuse-of-ratings-and-reviews">
         <p>Every review posted on JetBrains Marketplace must comply with the <a
@@ -84,13 +101,22 @@
                 Content Moderation Policy</a>.</p>
     </chapter>
     <chapter title="Reporting reviews" id="reporting-reviews">
-        <p>If you stumble on an inappropriate review, or a review that is no longer applicable because the plugin has
-            undergone a significant update, please report it to JetBrains Marketplace team.</p>
-        <p>To do so, go to the review you'd like to report and click <control>Report</control>.</p>
+        <p>If you stumble on an inappropriate review or if you believe it violates <a
+                href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/">JetBrains
+            Marketplace
+            Content Moderation Policy</a>, please report it to JetBrains Marketplace team.</p>
+        <p>To do so, go to the review you'd like to report and click
+            <control>Report</control>
+            .
+        </p>
         <img src="report-review.png" alt="Review example" width="147"/>
-        <p>After that, choose a reason, add details, and click <control>Submit</control>.</p>
+        <p>After that, choose a reason, add details, and click
+            <control>Submit</control>
+            .
+        </p>
         <img src="report-review-reasons.png" alt="Report review reasons" width="537"/>
-        <p>Once you've reported a review, you can find an issue created in <a href="https://youtrack.jetbrains.com/issues/MR">YouTrack</a>.
+        <p>Once you've reported a review, you can find an issue created in <a
+                href="https://youtrack.jetbrains.com/issues/MR">YouTrack</a>.
             Log in with the same Hub account you used to report the review to see the report.</p>
     </chapter>
 
