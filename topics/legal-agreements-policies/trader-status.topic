@@ -58,12 +58,33 @@
         <p>
             The law requires us to collect and verify certain information about traders offering their plugins on JetBrains Marketplace. The specific information required depends on whether the trader is an individual or a legal entity.
         </p>
+
+        <img alt="OrgTrader.png" src="OrgTrader.png" width="687"/>
         <p><control>Legal Entities:</control></p>
-        <p>If you represent a legal entity, JetBrains will require you to provide the entity’s name, registration number, email, phone number, and address.</p>
+        <p>If you represent a legal entity, JetBrains will require you to provide:</p>
+        <list>
+            <li>Company name</li>
+            <li>Registration number in the commercial register</li>
+            <li>Email address</li>
+            <li>Phone number</li>
+            <li>Business address</li>
+        </list>
+
+        <img alt="IndividualTrader.png" src="IndividualTrader.png" width="687"/>
         <p><control>Individuals:</control></p>
-        <p>If you are an individual, you will be asked to provide your full name, phone number, address, email, and a copy of your identification document.</p>
+        <p>If you are an individual, you will be asked to provide:</p>
+        <list>
+            <li>Full name</li>
+            <li>A copy of your identification document</li>
+            <li>Phone number</li>
+            <li>Residential address</li>
+            <li>Email address</li>
+            <li>Registration number in the trade register</li>
+        </list>
         <p><control>All Traders:</control></p>
-        <p>In addition to the above, all traders will be required to provide to JetBrains their banking details for processing future payments from plugin sales.</p>
+        <p>In addition to the above, all traders will be required to provide to JetBrains their banking details.</p>
+        <img alt="BankingForTraders.png" src="BankingForTraders.png" width="687"/>
+        <p>Even if your sales happen externally and not directly through our marketplace, we are obligated under the DSA to collect banking details along with address, phone, etc. Rest assured, your banking details will be kept fully secure and are only used for verification purposes in line with our privacy policy.</p>
         <p>
             You will also need to certify that all offered products or services comply with applicable EU laws.
         </p>
