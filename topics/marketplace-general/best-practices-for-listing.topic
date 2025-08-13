@@ -19,7 +19,8 @@
     <tr>
         <td>
 <p/><list>
-<li>Write the name in the Latin alphabet (Exception: language packs).</li>
+            <li><p>Write the name using Latin characters and symbols, including numbers and special symbols (e.g., period, hyphen, parentheses).</p>
+                <p><emphasis>Exception:</emphasis> language packs.</p></li>
 <li>Write the name in title case.</li>
 <li>Use an original name. (Check whether the name you want is already in use on JetBrains Marketplace).</li>
             <li>Use clear, concise wording that reflects the plugin’s core purpose.</li>
@@ -108,7 +109,7 @@
 </table>
 <control>Tips and Tricks:</control>
 <p/><list>
-<li>The first line of the plugin description should contain a short plugin summary in English (up to 170 characters). This will be used for the plugin’s preview card on JetBrains Marketplace. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
+<li>The first 40 characters of the plugin description must be in English and contain a short summary. This will be used for the plugin’s preview card on JetBrains Marketplace. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
 <li>Make sure that your description has been proofread and that it is formatted properly before you upload your plugin.</li>
     <li><p>Use the <a href="best-practices-for-listing.topic#media"><control>Media</control></a> section to add images that illustrate your plugin’s functionality, rather than embedding them directly in the plugin description.</p>
         <p>If you include media in the description, ensure the images are optimized for both the JetBrains Marketplace website and the IDE. Remember that images in the description cannot be zoomed in, so clarity is crucial. While the recommended width is between 600 and 800 pixels, verify that your images are clear, relevant, and enhance the description without adding unnecessary complexity for users.</p>
