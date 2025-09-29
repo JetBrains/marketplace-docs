@@ -19,7 +19,6 @@
 		</toc-element>
 	</toc-element>
 	<toc-element topic="getting-started.topic">
-		<toc-element topic="vendor-profile.topic"/>
 		<toc-element topic="roles.topic"/>
 		<toc-element topic="how-to-buy-a-plugin.topic"/>
 		<toc-element topic="community-programs.topic"/>
@@ -27,7 +26,7 @@
 		<toc-element topic="reviews-policy.topic"/>
 		<toc-element topic="report-plugin.topic"/>
 	</toc-element>
-    <toc-element topic="organizations.topic">
+    <toc-element accepts-web-file-names="vendor-profile.html" topic="organizations.topic">
 		<toc-element topic="verified-vendor-badge.topic"/>
 		<toc-element topic="reserved-plugin-ids.topic"/>
 		<toc-element topic="intellij-enterprise-plugin-repositories.topic"/>

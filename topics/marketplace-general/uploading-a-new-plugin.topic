@@ -9,9 +9,9 @@
     <img src="upload-plugin.png" alt="Upload plugin" width="800" border-effect="rounded"/>
     <p>Uploading a new plugin is a two-step process:</p>
     <list type="decimal">
-        <li><p>Select the <a href="vendor-profile.topic">Vendor profile</a> under which you’re publishing the plugin.</p>
+        <li><p>Select the <a href="organizations.topic">Vendor profile</a> under which you’re publishing the plugin.</p>
             <img src="select-vendor.png" alt="Select vendor from the list" width="567" border-effect="rounded"/>
-            <p>The plugin can be published under your Individual or Organization profile. If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="vendor-profile.topic">create your Vendor profile.</a></p>
+            <p>The plugin can be published under your Individual or Organization profile. If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="organizations.topic">create your Vendor profile.</a></p>
         </li>
         <li id="plugin-details"><p>Submit plugin details.</p>
             <img src="upload-plugin-details.png" alt="Select vendor from the list" height="719" border-effect="rounded"/>
@@ -89,7 +89,7 @@
         </p>
 
         <tip>
-            To remove a namespace, edit your <a href="vendor-profile.topic">vendor page</a> and switch to the <b>Plugins</b> tab. Note that you should first delete all recipes associated with a namespace to remove it.
+            To remove a namespace, edit your <a href="organizations.topic">vendor page</a> and switch to the <b>Plugins</b> tab. Note that you should first delete all recipes associated with a namespace to remove it.
 
             <img src="mp-delete-namespace.png" width="706" alt="Delete TeamCity recipe namespace"/>
         </tip>
