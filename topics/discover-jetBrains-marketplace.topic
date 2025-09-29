@@ -39,8 +39,8 @@
         <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
         <secondary>
             <title>Account management</title>
-            <a href="vendor-profile.topic" type="account" summary="Select the Vendor profile that will publish and represent your plugins."/>
-            <a href="organizations.topic" type="academy" summary="Create an organization to allow multiple members to distribute the plugin."/>
+            <a href="organizations.topic" type="account" summary="Create a Vendor profile that will publish and represent your plugins."/>
+            <a href="verified-vendor-badge.topic" type="check-list" summary="Add a verified Vendor badge to confirm your authenticity. "/>
         </secondary>
 
         <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
