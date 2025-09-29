@@ -20,7 +20,7 @@
         <warning>
             <p>
                 Be sure to choose your Vendor ID carefully, because you won’t be able to edit this parameter
-                later on. Also keep in mind that one profile cannot have multiple Vendor IDs.
+                later on.
             </p>
         </warning>
         <p>Other fields such as Public Vendor Name, Email, and Website can be updated at any time.

@@ -11,7 +11,7 @@
     <list type="decimal">
         <li><p>Select the <a href="organizations.topic">Vendor profile</a> under which you’re publishing the plugin.</p>
             <img src="select-vendor.png" alt="Select vendor from the list" width="567" border-effect="rounded"/>
-            <p>The plugin can be published under your Individual or Organization profile. If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="organizations.topic">create your Vendor profile.</a></p>
+            <p> If you haven't uploaded any plugins to JetBrains Marketplace, you will be required to accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="organizations.topic">create your Vendor profile.</a></p>
         </li>
         <li id="plugin-details"><p>Submit plugin details.</p>
             <img src="upload-plugin-details.png" alt="Select vendor from the list" height="719" border-effect="rounded"/>
