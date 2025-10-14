@@ -171,8 +171,8 @@
         </chapter>
         <chapter title="Payment information on the checkout" id="payment-checkout">
             <p>At the checkout form, you need to use special test cards/payment information provided to us by Adyen (our
-                payment provider): <a href="https://docs.adyen.com/development-resources/test-cards/test-card-numbers/">
-                    https://docs.adyen.com/development-resources/test-cards/test-card-numbers/</a>.
+                payment provider): <a href="https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers">
+                    https://docs.adyen.com/development-resources/test-cards-and-credentials/test-card-numbers</a>.
             </p>
             <warning>
                 <p>Make sure <emphasis>NOT TO USE</emphasis> real data, only use the Adyen-provided data.
