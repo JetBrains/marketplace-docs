@@ -10,5 +10,10 @@
     </p>
     <p>It may be confusing that the plugin rating is not 5, while all votes are five stars. However, we use the Bayesian rating to avoid the situation when the plugin with a few 5-star votes is rated higher than the plugins with many diverse votes (not all of them are five stars.)
     </p>
+    <note>
+        <p>
+            <a href="reviews-policy.topic" id="marking-reviews-as-resolved">Resolved reviews</a> are not included in the plugin’s rating.
+        </p>
+    </note>
 
 </topic>
