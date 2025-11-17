@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Plugin recommendations" id="intellij-plugin-recommendations">
 
-    <p>The IntelliJ Platform IDEs may recommend a plugin for installation in one of the following cases:</p>
-    <list>
-            <li>
-                If a project contains files of types which are unsupported by the running IDE but are supported by a
-                plugin
-                available in the plugin repository.
-            </li>
-            <li>
-                If a project was created in different IDE installation which had the plugin installed, and includes
-                shared
-                settings (modules, facets, artifacts, or run configurations) configured using the plugin.
-            </li>
-        </list>
+
+    <p>The IntelliJ Platform IDEs may recommend a plugin for installation after review and approval by JetBrains Marketplace, and the plugin
+        must meet <a href="https://plugins.jetbrains.com/legal/approval-guidelines">the approval criteria</a>.</p>
+    <warning>
+        <p>We may set additional requirements on a case-by-case basis and may decline a suggestion if it does not align with our product direction.
+        </p>
+    </warning>
     <p>IntelliJ Platform IDEs only show plugin suggestions in the appropriate context, so they are meaningful to the
         user.
     </p>
-    <warning>
-        <p>Features implemented by third-party plugins are subject to review and approval by JetBrains Marketplace, and
-            must meet <a href="https://plugins.jetbrains.com/legal/approval-guidelines">the approval criteria</a>. We
-            may establish additional criteria on a case-by-case basis and reserve the right to reject the feature
-            implementation.
-        </p>
-    </warning>
     <p>The
         <control>
             <a href="https://github.com/JetBrains/intellij-plugin-verifier/tree/master/intellij-feature-extractor/">

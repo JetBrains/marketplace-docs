@@ -137,6 +137,7 @@
         </note>
     </chapter>
     <chapter title="Approval Criteria for Features Implemented by Plugins" id="approval-criteria-for-features">
+
         <p>JetBrains Marketplace uses a Feature Extractor (aka <a href="https://github.com/JetBrains/intellij-plugin-verifier/tree/master/intellij-feature-extractor">intellij-feature-extractor</a>) to determine additional features supported by the Plugin. Based on the features determined, the Plugin is advertised in JetBrains products and services:</p>
         <img src="plugin-recommendation-approval.png" alt="Plugin Recommendation" width="668"/>
         <p>
@@ -153,15 +154,17 @@
             Features implemented by the Plugin are subject to review and approval by JetBrains, and must conform to the following criteria:
         </p>
         <list>
-            <li>The Plugin does not implement features which are not related to its major functionality.</li>
-            <li>The Plugin does not implement any malicious features or features for additional promotion that would give it an unfair advantage.
-            </li>
+            <li>The Plugin implements features which are related to its major functionality. The Plugin suggestion must not appear for unrelated project types or for an unnecessarily broad audience.</li>
+            <li>The Plugin does not implement any malicious features or features for additional promotion that would give it an unfair advantage.</li>
+            <li>The Plugin’s ratings, reviews, and download numbers are taken into consideration. We may decline to approve newly submitted plugins that do not yet have any history on our platform.</li>
         </list>
-        <note>
+        <warning>
             <p>
-                JetBrains may establish additional criteria on a case-by-case basis.
+                JetBrains may establish additional criteria on a case-by-case basis and may decline a suggestion if it does not align with our product direction.
             </p>
-        </note>
+        </warning>
+
+        JetBrains reserves the right to withdraw approval for Features implemented by Plugins at any time without prior notice.
     </chapter>
     <p>
         If you have any questions about the approval process, please email us at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
