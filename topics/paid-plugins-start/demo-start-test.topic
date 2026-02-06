@@ -86,13 +86,13 @@
     </chapter>
 
     <chapter title="JetBrains Demo Account" id="jb-demo-account">
-        <p>As in the production environment, you need to have a JetBrains Account to access and manage your licenses, distribute them, view your order history, and more. For test purchases, please create a demo <a href="https://mp.jpf-demo.aws.intellij.net/login">JetBrains Account</a> with credentials similar to these:</p>
+        <p>As in the production environment, you need to have a JetBrains Account to access and manage your licenses, distribute them, view your order history, and more. For test purchases, please create a demo <a href="https://active.jetprofile-mpdm.intellij.net/login">JetBrains Account</a> with credentials similar to these:</p>
         <code-block>
             Email: test.test@gmail.com
             Username: TestTest
             Password: FJKDr478fdjhsj__
         </code-block>
-        <p>To complete your registration, please follow the email instructions that can be viewed <control>at a special URL</control>: <a href="https://mp.jpf-demo.aws.intellij.net/emails">https://mp.jpf-demo.aws.intellij.net/emails</a></p>
+        <p>To complete your registration, please follow the email instructions that can be viewed <control>at a special URL</control>: <a href="https://active.jetprofile-mpdm.intellij.net/emails">https://active.jetprofile-mpdm.intellij.net/emails</a></p>
     </chapter>
 
     <chapter title="Marketplace Demo plugin purchase" id="demo-plugin-purchase">
@@ -108,10 +108,10 @@
             </p>
             <list>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:<code>{ID}</code>:Y
+                        https://active.jetprofile-mpdm.intellij.net/shop/buy?item=P:N:<code>{ID}</code>:Y
                     </li>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=P:N:<code>{ID}</code>:M
+                        https://active.jetprofile-mpdm.intellij.net/shop/buy?item=P:N:<code>{ID}</code>:M
                     </li>
                 </list>
             <p>
@@ -119,10 +119,10 @@
             </p>
             <list>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:<code>{ID}</code>:Y
+                        https://active.jetprofile-mpdm.intellij.net/shop/quote?item=P:N:<code>{ID}</code>:Y
                     </li>
                     <li>
-                        * https://mp.jpf-demo.aws.intellij.net/shop/quote?item=P:N:<code>{ID}</code>:M
+                        * https://active.jetprofile-mpdm.intellij.net/shop/quote?item=P:N:<code>{ID}</code>:M
                     </li>
                 </list>
             <p>
@@ -141,10 +141,10 @@
             </p>
             <list>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:<code>{ID}</code>:Y
+                        https://active.jetprofile-mpdm.intellij.net/shop/buy?item=C:N:<code>{ID}</code>:Y
                     </li>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/buy?item=C:N:<code>{ID}</code>:M
+                        https://active.jetprofile-mpdm.intellij.net/shop/buy?item=C:N:<code>{ID}</code>:M
                     </li>
                 </list>
             <p>
@@ -152,10 +152,10 @@
             </p>
             <list>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:<code>{ID}</code>:Y
+                        https://active.jetprofile-mpdm.intellij.net/shop/quote?item=C:N:<code>{ID}</code>:Y
                     </li>
                     <li>
-                        https://mp.jpf-demo.aws.intellij.net/shop/quote?item=C:N:<code>{ID}</code>:M
+                        https://active.jetprofile-mpdm.intellij.net/shop/quote?item=C:N:<code>{ID}</code>:M
                     </li>
                 </list>
 
@@ -188,7 +188,7 @@
             we don’t send out any emails from the JetBrains Marketplace Demo Sales Systems.
         </p>
         <p>That is why all the outgoing emails can be viewed <control>at a special URL</control>:
-            <a href="https://mp.jpf-demo.aws.intellij.net/emails">https://mp.jpf-demo.aws.intellij.net/emails</a>.
+            <a href="https://active.jetprofile-mpdm.intellij.net/emails">https://active.jetprofile-mpdm.intellij.net/emails</a>.
         </p>
 
         <note>
