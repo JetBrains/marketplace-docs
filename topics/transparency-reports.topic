@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Digital Services Act" id="transparency-reports" help-id="digital-services-act">
+
+       <p>This page contains information relevant to the EU Digital Services Act (Regulation (EU) 2022/2065) (“DSA”) in relation to JetBrains Marketplace.</p>
+        <p>
+            JetBrains Marketplace is a platform where users can upload or download plugins to JetBrains products or other content created either by JetBrains or by third-party developers and share their experience with such plugins or other content through user reviews and ratings.
+        </p>
+
+        <p>
+            To ensure a safe, secure, and trustworthy environment, users of JetBrains Marketplace must comply with <a href="https://www.jetbrains.com/legal/docs/terms/marketplace-content-moderation/?_cl=MTsxOzE7UUZyQTViN21hRU9aQzAwY0lMUnpWVW1oeVJMRU92Z1hnNkVGUk9OcDdmUHJpQWN3T1I3bXM3ZXhXV3VONmhvWjs="><control>JetBrains Marketplace Content Moderation Policy</control></a>. This policy also describes how to report illegal/policy-violating content, how we handle such content and how users can object our decisions.
+        </p>
+
+    <chapter title="Average number of active service recipients in the EU" id="average-number-recipients">
+        <p>
+            According to the Digital Services Act (Regulation (EU) 2022/2065), providers of online platforms such as JetBrains Marketplace are obliged to publish on a regular basis the average number of active service recipients in the EU. </p>
+        <p>
+            JetBrains Marketplace provides this information in accordance with this requirement. <a href="https://plugins.jetbrains.com/legal">View the latest disclosure on the JetBrains Marketplace Legal page.</a>
+        </p>
+
+    </chapter>
+
+    <chapter title="Transparency reports" id="transparency-reports">
+        <p>We publish annual transparency reports on our content moderation activities in line with the DSA. The reports are available for each year.
+        </p>
+
+        <list type="bullet">
+            <li><resource src="JB Marketplace DSA transparency report 2025.zip">2025</resource></li>
+            <li><resource src="JB Marketplace DSA transparency report_2024. 1.0.pdf">2024</resource></li>
+        </list>
+    </chapter>
+
+
+</topic>
