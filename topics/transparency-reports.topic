@@ -28,8 +28,8 @@
         </p>
 
         <list type="bullet">
-            <li><resource src="JB Marketplace DSA transparency report 2025.zip">2025</resource></li>
-            <li><resource src="JB Marketplace DSA transparency report_2024.pdf">2024</resource></li>
+            <li><resource id="jb-marketplace-dsa-transparency-report-2025-zip">2025</resource></li>
+            <li><resource id="jb-marketplace-dsa-transparency-report-2024-pdf">2024</resource></li>
         </list>
     </chapter>
 
