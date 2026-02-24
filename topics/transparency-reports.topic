@@ -27,7 +27,10 @@
         <p>We publish annual transparency reports on our content moderation activities in line with the DSA. The reports are available for each year.
         </p>
 
-       <resource src="JB Marketplace DSA transparency report 2025.zip"/>
+       <list>
+           <li><resource src="JBMarketplaceDSATransparencyReport2025.zip">2025</resource></li>
+           <li><resource src="JBMarketplaceDSATransparencyReport2024.pdf">2024</resource></li>
+       </list>
 
 
     </chapter>
