@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE resources
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/resources.dtd">
-<resources>
+<resources dir="resources" web-path="/docs/marketplace/">
 
     <resource id="plugin-sample-devkit" file="plugin-license-sample-v3-DevKit.zip"/>
-    <resource id="plugin-sample-gradle" file="plugin-license-sample-v3-Gradle.zip"/>
+    <resource id="plugin-sample-gradle" file="resources/plugin-license-sample-v3-Gradle.zip"/>
     <resource id="jetbrains-plugin-marketplace-agreement-docx" file="jetbrains-plugin-marketplace-agreement.docx"/>
     <resource id="jetbrains-plugin-marketplace-agreement-pdf" file="jetbrains-plugin-marketplace-agreement.pdf"/>
     <resource id="jetbrains-plugin-marketplace-agreement-jbd-docx" file="jetbrains-plugin-marketplace-agreement-jbd.docx"/>
