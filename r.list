@@ -13,7 +13,7 @@
     <resource id="jetbrains-plugin-marketplace-approval-guidelines-pdf" file="jetbrains-plugin-marketplace-approval-guidelines.pdf"/>
     <resource id="jetbrains-plugin-marketplace-developer-agreement-docx" file="jetbrains-plugin-marketplace-developer-agreement.docx"/>
     <resource id="jetbrains-plugin-marketplace-developer-agreement-pdf" file="jetbrains-plugin-marketplace-developer-agreement.pdf"/>
-    <resource id="jb-marketplace-dsa-transparency-report-2024-pdf" file="JB Marketplace DSA transparency report_2024.pdf"/>
-    <resource id="jb-marketplace-dsa-transparency-report-2025-zip" file="JB Marketplace DSA transparency report 2025.zip"/>
+    <resource id="jb-marketplace-dsa-transparency-report-2024-pdf" file="JBMarketplaceDSATransparencyReport2024.pdf"/>
+    <resource id="jb-marketplace-dsa-transparency-report-2025-zip" file="JBMarketplaceDSATransparencyReport2025.zip"/>
 
 </resources>
