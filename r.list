@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources xsi:noNamespaceSchemaLocation="http://helpserver.labs.intellij.net/help/resources.dtd"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!DOCTYPE resources
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/resources.dtd">
+<resources>
 
     <resource id="plugin-sample-devkit" file="plugin-license-sample-v3-DevKit.zip"/>
     <resource id="plugin-sample-gradle" file="plugin-license-sample-v3-Gradle.zip"/>
