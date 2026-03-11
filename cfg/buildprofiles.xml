@@ -4,7 +4,7 @@
 	<variables>
 		<custom-banner bg-theme="default" date="2026-03-19"
 					   link="https://info.jetbrains.com/marketplace-livestream-march19-2026.html?utm_source=marketplace&amp;utm_medium=thunderbolt&amp;utm_campaign=streammarch26"
-					   label="Livestream">Preventing UI Freezes in JetBrains IDE Plugins. 19.03.2026, 03:00 PM UTC
+					   label="Livestream">Preventing UI Freezes in JetBrains IDE Plugins. 03:00 PM UTC
 		</custom-banner>
 		<include-in-head>thirdparty/dpk-gtm-analytics.html</include-in-head>
 		<web-root>https://plugins.jetbrains.com</web-root>
