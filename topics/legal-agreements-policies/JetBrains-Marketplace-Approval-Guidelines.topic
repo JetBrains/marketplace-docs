@@ -113,9 +113,10 @@
                 <list type="none">
                     <li>a. The Plugin does not introduce any security vulnerabilities or privacy issues to JetBrains products or services.</li>
                     <li>b. The Plugin does not negatively affect the performance of JetBrains products in a significant way (e.g. slowing the product down).</li>
-                    <li>c. In case of processing (e.g. collection, transfer, etc.) of any personal, statistical, or telemetric data, the Plugin asks for explicit permission from the user.</li>
-                    <li>d. The Plugin does not transfer statistics and/or telemetric data when the Plugin is not being used by the user.</li>
-                    <li>e. Plugin metadata and marketing assets do not include any content for additional promotion that would give it an unfair advantage or cause JetBrains Marketplace to malfunction (such as trying to manipulate search results, adding irrelevant keywords, breaking HTML formatting of the page, etc.).</li>
+                    <li>c. The Plugin must not modify, hide, intercept, or otherwise interfere with the functionality of any JetBrains Product in a way that disrupts, degrades, or circumvents its intended behavior, including any mechanisms related to licensing, subscriptions, trials, or product upgrade flows.</li>
+                    <li>d. In case of processing (e.g. collection, transfer, etc.) of any personal, statistical, or telemetric data, the Plugin asks for explicit permission from the user.</li>
+                    <li>e. The Plugin does not transfer statistics and/or telemetric data when the Plugin is not being used by the user.</li>
+                    <li>f. Plugin metadata and marketing assets do not include any content for additional promotion that would give it an unfair advantage or cause JetBrains Marketplace to malfunction (such as trying to manipulate search results, adding irrelevant keywords, breaking HTML formatting of the page, etc.).</li>
                 </list>
             </chapter>
         </chapter>
