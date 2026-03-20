@@ -39,6 +39,10 @@
         <control>Channels:</control>
         If you do not want your plugin to be generally available (like if it is an Alpha, Beta, or EAP version), please add a <a href="custom-release-channels.topic">Custom Release Channel</a>.
     </p>
+    <p>
+        <control>Ads:</control>
+        The term “ads” refers to <a href="best-practices-for-listing.topic#ads">commercial communications</a> or any message intended to promote a business, product, service, or professional reputation.
+    </p>
 
     <p>
         <control>Hidden flag:</control> This lets you keep the plugin <a href="hidden-plugin.topic">hidden</a>, even after approval.

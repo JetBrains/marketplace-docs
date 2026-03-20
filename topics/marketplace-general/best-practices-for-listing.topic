@@ -210,6 +210,14 @@ that’s less than 5 minutes long. A video can help you improve user interaction
     <p>Providing a source code link is essential to uphold the principles of open source. While it's not always required by the license, it's best practice to include a source code link to ensure transparency and foster collaboration. We encourage developers to provide a source code link if they choose to license their Plugin under an open-source license.</p>
 </chapter>
 
+    <chapter title="Advertisements" id="ads">
+        <p>The term “ads” refers to <control>commercial communications</control> or any message intended to promote a business, product, service, or professional reputation. Examples include advertisements, promotional emails, sponsored social media posts, banners, and promotional videos.</p>
+
+        <p>Basic contact details (such as a website or email address) are not considered commercial communications.</p>
+
+        <p>User guides or help resources are also not considered commercial communications, unless they include promotional content (for example, encouraging upgrades or premium plans). In such cases, only the promotional elements are considered ads.</p>
+    </chapter>
+
 <chapter title="Getting started section" id="getting-started-section">
 
 <p>You can choose to add getting started instructions to your page on the admin panel. These instructions will be displayed on the plugin page,  and you can use HTML tags to add formatting. Consider outlining the key steps for getting started, such as how to install and configure your plugin. These instructions should not include just  a link to an external help doc. Additional instructions can be added to the Documentation URL or to a <a href="custom-pages.topic">Custom page</a>.</p>
