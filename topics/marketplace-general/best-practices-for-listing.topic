@@ -126,7 +126,7 @@
 <note><p>Note, that you can choose not to use a logo.</p></note>
 <control>❌ DON’T:</control>
 <p/><list>
-<li>Use the <a href="https://github.com/JetBrains/intellij-platform-plugin-template/blob/main/src/main/resources/META-INF/pluginIcon.svg">default logo</a> of the <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a> or <a href="https://github.com/JetBrains/intellij-sdk-code-samples">IntelliJ SDK Code Samples</a>.</li>
+<li>Use the default logo of the <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a> or <a href="https://github.com/JetBrains/intellij-sdk-code-samples">IntelliJ SDK Code Samples</a>.</li>
 <li>Create a logo that merely consists of text repeating your plugin name.</li>
 <li>Use a logo that resembles any of the JetBrains product logos or the logos of any other brands.</li>
 </list><p/>
