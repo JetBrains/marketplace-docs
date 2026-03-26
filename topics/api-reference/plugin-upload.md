@@ -13,6 +13,7 @@ Other parameters:
 * `channel` is a release channel the update is published to (empty channel means default `Stable` channel) (optional)
 * 
 * `isHidden` is an option [to make this update hidden](hidden-plugin.topic) to prevent public release after approval (e.g. `-F isHidden=true`). 
+* `containsAds` is an option used to indicate whether your plugin includes [ads](best-practices-for-listing.topic#ads). By default, this option is set to `false`. If your plugin contains ads, you must explicitly set `containsAds=true` to declare it.
 
 ## POST
 
