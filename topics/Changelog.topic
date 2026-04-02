@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Changelog" id="Changelog">
+
+    <p>This changelog tracks all revisions made to our <a href="legal-agreements.topic">Legal agreements and policies</a> section:</p>
+    <list>
+        <li>
+            <a href="JetBrains-Marketplace-Approval-Guidelines.topic">JetBrains Marketplace Approval Guidelines</a> — criteria applied to every Plugin and Plugin update submitted to JetBrains Marketplace.
+        </li>
+        <li>
+            <a href="transparency-reports.topic">Digital Services Act</a> —  JetBrains Marketplace's compliance hub for EU Regulation 2022/2065, covering annual transparency reports, Trader/Non-trader status declaration requirement and trader verification.
+
+        </li>
+    </list>
+
+    <warning>
+        <p>
+            <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="https://plugins.jetbrains.com/legal/terms-of-use">JetBrains Marketplace Agreement</a> are communicated separately and are not tracked in this changelog.
+        </p>
+    </warning>
+
+    <chapter title="JetBrains Marketplace Approval Guidelines" id="approval-guidelines-changelog">
+        <table style="header-row">
+            <tr>
+            <td>Date</td>
+            <td>Version</td>
+            <td>Section</td>
+            <td>Change</td>
+            </tr>
+            <tr>
+                <td>31.03.2026</td>
+                <td>Version 1.3</td>
+                <td>Plugin Approval Criteria <control>2.2.(c)</control></td>
+                <td><control>Added</control>: The Plugin must not modify, hide, intercept, or otherwise interfere with the functionality of any JetBrains Product in a way that disrupts, degrades, or circumvents its intended behavior, including any mechanisms related to licensing, subscriptions, trials, or product upgrade flows.
+                </td>
+            </tr>
+            <tr>
+                <td>17.11.2025</td>
+                <td>Version 1.2</td>
+                <td>Plugin Approval Criteria <control>1.2.(b)</control> and <control>1.3.(b)</control></td>
+                <td><p><control>Removed</control>:  1.2.(b) Must include keywords or concepts that accurately describe the Plugin.</p>
+                    <p>1.3.(b). The Vendor's name can be light-hearted but must remain somewhat professional.</p>
+                </td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="Digital Services Act" id="dsa-changelog">
+        <table style="header-row">
+            <tr>
+                <td>Date</td>
+                <td>Section</td>
+                <td>Change</td>
+            </tr>
+            <tr>
+                <td>26.02.2026</td>
+                <td>Transparency reports</td>
+                <td>2025 annual DSA transparency report published.</td>
+            </tr>
+            <tr>
+                <td>12.02.2025</td>
+                <td>Transparency reports</td>
+                <td>2024 annual DSA transparency report published.</td>
+            </tr>
+        </table>
+    </chapter>
+
+</topic>
