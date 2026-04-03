@@ -15,6 +15,7 @@
 			<toc-element accepts-web-file-names="2024-dsa-transparency-report.html" topic="transparency-reports.topic">
 				<toc-element topic="trader-status.topic"/>
 			</toc-element>
+			<toc-element topic="Changelog.topic"/>
 		</toc-element>
 	</toc-element>
 	<toc-element topic="getting-started.topic">

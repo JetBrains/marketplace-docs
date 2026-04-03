@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Changelog" id="Changelog">
+
+    <p>This changelog tracks all revisions made to our <a href="legal-agreements.topic">Legal agreements and policies</a> section:</p>
+    <list>
+        <li>
+            <a href="JetBrains-Marketplace-Approval-Guidelines.topic">JetBrains Marketplace Approval Guidelines</a> — criteria applied to every Plugin and Plugin update submitted to JetBrains Marketplace.
+        </li>
+        <li>
+            <a href="transparency-reports.topic">Digital Services Act</a> —  JetBrains Marketplace's compliance hub for EU Regulation 2022/2065, covering annual transparency reports, Trader/Non-trader status declaration requirement and trader verification.
+
+        </li>
+    </list>
+
+    <warning>
+        <p>
+            <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains Marketplace Developer Agreement</a> and <a href="https://plugins.jetbrains.com/legal/terms-of-use">JetBrains Marketplace Agreement</a> are communicated separately and are not tracked in this changelog.
+        </p>
+    </warning>
+
+    <chapter title="2026" id="2026-changelog">
+        <table style="header-row">
+            <tr>
+            <td>Date</td>
+            <td>Document</td>
+            <td>Section</td>
+            <td>Change</td>
+            </tr>
+            <tr>
+                <td>31.03.2026</td>
+                <td>Approval Guidelines</td>
+                <td>Plugin Approval Criteria <control>2.2.(c)</control></td>
+                <td><control>Added</control>: The Plugin must not modify, hide, intercept, or otherwise interfere with the functionality of any JetBrains Product in a way that disrupts, degrades, or circumvents its intended behavior, including any mechanisms related to licensing, subscriptions, trials, or product upgrade flows.
+                </td>
+            </tr>
+            <tr>
+                <td>26.02.2026</td>
+                <td>Digital Service Act</td>
+                <td>Transparency reports</td>
+                <td><control>Added</control>: 2025 annual DSA transparency report.</td>
+            </tr>
+
+        </table>
+    </chapter>
+
+    <chapter title="2025" id="2025-changelog">
+        <table style="header-row">
+            <tr>
+                <td>Date</td>
+                <td>Document</td>
+                <td>Section</td>
+                <td>Change</td>
+            </tr>
+            <tr>
+                <td>17.11.2025</td>
+                <td>Approval Guidelines</td>
+                <td>Approval Criteria for Features Implemented by Plugins</td>
+                <td><p><control>Changed</control>:</p>
+                    <p>The Plugin implements features which are related to its major functionality. The Plugin suggestion must not appear for unrelated project types or for an unnecessarily broad audience.</p>
+                    <p>JetBrains may establish additional criteria on a case-by-case basis and may decline a suggestion if it does not align with our product direction.</p>
+                    <p><control>Added:</control></p>
+                    <p>The Plugin’s ratings, reviews, and download numbers are taken into consideration. We may decline to approve newly submitted plugins that do not yet have any history on our platform.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>23.04.2025</td>
+                <td>Approval Guidelines</td>
+                <td>Plugin Approval Criteria <control>1.2.(b)</control></td>
+                <td><p><control>Added</control>:  1.2.(b) Words like “Support” and “Integration” are not recommended, as their meaning is generally implied and adds little value</p>
+                </td>
+            </tr>
+            <tr>
+                <td>12.03.2025</td>
+                <td>Approval Guidelines</td>
+                <td>Plugin Approval Criteria <control>1.2.(b)</control>, <control>1.3.(b)</control>, <control>1.4.(c)</control> and <control>1.4.(d)</control></td>
+                <td><p><control>Removed</control>:</p>
+                    <p>1.2.(b) Must include keywords or concepts that accurately describe the Plugin.</p>
+                    <p>1.3.(b). The Vendor's name can be light-hearted but must remain somewhat professional.</p>
+                    <p>1.4.(c)c. The first line of the plugin description must contain a short plugin summary.</p>
+                    <p>1.4.(d) Any media used (images, screenshots, GIFs) must be relevant to the content they accompany and visually support the description.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>12.02.2025</td>
+                <td>Digital Service Act</td>
+                <td>Transparency reports</td>
+                <td><control>Added</control>: 2024 annual DSA transparency report.</td>
+            </tr>
+        </table>
+    </chapter>
+
+</topic>
