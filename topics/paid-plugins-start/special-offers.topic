@@ -5,19 +5,27 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Special Offers" id="special-offers">
 
-    <p>Offering time-limited discounts, such as on Black Friday, can significantly boost sales and attract new
-        customers. These discounts create a sense of urgency, encouraging potential users to act quickly and purchase
-        your plugin licenses. While implementing discounts is entirely up to you, we highly recommend considering this
-        strategy to enhance your plugin sales and customer engagement.
-    </p>
-    <p>To add a discount, reach out to the Marketplace Support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>
-        and provide key information about the discount, including the audience
-        (individuals or organizations), country (if applicable), the discount range, and the period the discount will be
-        active.</p>
+    <p>Special offers allow you to provide time-limited discounts for your plugin. You can use them for promotions such as seasonal sales or other marketing campaigns.</p>
     <warning>
         <p>We cannot enable discounts if you have increased the plugin's price within 30 days of the intended start date
             of the discount. This ensures fair pricing practices and prevents any potential price manipulation.</p>
     </warning>
+
+    <p>To request a special offer, reach out to the Marketplace Support team at <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>
+        and provide the following details:</p>
+    <list>
+        <li>Discount name (visible to customer on checkout)</li>
+        <li>Discount value</li>
+        <li>Who can use the discount (Organizations, Personal customers, or both)</li>
+        <li>What type of purchase should be allowed (New purchase, Renewal, or both)</li>
+        <li>Billing period restrictions ( Annual licenses only, Monthly licenses only, or both)</li>
+        <li>Offer start and expiration dates</li>
+    </list>
+<note>
+    <p>
+        If a quote is generated while an offer is active, <control>the discounted price is preserved</control> in the quote, even if the offer expires before the customer completes the purchase.
+    </p>
+</note>
     <p>The discount information will be displayed on the
         <path>Pricing</path>
         tab, with the previous price crossed out. See the image below for an example of how this will look:
