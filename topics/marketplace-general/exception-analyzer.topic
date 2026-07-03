@@ -74,7 +74,7 @@
             The <code>JetBrainsMarketplaceErrorReportSubmitter</code> helper class has been available since the 2023.3 release cycle.
         </p>
         <p>
-            Once the error handler implementation is added, contact <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a> and JetBrains Marketplace team will enable the feature for you.
+            Once you upload a new plugin update with the error handler implementation added, a new tab <path>Exceptions</path> will appear on your plugin overview page by the following path: https://plugins.jetbrains.com/plugin/{plugin_ID}/edit/exception-analyzer.
         </p>
     </chapter>
 </topic>
