@@ -148,6 +148,8 @@
                 plugin.xml</a>, and add <path>Getting Started</path> instructions.
             </p>
             <img src="embeddables.png" alt="Embeddables" width="2067"/>
+            <p>If you notice any issues, or you simply want to improve the description, you can also edit it on the plugin's page. In this case, the description is stored separately from the plugin archive, allowing you to update it without uploading a new plugin version.</p>
+            <img src="Edit-description.jpg" alt="Edit Description" width="2067"/>
             <p>In the <path>Embeddables</path> section, you can copy the code for
                 <a href="embeddable-content.md">embeddable</a>
                 Plugin Card and the <control>Install to IDE</control> button.
