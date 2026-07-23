@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Best practices for listing your plugin" id="best-practices-for-listing"
                                                                                                                                          help-id="plugin-overview-page">
 
-<p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.xml</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), the plugin’s description, and change notes.</p>
+<p>The core elements of a plugin’s Overview page are extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">Plugin Configuration File — plugin.xml</a> and cannot be changed without uploading a new plugin version. These extracted elements include the plugin’s name, a link to the plugin website (if there is one), and change notes.</p>
 
 <chapter title="Plugin name" id="plugin-name">
 
@@ -74,13 +74,14 @@
 
 <chapter title="Plugin description" id="plugin-description">
 
-<p>The plugin description should be added to the <path>plugin.xml</path> file under the `description` tag. It can contain most HTML tags, and it is displayed in the Plugin Manager inside JetBrains IDEs and on the plugin listing page on <a href="https://plugins.jetbrains.com/">JetBrains Marketplace.</a></p>
+<p>By default, the plugin description is taken from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html?_gl=1*1nctt8*_gcl_au*NjA0MTQ0OTEwLjE3ODQ4MTA4NzQ.*_ga*MTAxMTIxMzIzNC4xNzg0ODEwODc0*_ga_9J976DJZ68*czE3ODQ4MTA4NzMkbzEkZzEkdDE3ODQ4MTExODAkajE4JGwwJGgw">plugin.xml</a> file under the <code>description</code> tag. It supports most HTML tags and is displayed both in the Plugin Manager within IDEs and on the plugin's page in <a href="https://plugins.jetbrains.com/">JetBrains Marketplace.</a></p>
+    <img src="testplugin.png" alt="Description Example" width="706"/>
+<p>You can also edit the description on the plugin's page. In this case, the description is stored separately from the plugin archive, allowing you to update it without uploading a new plugin version.</p>
+    <img src="Edit-description.jpg" alt="Edit Description" width="706"/>
 
-<p>Make sure your description is concise and offers a clear value proposition. It should be easy to understand at a glance what the product offers.</p>
+    <p>Make sure your description is concise and offers a clear value proposition. It should be easy to understand at a glance what the product offers.</p>
 
-<img src="testplugin.png" alt="Description Example" width="460"/>
-
-<table>
+    <table>
     <tr>
         <td>
             ✅ DO:
@@ -107,11 +108,18 @@
         </td>
     </tr>
 </table>
+
 <control>Tips and Tricks:</control>
 <p/><list>
 <li>The first 40 characters of the plugin description must be in English and contain a short summary. This will be used for the plugin’s preview card on JetBrains Marketplace. Note that you can’t amend the text of a plugin card separately. You can also <a href="embeddable-content.md">embed</a> the card on your website.</li>
 <li>Make sure that your description has been proofread and that it is formatted properly before you upload your plugin.</li>
-    <li><p>Use the <a href="best-practices-for-listing.topic#media"><control>Media</control></a> section to add images that illustrate your plugin’s functionality, rather than embedding them directly in the plugin description.</p>
+    <li><p>You can manage where your description is taken from under the <emphasis>General Information</emphasis> section on the plugin's page.</p>
+        <img src="Use-changes-UI.jpg" alt="Use changes from UI" width="706"/></li>
+    <li>  <p>If your plugin description is currently taken from <code>plugin.xml</code> and you edit it in the UI, you'll be prompted to choose one: <control>Always</control> use the description from the plugin page or use the UI description <control>until next update</control>. The edited description will be applied, but future plugin uploads will continue to use the description from <code>plugin.xml</code>.</p>
+        <img src="preserve-changes.png" alt="Preserve changes" width="706"/>
+    </li>
+    <li><p>Use the <a href="best-practices-for-listing.topic#media"><control>Media</control></a> section to add images that illustrate your plugin’s functionality, rather than embedding them directly in the plugin description.</p></li>
+    <li>
         <p>If you include media in the description, ensure the images are optimized for both the JetBrains Marketplace website and the IDE. Remember that images in the description cannot be zoomed in, so clarity is crucial. While the recommended width is between 600 and 800 pixels, verify that your images are clear, relevant, and enhance the description without adding unnecessary complexity for users.</p>
     </li>
 <li>Use bullet points to describe the plugin’s main benefits.</li>
