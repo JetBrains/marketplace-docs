@@ -12,9 +12,9 @@
         the <control>Documentation</control> tab is not a single page, but a full-fledged help instance
         with a structure, table of contents, and in-topic navigation.
         Here are examples of plugins with a <control>Documentation</control> tab:
-        <a href="https://plugins.jetbrains.com/plugin/16136-grazie-professional/docs">Grazie Professional</a>,
+        <a href="https://plugins.jetbrains.com/plugin/16136-grazie-professional/docs">Grazie Pro</a>,
         <a href="https://plugins.jetbrains.com/plugin/8182-rust/docs">Rust</a>,
-        and <a href="https://plugins.jetbrains.com/plugin/10081-edutools/docs">Edu Tools</a>.</p>
+        and <a href="https://plugins.jetbrains.com/plugin/10081-edutools/docs">JetBrains Academy</a>.</p>
     <p>
         Why you should consider investing in writing documentation for your plugin:</p>
     <list>

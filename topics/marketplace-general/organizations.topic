@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM
         'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'>
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Vendor profile"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Vendor profile"
        id="organizations">
 
 
-    <p>A <control>Vendor</control> is an entity that publishes and represents plugins on JetBrains Marketplace. Every plugin must be associated with a vendor profile, regardless of whether the vendor is an individual or represents an organization. This requirement ensures that users can easily identify the vendor responsible for a plugin and understand their status (trader or non-trader), in accordance with EU consumer protection regulations.</p>
+    <p>A
+        <control>Vendor</control>
+        is an entity that publishes and represents plugins on JetBrains Marketplace. Every plugin must be associated
+        with a vendor profile, regardless of whether the vendor is an individual or represents an organization. This
+        requirement ensures that users can easily identify the vendor responsible for a plugin and understand <a href="trader-status.topic">their
+            status</a> (<b>trader</b> or <b>non-trader</b>), in accordance with EU consumer protection regulations.
+    </p>
 
-    <p>Both individuals and organizations have dedicated vendor pages where their plugins are listed, offering users a centralized and transparent view of their contributions.</p>
+    <p>Both individuals and organizations have dedicated vendor pages where their plugins are listed, offering users a
+        centralized and transparent view of their contributions.</p>
     <img src="vendorprofile.jpg" alt="Vendor profile" width="740"/>
 
-  
+
     <chapter title="Creating a new Vendor" id="creating-an-organization">
         <p>
-            The easiest way to create a new Vendor profile is during the <a href="https://plugins.jetbrains.com/plugin/add#intellij">initial plugin upload</a>.
+            The easiest way to create a new Vendor profile is during the <a
+                href="https://plugins.jetbrains.com/plugin/add#intellij">initial plugin upload</a>.
         </p>
         <img src="createvendor.jpg" alt="Create Organization" width="740"/>
 
@@ -25,11 +34,17 @@
         </warning>
         <p>Other fields such as Public Vendor Name, Email, and Website can be updated at any time.
         </p>
-        <p>During the profile creation, you must also declare whether you can be considered a <control>trader or non-trader</control> according to the definition from the European Union. This will allow consumers from the EU to determine whether consumer protection regulations apply to them. Learn more about the requirements <a
-                    href="trader-status.topic">here</a>.</p>
+        <p>During the profile creation, you must also declare whether you can be considered a
+            <b>trader</b> or <b>non-trader</b>
+            according to the definition from the European Union. This will allow consumers from the EU to determine
+            whether consumer protection regulations apply to them. Learn more about the requirements <a
+                    href="trader-status.topic">here</a>.
+        </p>
         <p>If you have already uploaded a plugin you can still create a new Vendor profile. To create it click the
-            <control><a href="https://plugins.jetbrains.com/organizations/new">Create new Vendor</a></control> button under
-            <ui-path>Vendors</ui-path> on your profile page:
+            <control><a href="https://plugins.jetbrains.com/organizations/new">Create new Vendor</a></control>
+            button under
+            <ui-path>Vendors</ui-path>
+            on your profile page:
         </p>
         <img src="add-organization.jpg" alt="Add Organization" width="740"/>
     </chapter>
@@ -53,21 +68,27 @@
 
     <chapter title="Adding members" id="adding-members">
         <p>To add more members, you just need to open the
-            <control>Edit Vendor</control> page, switch to the
-            <control>Members</control> tab, and enter the plugin author's ID in the
-            <control>Add member</control> field.
+            <control>Edit Vendor</control>
+            page, switch to the
+            <control>Members</control>
+            tab, and enter the plugin author's ID in the
+            <control>Add member</control>
+            field.
         </p>
     </chapter>
 
     <chapter title="Associating plugins with Vendor" id="associating-plugin-with-organization">
         <p>To associate a plugin, the author should be a member of that Vendor profile and
-            select it as Vendor on the plugin <emphasis>Overview</emphasis> page.
+            select it as Vendor on the plugin
+            <emphasis>Overview</emphasis>
+            page.
         </p>
         <img src="transfer-to-organization.png" alt="Transfer a plugin" width="740"/>
 
 
         <p>Once the plugin has been transferred, the plugin authors will retain the right to manage the plugin, even
-            if some of them do not belong to the Vendor profile. At this point, the plugin may also be managed by other administrators of this Vendor.
+            if some of them do not belong to the Vendor profile. At this point, the plugin may also be managed by other
+            administrators of this Vendor.
         </p>
 
     </chapter>
@@ -83,7 +104,9 @@
         <p>You can easily move free plugins to another Vendor by following these steps:</p>
 
         <list type="decimal">
-            <li>De-associate the plugin from its current Vendor profile by removing it in the <emphasis>Plugins</emphasis>tab.
+            <li>De-associate the plugin from its current Vendor profile by removing it in the
+                <emphasis>Plugins</emphasis>
+                tab.
             </li>
             <li>Transfer the plugin to the new Vendor on the plugin’s
                 <emphasis>Overview</emphasis>

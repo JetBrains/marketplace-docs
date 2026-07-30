@@ -25,10 +25,6 @@
             Make sure the plugin meets <a href="https://plugins.jetbrains.com/legal/approval-guidelines">the approval
             criteria</a>.
         </p></step>
-        <step><p>
-            Create an <a href="organizations.topic">Organization</a> and make sure the Organization ID is added to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin descriptor
-            (plugin.xml)</a>.
-        </p></step>
     </procedure>
 
     <p>As an <control>optional step</control> we recommend <a href="obfuscate-the-plugin.topic">obfuscating the plugin

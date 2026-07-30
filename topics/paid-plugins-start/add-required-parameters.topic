@@ -41,7 +41,7 @@
             </p>
             <warning>
                 <p>
-                    Please note that it is rather difficult to change a Product Code after it’s been created, as doing so
+                    Please note that it is rather difficult to change a Product Code after it’s been created and used, as doing so
                     requires merging a lot of financial information and transactions, and additionally maintaining legacy
                     product code in our systems for reference and backward compatibility.
                 </p>
@@ -152,7 +152,7 @@
             <code>optional</code>
             — not a required parameter (type: <code>boolean</code>). This should be set to <code>true</code> if you
             would like to
-            add the free functionality to your plugin. Please see <a href="freemium.topic">this article</a> for more
+            add the free functionality to your plugin. Please see <a href="freemium.topic">Freemium</a> article for more
             information about free functionality. The default value of this parameter is <code>false</code>.
         </li>
     </list>

@@ -1,50 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Release the plugin" id="release-plugin">
 
-    <note>
-        <p>
-            Keep in mind that you are able to perform all the tests on our <a href="marketplace-demo.topic">Demo</a> instance
-            before publishing your plugin to JetBrains Marketplace.
-        </p>
-    </note>
-
-
-    <p>Once everything is done, you are ready to start the release process.</p>
+    <p>Once your plugin is ready for release, start the release process.</p>
     <list type="decimal">
             <li>
-                <p>Make sure that you have an <a href="organizations.topic">Organization</a> and that you have submitted
-                    your banking information under the <ui-path>Banking Information</ui-path> tab.
+                <p>Make sure that you have created a <a href="organizations.topic">Vendor profile</a>, set the <b>trader</b> status, and submitted
+                    your trader and banking information under the <ui-path>Trader Details</ui-path> tab.
                 </p>
-                <img src="test-organization.png" alt="Organizations tab" width="395"/>
-                <img src="banking-information.png" alt="Vendor Information tab" width="519"/>
+                <img src="test-organization.png" alt="Organizations tab" width="407"/>
+                <img src="banking-information.png" alt="Vendor Information tab" width="479"/>
                 <note>
-                    <p>By default, this tab is not available. If you don’t see this tab, contact us at
-                        <a href="mailto:marketplace@jetbrains.com">marketplace@jetbrains.com</a>.
+                    <p>By default, this tab is not available. If you don’t see this tab, make sure you have selected the <b>trader</b> status on the <ui-path>Main Information</ui-path> vendor tab.
                     </p>
                 </note>
             </li>
             <li>
-                <p>If this is your initial release, upload the plugin to <a href="https://plugins.jetbrains.com/">JetBrains
-                    Marketplace</a>.
+                <p>If this is your initial plugin release, upload the plugin to <a href="https://plugins.jetbrains.com/">JetBrains
+                    Marketplace</a>. You can find more details about publishing the plugin in <a href="publishing-and-listing-your-plugin.topic">this section</a>.
                 </p>
-                <img src="upload-plugin-button.png" alt="A button for plugin upload" width="1122"/>
+                <img src="upload-plugin-button.png" alt="A button for plugin upload" width="971"/>
                 <p>If you are switching the model from being a free plugin to paid/freemium,  <a href="plugin-updates.topic">upload an
                     update</a>.
                 </p>
                 <warning>
                     <p>
-                        Make sure that your plugin meets all the  <a href="https://plugins.jetbrains.com/legal/approval-guidelines">requirements
+                        Make sure that your plugin meets all the  <a href="JetBrains-Marketplace-Approval-Guidelines.topic">requirements
                     </a> and that you’ve correctly specified the <a href="versioning-of-paid-plugins.topic">plugin version
                         and release
                         date</a>.
                     </p>
                 </warning>
             </li>
-            <li>
-                <p>If you have not already done so, transfer the plugin to your Organization by going to the plugin
-                    Overview page and selecting your organization under <ui-path>Vendor</ui-path>:
-                </p>
-                <img src="transfer-to-organization.png" alt="Add to Organization" width="966"/>
-            </li>
+
             <li>
                 <p>Go to the <ui-path>Sales Info</ui-path> tab on the Plugin page and press the <control>Add to Marketplace
                 </control> button to fill in the sales
@@ -53,9 +39,9 @@
                 <img src="add-to-marketplace.png" alt="Add to Marketplace" width="1306"/>
                 <tip>
                     <p>
-                        If you don’t see this button, please make sure you specified your banking information under the  <path>
-                        Banking Information
-                    </path> tab for your <a href="organizations.topic">Organization</a>.
+                        If you don’t see this button, please make sure you specified your banking details under the  <path>
+                        Trader Details
+                    </path> tab for your <a href="organizations.topic">Vendor profile</a>.
                     </p>
                 </tip>
             </li>

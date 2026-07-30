@@ -23,7 +23,7 @@
             </li>
             <li>
                 <p>
-                    <b>Custom pages</b>
+                    <b><a href="custom-pages.topic">Custom pages</a></b>
                 </p>
                 <p>It’s a universal communication tool that allows you to post blog articles, updates, and even
                     documentation. <a href="https://plugins.jetbrains.com/plugin/15075-jpa-buddy/blog?preview=true">Here
@@ -67,7 +67,7 @@
                     should definitely notify them via email in advance.
                     Use other resources to communicate with your users: Slack workspace, Discord server, Git repository
                     README,
-                    Twitter account, etc.
+                    social media accounts, etc.
                     By gathering feedback from users, you may also find out whether they are fine with your pricing
                     model or if you
                     need to adjust it.

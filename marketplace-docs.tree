@@ -19,12 +19,12 @@
 		</toc-element>
 	</toc-element>
 	<toc-element topic="getting-started.topic">
-		<toc-element topic="roles.topic"/>
 		<toc-element topic="how-to-buy-a-plugin.topic"/>
 		<toc-element topic="community-programs.topic"/>
 		<toc-element topic="understanding-plugin-security.topic"/>
 		<toc-element topic="reviews-policy.topic"/>
 		<toc-element topic="report-plugin.topic"/>
+		<toc-element topic="roles.topic"/>
 	</toc-element>
     <toc-element accepts-web-file-names="vendor-profile.html" topic="organizations.topic">
 		<toc-element topic="verified-vendor-badge.topic"/>
@@ -38,9 +38,9 @@
 		<toc-element topic="plugin-updates.topic"/>
 		<toc-element topic="custom-release-channels.topic"/>
 		<toc-element topic="plugin-stats.topic">
+			<toc-element accepts-web-file-names="unique-downloads.html,download-statistics.html" topic="analytics-tab.topic"/>
 			<toc-element topic="plugins-ranking.topic"/>
 			<toc-element topic="plugins-rating.topic"/>
-			<toc-element accepts-web-file-names="unique-downloads.html,download-statistics.html" topic="analytics-tab.topic"/>
 			<toc-element topic="identify-user-of-paid-plugin.topic"/>
 		</toc-element>
 		<toc-element topic="custom-pages.topic">
@@ -59,12 +59,12 @@
 	<toc-element accepts-web-file-names="plugin-types.html" topic="plugin-monetization.topic">
 		<toc-element accepts-web-file-names="trying-out-the-marketplace.html,step-by-step-guide-to-putting-plugin-up-for-sale.html,submit-a-request-to-sell-plugins-at-the-marketplace.html" topic="paid-plugins.topic">
 			<toc-element accepts-web-file-names="prepare-a-plugin-to-be-sold-via-the-marketplace.html" topic="prepare-your-plugin-for-publication.topic">
+				<toc-element topic="inform-your-users-in-advance.topic"/>
 				<toc-element accepts-web-file-names="obtain-a-product-code-from-jetbrains.html" topic="add-required-parameters.topic"/>
 				<toc-element topic="technical-implementation.topic"/>
-				<toc-element topic="obfuscate-the-plugin.topic"/>
 				<toc-element topic="add-marketplace-license-verification-calls-to-the-plugin-code.topic"/>
 				<toc-element topic="versioning-of-paid-plugins.topic"/>
-				<toc-element topic="inform-your-users-in-advance.topic"/>
+				<toc-element topic="obfuscate-the-plugin.topic"/>
 			</toc-element>
 			<toc-element topic="release-plugin.topic"/>
 		</toc-element>
@@ -75,13 +75,14 @@
 		<toc-element topic="volume-discount.topic"/>
 		<toc-element accepts-web-file-names="customer-information-access.html" topic="sales-related-emails.topic"/>
 		<toc-element topic="contributing-to-the-blog.topic"/>
+		<toc-element accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html,demo-obtain-creds.html" topic="marketplace-demo.topic">
+			<toc-element topic="demo-prepare-ide.topic"/>
+			<toc-element topic="demo-limitations.topic"/>
+			<toc-element topic="demo-start-test.topic"/>
+			<toc-element topic="marketplace-demo-plugin.topic"/>
+		</toc-element>
 	</toc-element>
-	<toc-element accepts-web-file-names="test-the-plugin-licensing-on-the-demo-instance.html,demo-obtain-creds.html" topic="marketplace-demo.topic">
-		<toc-element topic="demo-prepare-ide.topic"/>
-		<toc-element topic="demo-limitations.topic"/>
-		<toc-element topic="demo-start-test.topic"/>
-		<toc-element topic="marketplace-demo-plugin.topic"/>
-	</toc-element>
+
 	<toc-element accepts-web-file-names="jetbrains-sales-systems.html,business-models.html" topic="billing-and-licensing.topic">
 		<toc-element accepts-web-file-names="payments-accountancy-taxes-services.html" topic="payment-processing.topic"/>
 		<toc-element accepts-web-file-names="licensing-types.html,licensing-schemes.html,license-types.html" topic="license-types-and-schemes.topic"/>

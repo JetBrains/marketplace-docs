@@ -33,7 +33,7 @@
 
     <p>To turn on SemVer for your plugin, tick the <control>SemVer Only</control> option on the plugin page:
     </p>
-    <img src="semver_ui.png" alt="SemVer Only" width="983"/>
+    <img src="semver_ui.png" alt="SemVer Only" width="945"/>
 
     <p>If you tick this option, JetBrains Marketplace begins checking versions against SemVer rules with the next update
         upload. If the version meets the rules, JetBrains Marketplace compares the maximum version among existing updates with the

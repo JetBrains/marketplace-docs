@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic  SYSTEM 'https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd'><topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd" title="Getting started" id="getting-started">
 
-    <p>If you are new to plugins, please start here.</p>
+    <p>If you are new to plugins, start here.</p>
 
     <p>Plugins extend the core functionality of <a href="https://plugins.jetbrains.com/docs/intellij/intellij-platform.html">IntelliJ
         Platform
@@ -10,7 +10,10 @@
     <p>By installing plugins, you can get the following features, among others:</p>
     <list>
             <li>
-                Integration with version control systems, Docker, Kubernetes, and other technologies
+                Integration with AI agents and tools
+            </li>
+            <li>
+                Integration with version control systems, Docker, Kubernetes, and many other technologies
             </li>
             <li>
                 Coding assistance support for various languages and frameworks
@@ -19,7 +22,7 @@
                 Shortcut hints, live previews, and File Watchers
             </li>
             <li>
-                Edu courses, including coding exercises that can help you to learn a new programming language
+                Educational courses, including coding exercises that can help you to learn a new programming language
             </li>
             <li>
                 Themes, color schemes, backgrounds, progress bars, and other visual customizations
@@ -28,12 +31,12 @@
 
     <p>You can browse the plugins in the <a href="https://plugins.jetbrains.com/">JetBrains Marketplace</a>.
     </p>
-    <img src="marketplace-main-page.png" alt="Marketplace Main page" width="1308"/>
+    <img src="marketplace-main-page.png" alt="Marketplace Main page" width="1119"/>
 
     <p>If you want to install a plugin, you can click the Get button. If you have the IDE running at the moment, the
         button will change to <control>Install to IDE</control> and the plugin will be installed directly in your IDE.
     </p>
-    <img src="install-to-ide.gif" alt="Install to IDE" width="1298"/>
+    <img src="install-to-ide.gif" alt="Install to IDE" width="988"/>
 
     <p>You can then <a href="https://www.jetbrains.com/help/idea/managing-plugins.html">manage the installed plugins</a> in
         your
@@ -90,127 +93,23 @@
                         Platform plugins hosted on GitHub to find inspiration when implementing your ideas for
                         IntelliJ-based IDE
                         extensions.
+                        <img src="intellij-platform-explorer.png" alt="IntelliJ Platform Explorer" width="1076"/>
                     </li>
+                <li>
+                    Generate an initial scaffold of your plugin using the <a href="https://plugins.jetbrains.com/generator">IntelliJ Platform Plugin Generator</a>.
+                    <img src="plugin-generator.png" alt="IntelliJ Platform Plugin Generator" width="1056"/>
+                </li>
                 </list>
-            <img src="intellij-platform-explorer.png" alt="IntelliJ Platform Explorer" width="1308"/>
+
         </chapter>
     </chapter>
 
     <chapter title="Publish plugin" id="publish-plugin">
-        <chapter title="Submitting a plugin" id="submitting-a-plugin">
-            <p>Before you submit your plugin, please check the <a href="best-practices-for-listing.topic">Quality
-                Guidelines
-            </a> to improve the overall quality of your plugin and start preparing your plugin's page.
-            </p>
-            <procedure title="Publish a plugin on JetBrains Marketplace" type="steps" default-state="collapsed" collapsible="true">
-                <step><p>
-                    Click the <control>Upload plugin</control> button.
-                </p></step>
-                <step><p>
-                    Read and accept the <a href="https://plugins.jetbrains.com/legal/developer-agreement">JetBrains
-                    Plugin Marketplace Developer
-                    Agreement</a>.
-                </p></step>
-                <step><p>
-                    Select the proper license.
-                </p></step>
-                <step><p>
-                    Select the most suitable tag.
-                </p></step>
-                <step><p>
-                    Select a <a href="custom-release-channels.topic">
-                    release channel</a>.
-                </p></step>
-                <img src="upload-new-plugin.gif" alt="Upload New Plugin" width="1298"/>
-            </procedure>
-        </chapter>
-        <chapter title="Plugin approval" id="plugin-approval">
-            <p>Once a plugin has been submitted, the JetBrains Marketplace team checks it according to the <a href="https://plugins.jetbrains.com/legal/approval-guidelines">Approval
-                Guidelines</a>. Please expect approval or a reply within two
-                business days and note that the answer will be sent to the email address associated with your
-                JetBrains Marketplace account.
-            </p>
-            <img src="email.png" alt="Email Address" width="1308"/>
-        </chapter>
-        <chapter title="Plugin page overview" id="plugin-page-overview">
-            <p>While you are waiting for approval, you can familiarize yourself with your plugin's page.</p>
-            <img src="plugin-ui.png" alt="Plugin Page" width="2067"/>
-            <p>In the <path>Media</path> section, you can upload screenshots and add a video.
-            </p>
-            <img src="general-information.png" alt="General Information" width="2067"/>
-            <p>In the <path>General Information</path> and <path>Vendor Information</path> sections, you can add/remove
-                tags, change the
-                license, add/remove authors, add copyrights, and add source code link.
-            </p>
-            <img src="description-usage.png" alt="Description" width="2067"/>
-            <p>In the next two sections, you can check the <path>Description</path> extracted from the <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">configuration file
-                —
-                plugin.xml</a>, and add <path>Getting Started</path> instructions.
-            </p>
-            <img src="embeddables.png" alt="Embeddables" width="2067"/>
-            <p>If you notice any issues, or you simply want to improve the description, you can also edit it on the plugin's page. In this case, the description is stored separately from the plugin archive, allowing you to update it without uploading a new plugin version.</p>
-            <img src="Edit-description.jpg" alt="Edit Description" width="2067"/>
-            <p>In the <path>Embeddables</path> section, you can copy the code for
-                <a href="embeddable-content.md">embeddable</a>
-                Plugin Card and the <control>Install to IDE</control> button.
-            </p>
-            <img src="contacts-resources.png" alt="Contacts &amp; Resources" width="2067"/>
-            <p>In the next section, you can add links to your plugin’s issue tracker, documentation, forum, and add
-                custom contacts. If your plugin adds
-                <a href="https://plugins.jetbrains.com/docs/intellij/about.html#part-v-features">Features</a>
-                , you can also check them in the <path>Technical Information</path> section.
-            </p>
-            <img src="update-page.png" alt="Update Page" width="2065"/>
-            <p>On the <path>Versions</path> tab, you can check the individual updates for your plugin. The most
-                interesting parts
-                here are
-                the <path>Compatibility Range</path>, where you can manually set the compatible versions of the update,
-                number of
-                downloads
-                for this update, and <path>Compatibility Verification</path>, where you can check the results of the
-                verification
-                performed
-                by the <a href="https://github.com/JetBrains/intellij-plugin-verifier">IntelliJ Plugin Verifier</a>.
-            </p>
-            <img src="update-page2.png" alt="Update Page 2" width="2067"/>
-            <img src="reviews.png" alt="Reviews" width="2067"/>
-            <p>On the <path>Reviews</path> tab, you can check the
-                <a href="plugins-rating.topic">rating</a>
-                and reviews for your plugin. You can also reply to the reviews.
-            </p>
-            <p>On the <path>Custom Pages</path> tab, you can add a <a href="custom-pages.topic">Custom
-                Page
-            </a> to provide your users with additional information such as documentation, marketing landing pages, etc.
-            </p>
-
-            <p>On the <path>Analytics</path> tab, you can see a dashboard with interactive charts, including download
-                stats,
-                sales graphs (for paid plugins), and some web analytics. More information can be found in <a href="analytics-tab.topic">this
-                    article</a>.
-            </p>
-
-            <p>Next to the tabs, there are several buttons.</p>
-            <img src="notifications.png" alt="Notification settings" width="2066"/>
-            <p>If you click on the <control>Bell</control> button, you can manage your <a href="plugin-notification-settings.topic">
-                notification settings</a>.
-            </p>
-
-            <p>The <control>Preview</control> button allows you to check how the plugin's page will look publicly.
-            </p>
-            <img src="new-update.png" alt="Upload New Update" width="2063"/>
-            <p>The <control>Upload Update</control> button is for uploading a new update for your plugin. You can select
-                a different
-                release
-                channel for each update (useful for EAP/Beta/Nightly/Stable approach).
-            </p>
-            <img src="removal.png" alt="removal" width="2064"/>
-            <p>To remove the plugin, click the button with three dots next to the <control>Upload Update</control> button.
-            </p>
-        </chapter>
-    </chapter>
+        <p>Follow the <a href="publishing-and-listing-your-plugin.topic">dedicated guides</a> related to the plugin publishing.</p>
+            </chapter>
 
     <chapter title="Hotkeys" id="hotkeys">
-        <p>It's no secret that using hotkeys instead of the mouse allows you to work faster, thereby saving you time. Here you can find some basic hotkeys for JetBrains Marketplace.</p>
+        <p>Using hotkeys instead of the mouse allows you to work faster, thereby saving you time. Here you can find some basic hotkeys for JetBrains Marketplace.</p>
         <p>For plugin authors:</p>
         <table>
             <tr>
@@ -257,13 +156,9 @@
     </chapter>
 
    <chapter title="What's next" id="whats-next">
-        <p>You can start generating income from your plugin by selling it on JetBrains Marketplace. Check out <a href="https://plugins.jetbrains.com/docs/marketplace/paid-plugins-marketplace.html">this
+        <p>You can start generating income from your plugin by selling it on JetBrains Marketplace. Check out <a href="plugin-monetization.topic">this
             page
-        </a> for an overview and general information.
-        </p>
-        <p>To try selling your plugin on JetBrains Marketplace, please follow <a href="https://plugins.jetbrains.com/docs/marketplace/step-by-step-guide-to-putting-plugin-up-for-sale.html">
-            this step-by-step
-            guide</a>.
+        </a> for an overview and detailed guides.
         </p>
     </chapter>
 

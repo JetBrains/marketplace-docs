@@ -43,7 +43,7 @@
         <list>
             <li>Commercial licenses (business and organizations).</li>
             <li>Personal licenses (individual customers).</li>
-            <li>Trial licenses (30-day trial).</li>
+            <li>Trial licenses (0, 7, 10, 14 or 30-day trial).</li>
             <li>Free licenses (as a part of the <a href="https://plugins.jetbrains.com/docs/marketplace/community-programs.html">community support program</a> or <a href="coupon-offers.topic">custom offers</a>).</li>
         </list>
         <p>More information can be found <a href="https://www.jetbrains.com/store/comparison.html">here</a>.</p>

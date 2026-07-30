@@ -22,8 +22,8 @@
                 <li>Support throughout your journey as a plugin developer, from building plugins to publishing them on
                     JetBrains Marketplace.
                 </li>
-                <li>Documentation and tools like the <a href="https://plugins.jetbrains.com/docs/intellij/github-template.html">IntelliJ Platform Plugin
-                    Template
+                <li>Documentation and tools like the <a href="https://plugins.jetbrains.com/generator">IntelliJ Platform Plugin
+                    Generator
                 </a> and the <a href="https://lp.jetbrains.com/gradle-intellij-plugin/">Gradle IntelliJ Plugin</a> simplify
                     your plugin development and build processes.
                 </li>
