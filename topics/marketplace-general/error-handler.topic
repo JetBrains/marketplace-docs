@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Error handler" id="error-handler" help-id="Error-handler">
+
+    <p>
+        Previously, plugin authors could only implement a <a href="https://plugins.jetbrains.com/docs/intellij/ide-infrastructure.html#error-reporting">custom error handler</a> to receive <control>exception</control> and <control>freeze</control> reports from users.
+    </p>
+    <p>
+        However, we have the error handler now that collects uncaught exceptions and IDE freezes attributed to your plugin,and surfaces them on your plugin page under dedicated <control>Exceptions</control> and <control>Freezes</control> tabs.
+    </p>
+
+        <chapter title="How it works for end-users" id="users-side">
+           <chapter title="Manual reporting" id="manual-reporting">
+               <p>
+                   When an exception or freeze occurs in the IDE, the <control>IDE Internal Errors </control> dialog lets users:
+               </p>
+               <list>
+                   <li>Review technical details, including stack traces, thread dumps, and other attachments.</li>
+                   <li>Give consent to share the report with the plugin author.</li>
+                   <li>Select <control>Report to third-party plugin</control> to submit the report to JetBrains Marketplace.</li>
+               </list>
+               <img src="ide-internal-errors.png" alt="IDE Internal Errors" width="800"/>
+           </chapter>
+            <chapter title="Automatic reporting" id="automatic-reporting">
+                <p>
+                    If users have enabled <emphasis>Send error reports to JetBrains automatically</emphasis>, all error and freeze reports are sent automatically, without additional notifications or an error dialog.
+                </p>
+                <note>Automatic reporting applies only to plugins with <code>JetBrainsMarketplaceErrorReportSubmitter</code> configured.
+                </note>
+            </chapter>
+        </chapter>
+
+        <chapter title="How it works for vendors" id="developers-side">
+            <p>
+                The Error Handler adds two dedicated tabs to your plugin page on JetBrains Marketplace.
+            </p>
+            <chapter title="The Exceptions tab:" id="exceptions-tab">
+                <list>
+                    <li>All received exception reports are grouped into <control>Unresolved Issues</control> and <control>Resolved Issues</control>.</li>
+                    <li>For each exception you can see key metadata such as OS, IDE version, plugin version, and the full stack trace.</li>
+                    <li>After investigating and fixing an issue, you can mark it as <control>Resolved</control>.</li>
+                </list>
+                <img src="exceptions-tab.png" alt="Exceptions tab" width="800"/>
+            </chapter>
+            <chapter title="The Freezes tab" id="freezes-tab">
+                <p>
+                    That provides a similar workflow but tailored to IDE freezes:
+                </p>
+                <list>
+                    <li>Reports are <control>grouped by error type</control>, with each top-level entry in the left sidebar representing a freeze group.</li>
+                    <li>Each group can contain subgroups or collections of reports with similar stack traces, called <emphasis>piles</emphasis>.</li>
+                    <li>Each pile displays a single <emphasis>representative report</emphasis>. Plugin authors see a list of these reports, while the Error Handler aggregates similar freezes into piles behind the scenes.</li>
+                </list>
+                <img src="freezes-tab.png" alt="Freezes tab" width="800"/>
+                <chapter title="Each freeze report includes:" id="freeze-report">
+                    <list>
+                        <li><control>Thread dump excerpt:</control> A short excerpt showing the threads involved in the freeze, as identified by automatic analysis.</li>
+                        <li><code>dump-N.txt</code>: Files containing full thread dumps captured every five seconds during the UI freeze.</li>
+                    </list>
+                    <p>
+                        Reports may also include the following optional attachments:
+                    </p>
+                    <list>
+                        <li><code>snapshot.jfr</code>: A CPU snapshot, attached when the IDE can capture one.</li>
+                        <li><code>report.txt</code>: An analysis of thread stacks based on the captured dumps.</li>
+                        <li><code>open-telemetry-metrics.csv</code>: Performance metrics, including those related to the virtual file system (VFS) and UI responsiveness.</li>
+                    </list>
+                </chapter>
+            </chapter>
+        </chapter>
+
+    <chapter title="How to opt in?" id="how-to-opt-in">
+        <p>
+            To start getting exception reports from users, it is necessary to opt-in to this feature by adding the following entry that provides the JetBrains Marketplace error handler implementation to <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">the plugin.xml file</a>:
+        </p>
+        <code-block lang="xml">
+            <![CDATA[
+            <idea-plugin>
+                <!--  ...  -->
+
+                <extensions defaultExtensionNs="com.intellij">
+                    <errorHandler implementation="com.intellij.diagnostic.JetBrainsMarketplaceErrorReportSubmitter"/>
+                </extensions>
+            </idea-plugin>
+             ]]>
+        </code-block>
+        <p>
+            The <code>JetBrainsMarketplaceErrorReportSubmitter</code> helper class has been available <control>since the 2023.3 release cycle</control>.
+        </p>
+        <note>
+            <p>
+                To enable error reporting in split mode, register <code>JetBrainsMarketplaceErrorReportSubmitter</code> in a frontend or shared plugin module, so it is available to the frontend. Registering it only in a backend module has no effect.
+            </p>
+        </note>
+    </chapter>
+</topic>
