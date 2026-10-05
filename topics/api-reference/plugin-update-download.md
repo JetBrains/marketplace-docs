@@ -6,6 +6,10 @@ There are two ways to download the plugin version programmatically:
 
 **https://plugins.jetbrains.com/pluginManager?action=download&id=`<pluginXmlId>`&build=`<productCode>`-`<buildNumber>`**
 
+To download a platform-specific plugin version, additionally specify the operating system and architecture:
+
+**https://plugins.jetbrains.com/pluginManager?action=download&id=`<pluginXmlId>`&build=`<productCode>`-`<buildNumber>`&os=`<os>`&arch=`<arch>`**
+
 **Where**
 
 * `pluginXmlId` is specified as a `Plugin XML ID` parameter on the right of the plugin's individual update page and in the `plugin.xml`.
@@ -13,6 +17,10 @@ There are two ways to download the plugin version programmatically:
 * `productCode` is a two-character product code (see [product codes reference](product-codes.md) for more information.) It can be blank.
 
 * `buildNumber` is a build number of the IDE (specified in the `About Dialog` in the product, and in the release notes.)
+* 
+* `os` is the target operating system. Supported values are: Windows, MacOS, Linux, FreeBSD, Unix.
+
+* `arch` is the target CPU architecture. Supported values are: X86, X86_64, ARM32, ARM64
 
 e.g. for [Scala plugin](https://plugins.jetbrains.com/plugin/1347-scala) (`pluginXmlId=org.intellij.scala`) & IntelliJ IDEA 2017.1 (`productCode=IU`, `buildNumber=171.3780.107`):
 

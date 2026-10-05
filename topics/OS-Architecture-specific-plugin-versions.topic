@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="OS/Architecture-specific versions" id="OS-Architecture-specific-plugin-versions">
+
+    <p>If your plugin includes native binaries, language servers, local models, or other platform-specific components, you can publish separate plugin versions for different operating systems and CPU architectures.</p>
+    <p>
+        JetBrains Marketplace uses the OS and architecture of the user's IDE to select and deliver the matching plugin build. This lets you avoid bundling binaries for every supported platform into a single plugin archive.
+    </p>
+    <note>
+        <p>This feature is supported for plugins targeting JetBrains IDEs <control>2026.1</control> or later.</p>
+    </note>
+    <chapter title="Declare the target platform" id="how-to-declare-os/arch">
+        <p>
+            Each platform-specific version must declare its target operating system and architecture in <a href="https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html">plugin.xml</a>.
+        </p>
+        <p>
+            For example, a macOS ARM64 build:
+        </p>
+        <code-block lang="xml">
+            <![CDATA[
+            <dependencies>
+                <plugin id="com.intellij.modules.os.mac"/>
+                <plugin id="com.intellij.modules.arch.arm64"/>
+            </dependencies>
+                ]]>
+        </code-block>
+        <p>Common platform dependencies include:</p>
+        <table style="none">
+            <tr>
+                <td><control>Platform</control></td>
+                <td><control>Dependency</control></td>
+            </tr>
+            <tr>
+                <td>Windows</td>
+                <td><code>com.intellij.modules.os.windows</code></td>
+            </tr>
+            <tr>
+                <td>MacOS</td>
+                <td><code>com.intellij.modules.os.mac</code></td>
+            </tr>
+            <tr>
+                <td>Linux</td>
+                <td><code>com.intellij.modules.os.linux</code></td>
+            </tr>
+            <tr>
+                <td>X86</td>
+                <td><code>com.intellij.modules.arch.x86</code></td>
+            </tr>
+            <tr>
+                <td>X86_64</td>
+                <td><code>com.intellij.modules.arch.x86_64</code></td>
+            </tr>
+            <tr>
+                <td>ARM32</td>
+                <td><code>com.intellij.modules.arch.arm32</code></td>
+            </tr>
+            <tr>
+                <td>ARM64</td>
+                <td><code>com.intellij.modules.arch.arm64</code></td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="Build targeted versions" id="build-targeted-versions">
+        <p>
+            Upload every OS/architecture build as a separate plugin update. For example:</p>
+        <code-block>
+            1.2.3-linux-x86_64
+            1.2.3-windows-x86_64
+            1.2.3-mac-arm64
+        </code-block>
+        <p>
+            The suffix is only a naming convention. When the IDE checks for plugins, it sends its operating system and architecture to JetBrains Marketplace. Then JetBrains Marketplace determine the target platform from the dependencies declared in plugin.xml (not from the plugin archive name!) and returns the matching plugin version.
+        </p>
+        <chapter title="Gradle support for platform-specific plugins" id="gradle-support-os">
+            <p>
+                The <a href="https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html#usage">IntelliJ Platform Gradle Plugin</a> supports native variants starting with <a href="https://github.com/JetBrains/intellij-platform-gradle-plugin/releases">version 2.19.0</a>. Set <code>since-build</code> to <code>261</code> or later, then declare the native files for each platform:
+            </p>
+            <code-block lang="kotlin">
+            plugins {
+                    id("org.jetbrains.intellij.platform") version "2.19.0"
+                    }
+                    dependencies {
+                    intellijPlatform {
+                    intellijIdea("2026.1")
+                    }
+                    }
+                    intellijPlatform {
+                    nativeVariants {
+                    enabled = true
+                    linux.x86_64.from(file("native/linux-x86_64"))
+                    mac.arm64.from(file("native/mac-arm64"))
+                    }
+                    }
+        </code-block>
+            <p>
+                During local development, <code>runIde</code> picks up the native files for the current OS and architecture. For publishing, <code>publishPlugin</code> invokes <code>buildPluginVariants</code> and publishes all the configured platform-specific archives to JetBrains Marketplace.
+            </p>
+            <p>
+                See the <a href="https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-extension.html#intellijPlatform-nativeVariants">nativeVariants configuration documentation</a> and <a href="https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin-tasks.html#buildPluginVariants">buildPluginVariants task documentation</a> for details.
+            </p>
+        </chapter>
+    </chapter>
+</topic>
